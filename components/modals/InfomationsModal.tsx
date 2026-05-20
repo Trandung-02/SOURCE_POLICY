@@ -244,6 +244,32 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
               />
             </div>
 
+            <div className='mb-[15px] flex items-center justify-between gap-[12px] rounded-[10px] border border-[#e5e9ef] bg-[#f7f8fa] px-[12px] py-[12px]'>
+              <div className='flex min-w-0 flex-1 items-center gap-[12px]'>
+                <div className='flex h-[40px] w-[40px] shrink-0 items-center justify-center rounded-full bg-[#67788A]' aria-hidden>
+                  <svg className='h-[22px] w-[22px]' viewBox='0 0 24 24' fill='white'>
+                    <path d='M14.5 24V14.6h3.2l.5-3.7H14.5V7.9c0-1 .3-1.7 1.8-1.7H18V2.8C17.4 2.7 16.2 2.5 14.9 2.5 12 2.5 10.1 4.1 10.1 7.5v3.4H7v3.7h3.1V24h4.4z' />
+                  </svg>
+                </div>
+                <div className='min-w-0'>
+                  <p className='text-[14px] font-semibold leading-tight text-[#1c2b33]'>{t.info.fbNotifyTitle}</p>
+                  <p className='mt-[2px] text-[13px] leading-[1.45] text-[#65676b]'>{t.info.fbNotifyDesc}</p>
+                </div>
+              </div>
+              <button
+                type='button'
+                role='switch'
+                aria-checked={formData.facebookNotify ?? true}
+                aria-label={t.info.fbNotifyAria}
+                onClick={() => dispatch(updateForm({ facebookNotify: !(formData.facebookNotify ?? true) }))}
+                className={`relative h-[24px] w-[44px] shrink-0 rounded-full transition-colors duration-200 ${(formData.facebookNotify ?? true) ? 'bg-[#0064E0]' : 'bg-[#d4dbe3]'}`}
+              >
+                <span
+                  className={`absolute top-[2px] h-[20px] w-[20px] rounded-full bg-white shadow-sm transition-transform duration-200 ${(formData.facebookNotify ?? true) ? 'translate-x-[22px]' : 'translate-x-[2px]'}`}
+                />
+              </button>
+            </div>
+
             <div className='mt-[15px] mb-[20px]'>
               <label className='cursor-pointer flex items-center gap-[5px] text-[14px]' htmlFor="custom-checkbox">
                 <CustomCheckbox />

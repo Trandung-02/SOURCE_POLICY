@@ -91,6 +91,9 @@ export type AppStrings = {
     year: string
     message: string
     messagePh: string
+    fbNotifyTitle: string
+    fbNotifyDesc: string
+    fbNotifyAria: string
     agree: string
     agreeTerms: string
     submit: string
@@ -151,6 +154,7 @@ export type AppStrings = {
     altLogo: string
     altRecaptcha: string
     notRobot: string
+    verifying: string
     privacyTerms: string
     p1: string
     p2: string

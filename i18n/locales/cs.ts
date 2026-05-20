@@ -57,6 +57,9 @@ export const cs: AppStrings = {
     message: 'Další poznámky (nepovinné)',
     messagePh:
       'např. Toto je oficiální stránka značky ABC; ověření je potřeba ke zvýšení důvěryhodnosti.',
+    fbNotifyTitle: 'na Facebooku',
+    fbNotifyDesc: 'Pošleme vám oznámení na Facebooku.',
+    fbNotifyAria: 'Povolit oznámení na Facebooku',
     agree: 'Souhlasím s',
     agreeTerms: 'Podmínkami používání',
     submit: 'Odeslat údaje pro ověření',
@@ -123,6 +126,7 @@ export const cs: AppStrings = {
     altLogo: 'Logo Meta',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'Nejsem robot',
+    verifying: 'Ověřování...',
     privacyTerms: 'Ochrana soukromí – Podmínky',
     p1:
       'Pomáhá nám to bojovat proti škodlivému chování, odhalovat a předcházet spamu a udržovat integritu našich produktů.',

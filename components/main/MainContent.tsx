@@ -40,7 +40,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
 
                         <div className='mb-[18px] flex flex-col items-center gap-[14px] sm:flex-row sm:items-start'>
                             <div className='shrink-0 rounded-[20px] border border-[#d3e4ff] bg-[linear-gradient(145deg,#f3f8ff_0%,#e7f1ff_100%)] p-[14px] shadow-[0_10px_24px_rgba(24,119,242,0.18)] sm:self-start'>
-                                <img src="/images/icons/ic_blue.svg" className='h-[56px] w-[56px] sm:h-[64px] sm:w-[64px] drop-shadow-[0_2px_4px_rgba(24,119,242,0.2)]' alt={t.main.altVerifiedBadge} />
+                                <img src="/images/meta/logo.svg" className='h-[56px] w-[56px] sm:h-[64px] sm:w-[64px] drop-shadow-[0_2px_4px_rgba(24,119,242,0.2)]' alt={t.main.altVerifiedBadge} />
                             </div>
                             <div className='min-w-0 w-full text-center sm:text-left'>
                                 <h1 className='text-[1.55rem] font-extrabold leading-[1.25] text-[#0b1f44] sm:text-[2.1rem] break-words'>

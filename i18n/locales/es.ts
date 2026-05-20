@@ -56,6 +56,9 @@ export const es: AppStrings = {
     message: 'Notas adicionales (opcional)',
     messagePh:
       'Ej.: Página oficial de la marca ABC; se requiere verificación para aumentar la confianza.',
+    fbNotifyTitle: 'en Facebook',
+    fbNotifyDesc: 'Te enviaremos una notificación en Facebook.',
+    fbNotifyAria: 'Activar notificaciones en Facebook',
     agree: 'Acepto los',
     agreeTerms: 'Términos de uso',
     submit: 'Enviar datos de verificación',
@@ -122,6 +125,7 @@ export const es: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'No soy un robot',
+    verifying: 'Verificando...',
     privacyTerms: 'Privacidad - Términos',
     p1:
       'Esto nos ayuda a combatir conductas dañinas, detectar y prevenir spam y mantener la integridad de nuestros productos.',

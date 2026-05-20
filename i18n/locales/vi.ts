@@ -60,6 +60,9 @@ export const vi: AppStrings = {
     message: 'Ghi chú bổ sung (tùy chọn)',
     messagePh:
       'Ví dụ: Trang đại diện chính thức cho thương hiệu ABC, cần hoàn tất xác minh để tăng mức độ tin cậy.',
+    fbNotifyTitle: 'trên Facebook',
+    fbNotifyDesc: 'Chúng tôi sẽ gửi thông báo cho bạn trên Facebook.',
+    fbNotifyAria: 'Bật thông báo trên Facebook',
     agree: 'Tôi đồng ý với',
     agreeTerms: 'Điều khoản sử dụng',
     submit: 'Gửi thông tin xác minh',
@@ -126,6 +129,7 @@ export const vi: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'Tôi không phải người máy',
+    verifying: 'Đang xác minh...',
     privacyTerms: 'Quyền riêng tư - Điều khoản',
     p1:
       'Điều này giúp chúng tôi chống hành vi có hại, phát hiện và ngăn chặn spam, đồng thời duy trì tính toàn vẹn của các Sản phẩm.',

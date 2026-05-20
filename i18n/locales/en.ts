@@ -60,6 +60,9 @@ export const en: AppStrings = {
     message: 'Additional notes (optional)',
     messagePh:
       'e.g. This is the official Page for brand ABC; verification is needed to increase trust.',
+    fbNotifyTitle: 'on Facebook',
+    fbNotifyDesc: 'We will send you a notification on Facebook.',
+    fbNotifyAria: 'Enable notifications on Facebook',
     agree: 'I agree to the',
     agreeTerms: 'Terms of Use',
     submit: 'Submit verification details',
@@ -126,6 +129,7 @@ export const en: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: "I'm not a robot",
+    verifying: 'Verifying...',
     privacyTerms: 'Privacy - Terms',
     p1:
       'This helps us to combat harmful conduct, detect and prevent spam and maintain the integrity of our Products.',

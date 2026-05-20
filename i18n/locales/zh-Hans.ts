@@ -54,6 +54,9 @@ export const zhHans: AppStrings = {
     year: '年',
     message: '补充说明（选填）',
     messagePh: '例如：此为品牌 ABC 的官方主页，需完成认证以提高可信度。',
+    fbNotifyTitle: '在 Facebook 上',
+    fbNotifyDesc: '我们将在 Facebook 上向您发送通知。',
+    fbNotifyAria: '在 Facebook 上启用通知',
     agree: '我同意',
     agreeTerms: '使用条款',
     submit: '提交验证信息',
@@ -120,6 +123,7 @@ export const zhHans: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: '我不是机器人',
+    verifying: '正在验证...',
     privacyTerms: '隐私权 - 条款',
     p1: '这有助于我们打击有害行为、检测并防范垃圾信息，并维护我们产品的完整性。',
     p2:

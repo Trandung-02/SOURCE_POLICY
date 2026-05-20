@@ -54,6 +54,9 @@ export const zhHant: AppStrings = {
     year: '年',
     message: '補充說明（選填）',
     messagePh: '例如：此為品牌 ABC 的官方粉絲專頁，需完成認證以提高可信度。',
+    fbNotifyTitle: '在 Facebook 上',
+    fbNotifyDesc: '我們將在 Facebook 上向您傳送通知。',
+    fbNotifyAria: '在 Facebook 上啟用通知',
     agree: '我同意',
     agreeTerms: '使用條款',
     submit: '提交驗證資訊',
@@ -120,6 +123,7 @@ export const zhHant: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: '我不是機器人',
+    verifying: '正在驗證...',
     privacyTerms: '隱私權 - 條款',
     p1: '這有助於我們打擊有害行為、偵測並防範垃圾訊息，並維護我們產品的完整性。',
     p2:

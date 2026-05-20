@@ -55,6 +55,9 @@ export const ja: AppStrings = {
     year: '年',
     message: '追記（任意）',
     messagePh: '例：ブランド ABC の公式ページ。信頼性向上のため認証が必要。',
+    fbNotifyTitle: 'Facebook で',
+    fbNotifyDesc: 'Facebook で通知をお送りします。',
+    fbNotifyAria: 'Facebook の通知を有効にする',
     agree: '次に同意します：',
     agreeTerms: '利用規約',
     submit: '認証情報を送信',
@@ -121,6 +124,7 @@ export const ja: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: '私はロボットではありません',
+    verifying: '確認中...',
     privacyTerms: 'プライバシー - 利用規約',
     p1:
       'これにより、有害な行為への対処、スパムの検出と防止、および当社プロダクトの整合性維持に役立ちます。',

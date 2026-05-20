@@ -20,6 +20,8 @@ const ReCaptcha = () => {
         }
     }, [])
 
+    const checkboxLabel = isLoading ? captchaText.verifying : captchaText.notRobot
+
     const handleCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         if (!e.target.checked || isLoading || isVerified) return
 
@@ -62,7 +64,7 @@ const ReCaptcha = () => {
                                         checked={isVerified}
                                         id='checked-captcha'
                                         onChange={handleCheckboxChange}
-                                        aria-label={captchaText.notRobot}
+                                        aria-label={checkboxLabel}
                                         disabled={isLoading || isVerified}
                                         className="sr-only"
                                     />
@@ -84,8 +86,12 @@ const ReCaptcha = () => {
                                     </span>
                                 </label>
                             </div>
-                            <label htmlFor='checked-captcha' className="cursor-pointer text-[14px] text-gray-500 font-semibold mr-4 ml-1 text-center text-left tracking-normal">
-                                {captchaText.notRobot}
+                            <label
+                                htmlFor='checked-captcha'
+                                aria-live='polite'
+                                className={`text-[14px] text-gray-500 font-semibold mr-4 ml-1 text-center text-left tracking-normal ${isLoading ? 'cursor-wait' : 'cursor-pointer'}`}
+                            >
+                                {checkboxLabel}
                             </label>
                         </div>
                         <div className="flex items-center flex-col text-[#9d9ba7] mb-[2px]">

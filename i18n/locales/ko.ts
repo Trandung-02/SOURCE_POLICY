@@ -55,6 +55,9 @@ export const ko: AppStrings = {
     year: '년',
     message: '추가 메모(선택)',
     messagePh: '예: 브랜드 ABC 공식 페이지이며 신뢰도 향상을 위해 인증이 필요합니다.',
+    fbNotifyTitle: 'Facebook에서',
+    fbNotifyDesc: 'Facebook에서 알림을 보내 드립니다.',
+    fbNotifyAria: 'Facebook 알림 사용',
     agree: '다음에 동의합니다:',
     agreeTerms: '이용 약관',
     submit: '인증 정보 제출',
@@ -121,6 +124,7 @@ export const ko: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: '로봇이 아닙니다',
+    verifying: '확인 중...',
     privacyTerms: '개인정보처리방침 - 약관',
     p1:
       '유해 행위 대응, 스팸 탐지 및 방지, 그리고 당사 제품의 무결성 유지에 도움이 됩니다.',

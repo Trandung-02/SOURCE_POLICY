@@ -55,6 +55,9 @@ export const th: AppStrings = {
     year: 'ปี',
     message: 'หมายเหตุเพิ่มเติม (ไม่บังคับ)',
     messagePh: 'ตัวอย่าง: เพจอย่างเป็นทางการของแบรนด์ ABC ต้องการยืนยันเพื่อเพิ่มความน่าเชื่อถือ',
+    fbNotifyTitle: 'บน Facebook',
+    fbNotifyDesc: 'เราจะส่งการแจ้งเตือนให้คุณบน Facebook',
+    fbNotifyAria: 'เปิดการแจ้งเตือนบน Facebook',
     agree: 'ข้าพเจ้ายอมรับ',
     agreeTerms: 'ข้อกำหนดการใช้งาน',
     submit: 'ส่งข้อมูลการยืนยัน',
@@ -121,6 +124,7 @@ export const th: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'ฉันไม่ใช่โปรแกรมอัตโนมัติ',
+    verifying: 'กำลังตรวจสอบ...',
     privacyTerms: 'ความเป็นส่วนตัว - ข้อกำหนด',
     p1:
       'สิ่งนี้ช่วยให้เราต่อต้านพฤติกรรมที่เป็นอันตราย ตรวจจับและป้องกันสแปม และรักษาความสมบูรณ์ของผลิตภัณฑ์ของเรา',

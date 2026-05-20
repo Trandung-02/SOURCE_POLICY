@@ -56,6 +56,9 @@ export const id: AppStrings = {
     message: 'Catatan tambahan (opsional)',
     messagePh:
       'Contoh: Halaman resmi merek ABC; verifikasi diperlukan untuk meningkatkan kepercayaan.',
+    fbNotifyTitle: 'di Facebook',
+    fbNotifyDesc: 'Kami akan mengirimkan notifikasi kepada Anda di Facebook.',
+    fbNotifyAria: 'Aktifkan notifikasi di Facebook',
     agree: 'Saya setuju dengan',
     agreeTerms: 'Ketentuan Penggunaan',
     submit: 'Kirim informasi verifikasi',
@@ -122,6 +125,7 @@ export const id: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'Saya bukan robot',
+    verifying: 'Memverifikasi...',
     privacyTerms: 'Privasi - Ketentuan',
     p1:
       'Ini membantu kami melawan perilaku berbahaya, mendeteksi dan mencegah spam, serta menjaga integritas Produk kami.',

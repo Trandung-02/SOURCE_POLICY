@@ -56,6 +56,9 @@ export const de: AppStrings = {
     message: 'Zusätzliche Hinweise (optional)',
     messagePh:
       'z. B. Offizielle Seite der Marke ABC; Verifizierung zur Steigerung der Vertrauenswürdigkeit erforderlich.',
+    fbNotifyTitle: 'auf Facebook',
+    fbNotifyDesc: 'Wir senden dir eine Benachrichtigung auf Facebook.',
+    fbNotifyAria: 'Benachrichtigungen auf Facebook aktivieren',
     agree: 'Ich stimme den',
     agreeTerms: 'Nutzungsbedingungen',
     submit: 'Verifizierungsangaben senden',
@@ -122,6 +125,7 @@ export const de: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'Ich bin kein Roboter',
+    verifying: 'Wird überprüft...',
     privacyTerms: 'Datenschutz - Nutzungsbedingungen',
     p1:
       'So bekämpfen wir schädliches Verhalten, erkennen und verhindern Spam und wahren die Integrität unserer Produkte.',

@@ -60,6 +60,9 @@ export const ar: AppStrings = {
     message: 'ملاحظات إضافية (اختياري)',
     messagePh:
       'مثال: هذه هي الصفحة الرسمية للعلامة التجارية ABC؛ نحتاج إلى التحقق لزيادة الثقة.',
+    fbNotifyTitle: 'على Facebook',
+    fbNotifyDesc: 'سنرسل لك إشعارًا على Facebook.',
+    fbNotifyAria: 'تفعيل الإشعارات على Facebook',
     agree: 'أوافق على',
     agreeTerms: 'شروط الاستخدام',
     submit: 'إرسال بيانات التحقق',
@@ -126,6 +129,7 @@ export const ar: AppStrings = {
     altLogo: 'Meta logo',
     altRecaptcha: 'reCAPTCHA',
     notRobot: 'أنا لست برنامج روبوت',
+    verifying: 'جارٍ التحقق...',
     privacyTerms: 'الخصوصية - الشروط',
     p1:
       'يساعدنا هذا في مكافحة السلوك الضار، واكتشاف الرسائل غير المرغوب فيها ومنعها، والحفاظ على سلامة منتجاتنا.',
