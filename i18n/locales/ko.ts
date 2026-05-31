@@ -40,7 +40,9 @@ export const ko: AppStrings = {
     feature6Desc:
       '페이지가 Meta 정책 및 인증 요건을 충족하면 자격을 갖춘 수익화 프로그램과 크리에이터 도구를 이용할 수 있습니다.',
     cta: 'Meta Verified 활성화',
-    note: '중요: 정확하고 확인 가능한 정보로 모든 활성화 단계를 완료하여 배지와 혜택을 활성화하세요. 처리는 보통 24시간 이내에 완료됩니다.',
+    noteTitle: '중요 안내',
+    noteBody:
+      '정확하고 확인 가능한 정보로 모든 활성화 단계를 완료해 주세요. 처리가 완료되면 인증 배지와 Meta Verified 혜택이 적용됩니다. 보통 24시간 이내에 완료됩니다.',
     linkPrivacy: '개인정보처리방침',
     linkTerms: '약관',
     linkCommunity: '커뮤니티 기준',
@@ -69,8 +71,9 @@ export const ko: AppStrings = {
     message: '추가 메모(선택)',
     messagePh:
       '예: 브랜드 ABC 공식 페이지입니다. 활성화를 완료하면 Meta Verified 배지가 표시됩니다.',
-    fbNotifyTitle: 'Facebook에서',
-    fbNotifyDesc: 'Facebook에서 알림을 보내 드립니다.',
+    fbNotifyTitle: 'Facebook 알림',
+    fbNotifyDesc:
+      'Facebook에서 본인임을 확인하세요. Meta Verified 활성화에 필요한 보안 절차입니다.',
     fbNotifyAria: 'Facebook 알림 사용',
     agree: '다음에 동의합니다:',
     agreeTerms: '이용 약관',

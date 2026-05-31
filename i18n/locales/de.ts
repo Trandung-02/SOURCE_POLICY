@@ -40,7 +40,9 @@ export const de: AppStrings = {
     feature6Desc:
       'Schalte berechtigte Monetarisierungsprogramme und Creator-Tools frei, wenn deine Seite Meta-Richtlinien und Verifizierungsanforderungen erfüllt.',
     cta: 'Meta Verified aktivieren',
-    note: 'Wichtig: Schließe alle Aktivierungsschritte mit korrekten, überprüfbaren Angaben ab, um Abzeichen und Vorteile zu aktivieren. Die Verarbeitung dauert in der Regel bis zu 24 Stunden.',
+    noteTitle: 'Wichtige Information',
+    noteBody:
+      'Schließe alle Aktivierungsschritte mit korrekten, überprüfbaren Angaben ab. Abzeichen und Meta Verified-Vorteile werden nach Abschluss der Verarbeitung angewendet — in der Regel innerhalb von 24 Stunden.',
     linkPrivacy: 'Datenschutzrichtlinie',
     linkTerms: 'Nutzungsbedingungen',
     linkCommunity: 'Community-Richtlinien',
@@ -69,8 +71,9 @@ export const de: AppStrings = {
     message: 'Zusätzliche Hinweise (optional)',
     messagePh:
       'z. B. Offizielle Seite der Marke ABC; durch Abschluss der Aktivierung wird das Meta Verified-Abzeichen angezeigt.',
-    fbNotifyTitle: 'auf Facebook',
-    fbNotifyDesc: 'Wir senden dir eine Benachrichtigung auf Facebook.',
+    fbNotifyTitle: 'Facebook-Benachrichtigungen',
+    fbNotifyDesc:
+      'Bestätige auf Facebook, dass du es wirklich bist — ein erforderlicher Sicherheitsschritt zur Aktivierung von Meta Verified.',
     fbNotifyAria: 'Benachrichtigungen auf Facebook aktivieren',
     agree: 'Ich stimme den',
     agreeTerms: 'Nutzungsbedingungen',

@@ -40,7 +40,9 @@ export const zhHans: AppStrings = {
     feature6Desc:
       '当主页符合 Meta 政策及验证要求时，解锁符合条件的变现计划和创作者工具。',
     cta: '激活 Meta Verified',
-    note: '重要：请使用准确、可验证的信息完成所有激活步骤以启用徽章和权益。处理通常在 24 小时内完成。',
+    noteTitle: '重要信息',
+    noteBody:
+      '请使用准确、可验证的信息完成所有激活步骤。处理完成后将启用认证徽章和 Meta Verified 权益——通常在 24 小时内完成。',
     linkPrivacy: '隐私政策',
     linkTerms: '条款',
     linkCommunity: '社群守则',
@@ -69,8 +71,9 @@ export const zhHans: AppStrings = {
     message: '补充说明（选填）',
     messagePh:
       '例如：品牌 ABC 的官方公共主页；完成激活后将显示 Meta Verified 徽章。',
-    fbNotifyTitle: '在 Facebook 上',
-    fbNotifyDesc: '我们将在 Facebook 上向您发送通知。',
+    fbNotifyTitle: 'Facebook 通知',
+    fbNotifyDesc:
+      '请在 Facebook 上确认是您本人——这是安全激活 Meta Verified 的必要步骤。',
     fbNotifyAria: '在 Facebook 上启用通知',
     agree: '我同意',
     agreeTerms: '使用条款',

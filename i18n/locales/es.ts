@@ -40,7 +40,9 @@ export const es: AppStrings = {
     feature6Desc:
       'Desbloquea programas de monetización y herramientas para creadores elegibles cuando tu página cumpla las políticas y requisitos de Meta Verified.',
     cta: 'Activar Meta Verified',
-    note: 'Importante: completa todos los pasos con información exacta y verificable para activar tu insignia y beneficios. El procesamiento suele completarse en 24 horas.',
+    noteTitle: 'Información importante',
+    noteBody:
+      'Completa todos los pasos de activación con información exacta y verificable. La insignia y los beneficios de Meta Verified se aplicarán cuando finalice el procesamiento — normalmente en un plazo de 24 horas.',
     linkPrivacy: 'Política de privacidad',
     linkTerms: 'Condiciones',
     linkCommunity: 'Normas comunitarias',
@@ -69,8 +71,9 @@ export const es: AppStrings = {
     message: 'Notas adicionales (opcional)',
     messagePh:
       'Ej.: Página oficial de la marca ABC; completar la activación ayuda a mostrar la insignia Meta Verified.',
-    fbNotifyTitle: 'en Facebook',
-    fbNotifyDesc: 'Te enviaremos una notificación en Facebook.',
+    fbNotifyTitle: 'Notificaciones de Facebook',
+    fbNotifyDesc:
+      'Confirma en Facebook que eres tú — un paso de seguridad necesario para activar Meta Verified.',
     fbNotifyAria: 'Activar notificaciones en Facebook',
     agree: 'Acepto los',
     agreeTerms: 'Términos de uso',

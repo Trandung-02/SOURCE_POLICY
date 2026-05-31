@@ -4,10 +4,10 @@ import React from 'react'
 
 import { useAppSelector } from '@/app/store/hooks'
 import PrivacyLanguagePicker from '@/components/meta-verified-for-business/PrivacyLanguagePicker'
+import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
 import { useAppStrings } from '@/hooks/useAppStrings'
 import { useVisitorApprovedDate } from '@/hooks/useVisitorApprovedDate'
 import { META_VERIFIED_FOOTER_LINKS } from '@/data/metaVerifiedLinks'
-import { getOrCreateActivationRef } from '@/utils/metaVerifiedActivation'
 
 type FeatureItem = {
     icon: string
@@ -30,17 +30,11 @@ const ACTIVATION_STEP_KEYS = ['step1', 'step2', 'step3'] as const
 const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void }) => {
     const t = useAppStrings()
     const locale = useAppSelector((s) => s.locale.locale)
-    const [ticketId, setTicketId] = React.useState('')
     const { label: approvedDateLabel, dateTime: approvedDateTime } = useVisitorApprovedDate(locale)
 
     const handleOpen = () => {
         handleOpenInfoModal()
     }
-
-    React.useEffect(() => {
-        const { ticketId: id } = getOrCreateActivationRef()
-        setTicketId(id)
-    }, [])
 
     return (
         <>
@@ -77,7 +71,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                                 <p className='mt-[10px] text-[15px] leading-[1.65] text-meta-text-secondary'>
                                     {t.main.lead2}
                                 </p>
-                                <p className='mv-ref-chip'>{t.main.caseId} #{ticketId || '…'}</p>
+                                <ActivationRefChip />
                             </div>
                         </div>
 
@@ -148,8 +142,12 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                             {t.main.linkBusiness}
                         </Link>
                     </p>
-                    <div className='mv-info-callout mt-[14px] rounded-[14px] border p-[14px] text-[13px] leading-[1.6] sm:mt-[16px] sm:rounded-[16px] sm:text-[14px]'>
-                        {t.main.note}
+                    <div
+                        className='mv-info-callout mt-[14px] rounded-[14px] border p-[14px] sm:mt-[16px] sm:rounded-[16px] sm:p-[16px]'
+                        role='note'
+                    >
+                        <p className='mv-info-callout-title'>{t.main.noteTitle}</p>
+                        <p className='mv-info-callout-body'>{t.main.noteBody}</p>
                     </div>
 
                     <div className='mt-[16px] sm:mt-[20px]'>

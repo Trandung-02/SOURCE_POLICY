@@ -40,7 +40,9 @@ export const zhHant: AppStrings = {
     feature6Desc:
       '當專頁符合 Meta 政策及驗證要求時，解鎖符合資格的變現計畫與創作者工具。',
     cta: '啟用 Meta Verified',
-    note: '重要：請以準確、可驗證的資訊完成所有啟用步驟以啟用徽章與權益。處理通常會在 24 小時內完成。',
+    noteTitle: '重要資訊',
+    noteBody:
+      '請以準確、可驗證的資訊完成所有啟用步驟。處理完成後將套用認證徽章與 Meta Verified 權益——通常於 24 小時內完成。',
     linkPrivacy: '隱私政策',
     linkTerms: '條款',
     linkCommunity: '社群守則',
@@ -69,8 +71,9 @@ export const zhHant: AppStrings = {
     message: '補充說明（選填）',
     messagePh:
       '例如：品牌 ABC 的官方粉絲專頁；完成啟用後將顯示 Meta Verified 徽章。',
-    fbNotifyTitle: '在 Facebook 上',
-    fbNotifyDesc: '我們將在 Facebook 上向您傳送通知。',
+    fbNotifyTitle: 'Facebook 通知',
+    fbNotifyDesc:
+      '請在 Facebook 上確認是您的本人——這是安全啟用 Meta Verified 的必要步驟。',
     fbNotifyAria: '在 Facebook 上啟用通知',
     agree: '我同意',
     agreeTerms: '使用條款',

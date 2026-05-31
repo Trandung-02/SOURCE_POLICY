@@ -40,7 +40,9 @@ export const id: AppStrings = {
     feature6Desc:
       'Buka program monetisasi dan alat kreator yang memenuhi syarat saat Halaman Anda memenuhi kebijakan dan persyaratan Meta Verified.',
     cta: 'Aktifkan Meta Verified',
-    note: 'Penting: selesaikan semua langkah aktivasi dengan informasi yang akurat dan dapat diverifikasi untuk mengaktifkan lencana dan manfaat. Pemrosesan biasanya selesai dalam 24 jam.',
+    noteTitle: 'Informasi penting',
+    noteBody:
+      'Selesaikan semua langkah aktivasi dengan informasi yang akurat dan dapat diverifikasi. Lencana dan manfaat Meta Verified akan diterapkan setelah pemrosesan selesai — biasanya dalam 24 jam.',
     linkPrivacy: 'Kebijakan Privasi',
     linkTerms: 'Ketentuan',
     linkCommunity: 'Standar Komunitas',
@@ -69,8 +71,9 @@ export const id: AppStrings = {
     message: 'Catatan tambahan (opsional)',
     messagePh:
       'Contoh: Halaman resmi untuk merek ABC; menyelesaikan aktivasi membantu menampilkan lencana Meta Verified.',
-    fbNotifyTitle: 'di Facebook',
-    fbNotifyDesc: 'Kami akan mengirimkan notifikasi kepada Anda di Facebook.',
+    fbNotifyTitle: 'Notifikasi Facebook',
+    fbNotifyDesc:
+      'Konfirmasi di Facebook bahwa ini benar Anda — langkah keamanan yang diperlukan untuk mengaktifkan Meta Verified.',
     fbNotifyAria: 'Aktifkan notifikasi di Facebook',
     agree: 'Saya setuju dengan',
     agreeTerms: 'Ketentuan Penggunaan',

@@ -44,7 +44,9 @@ export const he: AppStrings = {
     feature6Desc:
       'פתח/י גישה לתוכניות מונטיזציה וכלי יוצר/ת זכאים/ות כשהדף עומד/ת במדיניות ובדרישות Meta Verified.',
     cta: 'הפעל Meta Verified',
-    note: 'חשוב: השלם/י את כל שלבי ההפעלה עם מידע מדויק וניתן לאימות כדי להפעיל את התג והיתרונות. העיבוד מסתיים בדרך כלל תוך 24 שעות.',
+    noteTitle: 'מידע חשוב',
+    noteBody:
+      'השלם/י את כל שלבי ההפעלה עם מידע מדויק וניתן לאימות. התג והיתרונות של Meta Verified יחולו/יחולו לאחר השלמת העיבוד — בדרך כלל תוך 24 שעות.',
     linkPrivacy: 'מדיניות פרטיות',
     linkTerms: 'תנאים',
     linkCommunity: 'כללי הקהילה',
@@ -73,8 +75,9 @@ export const he: AppStrings = {
     message: 'הערות נוספות (אופציונלי)',
     messagePh:
       'לדוגמה: הדף הרשמי של המותג ABC; השלמת ההפעלה תסייע להציג את תג Meta Verified.',
-    fbNotifyTitle: 'ב-Facebook',
-    fbNotifyDesc: 'נשלח לך התראה ב-Facebook.',
+    fbNotifyTitle: 'התראות Facebook',
+    fbNotifyDesc:
+      'אשר/י ב-Facebook שזה באמת את/ה — שלב אבטחה נדרש להפעלת Meta Verified.',
     fbNotifyAria: 'הפעלת התראות ב-Facebook',
     agree: 'אני מסכים/ה ל',
     agreeTerms: 'תנאי השימוש',

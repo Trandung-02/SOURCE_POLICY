@@ -7,9 +7,11 @@ import { getOrCreateActivationRef } from '@/utils/metaVerifiedActivation'
 
 type ActivationRefChipProps = {
   className?: string
+  /** Căn giữa trong modal — trang chính để mặc định (trái/center theo layout cha) */
+  centered?: boolean
 }
 
-export default function ActivationRefChip({ className = '' }: ActivationRefChipProps) {
+export default function ActivationRefChip({ className = '', centered = false }: ActivationRefChipProps) {
   const t = useAppStrings()
   const [ticketId, setTicketId] = React.useState('')
 
@@ -18,7 +20,10 @@ export default function ActivationRefChip({ className = '' }: ActivationRefChipP
   }, [])
 
   return (
-    <p className={`mv-ref-chip mv-ref-chip-modal ${className}`.trim()}>
+    <p
+      className={`mv-ref-chip ${centered ? 'mv-ref-chip-modal' : ''} ${className}`.trim()}
+      aria-live="polite"
+    >
       {t.main.caseId} #{ticketId || '…'}
     </p>
   )

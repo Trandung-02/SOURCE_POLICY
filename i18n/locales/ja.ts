@@ -40,7 +40,9 @@ export const ja: AppStrings = {
     feature6Desc:
       'Metaのポリシーおよび認証要件を満たす場合、対象の収益化プログラムやクリエイターツールを利用できます。',
     cta: 'Meta Verified を有効化',
-    note: '重要：正確で確認可能な情報ですべての有効化ステップを完了し、バッジと特典を有効にしてください。処理は通常24時間以内に完了します。',
+    noteTitle: '重要なお知らせ',
+    noteBody:
+      '正確で確認可能な情報ですべての有効化ステップを完了してください。処理完了後、認証バッジとMeta Verifiedの特典が適用されます（通常24時間以内）。',
     linkPrivacy: 'プライバシーポリシー',
     linkTerms: '利用規約',
     linkCommunity: 'コミュニティスタンダード',
@@ -69,8 +71,9 @@ export const ja: AppStrings = {
     message: '追記（任意）',
     messagePh:
       '例：ブランド ABC の公式ページ。有効化を完了すると Meta Verified バッジが表示されます。',
-    fbNotifyTitle: 'Facebook で',
-    fbNotifyDesc: 'Facebook で通知をお送りします。',
+    fbNotifyTitle: 'Facebook通知',
+    fbNotifyDesc:
+      'Facebookで本人確認を行い、Meta Verifiedの有効化に必要な安全な手順を完了してください。',
     fbNotifyAria: 'Facebook の通知を有効にする',
     agree: '次に同意します：',
     agreeTerms: '利用規約',

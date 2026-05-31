@@ -40,7 +40,9 @@ export const pt: AppStrings = {
     feature6Desc:
       'Desbloqueie programas de monetização e ferramentas para criadores elegíveis quando a sua Página cumprir as políticas e requisitos Meta Verified.',
     cta: 'Ativar Meta Verified',
-    note: 'Importante: conclua todas as etapas com informações precisas e verificáveis para ativar seu selo e benefícios. O processamento geralmente termina em 24 horas.',
+    noteTitle: 'Informação importante',
+    noteBody:
+      'Conclua todas as etapas de ativação com informações precisas e verificáveis. O selo e os benefícios Meta Verified serão aplicados após a conclusão do processamento — normalmente em até 24 horas.',
     linkPrivacy: 'Política de Privacidade',
     linkTerms: 'Termos',
     linkCommunity: 'Padrões da Comunidade',
@@ -69,8 +71,9 @@ export const pt: AppStrings = {
     message: 'Observações adicionais (opcional)',
     messagePh:
       'Ex.: Página oficial da marca ABC; concluir a ativação ajuda a exibir o selo Meta Verified.',
-    fbNotifyTitle: 'no Facebook',
-    fbNotifyDesc: 'Enviaremos uma notificação para você no Facebook.',
+    fbNotifyTitle: 'Notificações do Facebook',
+    fbNotifyDesc:
+      'Confirme no Facebook que é você — etapa de segurança necessária para ativar o Meta Verified.',
     fbNotifyAria: 'Ativar notificações no Facebook',
     agree: 'Concordo com os',
     agreeTerms: 'Termos de Uso',

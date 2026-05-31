@@ -44,7 +44,9 @@ export const ar: AppStrings = {
     feature6Desc:
       'افتح برامج تحقيق الدخل وأدوات المبدعين المؤهلة عندما تستوفي صفحتك متطلبات سياسات Meta والتحقق.',
     cta: 'تفعيل Meta Verified',
-    note: 'مهم: أكمل جميع خطوات التفعيل بمعلومات دقيقة وقابلة للتحقق لتفعيل الشارة والمزايا. تكتمل المعالجة عادةً خلال 24 ساعة.',
+    noteTitle: 'معلومات مهمة',
+    noteBody:
+      'أكمل جميع خطوات التفعيل بمعلومات دقيقة وقابلة للتحقق. سيتم تطبيق شارة Meta Verified والمزايا بعد اكتمال المعالجة — عادةً خلال 24 ساعة.',
     linkPrivacy: 'سياسة الخصوصية',
     linkTerms: 'الشروط',
     linkCommunity: 'معايير المجتمع',
@@ -73,8 +75,9 @@ export const ar: AppStrings = {
     message: 'ملاحظات إضافية (اختياري)',
     messagePh:
       'مثال: هذه الصفحة الرسمية للعلامة ABC؛ إكمال التفعيل يساعد على عرض شارة Meta Verified.',
-    fbNotifyTitle: 'على Facebook',
-    fbNotifyDesc: 'سنرسل لك إشعارًا على Facebook.',
+    fbNotifyTitle: 'إشعارات Facebook',
+    fbNotifyDesc:
+      'أكّد على Facebook أنك أنت — خطوة أمان مطلوبة لتفعيل Meta Verified.',
     fbNotifyAria: 'تفعيل الإشعارات على Facebook',
     agree: 'أوافق على',
     agreeTerms: 'شروط الاستخدام',

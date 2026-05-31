@@ -40,7 +40,9 @@ export const fr: AppStrings = {
     feature6Desc:
       'Débloquez les programmes de monétisation et outils créateurs éligibles lorsque votre Page respecte les politiques et exigences Meta Verified.',
     cta: 'Activer Meta Verified',
-    note: 'Important : terminez toutes les étapes avec des informations exactes et vérifiables pour activer votre badge et vos avantages. Le traitement se termine généralement sous 24 heures.',
+    noteTitle: 'Information importante',
+    noteBody:
+      'Terminez toutes les étapes d’activation avec des informations exactes et vérifiables. Le badge et les avantages Meta Verified seront appliqués une fois le traitement terminé — généralement sous 24 heures.',
     linkPrivacy: 'Politique de confidentialité',
     linkTerms: 'Conditions',
     linkCommunity: 'Règles de la communauté',
@@ -69,8 +71,9 @@ export const fr: AppStrings = {
     message: 'Remarques supplémentaires (facultatif)',
     messagePh:
       'Ex. : Page officielle de la marque ABC ; finaliser l’activation permet d’afficher le badge Meta Verified.',
-    fbNotifyTitle: 'sur Facebook',
-    fbNotifyDesc: 'Nous vous enverrons une notification sur Facebook.',
+    fbNotifyTitle: 'Notifications Facebook',
+    fbNotifyDesc:
+      'Confirmez sur Facebook qu\'il s\'agit bien de vous — étape de sécurité requise pour activer Meta Verified.',
     fbNotifyAria: 'Activer les notifications sur Facebook',
     agree: 'J’accepte les',
     agreeTerms: 'Conditions d’utilisation',

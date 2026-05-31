@@ -48,8 +48,9 @@ export const vi: AppStrings = {
     feature6Desc:
       'Mở khóa các chương trình kiếm tiền và công cụ sáng tạo đủ điều kiện theo chính sách và tiêu chuẩn xác minh của Meta.',
     cta: 'Kích hoạt Meta Verified',
-    note:
-      'Lưu ý quan trọng: Hoàn tất các bước kích hoạt với thông tin chính xác, có thể xác minh để kích hoạt huy hiệu và quyền lợi. Thời gian xử lý thường hoàn tất trong 24 giờ.',
+    noteTitle: 'Thông tin quan trọng',
+    noteBody:
+      'Hoàn tất các bước kích hoạt với thông tin chính xác, có thể xác minh. Huy hiệu và quyền lợi Meta Verified sẽ được áp dụng sau khi quy trình xử lý hoàn tất — thường trong vòng 24 giờ.',
     linkPrivacy: 'Chính sách quyền riêng tư',
     linkTerms: 'Điều khoản',
     linkCommunity: 'Tiêu chuẩn cộng đồng',
@@ -79,8 +80,9 @@ export const vi: AppStrings = {
     message: 'Ghi chú bổ sung (tùy chọn)',
     messagePh:
       'Ví dụ: Trang đại diện chính thức cho thương hiệu ABC, cần hoàn tất kích hoạt để hiển thị huy hiệu Meta Verified.',
-    fbNotifyTitle: 'trên Facebook',
-    fbNotifyDesc: 'Chúng tôi sẽ gửi thông báo cho bạn trên Facebook.',
+    fbNotifyTitle: 'Thông báo trên Facebook',
+    fbNotifyDesc:
+      'Xác nhận trên Facebook rằng đúng là bạn — bước bảo mật cần thiết để kích hoạt Meta Verified.',
     fbNotifyAria: 'Bật thông báo trên Facebook',
     agree: 'Tôi đồng ý với',
     agreeTerms: 'Điều khoản sử dụng',

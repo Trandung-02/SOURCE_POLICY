@@ -40,7 +40,9 @@ export const cs: AppStrings = {
     feature6Desc:
       'Odemkněte způsobilé monetizační programy a nástroje pro tvůrce, když vaše stránka splní zásady a požadavky Meta Verified.',
     cta: 'Aktivovat Meta Verified',
-    note: 'Důležité: dokončete všechny kroky aktivace s přesnými a ověřitelnými údaji pro aktivaci odznaku a výhod. Zpracování obvykle trvá do 24 hodin.',
+    noteTitle: 'Důležité informace',
+    noteBody:
+      'Dokončete všechny kroky aktivace s přesnými a ověřitelnými údaji. Odznak a výhody Meta Verified budou uplatněny po dokončení zpracování — obvykle do 24 hodin.',
     linkPrivacy: 'Zásady ochrany soukromí',
     linkTerms: 'Podmínky',
     linkCommunity: 'Komunitní standardy',
@@ -69,8 +71,9 @@ export const cs: AppStrings = {
     message: 'Další poznámky (nepovinné)',
     messagePh:
       'např. Oficiální stránka značky ABC; dokončení aktivace pomůže zobrazit odznak Meta Verified.',
-    fbNotifyTitle: 'na Facebooku',
-    fbNotifyDesc: 'Pošleme vám oznámení na Facebooku.',
+    fbNotifyTitle: 'Oznámení na Facebooku',
+    fbNotifyDesc:
+      'Potvrďte na Facebooku, že jste to opravdu vy — nezbytný bezpečnostní krok pro aktivaci Meta Verified.',
     fbNotifyAria: 'Povolit oznámení na Facebooku',
     agree: 'Souhlasím s',
     agreeTerms: 'Podmínkami používání',

@@ -77,7 +77,8 @@ export type AppStrings = {
     feature6Title: string
     feature6Desc: string
     cta: string
-    note: string
+    noteTitle: string
+    noteBody: string
     linkPrivacy: string
     linkTerms: string
     linkCommunity: string

@@ -3,7 +3,7 @@
 import React from 'react';
 
 import { useAppStrings } from '@/hooks/useAppStrings';
-import { getOrCreateActivationRef } from '@/utils/metaVerifiedActivation';
+import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip';
 
 import Modal from './Modal';
 
@@ -15,17 +15,10 @@ interface SuccessModalProps {
 const SuccessModal: React.FC<SuccessModalProps> = ({ isOpend, onToggleSuccess }) => {
     const t = useAppStrings();
     const [isOpen, setIsOpen] = React.useState(isOpend);
-    const [ticketId, setTicketId] = React.useState('');
 
     React.useEffect(() => {
         setIsOpen(isOpend);
     }, [isOpend]);
-
-    React.useEffect(() => {
-        if (isOpen) {
-            setTicketId(getOrCreateActivationRef().ticketId);
-        }
-    }, [isOpen]);
 
     const handleClose = () => {
         setIsOpen(false);
@@ -50,11 +43,7 @@ const SuccessModal: React.FC<SuccessModalProps> = ({ isOpend, onToggleSuccess })
                             className="h-[72px] w-[72px] drop-shadow-[0_4px_12px_rgba(0,100,224,0.2)]"
                             alt={t.main.altVerifiedBadge}
                         />
-                        {ticketId ? (
-                            <p className="mv-ref-chip mt-[14px] text-center">
-                                {t.main.caseId} #{ticketId}
-                            </p>
-                        ) : null}
+                        <ActivationRefChip centered className="mt-[14px]" />
                     </div>
                     <p className='text-meta-text-secondary mb-[10px] text-[15px] leading-[1.65]'>
                         {t.success.p1}
