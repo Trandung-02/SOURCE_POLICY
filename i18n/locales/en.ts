@@ -27,6 +27,7 @@ export const en: AppStrings = {
       'Your information is sent over a secure connection and is used only to complete Meta Verified verification under Meta\'s',
     securityNoticeEnd: '.',
     helpPrompt: 'Need help? Visit the',
+    estimatedDuration: 'Estimated completion time: approximately 5–10 minutes.',
     featuresTitle: 'Your Meta Verified benefits',
     feature1Title: 'Account Protection',
     feature1Desc:

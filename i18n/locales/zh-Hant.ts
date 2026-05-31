@@ -19,6 +19,7 @@ export const zhHant: AppStrings = {
     securityNotice: "您的資訊透過安全連線傳輸，僅用於完成 Meta Verified 驗證，並遵循 Meta 的",
     securityNoticeEnd: "。",
     helpPrompt: "需要協助？前往",
+    estimatedDuration: "預計完成時間：約 5–10 分鐘。",
     featuresTitle: '您的 Meta Verified 權益',
     feature1Title: '帳號保護',
     feature1Desc:

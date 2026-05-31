@@ -19,6 +19,7 @@ export const th: AppStrings = {
     securityNotice: "ข้อมูลของคุณถูกส่งผ่านการเชื่อมต่อที่ปลอดภัยและใช้เพื่อดำเนินการยืนยัน Meta Verified เท่านั้น ตาม",
     securityNoticeEnd: " ของ Meta",
     helpPrompt: "ต้องการความช่วยเหลือ? ไปที่",
+    estimatedDuration: "ระยะเวลาโดยประมาณในการดำเนินการให้เสร็จ: 5–10 นาที",
     featuresTitle: 'สิทธิประโยชน์ Meta Verified ของคุณ',
     feature1Title: 'การปกป้องบัญชี',
     feature1Desc:

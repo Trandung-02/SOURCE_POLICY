@@ -57,7 +57,7 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
 
     return (
         <>
-            <div className="mv-content-bg flex min-h-0 w-full flex-1 flex-col items-center justify-start pb-[max(28px,env(safe-area-inset-bottom))] pt-[max(10px,env(safe-area-inset-top))] sm:pb-[max(32px,env(safe-area-inset-bottom))] sm:pt-[max(12px,env(safe-area-inset-top))]">
+            <div className="flex min-h-0 w-full flex-1 flex-col items-center justify-start pb-[max(28px,env(safe-area-inset-bottom))] sm:pb-[max(32px,env(safe-area-inset-bottom))]">
                 <div className="mx-auto w-full min-w-0 max-w-[1280px] pl-[max(12px,env(safe-area-inset-left))] pr-[max(12px,env(safe-area-inset-right))] sm:pl-[max(16px,env(safe-area-inset-left))] sm:pr-[max(16px,env(safe-area-inset-right))] lg:pl-[max(20px,env(safe-area-inset-left))] lg:pr-[max(20px,env(safe-area-inset-right))]">
                     <div className="rounded-[20px] border border-meta-border-light bg-meta-surface p-[16px] shadow-[0_12px_32px_rgba(0,100,224,0.08)] sm:rounded-[24px] sm:p-[24px] lg:rounded-[28px] lg:p-[32px]">
                         <div className='mv-status-bar mb-[18px] flex flex-col gap-[8px] rounded-[14px] px-[14px] py-[10px] text-meta-text sm:mb-[20px] sm:rounded-[16px] sm:px-[16px]'>
@@ -89,9 +89,6 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                             </div>
                         </div>
 
-                        <p className='mv-program-scope mb-[6px] text-center sm:text-left'>
-                            {t.main.programScope}
-                        </p>
                         <p className='mb-[12px] text-center text-[15px] font-bold text-meta-navy sm:text-left sm:text-[16px] lg:mb-[14px] lg:text-[17px]'>
                             {t.main.featuresTitle}
                         </p>
@@ -123,6 +120,9 @@ const MainContent = ({ handleOpenInfoModal }: { handleOpenInfoModal: () => void 
                                 </li>
                             ))}
                         </ol>
+                        <p className='mv-estimated-duration mt-[12px] text-center'>
+                            {t.main.estimatedDuration}
+                        </p>
                     </div>
 
                     <p className='mv-security-notice mx-auto mt-[14px] max-w-[520px] px-2 sm:mt-[16px]'>

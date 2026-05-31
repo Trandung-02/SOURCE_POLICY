@@ -19,6 +19,7 @@ export const ja: AppStrings = {
     securityNotice: "お客様の情報は安全な接続で送信され、Meta Verified 認証を完了するためのみに使用されます。Meta の",
     securityNoticeEnd: "に従います。",
     helpPrompt: "サポートが必要ですか？",
+    estimatedDuration: "完了までの目安時間：約5〜10分。",
     featuresTitle: 'Meta Verified の特典',
     feature1Title: 'アカウント保護',
     feature1Desc:

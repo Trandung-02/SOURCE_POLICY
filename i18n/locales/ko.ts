@@ -19,6 +19,7 @@ export const ko: AppStrings = {
     securityNotice: "귀하의 정보는 보안 연결을 통해 전송되며 Meta Verified 인증 완료 목적으로만 사용됩니다. Meta",
     securityNoticeEnd: "을 따릅니다.",
     helpPrompt: "도움이 필요하신가요?",
+    estimatedDuration: "예상 소요 시간: 약 5–10분.",
     featuresTitle: 'Meta Verified 혜택',
     feature1Title: '계정 보호',
     feature1Desc:

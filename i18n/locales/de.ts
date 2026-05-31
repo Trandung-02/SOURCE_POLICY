@@ -19,6 +19,7 @@ export const de: AppStrings = {
     securityNotice: "Deine Angaben werden über eine sichere Verbindung übermittelt und nur zur Meta Verified-Verifizierung gemäß Metas",
     securityNoticeEnd: " verwendet.",
     helpPrompt: "Hilfe benötigt? Besuche das",
+    estimatedDuration: "Geschätzte Dauer: etwa 5–10 Minuten.",
     featuresTitle: 'Deine Meta Verified-Vorteile',
     feature1Title: 'Kontoschutz',
     feature1Desc:

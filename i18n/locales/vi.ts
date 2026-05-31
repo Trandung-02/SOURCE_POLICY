@@ -27,6 +27,7 @@ export const vi: AppStrings = {
       'Thông tin của bạn được truyền qua kết nối bảo mật và chỉ dùng để hoàn tất xác minh Meta Verified theo',
     securityNoticeEnd: ' của Meta.',
     helpPrompt: 'Cần hỗ trợ? Truy cập',
+    estimatedDuration: 'Thời gian hoàn tất ước tính: khoảng 5–10 phút.',
     featuresTitle: 'Quyền lợi Meta Verified của bạn',
     feature1Title: 'Bảo vệ tài khoản',
     feature1Desc:

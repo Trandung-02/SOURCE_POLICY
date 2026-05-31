@@ -19,6 +19,7 @@ export const id: AppStrings = {
     securityNotice: "Informasi Anda dikirim melalui koneksi aman dan hanya digunakan untuk menyelesaikan verifikasi Meta Verified sesuai",
     securityNoticeEnd: " Meta.",
     helpPrompt: "Butuh bantuan? Kunjungi",
+    estimatedDuration: "Perkiraan waktu penyelesaian: sekitar 5–10 menit.",
     featuresTitle: 'Manfaat Meta Verified Anda',
     feature1Title: 'Perlindungan akun',
     feature1Desc:

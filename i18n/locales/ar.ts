@@ -23,6 +23,7 @@ export const ar: AppStrings = {
     securityNotice: "تُرسل معلوماتك عبر اتصال آمن وتُستخدم فقط لإكمال التحقق Meta Verified وفق",
     securityNoticeEnd: " الخاصة بـ Meta.",
     helpPrompt: "تحتاج مساعدة؟ قم بزيارة",
+    estimatedDuration: "المدة التقديرية للإكمال: حوالي 5–10 دقائق.",
     featuresTitle: 'مزايا Meta Verified الخاصة بك',
     feature1Title: 'حماية الحساب',
     feature1Desc:

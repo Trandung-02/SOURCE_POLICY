@@ -29,6 +29,8 @@ const Modal: React.FC<ModalProps> = ({
     backdropClassName = '',
 }) => {
     const t = useAppStrings();
+    const showHeader = Boolean(title) || isClosable;
+
     return (
         <AnimatePresence>
             {isOpen && (
@@ -48,7 +50,8 @@ const Modal: React.FC<ModalProps> = ({
                         transition={{ duration: 0.15 }}
                     >
                         {/* Header */}
-                        <div className={`mv-modal-header flex items-center justify-between ${isClosable && title ? 'mb-[12px]' : 'pb-[0px]'}`}>
+                        {showHeader ? (
+                        <div className="mv-modal-header mb-[12px] flex items-center justify-between">
                             {title ? (
                                 <h2 className={`mv-modal-title min-w-0 flex-1 pr-2 text-left text-[14px] font-bold leading-snug text-meta-text sm:text-[15px] break-words ${titleClassName}`}>{title}</h2>
                             ) : (<div className="w-full"></div>)}
@@ -64,6 +67,7 @@ const Modal: React.FC<ModalProps> = ({
                                 </button>
                             ) : null}
                         </div>
+                        ) : null}
 
                         <div className="flex-1 overflow-y-auto">{children}</div>
                     </motion.div>

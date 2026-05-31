@@ -158,6 +158,24 @@
   text-align: center;
 }
 
+.meta-verified .mv-ref-chip-modal {
+  display: block;
+  width: fit-content;
+  margin-top: 0;
+  margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  text-align: center;
+}
+
+.meta-verified .mv-estimated-duration {
+  color: var(--mv-text-muted);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .meta-verified .mv-help-prompt {
   color: var(--mv-text-secondary);
   font-size: 13px;

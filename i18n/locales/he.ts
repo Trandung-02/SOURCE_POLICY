@@ -23,6 +23,7 @@ export const he: AppStrings = {
     securityNotice: "המידע שלך נשלח בחיבור מאובטח ומשמש רק להשלמת אימות Meta Verified בהתאם ל",
     securityNoticeEnd: " של Meta.",
     helpPrompt: "צר/י עזרה? בקר/י ב",
+    estimatedDuration: "זמן השלמה משוער: כ-5–10 דקות.",
     featuresTitle: 'יתרונות Meta Verified שלך',
     feature1Title: 'הגנה על החשבון',
     feature1Desc:

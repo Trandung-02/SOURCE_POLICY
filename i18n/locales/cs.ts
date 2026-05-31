@@ -19,6 +19,7 @@ export const cs: AppStrings = {
     securityNotice: "Vaše údaje jsou odesílány zabezpečeným připojením a slouží pouze k dokončení ověření Meta Verified podle",
     securityNoticeEnd: " společnosti Meta.",
     helpPrompt: "Potřebujete pomoc? Navštivte",
+    estimatedDuration: "Odhadovaná doba dokončení: přibližně 5–10 minut.",
     featuresTitle: 'Vaše výhody Meta Verified',
     feature1Title: 'Ochrana účtu',
     feature1Desc:

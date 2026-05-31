@@ -62,6 +62,7 @@ export type AppStrings = {
     securityNotice: string
     securityNoticeEnd: string
     helpPrompt: string
+    estimatedDuration: string
     featuresTitle: string
     feature1Title: string
     feature1Desc: string
