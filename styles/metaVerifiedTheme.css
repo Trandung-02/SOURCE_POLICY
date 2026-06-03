@@ -321,13 +321,13 @@
 
 @media (min-width: 640px) {
   .meta-verified .mv-promo-video-wrap {
-    max-width: 420px;
+    max-width: 580px;
   }
 }
 
 @media (min-width: 1024px) {
   .meta-verified .mv-promo-video-wrap {
-    max-width: 560px;
+    max-width: none;
   }
 }
 
@@ -351,9 +351,13 @@
 
 /* Steps — layout theo Meta Verified for Business gốc */
 .meta-verified .mv-steps-section {
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fafbfd;
+  background-image:
+    radial-gradient(circle at 0% 0%, #fdf2f9 0%, transparent 52%),
+    radial-gradient(circle at 100% 0%, #eef6ff 0%, transparent 48%),
+    radial-gradient(circle at 100% 100%, #f2fff9 0%, transparent 48%),
+    radial-gradient(circle at 0% 100%, #f8faff 0%, transparent 52%),
+    linear-gradient(135deg, #fdf2f8 0%, #f8fafc 38%, #eff6ff 68%, #f0fdf4 100%);
 }
 
 .meta-verified .mv-steps-header {
@@ -412,49 +416,53 @@
 }
 
 .meta-verified .mv-step-card {
+  align-items: flex-start;
   background: #ffffff;
   border-radius: 24px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
   overflow: hidden;
 }
 
 .meta-verified .mv-step-card-media {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
-  justify-content: center;
+  flex-shrink: 0;
+  justify-content: flex-start;
   line-height: 0;
-  padding: 1.25rem 1.25rem 0;
+  padding: 1.25rem 0 1.25rem 1.25rem;
 }
 
 .meta-verified .mv-step-card-media img {
   display: block;
   height: auto;
-  max-height: 7.5rem;
-  max-width: 9.5rem;
+  max-height: 2.5rem;
+  max-width: 2.5rem;
   object-fit: contain;
   width: auto;
 }
 
 @media (min-width: 640px) {
   .meta-verified .mv-step-card-media {
-    padding: 1.5rem 1.5rem 0;
+    padding: 1.5rem 0 1.5rem 1.5rem;
   }
 
   .meta-verified .mv-step-card-media img {
-    max-height: 8.5rem;
-    max-width: 10.5rem;
+    max-height: 2.75rem;
+    max-width: 2.75rem;
   }
 }
 
 .meta-verified .mv-step-card-body {
-  padding: 1.25rem 1.25rem 1.5rem;
+  flex: 1;
+  min-width: 0;
+  padding: 1.25rem 1.25rem 1.5rem 0.75rem;
 }
 
 @media (min-width: 640px) {
   .meta-verified .mv-step-card-body {
-    padding: 1.25rem 1.5rem 1.75rem;
+    padding: 1.5rem 1.5rem 1.75rem 0.875rem;
   }
 }
 
@@ -1052,33 +1060,12 @@
   padding-right: 4px;
 }
 
-.meta-verified .mv-fb-notify-head {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 3px;
-}
-
 .meta-verified .mv-fb-notify-title {
   color: var(--mv-text);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.35;
-  margin: 0;
-}
-
-.meta-verified .mv-fb-notify-brand {
-  background: rgba(24, 119, 242, 0.08);
-  border: 1px solid rgba(24, 119, 242, 0.14);
-  border-radius: 999px;
-  color: var(--mv-blue);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  line-height: 1;
-  padding: 3px 7px;
-  text-transform: uppercase;
+  margin: 0 0 3px;
 }
 
 .meta-verified .mv-fb-notify-desc {

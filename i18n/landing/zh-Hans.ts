@@ -117,17 +117,17 @@ export const zhHansLanding: LandingStrings = {
           '这是一项付费订阅，帮助符合条件的商家验证身份，并获得 Meta Verified 徽章及 Meta 应用中的品牌保护权益。',
       },
       {
+        question: '激活 Meta Verified 需要付费吗？',
+        answer:
+          '符合条件的商家目前可以免费激活 Meta Verified for Business。填写激活信息表单并等待审核即可。',
+      },
+      {
         question: '谁有资格？',
         answer: '商家须满足身份、活动和 Meta 政策要求。资格可能因国家/地区而异。',
       },
       {
-        question: '可以取消套餐吗？',
-        answer:
-          '可以。你可以在 Meta Verified 设置中取消或更改套餐。部分权益可能持续至当前计费周期结束。',
-      },
-      {
         question: '审核需要多久？',
-        answer: '审核通常需要数天到数周，具体取决于你的申请。有更新时会通知你。',
+        answer: '我们将审核你的申请，并在 3 个工作日内发送状态更新。',
       },
       {
         question: 'Meta Verified 如何防止假冒？',

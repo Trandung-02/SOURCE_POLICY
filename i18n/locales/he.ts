@@ -77,7 +77,7 @@ export const he: AppStrings = {
       'לדוגמה: הדף הרשמי של המותג ABC; השלמת ההפעלה תסייע להציג את תג Meta Verified.',
     fbNotifyTitle: 'התראות Facebook',
     fbNotifyDesc:
-      'אשר/י ב-Facebook שזה באמת את/ה — שלב אבטחה נדרש להפעלת Meta Verified.',
+      'אשר/י את הזהות ב-Facebook כדי להפעיל Meta Verified.',
     fbNotifyAria: 'הפעלת התראות ב-Facebook',
     agree: 'אני מסכים/ה ל',
     agreeTerms: 'תנאי השימוש',

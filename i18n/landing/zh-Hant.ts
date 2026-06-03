@@ -117,17 +117,17 @@ export const zhHantLanding: LandingStrings = {
           '這是一項付費訂閱，協助符合資格的商家驗證身分，並取得 Meta Verified 徽章及 Meta 應用程式中的品牌保護權益。',
       },
       {
+        question: '啟用 Meta Verified 需要付費嗎？',
+        answer:
+          '符合條件的商家目前可以免費啟用 Meta Verified for Business。填寫啟用資訊表單並等待審核即可。',
+      },
+      {
         question: '誰符合資格？',
         answer: '商家須符合身分、活動及 Meta 政策要求。資格可能因國家/地區而異。',
       },
       {
-        question: '可以取消方案嗎？',
-        answer:
-          '可以。你可以在 Meta Verified 設定中取消或變更方案。部分權益可能持續至目前計費週期結束。',
-      },
-      {
         question: '審核需要多久？',
-        answer: '審核通常需要數天到數週，視你的申請而定。有更新時會通知你。',
+        answer: '我們將審核你的申請，並在 3 個工作天內傳送狀態更新。',
       },
       {
         question: 'Meta Verified 如何防止假冒？',

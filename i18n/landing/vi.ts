@@ -121,7 +121,12 @@ export const viLanding: LandingStrings = {
       {
         question: 'Meta Verified for Business là gì?',
         answer:
-          'Đây là chương trình trả phí giúp doanh nghiệp đủ điều kiện xác minh danh tính và kích hoạt huy hiệu Meta Verified cùng các lợi ích bảo vệ thương hiệu trên các ứng dụng Meta.',
+          'Đây là chương trình giúp doanh nghiệp đủ điều kiện xác minh danh tính và kích hoạt huy hiệu Meta Verified cùng các lợi ích bảo vệ thương hiệu trên các ứng dụng Meta.',
+      },
+      {
+        question: 'Kích hoạt Meta Verified có mất phí không?',
+        answer:
+          'Hiện tại chương trình đang được triển khai miễn phí cho doanh nghiệp đủ điều kiện. Bạn chỉ cần hoàn tất form Thông tin kích hoạt và chờ xem xét hồ sơ.',
       },
       {
         question: 'Ai đủ điều kiện kích hoạt?',
@@ -129,14 +134,9 @@ export const viLanding: LandingStrings = {
           'Doanh nghiệp cần đáp ứng các yêu cầu về danh tính, hoạt động kinh doanh và tuân thủ chính sách của Meta. Điều kiện có thể khác nhau theo quốc gia.',
       },
       {
-        question: 'Tôi có thể hủy gói không?',
-        answer:
-          'Có. Bạn có thể hủy hoặc thay đổi gói trong phần cài đặt Meta Verified. Một số lợi ích có thể tiếp tục đến hết chu kỳ thanh toán hiện tại.',
-      },
-      {
         question: 'Mất bao lâu để được xem xét?',
         answer:
-          'Thời gian xem xét thường từ vài ngày đến vài tuần tùy hồ sơ. Bạn sẽ nhận thông báo khi có cập nhật.',
+          'Chúng tôi sẽ xem xét hồ sơ của bạn và gửi thông tin cập nhật về trạng thái trong vòng 3 ngày làm việc.',
       },
       {
         question: 'Meta Verified bảo vệ thương hiệu khỏi giả mạo như thế nào?',

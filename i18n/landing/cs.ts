@@ -124,19 +124,19 @@ export const csLanding: LandingStrings = {
           'Jedná se o placené předplatné, které pomáhá oprávněným firmám ověřit identitu a získat odznak Meta Verified a výhody ochrany značky v aplikacích Meta.',
       },
       {
+        question: 'Je aktivace Meta Verified zpoplatněná?',
+        answer:
+          'Oprávněné firmy mohou v současnosti aktivovat Meta Verified for Business zdarma. Vyplňte formulář podrobností aktivace a počkejte na posouzení žádosti.',
+      },
+      {
         question: 'Kdo je způsobilý?',
         answer:
           'Firmy musí splnit požadavky na identitu, aktivitu a pravidla Meta. Způsobilost se může lišit podle země.',
       },
       {
-        question: 'Mohu plán zrušit?',
-        answer:
-          'Ano. Plán můžete zrušit nebo změnit v nastavení Meta Verified. Některé výhody mohou pokračovat do konce aktuálního fakturačního období.',
-      },
-      {
         question: 'Jak dlouho trvá kontrola?',
         answer:
-          'Kontrola obvykle trvá od několika dnů do několika týdnů podle vaší žádosti. O aktualizacích vás budeme informovat.',
+          'Vaši žádost posoudíme a do 3 pracovních dnů vám pošleme aktualizaci stavu.',
       },
       {
         question: 'Jak Meta Verified chrání před vydáváním se za vaši značku?',

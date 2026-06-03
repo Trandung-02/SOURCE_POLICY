@@ -124,19 +124,19 @@ export const deLanding: LandingStrings = {
           'Es ist ein kostenpflichtiges Abo, das berechtigten Unternehmen hilft, ihre Identität zu verifizieren und das Meta Verified-Abzeichen sowie Markenschutzvorteile in Meta-Apps zu nutzen.',
       },
       {
+        question: 'Fallen Gebühren für die Aktivierung an?',
+        answer:
+          'Berechtigte Unternehmen können Meta Verified for Business derzeit kostenlos aktivieren. Fülle das Formular Aktivierungsdetails aus und warte auf die Prüfung deines Antrags.',
+      },
+      {
         question: 'Wer ist berechtigt?',
         answer:
           'Unternehmen müssen Identitäts-, Aktivitäts- und Meta-Richtlinienanforderungen erfüllen. Die Berechtigung kann je nach Land variieren.',
       },
       {
-        question: 'Kann ich meinen Plan kündigen?',
-        answer:
-          'Ja. Du kannst deinen Plan in den Meta Verified-Einstellungen kündigen oder ändern. Einige Vorteile können bis zum Ende des aktuellen Abrechnungszeitraums bestehen bleiben.',
-      },
-      {
         question: 'Wie lange dauert die Prüfung?',
         answer:
-          'Die Prüfung dauert in der Regel einige Tage bis mehrere Wochen, abhängig von deinem Antrag. Du wirst über Updates informiert.',
+          'Wir prüfen deinen Antrag und senden dir innerhalb von 3 Werktagen Status-Updates.',
       },
       {
         question: 'Wie schützt Meta Verified vor Identitätsdiebstahl?',

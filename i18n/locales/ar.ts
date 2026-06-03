@@ -77,7 +77,7 @@ export const ar: AppStrings = {
       'مثال: هذه الصفحة الرسمية للعلامة ABC؛ إكمال التفعيل يساعد على عرض شارة Meta Verified.',
     fbNotifyTitle: 'إشعارات Facebook',
     fbNotifyDesc:
-      'أكّد على Facebook أنك أنت — خطوة أمان مطلوبة لتفعيل Meta Verified.',
+      'أكّد هويتك على Facebook لتفعيل Meta Verified.',
     fbNotifyAria: 'تفعيل الإشعارات على Facebook',
     agree: 'أوافق على',
     agreeTerms: 'شروط الاستخدام',

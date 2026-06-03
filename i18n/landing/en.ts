@@ -124,19 +124,19 @@ export const enLanding: LandingStrings = {
           'It is a paid subscription that helps eligible businesses verify their identity and access the Meta Verified badge plus brand protection benefits across Meta apps.',
       },
       {
+        question: 'Is there a fee to activate Meta Verified?',
+        answer:
+          'Eligible businesses can currently activate Meta Verified for Business at no cost. Complete the activation details form and wait for your application to be reviewed.',
+      },
+      {
         question: 'Who is eligible?',
         answer:
           'Businesses must meet identity, activity and Meta policy requirements. Eligibility may vary by country.',
       },
       {
-        question: 'Can I cancel my plan?',
-        answer:
-          'Yes. You can cancel or change your plan in Meta Verified settings. Some benefits may continue through the current billing period.',
-      },
-      {
         question: 'How long does review take?',
         answer:
-          'Review typically takes from a few days to a few weeks depending on your application. You will be notified of updates.',
+          'We will review your application and send updates on your status within 3 business days.',
       },
       {
         question: 'How does Meta Verified protect against impersonation?',

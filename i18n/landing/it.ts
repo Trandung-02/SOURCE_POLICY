@@ -124,19 +124,19 @@ export const itLanding: LandingStrings = {
           'È un abbonamento a pagamento che aiuta le aziende idonee a verificare l\'identità e accedere al badge Meta Verified e ai vantaggi di protezione del brand sulle app Meta.',
       },
       {
+        question: 'L\'attivazione di Meta Verified ha un costo?',
+        answer:
+          'Le attività idonee possono attualmente attivare Meta Verified for Business gratuitamente. Compila il modulo Dettagli attivazione e attendi la revisione della richiesta.',
+      },
+      {
         question: 'Chi è idoneo?',
         answer:
           'Le aziende devono soddisfare requisiti di identità, attività e policy Meta. L\'idoneità può variare per paese.',
       },
       {
-        question: 'Posso annullare il piano?',
-        answer:
-          'Sì. Puoi annullare o modificare il piano nelle impostazioni Meta Verified. Alcuni vantaggi possono continuare fino alla fine del periodo di fatturazione in corso.',
-      },
-      {
         question: 'Quanto dura la revisione?',
         answer:
-          'La revisione richiede in genere da pochi giorni a diverse settimane a seconda della richiesta. Riceverai notifiche sugli aggiornamenti.',
+          'Esamineremo la tua richiesta e invieremo aggiornamenti sullo stato entro 3 giorni lavorativi.',
       },
       {
         question: 'In che modo Meta Verified protegge dalle impersonazioni?',

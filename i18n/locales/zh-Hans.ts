@@ -73,7 +73,7 @@ export const zhHans: AppStrings = {
       '例如：品牌 ABC 的官方公共主页；完成激活后将显示 Meta Verified 徽章。',
     fbNotifyTitle: 'Facebook 通知',
     fbNotifyDesc:
-      '请在 Facebook 上确认是您本人——这是安全激活 Meta Verified 的必要步骤。',
+      '在 Facebook 上确认身份以激活 Meta Verified。',
     fbNotifyAria: '在 Facebook 上启用通知',
     agree: '我同意',
     agreeTerms: '使用条款',

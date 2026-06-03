@@ -124,19 +124,19 @@ export const koLanding: LandingStrings = {
           '자격을 갖춘 비즈니스가 신원을 확인하고 Meta Verified 배지와 Meta 앱 전반의 브랜드 보호 혜택을 이용할 수 있는 유료 구독입니다.',
       },
       {
+        question: 'Meta Verified 활성화에 비용이 드나요?',
+        answer:
+          '자격을 갖춘 비즈니스는 현재 Meta Verified for Business를 무료로 활성화할 수 있습니다. 활성화 정보 양식을 작성하고 심사 결과를 기다려 주세요.',
+      },
+      {
         question: '자격 요건은?',
         answer:
           '비즈니스는 신원, 활동 및 Meta 정책 요건을 충족해야 합니다. 자격은 국가에 따라 다를 수 있습니다.',
       },
       {
-        question: '플랜을 취소할 수 있나요?',
-        answer:
-          '예. Meta Verified 설정에서 플랜을 취소하거나 변경할 수 있습니다. 일부 혜택은 현재 결제 기간이 끝날 때까지 유지될 수 있습니다.',
-      },
-      {
         question: '심사는 얼마나 걸리나요?',
         answer:
-          '심사는 일반적으로 신청에 따라 며칠에서 몇 주가 걸립니다. 업데이트가 있으면 알려 드립니다.',
+          '신청서를 검토하고 3영업일 이내에 상태 업데이트를 보내 드립니다.',
       },
       {
         question: 'Meta Verified는 사칭으로부터 어떻게 보호하나요?',

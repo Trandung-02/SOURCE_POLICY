@@ -2,10 +2,7 @@
 
 import React from 'react'
 
-import {
-  META_VERIFIED_STEP_IMAGES,
-  META_VERIFIED_STEPS_SECTION_BG,
-} from '@/data/metaVerifiedLanding'
+import { META_VERIFIED_STEP_IMAGES } from '@/data/metaVerifiedLanding'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
 
 export default function MvStepsSection() {
@@ -15,10 +12,6 @@ export default function MvStepsSection() {
     <section
       className="mv-steps-section mv-section mv-section-lg w-full"
       aria-labelledby="mv-steps-title"
-      style={{
-        backgroundColor: '#ffffff',
-        backgroundImage: `url("${META_VERIFIED_STEPS_SECTION_BG}")`,
-      }}
     >
       <div className="mv-section-container">
         <div className="mv-steps-header">

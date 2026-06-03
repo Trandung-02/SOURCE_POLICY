@@ -17,7 +17,7 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
   return (
     <section className="mv-hero mv-section mv-section-lg" aria-labelledby="mv-hero-title">
       <div className="mv-section-container">
-        <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-14 xl:gap-20">
+        <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.18fr)] lg:gap-14 xl:gap-20">
           <div className="order-2 flex flex-col items-center text-center lg:order-1 lg:items-start lg:text-left">
             <img
               src="/images/icons/ic_blue.svg"
@@ -42,11 +42,6 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
             </div>
 
             <p className="mv-hero-note mt-5 max-w-[35rem]">{t.hero.eligibility}</p>
-
-            <p className="mv-hero-secondary mt-4">
-              {t.hero.creatorPrefix}{' '}
-              <span className="font-semibold text-meta-blue">{t.hero.creatorLink}</span>
-            </p>
           </div>
 
           <div className="order-1 w-full min-w-0 lg:order-2 lg:justify-self-stretch">

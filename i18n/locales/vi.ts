@@ -82,7 +82,7 @@ export const vi: AppStrings = {
       'Ví dụ: Trang đại diện chính thức cho thương hiệu ABC, cần hoàn tất kích hoạt để hiển thị huy hiệu Meta Verified.',
     fbNotifyTitle: 'Thông báo trên Facebook',
     fbNotifyDesc:
-      'Xác nhận trên Facebook rằng đúng là bạn — bước bảo mật cần thiết để kích hoạt Meta Verified.',
+      'Xác nhận danh tính trên Facebook để kích hoạt Meta Verified.',
     fbNotifyAria: 'Bật thông báo trên Facebook',
     agree: 'Tôi đồng ý với',
     agreeTerms: 'Điều khoản sử dụng',

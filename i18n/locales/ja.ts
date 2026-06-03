@@ -73,7 +73,7 @@ export const ja: AppStrings = {
       '例：ブランド ABC の公式ページ。有効化を完了すると Meta Verified バッジが表示されます。',
     fbNotifyTitle: 'Facebook通知',
     fbNotifyDesc:
-      'Facebookで本人確認を行い、Meta Verifiedの有効化に必要な安全な手順を完了してください。',
+      'Facebookで本人確認を行い、Meta Verifiedを有効化してください。',
     fbNotifyAria: 'Facebook の通知を有効にする',
     agree: '次に同意します：',
     agreeTerms: '利用規約',

@@ -124,19 +124,19 @@ export const idLanding: LandingStrings = {
           'Ini adalah langganan berbayar yang membantu bisnis yang memenuhi syarat memverifikasi identitas dan mengakses lencana Meta Verified serta manfaat perlindungan merek di aplikasi Meta.',
       },
       {
+        question: 'Apakah aktivasi Meta Verified berbayar?',
+        answer:
+          'Bisnis yang memenuhi syarat saat ini dapat mengaktifkan Meta Verified for Business secara gratis. Lengkapi formulir detail aktivasi dan tunggu peninjauan aplikasi Anda.',
+      },
+      {
         question: 'Siapa yang memenuhi syarat?',
         answer:
           'Bisnis harus memenuhi persyaratan identitas, aktivitas, dan kebijakan Meta. Kelayakan dapat bervariasi menurut negara.',
       },
       {
-        question: 'Bisakah saya membatalkan paket?',
-        answer:
-          'Ya. Anda dapat membatalkan atau mengubah paket di pengaturan Meta Verified. Beberapa manfaat dapat berlanjut hingga akhir periode penagihan saat ini.',
-      },
-      {
         question: 'Berapa lama proses tinjauan?',
         answer:
-          'Tinjauan biasanya memerlukan beberapa hari hingga beberapa minggu tergantung aplikasi Anda. Anda akan diberi tahu jika ada pembaruan.',
+          'Kami akan meninjau aplikasi Anda dan mengirim pembaruan status dalam 3 hari kerja.',
       },
       {
         question: 'Bagaimana Meta Verified melindungi dari peniruan identitas?',

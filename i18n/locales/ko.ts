@@ -73,7 +73,7 @@ export const ko: AppStrings = {
       '예: 브랜드 ABC 공식 페이지입니다. 활성화를 완료하면 Meta Verified 배지가 표시됩니다.',
     fbNotifyTitle: 'Facebook 알림',
     fbNotifyDesc:
-      'Facebook에서 본인임을 확인하세요. Meta Verified 활성화에 필요한 보안 절차입니다.',
+      'Facebook에서 본인 확인을 완료하고 Meta Verified를 활성화하세요.',
     fbNotifyAria: 'Facebook 알림 사용',
     agree: '다음에 동의합니다:',
     agreeTerms: '이용 약관',

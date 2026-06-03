@@ -124,19 +124,19 @@ export const ptLanding: LandingStrings = {
           'É uma subscrição paga que ajuda empresas elegíveis a verificar a identidade e aceder ao selo Meta Verified e benefícios de proteção de marca nas apps Meta.',
       },
       {
+        question: 'A ativação do Meta Verified tem custo?',
+        answer:
+          'As empresas elegíveis podem atualmente ativar o Meta Verified for Business sem custos. Preencha o formulário de detalhes de ativação e aguarde a análise da candidatura.',
+      },
+      {
         question: 'Quem é elegível?',
         answer:
           'As empresas devem cumprir requisitos de identidade, atividade e políticas da Meta. A elegibilidade pode variar consoante o país.',
       },
       {
-        question: 'Posso cancelar o plano?',
-        answer:
-          'Sim. Pode cancelar ou alterar o plano nas definições do Meta Verified. Alguns benefícios podem continuar até ao fim do período de faturação atual.',
-      },
-      {
         question: 'Quanto tempo demora a análise?',
         answer:
-          'A análise demora normalmente de alguns dias a várias semanas, consoante a candidatura. Será notificado sobre atualizações.',
+          'Analisaremos a sua candidatura e enviaremos atualizações de estado no prazo de 3 dias úteis.',
       },
       {
         question: 'Como o Meta Verified protege contra impersonação?',

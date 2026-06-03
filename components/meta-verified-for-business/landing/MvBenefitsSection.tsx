@@ -15,10 +15,6 @@ export default function MvBenefitsSection() {
             {t.benefits.title}
           </h2>
           <p className="mv-section-lead">{t.benefits.subtitle}</p>
-          <span className="mt-5 inline-flex items-center gap-1 text-[15px] font-semibold text-meta-blue">
-            {t.benefits.learnMore}
-            <span aria-hidden="true">›</span>
-          </span>
         </div>
 
         <ul className="mt-14 grid list-none gap-5 p-0 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">

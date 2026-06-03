@@ -124,19 +124,19 @@ export const frLanding: LandingStrings = {
           'Il s\'agit d\'un abonnement payant qui aide les entreprises éligibles à vérifier leur identité et à accéder au badge Meta Verified ainsi qu\'aux avantages de protection de marque sur les apps Meta.',
       },
       {
+        question: 'L\'activation de Meta Verified est-elle payante ?',
+        answer:
+          'Les entreprises éligibles peuvent actuellement activer Meta Verified for Business gratuitement. Complétez le formulaire d\'informations d\'activation et attendez l\'examen de votre demande.',
+      },
+      {
         question: 'Qui est éligible ?',
         answer:
           'Les entreprises doivent respecter les exigences d\'identité, d\'activité et les règles Meta. L\'éligibilité peut varier selon le pays.',
       },
       {
-        question: 'Puis-je annuler mon forfait ?',
-        answer:
-          'Oui. Vous pouvez annuler ou modifier votre forfait dans les paramètres Meta Verified. Certains avantages peuvent se poursuivre jusqu\'à la fin de la période de facturation en cours.',
-      },
-      {
         question: 'Combien de temps dure l\'examen ?',
         answer:
-          'L\'examen prend généralement de quelques jours à plusieurs semaines selon votre demande. Vous serez informé des mises à jour.',
+          'Nous examinerons votre demande et vous enverrons des mises à jour sur votre statut sous 3 jours ouvrés.',
       },
       {
         question: 'Comment Meta Verified protège-t-il contre l\'usurpation d\'identité ?',

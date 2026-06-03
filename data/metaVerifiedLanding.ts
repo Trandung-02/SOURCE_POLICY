@@ -4,10 +4,6 @@ export const META_VERIFIED_PROMO_VIDEO_SRC =
 
 export const META_VERIFIED_PROMO_VIDEO_POSTER = '/images/meta/header.png'
 
-/** Nền section quy trình kích hoạt (CMS Meta) */
-export const META_VERIFIED_STEPS_SECTION_BG =
-  'https://static.xx.fbcdn.net/mci_ab/public/cms/?ab_b=e&ab_page=CMS&ab_entry=476427011845931&version=1780405416&transcode_extension=webp'
-
 /** Ảnh minh họa từng bước (local) */
 export const META_VERIFIED_STEP_IMAGES = [
   '/images/meta/one.png',

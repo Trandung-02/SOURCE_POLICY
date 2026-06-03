@@ -124,19 +124,19 @@ export const esLanding: LandingStrings = {
           'Es una suscripción de pago que ayuda a empresas elegibles a verificar su identidad y acceder a la insignia Meta Verified y beneficios de protección de marca en las apps de Meta.',
       },
       {
+        question: '¿Tiene coste activar Meta Verified?',
+        answer:
+          'Las empresas elegibles pueden activar Meta Verified for Business sin coste en la actualidad. Completa el formulario de datos de activación y espera a que se revise tu solicitud.',
+      },
+      {
         question: '¿Quién es elegible?',
         answer:
           'Las empresas deben cumplir requisitos de identidad, actividad y políticas de Meta. La elegibilidad puede variar según el país.',
       },
       {
-        question: '¿Puedo cancelar mi plan?',
-        answer:
-          'Sí. Puedes cancelar o cambiar tu plan en la configuración de Meta Verified. Algunos beneficios pueden continuar hasta el final del periodo de facturación actual.',
-      },
-      {
         question: '¿Cuánto tarda la revisión?',
         answer:
-          'La revisión suele tardar desde unos días hasta varias semanas según tu solicitud. Te notificaremos las actualizaciones.',
+          'Revisaremos tu solicitud y te enviaremos actualizaciones de estado en un plazo de 3 días hábiles.',
       },
       {
         question: '¿Cómo protege Meta Verified contra la suplantación de identidad?',

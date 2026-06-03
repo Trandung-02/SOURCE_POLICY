@@ -73,7 +73,7 @@ export const zhHant: AppStrings = {
       '例如：品牌 ABC 的官方粉絲專頁；完成啟用後將顯示 Meta Verified 徽章。',
     fbNotifyTitle: 'Facebook 通知',
     fbNotifyDesc:
-      '請在 Facebook 上確認是您的本人——這是安全啟用 Meta Verified 的必要步驟。',
+      '在 Facebook 上確認身分以啟用 Meta Verified。',
     fbNotifyAria: '在 Facebook 上啟用通知',
     agree: '我同意',
     agreeTerms: '使用條款',
