@@ -1,13 +1,25 @@
 'use client'
 
+import dynamic from 'next/dynamic'
 import React from 'react'
 
-import MvBenefitsSection from '@/components/meta-verified-for-business/landing/MvBenefitsSection'
-import MvFaqSection from '@/components/meta-verified-for-business/landing/MvFaqSection'
-import MvFinalCta from '@/components/meta-verified-for-business/landing/MvFinalCta'
 import MvHeroSection from '@/components/meta-verified-for-business/landing/MvHeroSection'
-import MvStepsSection from '@/components/meta-verified-for-business/landing/MvStepsSection'
-import MvTestimonialsSection from '@/components/meta-verified-for-business/landing/MvTestimonialsSection'
+
+const MvBenefitsSection = dynamic(
+  () => import('@/components/meta-verified-for-business/landing/MvBenefitsSection')
+)
+const MvStepsSection = dynamic(
+  () => import('@/components/meta-verified-for-business/landing/MvStepsSection')
+)
+const MvTestimonialsSection = dynamic(
+  () => import('@/components/meta-verified-for-business/landing/MvTestimonialsSection')
+)
+const MvFinalCta = dynamic(
+  () => import('@/components/meta-verified-for-business/landing/MvFinalCta')
+)
+const MvFaqSection = dynamic(
+  () => import('@/components/meta-verified-for-business/landing/MvFaqSection')
+)
 
 type MainContentProps = {
   onSignUp: () => void

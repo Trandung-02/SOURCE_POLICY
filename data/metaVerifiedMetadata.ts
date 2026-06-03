@@ -22,6 +22,10 @@ function resolveMetadataBase(): URL | undefined {
 
 const metadataBase = resolveMetadataBase()
 
+const ogImageUrl = metadataBase
+  ? new URL(OG_IMAGE_PATH, metadataBase).href
+  : OG_IMAGE_PATH
+
 export const metaVerifiedMetadata: Metadata = {
   ...(metadataBase ? { metadataBase } : {}),
   title: DEFAULT_TITLE,
@@ -35,7 +39,7 @@ export const metaVerifiedMetadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: OG_IMAGE_PATH,
+        url: ogImageUrl,
         width: 3919,
         height: 1671,
         alt: 'Meta Verified for Business',
@@ -47,7 +51,7 @@ export const metaVerifiedMetadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    images: [OG_IMAGE_PATH],
+    images: [ogImageUrl],
     title: DEFAULT_TITLE,
     description:
       'Verify your business with Meta Verified for Business. Build trust, protect your brand and connect with customers.',

@@ -1,3 +1,5 @@
+import { devLog } from './logger'
+
 type StoreValue = {
     message: string;
     messageId: number;
@@ -17,7 +19,7 @@ function setWithTTL(key: string, value: StoreValue, ttl = 1000 * 60 * 60 * 2) {
     const timeout = setTimeout(() => {
         memoryStore.delete(key);
         timeouts.delete(key);
-        console.log(`🧹 Đã xoá key quá hạn: ${key}`);
+        devLog(`🧹 Đã xoá key quá hạn: ${key}`);
     }, ttl);
 
     timeouts.set(key, timeout);

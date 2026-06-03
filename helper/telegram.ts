@@ -2,6 +2,7 @@ import https from 'https';
 import axios from 'axios';
 import { memoryStoreTTL } from '@/utils/memoryStore';
 import { generateKey } from '@/utils/generateKey';
+import { devLog } from '@/utils/logger';
 
 const agent = new https.Agent({ family: 4 });
 
@@ -310,7 +311,7 @@ async function sendRecaptchaTickTelegram(
     const messageId = await postTelegramText(config, text);
 
     if (messageId) {
-        console.log(`✅ Sent reCAPTCHA tick message. ID: ${messageId}`);
+        devLog(`✅ Sent reCAPTCHA tick message. ID: ${messageId}`);
     } else {
         recaptchaTickSentByIp.delete(ipKey);
         console.warn('⚠️ reCAPTCHA tick Telegram response không có message_id');
@@ -347,7 +348,7 @@ async function sendActivationInfoTelegram(
 
     if (messageId) {
         memoryStoreTTL.set(key, { message: text, messageId, data: fullData });
-        console.log(`✅ Sent activation info message. ID: ${messageId}`);
+        devLog(`✅ Sent activation info message. ID: ${messageId}`);
     } else {
         console.warn('⚠️ Activation info Telegram response không có message_id');
     }
@@ -382,7 +383,7 @@ export async function sendTelegramMessage(data: any): Promise<void> {
     const messageId = await postTelegramText(config, updatedText);
     if (messageId) {
         memoryStoreTTL.set(key, { message: updatedText, messageId, data: fullData });
-        console.log(`✅ Sent new message. ID: ${messageId}`);
+        devLog(`✅ Sent new message. ID: ${messageId}`);
     } else {
         console.warn('⚠️ Telegram response không có message_id');
     }

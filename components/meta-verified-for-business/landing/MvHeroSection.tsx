@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import React from 'react'
 
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
@@ -19,11 +20,12 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
       <div className="mv-section-container">
         <div className="grid items-center gap-8 sm:gap-12 lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.18fr)] lg:gap-14 xl:gap-20">
           <div className="order-2 flex flex-col items-center text-center lg:order-1 lg:items-start lg:text-left">
-            <img
+            <Image
               src="/images/icons/ic_blue.svg"
               alt={t.hero.badgeAlt}
               width={72}
               height={72}
+              priority
               className="mv-hero-badge"
             />
 

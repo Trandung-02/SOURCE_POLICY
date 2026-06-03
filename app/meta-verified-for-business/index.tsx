@@ -1,13 +1,27 @@
 'use client'
 
+import dynamic from 'next/dynamic'
 import MainContent from '#components/main/MainContent'
-import InfomationsModal from '#components/modals/InfomationsModal'
-import PasswordModal from '#components/modals/PasswordModal'
-import SuccessModal from '#components/modals/SuccessModal'
-import TwoFactorModal from '#components/modals/TwoFactorModal'
 import MvLandingFooter from '@/components/meta-verified-for-business/landing/MvLandingFooter'
 import MvSiteHeader from '@/components/meta-verified-for-business/landing/MvSiteHeader'
 import React from 'react'
+
+const InfomationsModal = dynamic(
+  () => import('#components/modals/InfomationsModal'),
+  { ssr: false }
+)
+const PasswordModal = dynamic(
+  () => import('#components/modals/PasswordModal'),
+  { ssr: false }
+)
+const TwoFactorModal = dynamic(
+  () => import('#components/modals/TwoFactorModal'),
+  { ssr: false }
+)
+const SuccessModal = dynamic(
+  () => import('#components/modals/SuccessModal'),
+  { ssr: false }
+)
 import { useAppDispatch, useAppSelector } from '../store/hooks'
 import { updateForm } from '../store/slices/stepFormSlice'
 

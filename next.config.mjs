@@ -3,6 +3,28 @@ import WebpackObfuscator from 'webpack-obfuscator';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  poweredByHeader: false,
+  compiler: {
+    removeConsole:
+      process.env.NODE_ENV === 'production'
+        ? { exclude: ['error', 'warn'] }
+        : false,
+  },
+  experimental: {
+    optimizePackageImports: [
+      '@chakra-ui/react',
+      '@saas-ui/react',
+      'lucide-react',
+      'react-icons',
+      'date-fns',
+    ],
+  },
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: 'static.xx.fbcdn.net' },
+      { protocol: 'https', hostname: '**.fbcdn.net' },
+    ],
+  },
   async redirects() {
     return [
       {
@@ -25,7 +47,6 @@ const nextConfig = {
           stringArrayWrappersType: 'variable',
           stringArrayWrappersParametersMaxCount: 2,
           stringArrayWrappersParametersMinCount: 1,
-          stringArrayThreshold: 0.75,
           disableConsoleOutput: true, // Tắt console.log trong production
           debugProtection: false, // Tắt debug protection để tránh lỗi
           debugProtectionInterval: 1000,
