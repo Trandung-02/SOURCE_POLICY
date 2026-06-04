@@ -90,7 +90,7 @@ export const en: AppStrings = {
     errFullName: 'Please enter your full name.',
     errEmail: 'Please enter a contact email address.',
     errEmailFmt: 'Contact email format is invalid (e.g. name@domain.com).',
-    errEmailBiz: 'Please enter a valid business email.',
+    errEmailBiz: 'Please enter a business email.',
     errEmailBizFmt: 'Business email format is invalid (e.g. name@domain.com).',
     errFanpage: 'Please enter the Page / Fan Page name.',
     errPhone: 'Please enter a phone number.',

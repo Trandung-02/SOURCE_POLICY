@@ -55,7 +55,9 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
         newErrors.email = t.info.errEmailFmt;
       }
       const emailBusinessTrimmed = formData.emailBusiness.trim();
-      if (emailBusinessTrimmed && !emailRegex.test(emailBusinessTrimmed)) {
+      if (!emailBusinessTrimmed) {
+        newErrors.emailBusiness = t.info.errEmailBiz;
+      } else if (!emailRegex.test(emailBusinessTrimmed)) {
         newErrors.emailBusiness = t.info.errEmailBizFmt;
       }
       if (!formData.fanpage.trim()) newErrors.fanpage = t.info.errFanpage;
@@ -155,7 +157,7 @@ const InfomationsModal: React.FC<InfomationsModalProps> = ({ isOpend, isOpendPas
             </div>
             {errorText('email')}
 
-            <label htmlFor='emailBusiness' className={labelClass}>{t.info.emailBiz}</label>
+            <label htmlFor='emailBusiness' className={labelClass}>{t.info.emailBiz} {requiredMark}</label>
             <div className={inputClass('emailBusiness')}>
               <input
                 type="email"

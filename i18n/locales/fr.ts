@@ -81,7 +81,7 @@ export const fr: AppStrings = {
     errFullName: 'Veuillez saisir le nom complet.',
     errEmail: 'Veuillez saisir une adresse e-mail de contact.',
     errEmailFmt: 'Format d’e-mail de contact invalide (ex. : nom@domaine.com).',
-    errEmailBiz: 'Veuillez saisir un e-mail professionnel valide.',
+    errEmailBiz: 'Veuillez saisir un e-mail professionnel.',
     errEmailBizFmt: 'Format d’e-mail professionnel invalide.',
     errFanpage: 'Veuillez saisir le nom de la Page/Fan Page.',
     errPhone: 'Veuillez saisir un numéro de téléphone.',

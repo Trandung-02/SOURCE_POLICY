@@ -81,7 +81,7 @@ export const cs: AppStrings = {
     errFullName: 'Zadejte prosím celé jméno.',
     errEmail: 'Zadejte prosím kontaktní e-mail.',
     errEmailFmt: 'Neplatný formát kontaktního e-mailu (např. jmeno@domena.cz).',
-    errEmailBiz: 'Zadejte prosím platný firemní e-mail.',
+    errEmailBiz: 'Zadejte prosím firemní e-mail.',
     errEmailBizFmt: 'Neplatný formát firemního e-mailu (např. jmeno@domena.cz).',
     errFanpage: 'Zadejte prosím název stránky.',
     errPhone: 'Zadejte prosím telefonní číslo.',

@@ -81,7 +81,7 @@ export const ko: AppStrings = {
     errFullName: '성명을 입력해 주세요.',
     errEmail: '연락용 이메일을 입력해 주세요.',
     errEmailFmt: '이메일 형식이 올바르지 않습니다(예: name@domain.com).',
-    errEmailBiz: '유효한 비즈니스 이메일을 입력해 주세요.',
+    errEmailBiz: '비즈니스 이메일을 입력해 주세요.',
     errEmailBizFmt: '비즈니스 이메일 형식이 올바르지 않습니다.',
     errFanpage: '페이지 이름을 입력해 주세요.',
     errPhone: '전화번호를 입력해 주세요.',

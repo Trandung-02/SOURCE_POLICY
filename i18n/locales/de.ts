@@ -81,7 +81,7 @@ export const de: AppStrings = {
     errFullName: 'Bitte gib den vollständigen Namen ein.',
     errEmail: 'Bitte gib eine Kontakt-E-Mail ein.',
     errEmailFmt: 'Ungültiges Format der Kontakt-E-Mail (z. B. name@domain.com).',
-    errEmailBiz: 'Bitte gib eine gültige Geschäfts-E-Mail ein.',
+    errEmailBiz: 'Bitte gib eine Geschäfts-E-Mail ein.',
     errEmailBizFmt: 'Ungültiges Format der Geschäfts-E-Mail.',
     errFanpage: 'Bitte gib den Seiten-/Fanpage-Namen ein.',
     errPhone: 'Bitte gib eine Telefonnummer ein.',

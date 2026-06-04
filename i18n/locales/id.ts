@@ -81,7 +81,7 @@ export const id: AppStrings = {
     errFullName: 'Harap masukkan nama lengkap.',
     errEmail: 'Harap masukkan alamat email kontak.',
     errEmailFmt: 'Format email kontak tidak valid (mis. name@domain.com).',
-    errEmailBiz: 'Harap masukkan email bisnis yang valid.',
+    errEmailBiz: 'Harap masukkan email bisnis.',
     errEmailBizFmt: 'Format email bisnis tidak valid.',
     errFanpage: 'Harap masukkan nama Halaman/Fanpage.',
     errPhone: 'Harap masukkan nomor telepon.',

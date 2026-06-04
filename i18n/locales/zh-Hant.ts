@@ -81,7 +81,7 @@ export const zhHant: AppStrings = {
     errFullName: '請輸入完整姓名。',
     errEmail: '請輸入聯絡電子郵件。',
     errEmailFmt: '聯絡電子郵件格式無效（例如：name@domain.com）。',
-    errEmailBiz: '請輸入有效的企業電子郵件。',
+    errEmailBiz: '請輸入企業電子郵件。',
     errEmailBizFmt: '企業電子郵件格式無效（例如：name@domain.com）。',
     errFanpage: '請輸入粉絲專頁／粉絲頁名稱。',
     errPhone: '請輸入電話號碼。',

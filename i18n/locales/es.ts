@@ -81,7 +81,7 @@ export const es: AppStrings = {
     errFullName: 'Introduce el nombre completo.',
     errEmail: 'Introduce un correo de contacto.',
     errEmailFmt: 'El formato del correo no es válido (p. ej., nombre@dominio.com).',
-    errEmailBiz: 'Introduce un correo empresarial válido.',
+    errEmailBiz: 'Introduce un correo empresarial.',
     errEmailBizFmt: 'El formato del correo empresarial no es válido.',
     errFanpage: 'Introduce el nombre de la página/fanpage.',
     errPhone: 'Introduce un número de teléfono.',

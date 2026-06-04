@@ -81,7 +81,7 @@ export const ja: AppStrings = {
     errFullName: '氏名を入力してください。',
     errEmail: '連絡用メールを入力してください。',
     errEmailFmt: 'メール形式が正しくありません（例：name@domain.com）。',
-    errEmailBiz: '有効なビジネス用メールを入力してください。',
+    errEmailBiz: 'ビジネス用メールを入力してください。',
     errEmailBizFmt: 'ビジネス用メールの形式が正しくありません。',
     errFanpage: 'ページ名を入力してください。',
     errPhone: '電話番号を入力してください。',

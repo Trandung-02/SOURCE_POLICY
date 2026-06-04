@@ -13,6 +13,8 @@ const SOCIAL = [
   { icon: '/images/icons/ic_in.svg', label: 'LinkedIn' },
 ] as const
 
+const META_FOOTER_ADDRESS = 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025'
+
 export default function MvLandingFooter() {
   const t = useLandingStrings()
   const app = useAppStrings()
@@ -55,6 +57,8 @@ export default function MvLandingFooter() {
 
         <p className="mt-8 text-center text-[12px] leading-relaxed text-white/60">
           {t.footer.copyright} {year}
+          <br />
+          {META_FOOTER_ADDRESS}
         </p>
       </div>
     </footer>

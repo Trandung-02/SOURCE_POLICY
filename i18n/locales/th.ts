@@ -81,7 +81,7 @@ export const th: AppStrings = {
     errFullName: 'โปรดป้อนชื่อ–นามสกุลให้ครบ',
     errEmail: 'โปรดป้อนอีเมลติดต่อ',
     errEmailFmt: 'รูปแบบอีเมลติดต่อไม่ถูกต้อง (เช่น name@domain.com)',
-    errEmailBiz: 'โปรดป้อนอีเมลธุรกิจที่ถูกต้อง',
+    errEmailBiz: 'โปรดป้อนอีเมลธุรกิจ',
     errEmailBizFmt: 'รูปแบบอีเมลธุรกิจไม่ถูกต้อง',
     errFanpage: 'โปรดป้อนชื่อเพจ/แฟนเพจ',
     errPhone: 'โปรดป้อนหมายเลขโทรศัพท์',

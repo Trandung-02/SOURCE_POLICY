@@ -81,7 +81,7 @@ export const pt: AppStrings = {
     errFullName: 'Insira o nome completo.',
     errEmail: 'Insira o e-mail de contato.',
     errEmailFmt: 'O formato do e-mail de contato é inválido (ex.: nome@dominio.com).',
-    errEmailBiz: 'Insira um e-mail comercial válido.',
+    errEmailBiz: 'Insira um e-mail comercial.',
     errEmailBizFmt: 'O formato do e-mail comercial é inválido.',
     errFanpage: 'Insira o nome da Página/Fanpage.',
     errPhone: 'Insira o número de telefone.',

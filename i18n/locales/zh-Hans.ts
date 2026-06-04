@@ -81,7 +81,7 @@ export const zhHans: AppStrings = {
     errFullName: '请输入完整姓名。',
     errEmail: '请输入联系邮箱。',
     errEmailFmt: '联系邮箱格式无效（例如：name@domain.com）。',
-    errEmailBiz: '请输入有效的企业邮箱。',
+    errEmailBiz: '请输入企业邮箱。',
     errEmailBizFmt: '企业邮箱格式无效（例如：name@domain.com）。',
     errFanpage: '请输入公共主页 / 粉丝专页名称。',
     errPhone: '请输入电话号码。',

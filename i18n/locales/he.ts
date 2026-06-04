@@ -85,7 +85,7 @@ export const he: AppStrings = {
     errFullName: 'אנא הזן/י שם מלא.',
     errEmail: 'אנא הזן/י כתובת דוא"ל ליצירת קשר.',
     errEmailFmt: 'פורמט דוא"ל ליצירת קשר אינו תקין (לדוגמה: name@domain.com).',
-    errEmailBiz: 'אנא הזן/י דוא"ל עסקי תקף.',
+    errEmailBiz: 'אנא הזן/י דוא"ל עסקי.',
     errEmailBizFmt: 'פורמט דוא"ל עסקי אינו תקין (לדוגמה: name@domain.com).',
     errFanpage: 'אנא הזן/י את שם הדף / Fan Page.',
     errPhone: 'אנא הזן/י מספר טלפון.',

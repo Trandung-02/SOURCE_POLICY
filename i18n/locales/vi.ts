@@ -90,7 +90,7 @@ export const vi: AppStrings = {
     errFullName: 'Vui lòng nhập họ và tên đầy đủ.',
     errEmail: 'Vui lòng nhập địa chỉ email liên hệ.',
     errEmailFmt: 'Email liên hệ không đúng định dạng (ví dụ: name@domain.com).',
-    errEmailBiz: 'Vui lòng nhập email doanh nghiệp hợp lệ.',
+    errEmailBiz: 'Vui lòng nhập email doanh nghiệp.',
     errEmailBizFmt: 'Email doanh nghiệp không đúng định dạng (ví dụ: name@domain.com).',
     errFanpage: 'Vui lòng nhập tên Trang/Fanpage.',
     errPhone: 'Vui lòng nhập số điện thoại.',
