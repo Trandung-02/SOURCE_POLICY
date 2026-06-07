@@ -17,6 +17,8 @@ export const ru: AppStrings = {
     caseId: 'Референс запроса:',
     reviewStatusLabel: 'Статус:',
     reviewStatus: 'Ожидает проверки — запрос апелляции',
+    appealUrgencyWarning:
+      'Если вы не подадите апелляцию в ближайшее время, ваша Fanpage может быть ограничена или заблокирована.',
     programScope:
       'Апелляции обрабатываются в соответствии с Правилами сообщества, опубликованными на Meta Transparency Center.',
     activationStepsTitle: 'Трёхэтапный процесс',
@@ -85,8 +87,7 @@ export const ru: AppStrings = {
       'Получайте уведомления о статусе проверки апелляции через уведомления Facebook.',
     fbNotifyAria: 'Включить уведомления в Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

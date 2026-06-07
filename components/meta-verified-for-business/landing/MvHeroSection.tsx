@@ -68,7 +68,9 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
               <div className="mv-notice-status" aria-live="polite">
                 <div className="mv-notice-status-row">
                   <span className="mv-notice-status-label">{app.main.reviewStatusLabel}</span>
-                  <span className="mv-notice-status-value">{app.main.reviewStatus}</span>
+                  <span className="mv-notice-status-value">
+                    <mark className="mv-review-status-highlight">{app.main.reviewStatus}</mark>
+                  </span>
                 </div>
                 <ActivationRefChip className="!mt-0 !text-left" />
               </div>

@@ -58,6 +58,7 @@ export type AppStrings = {
     caseId: string
     reviewStatusLabel: string
     reviewStatus: string
+    appealUrgencyWarning: string
     programScope: string
     activationStepsTitle: string
     step1: string

@@ -37,10 +37,7 @@ export default function AppealContentSelector({
     <div className="mv-appeal-content">
       <fieldset className="mv-appeal-content-fieldset">
         <legend className="mv-activation-label mb-[6px] block text-[13px] font-semibold">
-          {t.info.appealContentTitle}{' '}
-          <span className="mv-activation-required" aria-hidden="true">
-            *
-          </span>
+          {t.info.appealContentTitle}
         </legend>
         <p className="mv-appeal-content-hint">{t.info.appealContentHint}</p>
 

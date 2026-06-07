@@ -17,6 +17,8 @@ export const he: AppStrings = {
     caseId: 'הפניה לבקשה:',
     reviewStatusLabel: 'סטטוס:',
     reviewStatus: 'ממתין לבדיקה — בקשת ערעור',
+    appealUrgencyWarning:
+      'אם לא תגיש ערעור בקרוב, ייתכן שדף המעריצים שלך יוגבל או יושבת.',
     programScope:
       'ערעורים מעובדים לפי כללי הקהילה שפורסמו ב-Meta Transparency Center.',
     activationStepsTitle: 'תהליך בשלושה שלבים',
@@ -84,8 +86,7 @@ export const he: AppStrings = {
       'קבל התראות על סטטוס בדיקת הערעור שלך דרך התראות Facebook.',
     fbNotifyAria: 'הפעלת התראות ב-Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

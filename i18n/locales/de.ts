@@ -13,6 +13,8 @@ export const de: AppStrings = {
     caseId: 'Anfragereferenz:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Überprüfung ausstehend — Einspruchsantrag',
+    appealUrgencyWarning:
+      'Wenn Sie nicht bald Einspruch einlegen, kann Ihre Fanpage eingeschränkt oder deaktiviert werden.',
     programScope:
       'Einsprüche werden anhand der auf dem Meta Transparency Center veröffentlichten Community-Richtlinien bearbeitet.',
     activationStepsTitle: 'Dreistufiger Prozess',
@@ -80,8 +82,7 @@ export const de: AppStrings = {
       'Erhalte Benachrichtigungen über den Prüfstatus deines Einspruchs über Facebook-Benachrichtigungen.',
     fbNotifyAria: 'Benachrichtigungen auf Facebook aktivieren',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

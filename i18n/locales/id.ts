@@ -13,6 +13,8 @@ export const id: AppStrings = {
     caseId: 'Referensi permintaan:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Menunggu peninjauan — permintaan banding',
+    appealUrgencyWarning:
+      'Jika Anda tidak segera mengajukan banding, Fanpage Anda dapat dibatasi atau dinonaktifkan.',
     programScope:
       'Banding diproses berdasarkan Standar Komunitas yang dipublikasikan di Meta Transparency Center.',
     activationStepsTitle: 'Proses tiga langkah',
@@ -80,8 +82,7 @@ export const id: AppStrings = {
       'Terima notifikasi tentang status peninjauan banding Anda melalui Notifikasi Facebook.',
     fbNotifyAria: 'Aktifkan notifikasi di Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

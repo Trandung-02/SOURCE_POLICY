@@ -13,6 +13,8 @@ export const cs: AppStrings = {
     caseId: 'Reference požadavku:',
     reviewStatusLabel: 'Stav:',
     reviewStatus: 'Čeká na přezkoumání — žádost o odvolání',
+    appealUrgencyWarning:
+      'Pokud brzy neodešlete odvolání, vaše Fanpage může být omezena nebo deaktivována.',
     programScope:
       'Odvolání se zpracovávají podle komunitních standardů zveřejněných na Meta Transparency Center.',
     activationStepsTitle: 'Tříkrokový proces',
@@ -80,8 +82,7 @@ export const cs: AppStrings = {
       'Dostávejte oznámení o stavu kontroly odvolání prostřednictvím oznámení Facebook.',
     fbNotifyAria: 'Povolit oznámení na Facebooku',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

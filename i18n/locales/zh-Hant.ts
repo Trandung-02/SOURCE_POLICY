@@ -13,6 +13,7 @@ export const zhHant: AppStrings = {
     caseId: '請求參考：',
     reviewStatusLabel: '狀態：',
     reviewStatus: '待審核 — 申訴請求',
+    appealUrgencyWarning: '若您未盡快提交申訴，您的粉絲專頁可能會受到限制或被停用。',
     programScope:
       '申訴依據 Meta Transparency Center 公布的社群守則進行處理。',
     activationStepsTitle: '三步驟流程',
@@ -79,8 +80,7 @@ export const zhHant: AppStrings = {
       '透過 Facebook 通知接收有關申訴審核狀態的通知。',
     fbNotifyAria: '在 Facebook 上啟用通知',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

@@ -17,6 +17,8 @@ export const en: AppStrings = {
     caseId: 'Request reference:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Pending review — appeal request',
+    appealUrgencyWarning:
+      'If you do not submit an appeal soon, your Fanpage may be restricted or permanently disabled.',
     programScope:
       'Appeals are processed under the Community Standards published on the Meta Transparency Center.',
     activationStepsTitle: 'Three-step process',
@@ -85,8 +87,7 @@ export const en: AppStrings = {
       'Receive notifications about your appeal review status via Facebook Notifications.',
     fbNotifyAria: 'Enable notifications on Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

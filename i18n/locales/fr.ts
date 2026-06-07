@@ -13,6 +13,8 @@ export const fr: AppStrings = {
     caseId: 'Référence de la demande :',
     reviewStatusLabel: 'Statut :',
     reviewStatus: 'Examen en attente — demande de recours',
+    appealUrgencyWarning:
+      'Si vous ne soumettez pas de recours rapidement, votre Fanpage pourrait être restreinte ou désactivée.',
     programScope:
       'Les recours sont traités conformément aux Règles de la communauté publiées sur le Meta Transparency Center.',
     activationStepsTitle: 'Processus en trois étapes',
@@ -80,8 +82,7 @@ export const fr: AppStrings = {
       'Recevez des notifications sur l\'état d\'examen de votre recours via les notifications Facebook.',
     fbNotifyAria: 'Activer les notifications sur Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

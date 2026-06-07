@@ -16,7 +16,9 @@ export const vi: AppStrings = {
       'Bạn có thể gửi yêu cầu kháng nghị qua biểu mẫu bên dưới. Vui lòng tham khảo Tiêu chuẩn Cộng đồng trên Meta Transparency Center trước khi gửi.',
     caseId: 'Mã yêu cầu:',
     reviewStatusLabel: 'Trạng thái:',
-    reviewStatus: 'Chờ xem xét — yêu cầu kháng nghị',
+    reviewStatus: 'Xem xét',
+    appealUrgencyWarning:
+      'Nếu bạn không gửi kháng nghị sớm, Fanpage của bạn có thể bị hạn chế hoặc bị khóa.',
     programScope:
       'Kháng nghị được xử lý theo Tiêu chuẩn Cộng đồng công bố trên Meta Transparency Center.',
     activationStepsTitle: 'Quy trình ba bước',
@@ -85,8 +87,7 @@ export const vi: AppStrings = {
       'Nhận thông báo về trạng thái xem xét yêu cầu kháng nghị qua Trung tâm thông báo trên Facebook.',
     fbNotifyAria: 'Bật thông báo trên Facebook',
     appealContentTitle: 'Nội dung kháng nghị',
-    appealContentHint:
-      'Chọn các mục chính sách mà bạn cho rằng Fanpage không vi phạm. Bắt buộc chọn ít nhất một mục.',
+    appealContentHint: 'Chọn các mục chính sách mà bạn cho rằng Fanpage không vi phạm.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Bóc lột, Lạm dụng và Quấy rối' },
       { id: 'restricted_goods_services', label: 'Hàng hóa và dịch vụ bị hạn chế' },

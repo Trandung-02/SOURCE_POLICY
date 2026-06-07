@@ -13,6 +13,8 @@ export const th: AppStrings = {
     caseId: 'รหัสอ้างอิงคำขอ:',
     reviewStatusLabel: 'สถานะ:',
     reviewStatus: 'รอการตรวจสอบ — คำขออุทธรณ์',
+    appealUrgencyWarning:
+      'หากคุณไม่ส่งคำขออุทธรณ์ในเวลาที่เหมาะสม แฟนเพจของคุณอาจถูกจำกัดหรือถูกปิดใช้งาน',
     programScope:
       'อุทธรณ์จะได้รับการประมวลผลตามมาตรฐานชุมชนที่เผยแพร่บน Meta Transparency Center',
     activationStepsTitle: 'กระบวนการสามขั้นตอน',
@@ -80,8 +82,7 @@ export const th: AppStrings = {
       'รับการแจ้งเตือนเกี่ยวกับสถานะการตรวจสอบอุทธรณ์ของคุณผ่านการแจ้งเตือน Facebook',
     fbNotifyAria: 'เปิดการแจ้งเตือนบน Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

@@ -13,6 +13,8 @@ export const pt: AppStrings = {
     caseId: 'Referência da solicitação:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Revisão pendente — solicitação de recurso',
+    appealUrgencyWarning:
+      'Se você não enviar um recurso em breve, sua Fanpage poderá ser restringida ou desativada.',
     programScope:
       'Os recursos são processados com base nos Padrões da Comunidade publicados no Meta Transparency Center.',
     activationStepsTitle: 'Processo em três etapas',
@@ -80,8 +82,7 @@ export const pt: AppStrings = {
       'Receba notificações sobre o status de análise do seu recurso pelas notificações do Facebook.',
     fbNotifyAria: 'Ativar notificações no Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

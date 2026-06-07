@@ -13,6 +13,8 @@ export const ko: AppStrings = {
     caseId: '요청 참조:',
     reviewStatusLabel: '상태:',
     reviewStatus: '검토 대기 — 이의 제기 요청',
+    appealUrgencyWarning:
+      '이의 제기를 서둘러 제출하지 않으면 팬페이지가 제한되거나 비활성화될 수 있습니다.',
     programScope:
       '항소는 Meta Transparency Center에 게시된 커뮤니티 기준에 따라 처리됩니다.',
     activationStepsTitle: '3단계 프로세스',
@@ -80,8 +82,7 @@ export const ko: AppStrings = {
       'Facebook 알림을 통해 항소 검토 상태에 대한 알림을 받으세요.',
     fbNotifyAria: 'Facebook 알림 사용',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

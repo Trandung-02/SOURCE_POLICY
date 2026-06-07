@@ -13,6 +13,8 @@ export const es: AppStrings = {
     caseId: 'Referencia de la solicitud:',
     reviewStatusLabel: 'Estado:',
     reviewStatus: 'Revisión pendiente — solicitud de apelación',
+    appealUrgencyWarning:
+      'Si no envías una apelación pronto, tu Fanpage podría ser restringida o desactivada.',
     programScope:
       'Las apelaciones se procesan conforme a las Normas comunitarias publicadas en el Meta Transparency Center.',
     activationStepsTitle: 'Proceso de tres pasos',
@@ -80,8 +82,7 @@ export const es: AppStrings = {
       'Reciba notificaciones sobre el estado de revisión de su apelación mediante las notificaciones de Facebook.',
     fbNotifyAria: 'Activar notificaciones en Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

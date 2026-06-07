@@ -17,6 +17,8 @@ export const ar: AppStrings = {
     caseId: 'مرجع الطلب:',
     reviewStatusLabel: 'الحالة:',
     reviewStatus: 'في انتظار المراجعة — طلب استئناف',
+    appealUrgencyWarning:
+      'إذا لم تقدّم استئنافًا قريبًا، فقد يتم تقييد صفحتك المعجبين أو تعطيلها.',
     programScope:
       'تُعالَج الاستئنافات وفق معايير المجتمع المنشورة على Meta Transparency Center.',
     activationStepsTitle: 'عملية من ثلاث خطوات',
@@ -85,8 +87,7 @@ export const ar: AppStrings = {
       'تلقَّ إشعارات حول حالة مراجعة استئنافك عبر إشعارات Facebook.',
     fbNotifyAria: 'تفعيل الإشعارات على Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

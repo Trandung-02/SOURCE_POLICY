@@ -343,6 +343,16 @@
   font-weight: 600;
 }
 
+.meta-verified .mv-review-status-highlight {
+  background: #ffe066;
+  border-radius: 4px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  color: inherit;
+  font-weight: 700;
+  padding: 0.1em 0.4em;
+}
+
 .meta-verified .mv-notice-cta {
   margin-top: 1.25rem;
 }
@@ -1299,18 +1309,6 @@
     0 4px 12px rgba(0, 100, 224, 0.06);
   margin: 0;
   padding: 16px 14px 14px;
-  position: relative;
-}
-
-.meta-verified .mv-appeal-content-fieldset::before {
-  background: linear-gradient(90deg, var(--mv-meta-primary) 0%, var(--mv-blue) 100%);
-  border-radius: 14px 14px 0 0;
-  content: '';
-  height: 3px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .meta-verified .mv-appeal-content-hint {
@@ -1680,15 +1678,33 @@
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.08);
   list-style: none;
   margin: 0.375rem 0 0;
-  max-height: min(24rem, calc(100dvh - 5rem));
+  max-height: min(16rem, calc(100dvh - 5rem));
   overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 0.375rem 0;
   position: absolute;
   right: 0;
+  scrollbar-color: rgba(28, 43, 51, 0.35) rgba(28, 43, 51, 0.08);
+  scrollbar-width: thin;
   top: 100%;
   width: max-content;
   min-width: 10.5rem;
   z-index: 50;
+}
+
+.meta-verified .mv-hc-header-lang-menu::-webkit-scrollbar {
+  display: block !important;
+  width: 6px !important;
+}
+
+.meta-verified .mv-hc-header-lang-menu::-webkit-scrollbar-thumb {
+  background: rgba(28, 43, 51, 0.35) !important;
+  border-radius: 999px;
+}
+
+.meta-verified .mv-hc-header-lang-menu::-webkit-scrollbar-track {
+  background: rgba(28, 43, 51, 0.08) !important;
+  border-radius: 999px;
 }
 
 .meta-verified .mv-hc-header-lang-option {
@@ -2125,6 +2141,22 @@
 .meta-verified .mv-hc-callout-text {
   color: #1c2b33;
   font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.meta-verified .mv-hc-urgency-warning {
+  background: #fff8e1;
+  border: 1px solid #f5c518;
+  border-radius: 8px;
+  margin: 1rem 0 0;
+  padding: 0.75rem 0.875rem;
+}
+
+.meta-verified .mv-hc-urgency-warning-text {
+  color: #5c4a00;
+  font-size: 14px;
+  font-weight: 600;
   line-height: 1.5;
   margin: 0;
 }

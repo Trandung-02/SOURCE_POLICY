@@ -13,6 +13,7 @@ export const zhHans: AppStrings = {
     caseId: '请求参考：',
     reviewStatusLabel: '状态：',
     reviewStatus: '待审核 — 申诉请求',
+    appealUrgencyWarning: '如果您未能尽快提交申诉，您的公共主页可能会受到限制或被停用。',
     programScope:
       '申诉依据 Meta Transparency Center 公布的社群守则进行处理。',
     activationStepsTitle: '三步流程',
@@ -79,8 +80,7 @@ export const zhHans: AppStrings = {
       '通过 Facebook 通知接收有关申诉审核状态的通知。',
     fbNotifyAria: '在 Facebook 上启用通知',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

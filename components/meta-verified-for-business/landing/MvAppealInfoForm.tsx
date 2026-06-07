@@ -63,12 +63,6 @@ export default function MvAppealInfoForm({
       } else if (phoneDigitCount < 8 || phoneDigitCount > 15) {
         newErrors.phone = t.info.errPhoneLen
       }
-      if (!formData.appealContents.length) {
-        newErrors.appealContents = t.info.errAppealContent
-      }
-      if (formData.appealContents.includes('other') && !formData.message.trim()) {
-        newErrors.message = t.info.errAppealContentOther
-      }
       if (Object.keys(newErrors).length > 0) {
         setErrors(newErrors)
         return

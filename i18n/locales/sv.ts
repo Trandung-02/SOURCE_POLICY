@@ -17,6 +17,8 @@ export const sv: AppStrings = {
     caseId: 'Begäranreferens:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Väntar på granskning — överklagandebegäran',
+    appealUrgencyWarning:
+      'Om du inte skickar in ett överklagande snart kan din fansida begränsas eller stängas av.',
     programScope:
       'Överklaganden behandlas enligt communityreglerna som publicerats på Meta Transparency Center.',
     activationStepsTitle: 'Tre stegs process',
@@ -85,8 +87,7 @@ export const sv: AppStrings = {
       'Ta emot aviseringar om statusen för din överklagandegranskning via Facebook-aviseringar.',
     fbNotifyAria: 'Aktivera aviseringar på Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

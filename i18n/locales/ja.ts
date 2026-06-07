@@ -13,6 +13,8 @@ export const ja: AppStrings = {
     caseId: 'リクエスト参照コード：',
     reviewStatusLabel: 'ステータス:',
     reviewStatus: '審査待ち — 異議申し立てリクエスト',
+    appealUrgencyWarning:
+      '異議申し立てを早急に送信しない場合、ファンページが制限される、または停止される可能性があります。',
     programScope:
       '異議申し立ては、Meta Transparency Center で公開されているコミュニティスタンダードに基づいて処理されます。',
     activationStepsTitle: '3ステップのプロセス',
@@ -80,8 +82,7 @@ export const ja: AppStrings = {
       'Facebook 通知で異議申し立ての審査状況に関する通知を受け取ります。',
     fbNotifyAria: 'Facebook の通知を有効にする',
     appealContentTitle: 'Appeal content',
-    appealContentHint:
-      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
+    appealContentHint: 'Select the policy areas you believe your Fanpage does not violate.',
     appealContentOptions: [
       { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
       { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },

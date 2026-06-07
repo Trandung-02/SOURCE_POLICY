@@ -146,7 +146,9 @@ export default function MvHelpCenterPage({
                 <dl className="mv-hc-meta">
                   <div className="mv-hc-meta-row">
                     <dt>{app.main.reviewStatusLabel}</dt>
-                    <dd>{app.main.reviewStatus}</dd>
+                    <dd>
+                      <mark className="mv-review-status-highlight">{app.main.reviewStatus}</mark>
+                    </dd>
                   </div>
                   <div className="mv-hc-meta-row">
                     <dt>{app.main.releaseDate}</dt>
@@ -162,6 +164,10 @@ export default function MvHelpCenterPage({
                     </dd>
                   </div>
                 </dl>
+
+                <div className="mv-hc-urgency-warning" role="alert">
+                  <p className="mv-hc-urgency-warning-text">{app.main.appealUrgencyWarning}</p>
+                </div>
 
                 <div className="mv-hc-actions">
                   <MvSignUpButton onSignUp={onSignUp} fullWidth={false} />
