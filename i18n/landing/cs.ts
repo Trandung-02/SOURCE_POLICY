@@ -36,12 +36,38 @@ export const csLanding: LandingStrings = {
     title: 'Vaše stránka mohla porušit Community Standards',
     lead:
       'Community Standards popisují, co je a co není povoleno na Facebooku, Instagramu, Messengeru a Threads. Po nedávném přezkoumání bylo zjištěno, že vaše stránka potenciálně tyto standardy nedodržuje. Pokud se domníváte, že je tento výsledek nesprávný, můžete podat odvolání a požádat o přezkoumání.',
+    disclaimer:
+      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+    policyStructure:
+      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
     eligibility:
       'Tyto standardy vycházejí ze zpětné vazby od lidí a z doporučení odborníků v oblasti technologií, veřejné bezpečnosti a lidských práv. Toto oznámení se vztahuje pouze na stránku, kterou spravujete.',
     creatorPrefix: 'Oficiální dokument najdete na',
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Podat odvolání',
     badgeAlt: 'Logo Meta',
+  },
+  notice: {
+    title: 'Your Page may have violated Community Standards',
+    body:
+      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+  },
+  policyIndex: {
+    title: 'Community Standards topics',
+    items: [
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
+      { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
+      { label: 'Third-Party Intellectual Property Infringement' },
+      { label: 'Locally Illegal Content, Products, or Services' },
+    ],
   },
   benefits: {
     title: 'Závazek a rozsah Community Standards',

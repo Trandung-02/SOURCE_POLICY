@@ -44,14 +44,24 @@ export type LandingStrings = {
     sidebarSection: string
     sidebarLinks: { label: string }[]
   }
+  notice: {
+    title: string
+    body: string
+  }
   hero: {
     title: string
     lead: string
+    disclaimer: string
+    policyStructure: string
     eligibility: string
     creatorPrefix: string
     creatorLink: string
     cta: string
     badgeAlt: string
+  }
+  policyIndex: {
+    title: string
+    items: { label: string }[]
   }
   benefits: {
     title: string

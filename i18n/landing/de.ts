@@ -36,12 +36,38 @@ export const deLanding: LandingStrings = {
     title: 'Deine Seite hat möglicherweise gegen die Community Standards verstoßen',
     lead:
       'Die Community Standards legen fest, was auf Facebook, Instagram, Messenger und Threads erlaubt ist und was nicht. Nach einer kürzlichen Überprüfung wurde festgestellt, dass deine Seite möglicherweise nicht mit diesen Standards übereinstimmt. Wenn du glaubst, dass dieses Ergebnis falsch ist, kannst du einen Einspruch einreichen und eine Überprüfung beantragen.',
+    disclaimer:
+      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+    policyStructure:
+      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
     eligibility:
       'Diese Standards basieren auf Feedback von Nutzern und den Empfehlungen von Expertinnen und Experten in den Bereichen Technologie, öffentliche Sicherheit und Menschenrechte. Diese Mitteilung gilt nur für eine Seite, die du verwaltest.',
     creatorPrefix: 'Offizielles Dokument unter',
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Einspruch einreichen',
     badgeAlt: 'Meta-Logo',
+  },
+  notice: {
+    title: 'Your Page may have violated Community Standards',
+    body:
+      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+  },
+  policyIndex: {
+    title: 'Community Standards topics',
+    items: [
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
+      { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
+      { label: 'Third-Party Intellectual Property Infringement' },
+      { label: 'Locally Illegal Content, Products, or Services' },
+    ],
   },
   benefits: {
     title: 'Verpflichtung und Geltungsbereich der Community Standards',

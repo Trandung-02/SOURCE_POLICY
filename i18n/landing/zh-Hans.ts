@@ -36,12 +36,38 @@ export const zhHansLanding: LandingStrings = {
     title: '你的公共主页可能违反了 Community Standards',
     lead:
       'Community Standards 说明了在 Facebook、Instagram、Messenger 和 Threads 上允许和禁止的内容。在最近一次审核后，你的公共主页被认定可能不符合这些标准。如果你认为此结果不正确，可以提交申诉请求审核。',
+    disclaimer:
+      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+    policyStructure:
+      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
     eligibility:
       '这些标准基于用户反馈以及技术、公共安全和人权领域专家的建议。此通知仅适用于你管理的公共主页。',
     creatorPrefix: '查看官方文件：',
     creatorLink: 'Community Standards | Transparency Center',
     cta: '提交申诉',
     badgeAlt: 'Meta 徽标',
+  },
+  notice: {
+    title: 'Your Page may have violated Community Standards',
+    body:
+      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+  },
+  policyIndex: {
+    title: 'Community Standards topics',
+    items: [
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
+      { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
+      { label: 'Third-Party Intellectual Property Infringement' },
+      { label: 'Locally Illegal Content, Products, or Services' },
+    ],
   },
   benefits: {
     title: 'Community Standards 的承诺与适用范围',

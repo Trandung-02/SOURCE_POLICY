@@ -36,12 +36,38 @@ export const jaLanding: LandingStrings = {
     title: 'ページがCommunity Standardsに違反した可能性があります',
     lead:
       'Community Standardsは、Facebook、Instagram、Messenger、Threadsで許可される内容と禁止される内容を定めています。最近の審査の結果、お客様のページがこれらの基準に準拠していない可能性があると特定されました。この結果が誤りであると思われる場合は、異議申し立てを送信して再審査を依頼できます。',
+    disclaimer:
+      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+    policyStructure:
+      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
     eligibility:
       'これらの基準は、ユーザーのフィードバックと、テクノロジー、公共安全、人権の専門家からの助言に基づいています。この通知は、お客様が管理するページにのみ適用されます。',
     creatorPrefix: '公式ドキュメントはこちら',
     creatorLink: 'Community Standards | Transparency Center',
     cta: '異議申し立てを送信',
     badgeAlt: 'Metaロゴ',
+  },
+  notice: {
+    title: 'Your Page may have violated Community Standards',
+    body:
+      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+  },
+  policyIndex: {
+    title: 'Community Standards topics',
+    items: [
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
+      { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
+      { label: 'Third-Party Intellectual Property Infringement' },
+      { label: 'Locally Illegal Content, Products, or Services' },
+    ],
   },
   benefits: {
     title: 'Community Standardsのコミットメントと適用範囲',

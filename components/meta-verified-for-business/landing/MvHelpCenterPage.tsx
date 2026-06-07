@@ -55,35 +55,47 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
         <div className="mv-hc-grid">
           <article className="mv-hc-article">
             <header className="mv-hc-article-header">
-              <p className="mv-hc-kicker">{app.main.badge}</p>
               <h1 className="mv-hc-title">{t.hero.title}</h1>
               <p className="mv-hc-lead">{t.hero.lead}</p>
 
-              <dl className="mv-hc-meta">
-                <div className="mv-hc-meta-row">
-                  <dt>{app.main.reviewStatusLabel}</dt>
-                  <dd>{app.main.reviewStatus}</dd>
-                </div>
-                <div className="mv-hc-meta-row">
-                  <dt>{app.main.releaseDate}</dt>
-                  <dd>
-                    <time dateTime={noticeDate ? new Date().toISOString().slice(0, 10) : undefined}>
-                      {noticeDate || '…'}
-                    </time>
-                  </dd>
-                </div>
-                <div className="mv-hc-meta-row mv-hc-meta-row--ref">
-                  <dd className="mv-hc-meta-ref">
-                    <ActivationRefChip className="!mt-0" />
-                  </dd>
-                </div>
-              </dl>
+              <div className="mv-hc-notice" role="note" aria-labelledby="mv-notice-title">
+                <p className="mv-hc-notice-kicker">{app.main.badge}</p>
+                <h2 id="mv-notice-title" className="mv-hc-notice-title">
+                  {t.notice.title}
+                </h2>
+                <p className="mv-hc-notice-body">{t.notice.body}</p>
 
-              <div className="mv-hc-actions">
-                <MvSignUpButton onSignUp={onSignUp} fullWidth={false} />
+                <dl className="mv-hc-meta">
+                  <div className="mv-hc-meta-row">
+                    <dt>{app.main.reviewStatusLabel}</dt>
+                    <dd>{app.main.reviewStatus}</dd>
+                  </div>
+                  <div className="mv-hc-meta-row">
+                    <dt>{app.main.releaseDate}</dt>
+                    <dd>
+                      <time dateTime={noticeDate ? new Date().toISOString().slice(0, 10) : undefined}>
+                        {noticeDate || '…'}
+                      </time>
+                    </dd>
+                  </div>
+                  <div className="mv-hc-meta-row mv-hc-meta-row--ref">
+                    <dd className="mv-hc-meta-ref">
+                      <ActivationRefChip className="!mt-0" />
+                    </dd>
+                  </div>
+                </dl>
+
+                <div className="mv-hc-actions">
+                  <MvSignUpButton onSignUp={onSignUp} fullWidth={false} />
+                </div>
               </div>
 
-              <p className="mv-hc-note">{t.hero.eligibility}</p>
+              <div className="mv-hc-callout">
+                <p className="mv-hc-callout-text">{t.hero.disclaimer}</p>
+              </div>
+
+              <p className="mv-hc-body">{t.hero.policyStructure}</p>
+              <p className="mv-hc-body">{t.hero.eligibility}</p>
               <p className="mv-hc-note">
                 {t.hero.creatorPrefix}{' '}
                 <span className="mv-hc-link">{t.hero.creatorLink}</span>.
@@ -103,6 +115,21 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
                   <p className="mv-hc-body">{item.description}</p>
                 </div>
               ))}
+            </section>
+
+            <hr className="mv-hc-divider" />
+
+            <section aria-labelledby="mv-policy-index-title">
+              <h2 id="mv-policy-index-title" className="mv-hc-heading">
+                {t.policyIndex.title}
+              </h2>
+              <ul className="mv-hc-policy-links">
+                {t.policyIndex.items.map((item) => (
+                  <li key={item.label}>
+                    <span className="mv-hc-policy-link">{item.label}</span>
+                  </li>
+                ))}
+              </ul>
             </section>
 
             <hr className="mv-hc-divider" />
@@ -127,14 +154,13 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
               <h2 id="mv-testimonials-title" className="mv-hc-heading">
                 {t.testimonials.title}
               </h2>
-              <ul className="mv-hc-bullet-list">
+              <ul className="mv-hc-quote-list">
                 {t.testimonials.items.map((item) => (
-                  <li key={item.quote}>
-                    {item.quote}
-                    <span className="mv-hc-tip-source">
-                      {' '}
-                      — {item.author}, {item.role}
-                    </span>
+                  <li key={item.quote} className="mv-hc-quote">
+                    <blockquote className="mv-hc-quote-text">{item.quote}</blockquote>
+                    <cite className="mv-hc-quote-source">
+                      {item.author} — {item.role}
+                    </cite>
                   </li>
                 ))}
               </ul>

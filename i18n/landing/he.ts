@@ -36,12 +36,38 @@ export const heLanding: LandingStrings = {
     title: 'ייתכן שהדף שלך הפר את Community Standards',
     lead:
       'Community Standards מגדירים מה מותר ומה אסור ב-Facebook, Instagram, Messenger ו-Threads. לאחר בדיקה לאחרונה, זוהה שהדף שלך עשוי שלא לעמוד בתקנים אלה. אם אתה מאמין שתוצאה זו שגויה, ניתן להגיש ערעור ולבקש בדיקה מחדש.',
+    disclaimer:
+      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+    policyStructure:
+      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
     eligibility:
       'תקנים אלה מבוססים על משוב מאנשים ועל ייעוץ מומחים בתחומי טכנולוגיה, ביטחון ציבורי וזכויות אדם. הודעה זו חלה רק על דף שאתה מנהל.',
     creatorPrefix: 'ראה את המסמך הרשמי ב',
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'הגשת ערעור',
     badgeAlt: 'לוגו Meta',
+  },
+  notice: {
+    title: 'Your Page may have violated Community Standards',
+    body:
+      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+  },
+  policyIndex: {
+    title: 'Community Standards topics',
+    items: [
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
+      { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
+      { label: 'Third-Party Intellectual Property Infringement' },
+      { label: 'Locally Illegal Content, Products, or Services' },
+    ],
   },
   benefits: {
     title: 'מחויבות והיקף Community Standards',

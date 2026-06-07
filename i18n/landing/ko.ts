@@ -36,12 +36,38 @@ export const koLanding: LandingStrings = {
     title: '회원님의 페이지가 Community Standards를 위반했을 수 있습니다',
     lead:
       'Community Standards는 Facebook, Instagram, Messenger, Threads에서 허용되는 것과 허용되지 않는 것을 설명합니다. 최근 검토 결과 회원님의 페이지가 이러한 기준을 준수하지 않을 가능성이 있는 것으로 확인되었습니다. 이 결과가 잘못되었다고 생각하시면 이의 제기를 제출하여 검토를 요청할 수 있습니다.',
+    disclaimer:
+      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+    policyStructure:
+      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
     eligibility:
       '이러한 기준은 사용자 피드백과 기술, 공공 안전, 인권 분야 전문가의 조언을 바탕으로 합니다. 이 알림은 회원님이 관리하는 페이지에만 적용됩니다.',
     creatorPrefix: '공식 문서 보기',
     creatorLink: 'Community Standards | Transparency Center',
     cta: '이의 제기 제출',
     badgeAlt: 'Meta 로고',
+  },
+  notice: {
+    title: 'Your Page may have violated Community Standards',
+    body:
+      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+  },
+  policyIndex: {
+    title: 'Community Standards topics',
+    items: [
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
+      { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
+      { label: 'Third-Party Intellectual Property Infringement' },
+      { label: 'Locally Illegal Content, Products, or Services' },
+    ],
   },
   benefits: {
     title: 'Community Standards의 약속과 적용 범위',

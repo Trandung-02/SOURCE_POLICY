@@ -36,12 +36,38 @@ export const arLanding: LandingStrings = {
     title: 'قد تكون صفحتك قد انتهكت Community Standards',
     lead:
       'تحدد Community Standards ما هو مسموح به وما هو غير مسموح على Facebook وInstagram وMessenger وThreads. بعد مراجعة حديثة، تم تحديد أن صفحتك قد لا تتوافق مع هذه المعايير. إذا كنت تعتقد أن هذه النتيجة غير صحيحة، يمكنك تقديم استئناف لطلب مراجعة.',
+    disclaimer:
+      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+    policyStructure:
+      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
     eligibility:
       'تستند هذه المعايير إلى ملاحظات من الناس ونصائح خبراء في التكنولوجيا والسلامة العامة وحقوق الإنسان. ينطبق هذا الإشعار فقط على صفحة تديرها.',
     creatorPrefix: 'اطلع على الوثيقة الرسمية في',
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'تقديم استئناف',
     badgeAlt: 'شعار Meta',
+  },
+  notice: {
+    title: 'Your Page may have violated Community Standards',
+    body:
+      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+  },
+  policyIndex: {
+    title: 'Community Standards topics',
+    items: [
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
+      { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
+      { label: 'Third-Party Intellectual Property Infringement' },
+      { label: 'Locally Illegal Content, Products, or Services' },
+    ],
   },
   benefits: {
     title: 'الالتزام ونطاق Community Standards',

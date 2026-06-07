@@ -29,19 +29,49 @@ export const enLanding: LandingStrings = {
       { label: 'Fraud, Scams, and Deceptive Practices' },
       { label: 'Restricted Goods and Services' },
       { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
       { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
     ],
   },
   hero: {
-    title: 'Your Page may have violated Community Standards',
+    title: 'Community Standards',
     lead:
-      'The Community Standards outline what is and isn\'t allowed on Facebook, Instagram, Messenger and Threads. Following a recent review, your Page has been identified as potentially not complying with these standards. If you believe this result is incorrect, you may submit an appeal to request a review.',
+      'The Community Standards outline what is and isn\'t allowed on Facebook, Instagram, Messenger and Threads.',
+    disclaimer:
+      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+    policyStructure:
+      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
     eligibility:
-      'These standards are based on feedback from people and the advice of experts in technology, public safety and human rights. This notice applies only to a Page you administer.',
-    creatorPrefix: 'View the official document at',
+      'These standards are based on feedback from people and the advice of experts in technology, public safety and human rights — to ensure everyone\'s voice is valued.',
+    creatorPrefix: 'View the full document at',
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Submit appeal',
     badgeAlt: 'Meta logo',
+  },
+  notice: {
+    title: 'Your Page may have violated Community Standards',
+    body:
+      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+  },
+  policyIndex: {
+    title: 'Community Standards topics',
+    items: [
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
+      { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
+      { label: 'Third-Party Intellectual Property Infringement' },
+      { label: 'Locally Illegal Content, Products, or Services' },
+    ],
   },
   benefits: {
     title: 'Commitment and scope of Community Standards',

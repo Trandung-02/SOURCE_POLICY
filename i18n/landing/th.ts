@@ -36,12 +36,38 @@ export const thLanding: LandingStrings = {
     title: 'เพจของคุณอาจละเมิด Community Standards',
     lead:
       'Community Standards กำหนดสิ่งที่อนุญาตและไม่อนุญาตบน Facebook, Instagram, Messenger และ Threads หลังจากการตรวจสอบล่าสุด เพจของคุณถูกระบุว่าอาจไม่เป็นไปตามมาตรฐานเหล่านี้ หากคุณเชื่อว่าผลลัพธ์นี้ไม่ถูกต้อง คุณสามารถส่งคำร้องอุทธรณ์เพื่อขอให้ตรวจสอบ',
+    disclaimer:
+      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+    policyStructure:
+      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
     eligibility:
       'มาตรฐานเหล่านี้อิงจากความคิดเห็นของผู้คนและคำแนะนำจากผู้เชี่ยวชาญด้านเทคโนโลยี ความปลอดภัยสาธารณะ และสิทธิมนุษยชน การแจ้งเตือนนี้ใช้กับเพจที่คุณเป็นผู้ดูแลเท่านั้น',
     creatorPrefix: 'ดูเอกสารทางการที่',
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'ส่งคำร้องอุทธรณ์',
     badgeAlt: 'โลโก้ Meta',
+  },
+  notice: {
+    title: 'Your Page may have violated Community Standards',
+    body:
+      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+  },
+  policyIndex: {
+    title: 'Community Standards topics',
+    items: [
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
+      { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
+      { label: 'Third-Party Intellectual Property Infringement' },
+      { label: 'Locally Illegal Content, Products, or Services' },
+    ],
   },
   benefits: {
     title: 'ความมุ่งมั่นและขอบเขตของ Community Standards',

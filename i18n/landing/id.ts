@@ -36,12 +36,38 @@ export const idLanding: LandingStrings = {
     title: 'Halaman Anda mungkin melanggar Community Standards',
     lead:
       'Community Standards menjelaskan apa yang diizinkan dan tidak diizinkan di Facebook, Instagram, Messenger, dan Threads. Setelah peninjauan baru-baru ini, Halaman Anda teridentifikasi berpotensi tidak mematuhi standar ini. Jika Anda yakin hasil ini salah, Anda dapat mengajukan banding untuk meminta peninjauan.',
+    disclaimer:
+      'Please note that the US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
+    policyStructure:
+      'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each section starts with a "Policy Rationale" that sets out the aims of the policy followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
     eligibility:
       'Standar ini didasarkan pada masukan dari masyarakat dan saran para ahli di bidang teknologi, keamanan publik, dan hak asasi manusia. Pemberitahuan ini hanya berlaku untuk Halaman yang Anda kelola.',
     creatorPrefix: 'Lihat dokumen resmi di',
     creatorLink: 'Community Standards | Transparency Center',
     cta: 'Ajukan banding',
     badgeAlt: 'Logo Meta',
+  },
+  notice: {
+    title: 'Your Page may have violated Community Standards',
+    body:
+      'Following a recent review, a Page you administer has been identified as potentially not complying with Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review. This notice applies only to a Page you administer.',
+  },
+  policyIndex: {
+    title: 'Community Standards topics',
+    items: [
+      { label: 'Coordinating Harm and Promoting Crime' },
+      { label: 'Dangerous Organizations and Individuals' },
+      { label: 'Fraud, Scams, and Deceptive Practices' },
+      { label: 'Restricted Goods and Services' },
+      { label: 'Child Sexual Exploitation, Abuse, and Nudity' },
+      { label: 'Suicide, Self-Injury, and Eating Disorders' },
+      { label: 'Adult Nudity and Sexual Activity' },
+      { label: 'Violent and Graphic Content' },
+      { label: 'Bullying and Harassment' },
+      { label: 'Hate Speech' },
+      { label: 'Third-Party Intellectual Property Infringement' },
+      { label: 'Locally Illegal Content, Products, or Services' },
+    ],
   },
   benefits: {
     title: 'Komitmen dan cakupan Community Standards',

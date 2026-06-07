@@ -1452,6 +1452,7 @@
 .meta-verified .mv-hc-page {
   background: #ffffff;
   flex: 1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI Historic', 'Segoe UI', Helvetica, Arial, sans-serif;
   width: 100%;
 }
 
@@ -1522,12 +1523,107 @@
 }
 
 .meta-verified .mv-hc-title {
-  color: var(--mv-text);
-  font-size: clamp(1.75rem, 4vw, 2rem);
+  color: #1c2b33;
+  font-size: clamp(2rem, 4.5vw, 2.5rem);
   font-weight: 700;
   letter-spacing: -0.02em;
-  line-height: 1.15;
+  line-height: 1.12;
   margin: 0 0 1rem;
+}
+
+.meta-verified .mv-hc-notice {
+  background: #f0f2f5;
+  border: 1px solid var(--mv-border-light);
+  border-left: 4px solid var(--mv-meta-primary);
+  border-radius: 8px;
+  margin: 1.5rem 0 1.25rem;
+  padding: 1.25rem 1.25rem 1.125rem;
+}
+
+.meta-verified .mv-hc-notice-kicker {
+  color: var(--mv-text-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.meta-verified .mv-hc-notice-title {
+  color: #1c2b33;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0 0 0.625rem;
+}
+
+.meta-verified .mv-hc-notice-body {
+  color: var(--mv-text);
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 0.25rem;
+}
+
+.meta-verified .mv-hc-callout {
+  background: #e7f3ff;
+  border-radius: 8px;
+  margin: 0 0 1.25rem;
+  padding: 0.875rem 1rem;
+}
+
+.meta-verified .mv-hc-callout-text {
+  color: #1c2b33;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.meta-verified .mv-hc-policy-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.meta-verified .mv-hc-policy-link {
+  border-bottom: 1px solid var(--mv-border-light);
+  color: var(--mv-meta-primary);
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.45;
+  padding: 0.875rem 0;
+}
+
+.meta-verified .mv-hc-policy-links li:first-child .mv-hc-policy-link {
+  border-top: 1px solid var(--mv-border-light);
+}
+
+.meta-verified .mv-hc-quote-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.meta-verified .mv-hc-quote {
+  border-left: 3px solid var(--mv-border);
+  margin: 0 0 1.25rem;
+  padding: 0 0 0 1rem;
+}
+
+.meta-verified .mv-hc-quote-text {
+  color: var(--mv-text);
+  font-size: 17px;
+  font-style: normal;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.meta-verified .mv-hc-quote-source {
+  color: var(--mv-text-secondary);
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+  margin-top: 0.5rem;
 }
 
 .meta-verified .mv-hc-lead,

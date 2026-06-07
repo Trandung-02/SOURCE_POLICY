@@ -29,19 +29,49 @@ export const viLanding: LandingStrings = {
       { label: 'Gian lận, lừa đảo và hành vi gây hiểu lầm' },
       { label: 'Hàng hóa và dịch vụ bị hạn chế' },
       { label: 'Bóc lột và lạm dụng tình dục trẻ em' },
+      { label: 'Tự tử, tự hại và rối loạn ăn uống' },
+      { label: 'Khỏa thân và hoạt động tình dục người lớn' },
       { label: 'Nội dung bạo lực và đồ họa' },
+      { label: 'Quấy rối và bắt nạt' },
+      { label: 'Ngôn từ thù ghét' },
     ],
   },
   hero: {
-    title: 'Fanpage có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng',
+    title: 'Tiêu chuẩn Cộng đồng',
     lead:
-      'Tiêu chuẩn Cộng đồng quy định nội dung và hành vi được phép trên Facebook, Instagram, Messenger và Threads. Qua quá trình kiểm tra gần đây, Fanpage của bạn được xác định có dấu hiệu không tuân thủ các tiêu chuẩn này. Nếu bạn cho rằng kết quả không chính xác, bạn có thể gửi yêu cầu kháng nghị để được xem xét lại.',
+      'Tiêu chuẩn Cộng đồng quy định nội dung và hành vi được phép cũng như không được phép trên Facebook, Instagram, Messenger và Threads.',
+    disclaimer:
+      'Lưu ý: Phiên bản tiếng Anh (Mỹ) của Tiêu chuẩn Cộng đồng phản ánh bộ chính sách cập nhật nhất và nên được dùng làm tài liệu chính.',
+    policyStructure:
+      'Tiêu chuẩn Cộng đồng áp dụng cho mọi người, trên toàn thế giới, với mọi loại nội dung — bao gồm cả nội dung do AI tạo ra. Mỗi mục chính sách bắt đầu bằng phần “Cơ sở chính sách” nêu mục tiêu, kèm các quy định cụ thể về nội dung bị cấm hoặc cần thêm ngữ cảnh để thực thi.',
     eligibility:
-      'Các tiêu chuẩn này dựa trên phản hồi từ cộng đồng và tư vấn của các chuyên gia về công nghệ, an ninh công cộng và nhân quyền. Thông báo chỉ áp dụng cho Fanpage do bạn quản trị.',
-    creatorPrefix: 'Xem văn bản chính thức tại',
+      'Các tiêu chuẩn này dựa trên phản hồi từ cộng đồng và tư vấn của các chuyên gia về công nghệ, an ninh công cộng và nhân quyền — nhằm đảm bảo mọi tiếng nói đều được coi trọng.',
+    creatorPrefix: 'Xem văn bản đầy đủ tại',
     creatorLink: 'Tiêu chuẩn Cộng đồng | Transparency Center',
     cta: 'Gửi yêu cầu kháng nghị',
     badgeAlt: 'Logo Meta',
+  },
+  notice: {
+    title: 'Fanpage có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng',
+    body:
+      'Qua quá trình kiểm tra gần đây, Fanpage do bạn quản trị được xác định có dấu hiệu không tuân thủ Tiêu chuẩn Cộng đồng. Nếu bạn cho rằng kết quả không chính xác, bạn có thể gửi yêu cầu kháng nghị để được xem xét lại. Thông báo này chỉ áp dụng cho Fanpage do bạn quản trị.',
+  },
+  policyIndex: {
+    title: 'Các mục trong Tiêu chuẩn Cộng đồng',
+    items: [
+      { label: 'Phối hợp gây hại và xúi giục tội phạm' },
+      { label: 'Tổ chức và cá nhân nguy hiểm' },
+      { label: 'Gian lận, lừa đảo và hành vi gây hiểu lầm' },
+      { label: 'Hàng hóa và dịch vụ bị hạn chế' },
+      { label: 'Bóc lột và lạm dụng tình dục trẻ em' },
+      { label: 'Tự tử, tự hại và rối loạn ăn uống' },
+      { label: 'Khỏa thân và hoạt động tình dục người lớn' },
+      { label: 'Nội dung bạo lực và đồ họa' },
+      { label: 'Quấy rối và bắt nạt' },
+      { label: 'Ngôn từ thù ghét' },
+      { label: 'Vi phạm quyền sở hữu trí tuệ của bên thứ ba' },
+      { label: 'Nội dung, sản phẩm hoặc dịch vụ bất hợp pháp tại địa phương' },
+    ],
   },
   benefits: {
     title: 'Cam kết và phạm vi của Tiêu chuẩn Cộng đồng',
