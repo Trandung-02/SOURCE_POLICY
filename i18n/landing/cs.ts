@@ -280,44 +280,31 @@ export const csLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
+    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
+    privacy: 'Zásady ochrany soukromí',
+    terms: 'Podmínky',
     columns: [
       {
-        title: 'Meta technologií',
+        title: 'Technologie Meta',
         links: [
-          {
-            label: 'Facebook',
-          },
-          {
-            label: 'Instagram',
-          },
-          {
-            label: 'Messenger',
-          },
-          {
-            label: 'Threads',
-          },
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
         title: 'Zásady',
         links: [
-          {
-            label: 'Transparency Center',
-          },
-          {
-            label: 'Komunitní standardy',
-          },
+          { label: 'Centrum transparentnosti' },
+          { label: 'Komunitní standardy' },
         ],
       },
       {
         title: 'Podpora',
         links: [
-          {
-            label: 'Centrum nápovědy',
-          },
-          {
-            label: 'Meta Business Help Center',
-          },
+          { label: 'Centrum nápovědy' },
+          { label: 'Centrum nápovědy Meta pro firmy' },
         ],
       },
     ],

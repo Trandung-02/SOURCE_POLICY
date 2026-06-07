@@ -280,44 +280,31 @@ export const zhHansLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
+    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
+    privacy: '隐私政策',
+    terms: '条款',
     columns: [
       {
         title: 'Meta 技术',
         links: [
-          {
-            label: 'Facebook',
-          },
-          {
-            label: 'Instagram',
-          },
-          {
-            label: 'Messenger',
-          },
-          {
-            label: 'Threads',
-          },
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
         title: '政策',
         links: [
-          {
-            label: 'Transparency Center',
-          },
-          {
-            label: '社群守则',
-          },
+          { label: '透明度中心' },
+          { label: '社群守则' },
         ],
       },
       {
         title: '支持',
         links: [
-          {
-            label: '帮助中心',
-          },
-          {
-            label: 'Meta Business Help Center',
-          },
+          { label: '帮助中心' },
+          { label: 'Meta 业务帮助中心' },
         ],
       },
     ],

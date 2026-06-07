@@ -106,6 +106,9 @@ export type LandingStrings = {
   }
   footer: {
     copyright: string
+    address: string
+    privacy: string
+    terms: string
     columns: LandingFooterColumn[]
   }
 }

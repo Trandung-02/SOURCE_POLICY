@@ -280,44 +280,31 @@ export const svLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
+    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
+    privacy: 'Integritetspolicy',
+    terms: 'Villkor',
     columns: [
       {
-        title: 'Meta teknologier',
+        title: 'Meta-teknologier',
         links: [
-          {
-            label: 'Facebook',
-          },
-          {
-            label: 'Instagram',
-          },
-          {
-            label: 'Messenger',
-          },
-          {
-            label: 'Threads',
-          },
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
         title: 'Policyer',
         links: [
-          {
-            label: 'Transparency Center',
-          },
-          {
-            label: 'Communityregler',
-          },
+          { label: 'Transparenscenter' },
+          { label: 'Communityregler' },
         ],
       },
       {
-        title: 'Stöd',
+        title: 'Support',
         links: [
-          {
-            label: 'Hjälpcenter',
-          },
-          {
-            label: 'Meta Business Help Center',
-          },
+          { label: 'Hjälpcenter' },
+          { label: 'Meta Business Hjälpcenter' },
         ],
       },
     ],

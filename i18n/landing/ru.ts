@@ -280,44 +280,31 @@ export const ruLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
+    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
+    privacy: 'Политика конфиденциальности',
+    terms: 'Условия',
     columns: [
       {
-        title: 'Meta технологии',
+        title: 'Технологии Meta',
         links: [
-          {
-            label: 'Facebook',
-          },
-          {
-            label: 'Instagram',
-          },
-          {
-            label: 'Messenger',
-          },
-          {
-            label: 'Threads',
-          },
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
-        title: 'Политика',
+        title: 'Политики',
         links: [
-          {
-            label: 'Transparency Center',
-          },
-          {
-            label: 'Правила сообщества',
-          },
+          { label: 'Центр прозрачности' },
+          { label: 'Правила сообщества' },
         ],
       },
       {
-        title: 'Поддерживать',
+        title: 'Поддержка',
         links: [
-          {
-            label: 'Справочный центр',
-          },
-          {
-            label: 'Meta Business Help Center',
-          },
+          { label: 'Справочный центр' },
+          { label: 'Справка Meta для бизнеса' },
         ],
       },
     ],

@@ -280,44 +280,31 @@ export const thLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
+    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
+    privacy: 'นโยบายความเป็นส่วนตัว',
+    terms: 'ข้อกำหนด',
     columns: [
       {
-        title: 'Meta technologies',
+        title: 'เทคโนโลยี Meta',
         links: [
-          {
-            label: 'Facebook',
-          },
-          {
-            label: 'Instagram',
-          },
-          {
-            label: 'Messenger',
-          },
-          {
-            label: 'Threads',
-          },
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
         title: 'นโยบาย',
         links: [
-          {
-            label: 'Transparency Center',
-          },
-          {
-            label: 'มาตรฐานชุมชน',
-          },
+          { label: 'ศูนย์ความโปร่งใส' },
+          { label: 'มาตรฐานชุมชน' },
         ],
       },
       {
-        title: 'สนับสนุน',
+        title: 'การสนับสนุน',
         links: [
-          {
-            label: 'ศูนย์ช่วยเหลือ',
-          },
-          {
-            label: 'Meta Business Help Center',
-          },
+          { label: 'ศูนย์ช่วยเหลือ' },
+          { label: 'ศูนย์ช่วยเหลือธุรกิจ Meta' },
         ],
       },
     ],

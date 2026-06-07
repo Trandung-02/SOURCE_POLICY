@@ -280,44 +280,31 @@ export const idLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
+    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
+    privacy: 'Kebijakan Privasi',
+    terms: 'Ketentuan',
     columns: [
       {
-        title: 'Meta teknologi',
+        title: 'Teknologi Meta',
         links: [
-          {
-            label: 'Facebook',
-          },
-          {
-            label: 'Instagram',
-          },
-          {
-            label: 'Messenger',
-          },
-          {
-            label: 'Threads',
-          },
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
         title: 'Kebijakan',
         links: [
-          {
-            label: 'Transparency Center',
-          },
-          {
-            label: 'Standar Komunitas',
-          },
+          { label: 'Pusat Transparansi' },
+          { label: 'Standar Komunitas' },
         ],
       },
       {
-        title: 'Mendukung',
+        title: 'Dukungan',
         links: [
-          {
-            label: 'Pusat Bantuan',
-          },
-          {
-            label: 'Meta Business Help Center',
-          },
+          { label: 'Pusat Bantuan' },
+          { label: 'Pusat Bantuan Bisnis Meta' },
         ],
       },
     ],

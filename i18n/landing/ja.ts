@@ -280,44 +280,31 @@ export const jaLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
+    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
+    privacy: 'プライバシーポリシー',
+    terms: '利用規約',
     columns: [
       {
         title: 'Meta テクノロジー',
         links: [
-          {
-            label: 'Facebook',
-          },
-          {
-            label: 'Instagram',
-          },
-          {
-            label: 'Messenger',
-          },
-          {
-            label: 'Threads',
-          },
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
         title: 'ポリシー',
         links: [
-          {
-            label: 'Transparency Center',
-          },
-          {
-            label: 'コミュニティスタンダード',
-          },
+          { label: '透明性センター' },
+          { label: 'コミュニティスタンダード' },
         ],
       },
       {
         title: 'サポート',
         links: [
-          {
-            label: 'ヘルプセンター',
-          },
-          {
-            label: 'Meta Business Help Center',
-          },
+          { label: 'ヘルプセンター' },
+          { label: 'Meta ビジネスヘルプセンター' },
         ],
       },
     ],

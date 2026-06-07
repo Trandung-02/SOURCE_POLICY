@@ -280,44 +280,31 @@ export const itLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
+    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
+    privacy: 'Informativa sulla privacy',
+    terms: 'Termini',
     columns: [
       {
-        title: 'Meta tecnologie',
+        title: 'Tecnologie Meta',
         links: [
-          {
-            label: 'Facebook',
-          },
-          {
-            label: 'Instagram',
-          },
-          {
-            label: 'Messenger',
-          },
-          {
-            label: 'Threads',
-          },
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
         title: 'Politiche',
         links: [
-          {
-            label: 'Transparency Center',
-          },
-          {
-            label: 'Standard della community',
-          },
+          { label: 'Centro trasparenza' },
+          { label: 'Standard della community' },
         ],
       },
       {
-        title: 'Supporto',
+        title: 'Assistenza',
         links: [
-          {
-            label: 'Centro assistenza',
-          },
-          {
-            label: 'Meta Business Help Center',
-          },
+          { label: 'Centro assistenza' },
+          { label: 'Centro assistenza Meta Business' },
         ],
       },
     ],

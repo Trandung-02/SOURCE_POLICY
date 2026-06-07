@@ -280,44 +280,31 @@ export const koLanding: LandingStrings = {
   },
   footer: {
     copyright: '© Meta',
+    address: 'Meta Platforms, Inc., 1 Meta Way, Menlo Park, CA 94025',
+    privacy: '개인정보처리방침',
+    terms: '약관',
     columns: [
       {
-        title: 'Meta technologies',
+        title: 'Meta 기술',
         links: [
-          {
-            label: 'Facebook',
-          },
-          {
-            label: 'Instagram',
-          },
-          {
-            label: 'Messenger',
-          },
-          {
-            label: 'Threads',
-          },
+          { label: 'Facebook' },
+          { label: 'Instagram' },
+          { label: 'Messenger' },
+          { label: 'Threads' },
         ],
       },
       {
         title: '정책',
         links: [
-          {
-            label: 'Transparency Center',
-          },
-          {
-            label: '커뮤니티 기준',
-          },
+          { label: '투명성 센터' },
+          { label: '커뮤니티 기준' },
         ],
       },
       {
-        title: '지원하다',
+        title: '지원',
         links: [
-          {
-            label: '도움말 센터',
-          },
-          {
-            label: 'Meta Business Help Center',
-          },
+          { label: '고객센터' },
+          { label: 'Meta 비즈니스 고객센터' },
         ],
       },
     ],
