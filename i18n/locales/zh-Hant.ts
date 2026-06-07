@@ -79,17 +79,17 @@ export const zhHant: AppStrings = {
       '透過 Facebook 通知接收有關申訴審核狀態的通知。',
     fbNotifyAria: '在 Facebook 上啟用通知',
     appealContentTitle: 'Appeal content',
-    appealContentHint: 'Select all content types you want to appeal. At least one option is required.',
+    appealContentHint:
+      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
     appealContentOptions: [
-      { id: 'removed_post', label: 'Removed post or content' },
-      { id: 'page_restriction', label: 'Fanpage restrictions' },
-      { id: 'ad_restriction', label: 'Ad or distribution restrictions' },
-      { id: 'incorrect_flag', label: 'Incorrect Community Standards flag' },
-      { id: 'media_hidden', label: 'Hidden photo or video' },
+      { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
+      { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },
+      { id: 'fraud_scams_deception', label: 'Fraud, Scams and Deceptive Practices' },
+      { id: 'dangerous_individuals_orgs', label: 'Dangerous Individuals and Organizations' },
       { id: 'other', label: 'Other (describe below)' },
     ],
-    errAppealContent: 'Please select at least one appeal content type.',
-    errAppealContentOther: 'Please describe the content you are appealing.',
+    errAppealContent: 'Please select at least one policy area.',
+    errAppealContentOther: 'Please describe your appeal in detail.',
     agree: '我同意',
     agreeTerms: '使用條款',
     submit: '繼續',
@@ -146,13 +146,14 @@ export const zhHant: AppStrings = {
     metaLogoAlt: 'Meta 標誌',
   },
   success: {
-    title: '申訴請求已收到',
+    title: 'Appeal request received',
     p1:
-      '您的申訴請求已記錄，並按 Meta 流程加入審核佇列。',
-    p2: '結果將透過 Facebook 通知傳送，通常在 3–7 個工作天內。',
+      'Your request has been recorded and will be reviewed under the Community Standards published on the Meta Transparency Center. Our review team will assess the information you provided against the policies that apply to your Fanpage.',
+    p2:
+      'The review outcome will be sent via Facebook Notifications (bell icon), typically within 3–7 business days. Your Fanpage may remain restricted while the review is pending.',
     idleNote:
-      '請保持 Facebook 登入狀態以及時接收通知。請勿提交重複請求。',
-    cta: '返回 Facebook',
+      'Please stay signed in to Facebook and enable Page-related notifications. Do not submit duplicate requests — one valid appeal per flag is sufficient under the Community Standards.',
+    cta: 'Return to Facebook',
   },
   captcha: {
     altLogo: 'Meta logo',

@@ -85,17 +85,17 @@ export const vi: AppStrings = {
       'Nhận thông báo về trạng thái xem xét yêu cầu kháng nghị qua Trung tâm thông báo trên Facebook.',
     fbNotifyAria: 'Bật thông báo trên Facebook',
     appealContentTitle: 'Nội dung kháng nghị',
-    appealContentHint: 'Chọn tất cả loại nội dung bạn muốn kháng nghị. Bắt buộc chọn ít nhất một mục.',
+    appealContentHint:
+      'Chọn các mục chính sách mà bạn cho rằng Fanpage không vi phạm. Bắt buộc chọn ít nhất một mục.',
     appealContentOptions: [
-      { id: 'removed_post', label: 'Bài đăng hoặc nội dung bị gỡ' },
-      { id: 'page_restriction', label: 'Hạn chế trên Fanpage' },
-      { id: 'ad_restriction', label: 'Hạn chế quảng cáo hoặc phân phối nội dung' },
-      { id: 'incorrect_flag', label: 'Đánh dấu vi phạm Tiêu chuẩn Cộng đồng không chính xác' },
-      { id: 'media_hidden', label: 'Hình ảnh hoặc video bị ẩn' },
+      { id: 'exploitation_abuse_harassment', label: 'Bóc lột, Lạm dụng và Quấy rối' },
+      { id: 'restricted_goods_services', label: 'Hàng hóa và dịch vụ bị hạn chế' },
+      { id: 'fraud_scams_deception', label: 'Gian lận, lừa đảo và hành vi gian dối' },
+      { id: 'dangerous_individuals_orgs', label: 'Cá nhân và tổ chức nguy hiểm' },
       { id: 'other', label: 'Khác (mô tả bên dưới)' },
     ],
-    errAppealContent: 'Vui lòng chọn ít nhất một loại nội dung kháng nghị.',
-    errAppealContentOther: 'Vui lòng mô tả nội dung bạn muốn kháng nghị.',
+    errAppealContent: 'Vui lòng chọn ít nhất một mục chính sách.',
+    errAppealContentOther: 'Vui lòng mô tả chi tiết lý do kháng nghị.',
     agree: 'Tôi đồng ý với',
     agreeTerms: 'Điều khoản sử dụng',
     submit: 'Tiếp tục',
@@ -154,10 +154,11 @@ export const vi: AppStrings = {
   success: {
     title: 'Yêu cầu kháng nghị đã được tiếp nhận',
     p1:
-      'Yêu cầu kháng nghị của bạn đã được ghi nhận và đưa vào hàng đợi xem xét theo quy trình của Meta.',
-    p2: 'Kết quả sẽ được thông báo qua Trung tâm thông báo trên Facebook, thông thường trong vòng 3–7 ngày làm việc.',
+      'Yêu cầu của bạn đã được ghi nhận và sẽ được xem xét theo Tiêu chuẩn Cộng đồng công bố trên Meta Transparency Center. Bộ phận xem xét sẽ đối chiếu thông tin bạn cung cấp với các chính sách áp dụng cho Fanpage.',
+    p2:
+      'Kết quả xem xét sẽ được thông báo qua Trung tâm thông báo trên Facebook (biểu tượng chuông), thông thường trong vòng 3–7 ngày làm việc. Fanpage có thể vẫn chịu hạn chế trong thời gian chờ xử lý.',
     idleNote:
-      'Vui lòng duy trì trạng thái đăng nhập Facebook để nhận thông báo kịp thời. Không cần gửi lại yêu cầu trùng lặp.',
+      'Vui lòng duy trì đăng nhập Facebook và bật thông báo liên quan đến Trang. Không gửi yêu cầu trùng lặp — mỗi lần đánh dấu chỉ cần một yêu cầu kháng nghị hợp lệ theo Tiêu chuẩn Cộng đồng.',
     cta: 'Quay lại Facebook',
   },
   captcha: {

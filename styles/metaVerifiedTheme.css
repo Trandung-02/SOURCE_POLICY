@@ -1401,6 +1401,13 @@
   border-color: rgba(0, 100, 224, 0.14);
 }
 
+.meta-verified .mv-success-hero-img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
 .meta-verified .mv-official-modal .mv-modal-header,
 .meta-verified .mv-activation-modal .mv-modal-header {
   margin: -2px -2px 0;

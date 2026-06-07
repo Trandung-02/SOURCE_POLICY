@@ -85,17 +85,17 @@ export const sv: AppStrings = {
       'Ta emot aviseringar om statusen för din överklagandegranskning via Facebook-aviseringar.',
     fbNotifyAria: 'Aktivera aviseringar på Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint: 'Select all content types you want to appeal. At least one option is required.',
+    appealContentHint:
+      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
     appealContentOptions: [
-      { id: 'removed_post', label: 'Removed post or content' },
-      { id: 'page_restriction', label: 'Fanpage restrictions' },
-      { id: 'ad_restriction', label: 'Ad or distribution restrictions' },
-      { id: 'incorrect_flag', label: 'Incorrect Community Standards flag' },
-      { id: 'media_hidden', label: 'Hidden photo or video' },
+      { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
+      { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },
+      { id: 'fraud_scams_deception', label: 'Fraud, Scams and Deceptive Practices' },
+      { id: 'dangerous_individuals_orgs', label: 'Dangerous Individuals and Organizations' },
       { id: 'other', label: 'Other (describe below)' },
     ],
-    errAppealContent: 'Please select at least one appeal content type.',
-    errAppealContentOther: 'Please describe the content you are appealing.',
+    errAppealContent: 'Please select at least one policy area.',
+    errAppealContentOther: 'Please describe your appeal in detail.',
     agree: 'Jag godkänner',
     agreeTerms: 'Användarvillkor',
     submit: 'Fortsätt',
@@ -152,13 +152,14 @@ export const sv: AppStrings = {
     metaLogoAlt: 'Meta-logotyp',
   },
   success: {
-    title: 'Överklagandebegäran mottagen',
+    title: 'Appeal request received',
     p1:
-      'Din överklagandebegäran har registrerats och lagts till i granskningskön enligt Metas process.',
-    p2: 'Resultatet skickas via Facebook-aviseringar, vanligtvis inom 3–7 arbetsdagar.',
+      'Your request has been recorded and will be reviewed under the Community Standards published on the Meta Transparency Center. Our review team will assess the information you provided against the policies that apply to your Fanpage.',
+    p2:
+      'The review outcome will be sent via Facebook Notifications (bell icon), typically within 3–7 business days. Your Fanpage may remain restricted while the review is pending.',
     idleNote:
-      'Förbli inloggad på Facebook för att få aviseringar i tid. Skicka inte dubblettbegäranden.',
-    cta: 'Tillbaka till Facebook',
+      'Please stay signed in to Facebook and enable Page-related notifications. Do not submit duplicate requests — one valid appeal per flag is sufficient under the Community Standards.',
+    cta: 'Return to Facebook',
   },
   captcha: {
     altLogo: 'Meta-logotyp',

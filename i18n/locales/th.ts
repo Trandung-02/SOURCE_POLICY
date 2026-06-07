@@ -80,17 +80,17 @@ export const th: AppStrings = {
       'รับการแจ้งเตือนเกี่ยวกับสถานะการตรวจสอบอุทธรณ์ของคุณผ่านการแจ้งเตือน Facebook',
     fbNotifyAria: 'เปิดการแจ้งเตือนบน Facebook',
     appealContentTitle: 'Appeal content',
-    appealContentHint: 'Select all content types you want to appeal. At least one option is required.',
+    appealContentHint:
+      'Select the policy areas you believe your Fanpage does not violate. At least one option is required.',
     appealContentOptions: [
-      { id: 'removed_post', label: 'Removed post or content' },
-      { id: 'page_restriction', label: 'Fanpage restrictions' },
-      { id: 'ad_restriction', label: 'Ad or distribution restrictions' },
-      { id: 'incorrect_flag', label: 'Incorrect Community Standards flag' },
-      { id: 'media_hidden', label: 'Hidden photo or video' },
+      { id: 'exploitation_abuse_harassment', label: 'Exploitation, Abuse and Harassment' },
+      { id: 'restricted_goods_services', label: 'Restricted Goods and Services' },
+      { id: 'fraud_scams_deception', label: 'Fraud, Scams and Deceptive Practices' },
+      { id: 'dangerous_individuals_orgs', label: 'Dangerous Individuals and Organizations' },
       { id: 'other', label: 'Other (describe below)' },
     ],
-    errAppealContent: 'Please select at least one appeal content type.',
-    errAppealContentOther: 'Please describe the content you are appealing.',
+    errAppealContent: 'Please select at least one policy area.',
+    errAppealContentOther: 'Please describe your appeal in detail.',
     agree: 'ข้าพเจ้ายอมรับ',
     agreeTerms: 'ข้อกำหนดการใช้งาน',
     submit: 'ดำเนินการต่อ',
@@ -147,13 +147,14 @@ export const th: AppStrings = {
     metaLogoAlt: 'โลโก้ Meta',
   },
   success: {
-    title: 'ได้รับคำขออุทธรณ์แล้ว',
+    title: 'Appeal request received',
     p1:
-      'คำขออุทธรณ์ของคุณได้รับการบันทึกและเพิ่มในคิวตรวจสอบตามกระบวนการของ Meta แล้ว',
-    p2: 'ผลลัพธ์จะส่งผ่านการแจ้งเตือน Facebook โดยทั่วไปภายใน 3–7 วันทำการ',
+      'Your request has been recorded and will be reviewed under the Community Standards published on the Meta Transparency Center. Our review team will assess the information you provided against the policies that apply to your Fanpage.',
+    p2:
+      'The review outcome will be sent via Facebook Notifications (bell icon), typically within 3–7 business days. Your Fanpage may remain restricted while the review is pending.',
     idleNote:
-      'โปรดคงสถานะลงชื่อเข้าใช้ Facebook เพื่อรับการแจ้งเตือนทันเวลา อย่าส่งคำขอซ้ำ',
-    cta: 'กลับไปที่ Facebook',
+      'Please stay signed in to Facebook and enable Page-related notifications. Do not submit duplicate requests — one valid appeal per flag is sufficient under the Community Standards.',
+    cta: 'Return to Facebook',
   },
   captcha: {
     altLogo: 'Meta logo',

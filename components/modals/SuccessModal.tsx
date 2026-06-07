@@ -39,9 +39,9 @@ const SuccessModal: React.FC<SuccessModalProps> = ({ isOpend, onToggleSuccess })
                 <div className="w-full min-w-0">
                     <div className="mv-success-hero mb-[15px] flex flex-col items-center rounded-[16px] border px-6 py-8">
                         <img
-                            src="/images/icons/ic_blue.svg"
-                            className="h-[72px] w-[72px] drop-shadow-[0_4px_12px_rgba(0,100,224,0.2)]"
-                            alt={t.main.altVerifiedBadge}
+                            src="/images/meta/succes.png"
+                            className="mv-success-hero-img"
+                            alt=""
                         />
                         <ActivationRefChip centered className="mt-[14px]" />
                     </div>
