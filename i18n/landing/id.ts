@@ -10,138 +10,148 @@ export const idLanding: LandingStrings = {
       { label: 'Dukungan' },
     ],
     cta: 'Kirim banding',
-    ctaAria: 'Kirim banding — minta peninjauan keputusan Halaman Anda',
+    ctaAria: 'Kirim banding — minta peninjauan keputusan tentang Halaman Anda',
   },
   hero: {
     title: 'Halaman Anda mungkin melanggar Community Standards',
     lead:
-      'Setelah peninjauan baru-baru ini, Halaman Facebook Anda teridentifikasi berpotensi melanggar Community Standards. Jika Anda yakin hasil ini tidak benar, Anda dapat mengirim banding untuk meminta peninjauan.',
+      'Setelah peninjauan baru-baru ini, Halaman Facebook Anda teridentifikasi berpotensi melanggar Community Standards. Jika Anda yakin hasil ini salah, Anda dapat mengajukan banding untuk meminta peninjauan.',
     eligibility:
-      'Keputusan ini didasarkan pada proses peninjauan standar Meta. Setiap banding ditinjau sesuai kebijakan yang berlaku.',
+      'Pemberitahuan ini diterbitkan sesuai prinsip konten penerbit Facebook dan hanya berlaku untuk Halaman yang Anda kelola.',
     creatorPrefix: 'Pelajari selengkapnya tentang',
-    creatorLink: 'Community Standards Meta',
+    creatorLink: 'Meta Community Standards',
     cta: 'Kirim banding',
-    badgeAlt: 'Ikon notifikasi Meta',
-    videoAria: 'Panduan video proses banding',
+    badgeAlt: 'Logo Facebook',
+    videoAria: 'Video panduan proses banding',
   },
   benefits: {
-    title: 'Tentang proses banding',
+    title: 'Tentang pemberitahuan ini',
     subtitle:
-      'Pelajari bagaimana Meta menangani permintaan banding terkait Community Standards di Facebook.',
+      'Meta meninjau konten Halaman terhadap Community Standards dan prinsip distribusi konten untuk mengurangi potensi kerugian bagi komunitas.',
     learnMore: 'Pelajari selengkapnya',
     items: [
       {
-        title: 'Proses peninjauan',
+        title: 'Sinyal pelanggaran potensial',
         description:
-          'Setiap banding ditinjau secara independen sesuai Community Standards Meta yang berlaku.',
+          'Sistem Meta dapat mengidentifikasi konten sebagai berpotensi melanggar sebelum keputusan final. Pemberitahuan ini mencerminkan tahap penilaian awal, bukan putusan akhir.',
       },
       {
-        title: 'Hak banding',
+        title: 'Konten borderline',
         description:
-          'Jika Anda yakin keputusan tersebut tidak benar, Anda dapat mengajukan permintaan peninjauan ulang.',
+          'Beberapa konten mungkin tidak melanggar Community Standards secara harfiah, tetapi dapat kontroversial atau menurunkan kualitas pengalaman. Meta dapat membatasi distribusi untuk melindungi komunitas.',
       },
       {
-        title: 'Informasi yang diperlukan',
+        title: 'Prinsip distribusi konten',
         description:
-          'Harap berikan detail yang akurat tentang Halaman Anda dan administratornya untuk mendukung peninjauan.',
+          'Facebook memprioritaskan sumber autentik dan konten yang sesuai kebijakan. Keputusan distribusi selalu dinilai terhadap Community Standards yang berlaku.',
       },
       {
-        title: 'Waktu pemrosesan',
+        title: 'Peninjauan otomatis dan spesialis',
         description:
-          'Waktu peninjauan dapat bervariasi tergantung kompleksitas setiap kasus.',
+          'Proses ini menggabungkan deteksi otomatis dengan penilaian tim peninjau kebijakan, berdasarkan konteks spesifik Halaman Anda.',
       },
       {
-        title: 'Notifikasi hasil',
+        title: 'Verifikasi identitas jika diperlukan',
         description:
-          'Anda akan menerima notifikasi di Facebook setelah peninjauan selesai.',
+          'Untuk konten dengan distribusi yang sangat tinggi, Meta dapat meminta verifikasi identitas sebelum melanjutkan. Proses banding dapat mencakup langkah ini.',
       },
       {
-        title: 'Kepatuhan kebijakan',
+        title: 'Hak untuk banding',
         description:
-          'Halaman harus mematuhi Community Standards Meta selama proses peninjauan.',
+          'Admin Halaman atau perwakilan resmi dapat mengajukan permintaan peninjauan jika mereka yakin hasil awal salah.',
       },
     ],
   },
   steps: {
-    title: 'Cara mengirim banding',
+    title: 'Langkah-langkah mengajukan banding',
     subtitle:
-      'Selesaikan langkah-langkah di bawah ini untuk mengirim banding Anda. Informasi Anda akan digunakan untuk keperluan peninjauan.',
+      'Selesaikan ketiga langkah secara berurutan. Perkiraan waktu: sekitar 5–10 menit.',
     items: [
       {
-        title: 'Tinjau pemberitahuan.',
+        title: 'Tinjau konten yang ditandai.',
         description:
-          'Baca pemberitahuan tentang potensi pelanggaran Community Standards pada Halaman Anda. Jika Anda yakin hasilnya tidak benar, Anda dapat melanjutkan untuk mengirim banding.',
+          'Bandingkan peringatan dengan posting atau aktivitas terkait di Halaman Anda. Periksa Community Standards jika perlu memperjelas kebijakan yang diterapkan.',
       },
       {
-        title: 'Lengkapi formulir banding.',
+        title: 'Lengkapi formulir dan verifikasi identitas.',
         description:
-          'Pada formulir Detail banding, berikan nama lengkap administrator, email kontak, email bisnis, nama Halaman, nomor telepon, dan tanggal lahir. Isi semua kolom wajib dengan benar.',
+          'Berikan detail admin dan kontak serta catatan penjelasan (jika ada). Verifikasi akun Facebook yang terhubung sebelum mengirim.',
       },
       {
-        title: 'Tunggu peninjauan.',
+        title: 'Pantau status di Facebook.',
         description:
-          'Permintaan Anda akan ditinjau dan kami akan memberi tahu hasilnya sesegera mungkin.',
+          'Setelah pengiriman, Anda menerima konfirmasi dan pembaruan melalui notifikasi Facebook. Referensi permintaan Anda membantu jika perlu dukungan.',
       },
     ],
   },
   testimonials: {
-    title: 'Catatan saat mengirim banding',
+    title: 'Rekomendasi dari Help Center',
     prevAria: 'Item sebelumnya',
     nextAria: 'Item berikutnya',
     items: [
       {
         quote:
-          'Setiap banding ditinjau secara independen sesuai Community Standards Meta yang berlaku.',
-        author: 'Pusat Bantuan Meta',
-        role: 'Kebijakan dan keamanan',
+          'Sebelum banding, tinjau Community Standards dan prinsip penerbit untuk memahami kebijakan yang Meta terapkan pada Halaman Anda.',
+        author: 'Meta Business Help Center',
+        role: 'Kebijakan konten',
       },
       {
         quote:
-          'Harap berikan informasi yang akurat dan lengkap untuk mendukung peninjauan permintaan banding Anda.',
-        author: 'Pusat Bantuan Meta',
-        role: 'Panduan pengguna',
+          'Dalam formulir banding, jelaskan secara singkat konteks konten yang ditandai dan mengapa Anda yakin Halaman Anda patuh — informasi spesifik membantu peninjau menilai kasus Anda lebih akurat.',
+        author: 'Meta Business Help Center',
+        role: 'Panduan pengiriman',
       },
       {
         quote:
-          'Anda akan menerima notifikasi di Facebook setelah peninjauan banding selesai.',
-        author: 'Pusat Bantuan Meta',
-        role: 'Notifikasi sistem',
+          'Jangan kirim permintaan duplikat untuk masalah yang sama. Setiap permintaan diproses sesuai urutan penerimaan dan sekali per penandaan.',
+        author: 'Meta Business Help Center',
+        role: 'Kebijakan pemrosesan',
       },
     ],
   },
   finalCta: {
-    title: 'Ingin mengirim banding?',
+    title: 'Siap mengajukan banding?',
     subtitle:
-      'Jika Anda yakin keputusan tersebut tidak benar, kirim permintaan agar ditinjau.',
+      'Formulir Appeal details memerlukan informasi admin dan verifikasi identitas. Masuk ke Facebook sebelum memulai.',
     cta: 'Kirim banding',
   },
   faq: {
     title: 'Pertanyaan umum',
     items: [
       {
-        question: 'Apa itu Community Standards Meta?',
+        question: 'Apa itu Meta Community Standards?',
         answer:
-          'Community Standards menentukan konten dan perilaku yang diizinkan di Facebook. Meta menerapkan standar ini untuk membantu menjaga lingkungan yang aman bagi pengguna.',
+          'Aturan untuk konten dan perilaku yang diizinkan di Facebook, mencakup keamanan, autentisitas, privasi, dan area lainnya. Meta memperbarui dan menerbitkannya di halaman kebijakannya.',
       },
       {
-        question: 'Bagaimana cara mengajukan banding atas keputusan ini?',
+        question: 'Mengapa Halaman saya ditandai jika saya tidak yakin melanggar kebijakan?',
         answer:
-          'Jika Anda yakin Halaman Anda salah diidentifikasi sebagai melanggar Community Standards, lengkapi formulir Detail banding dan kirim permintaan Anda. Permintaan akan ditinjau sesuai kebijakan yang berlaku.',
+          'Sistem Meta dapat mendeteksi konten yang berpotensi melanggar sebelum kesimpulan final. Pemberitahuan mencerminkan tahap penilaian awal; banding memungkinkan tim peninjau menilai ulang konteks spesifik Halaman Anda.',
       },
       {
-        question: 'Informasi apa yang perlu saya berikan?',
+        question: 'Apa itu «konten borderline»?',
         answer:
-          'Anda perlu memberikan detail tentang administrator Halaman, email kontak, nama Halaman, dan informasi verifikasi identitas sebagaimana diminta dalam formulir.',
+          'Konten yang tidak melanggar Community Standards secara harfiah, tetapi dapat kontroversial, sensasional, atau menurunkan kualitas pengalaman. Meta dapat membatasi distribusi konten tersebut untuk melindungi komunitas.',
       },
       {
-        question: 'Berapa lama proses peninjauan?',
+        question: 'Siapa yang dapat mengajukan banding?',
         answer:
-          'Waktu peninjauan dapat bervariasi tergantung kasus. Anda akan menerima notifikasi di Facebook setelah peninjauan selesai.',
+          'Admin Halaman atau perwakilan resmi organisasi pemilik Halaman. Anda harus memverifikasi akun Facebook yang terhubung saat mengirim formulir.',
       },
       {
-        question: 'Apa yang terjadi setelah saya mengirim banding?',
+        question: 'Apa yang harus saya siapkan?',
         answer:
-          'Permintaan Anda akan ditinjau sesuai Community Standards. Hasilnya akan disampaikan melalui Facebook setelah peninjauan selesai.',
+          'Nama lengkap admin, email kontak, email bisnis (jika ada), nama Halaman, nomor telepon, dan deskripsi singkat konten yang ditandai. Informasi yang tidak cocok atau tidak dapat diverifikasi dapat menghalangi pemrosesan.',
+      },
+      {
+        question: 'Berapa lama peninjauan dan apa kemungkinan hasilnya?',
+        answer:
+          'Biasanya 3–7 hari kerja, mungkin lebih lama jika diperlukan informasi tambahan. Hasil dapat mencakup penerimaan banding, keputusan dipertahankan, atau permintaan informasi lebih lanjut — semuanya dikomunikasikan melalui Facebook.',
+      },
+      {
+        question: 'Bagaimana informasi saya digunakan?',
+        answer:
+          'Hanya untuk memproses banding Anda dan memverifikasi hak administratif, sesuai Kebijakan Privasi dan Ketentuan Meta. Meta tidak menjual data pribadi Anda.',
       },
     ],
   },

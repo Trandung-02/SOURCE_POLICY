@@ -10,109 +10,109 @@ export const svLanding: LandingStrings = {
       { label: 'Support' },
     ],
     cta: 'Skicka överklagande',
-    ctaAria: 'Skicka ett överklagande — begär en granskning av beslutet om din sida',
+    ctaAria: 'Skicka överklagande — begär en granskning av beslutet om din Sida',
   },
   hero: {
-    title: 'Din sida kan ha brutit mot Community Standards',
+    title: 'Din Sida kan ha brutit mot Community Standards',
     lead:
-      'Efter en nyligen genomförd granskning har din Facebook-sida identifierats som potentiellt i strid med Community Standards. Om du anser att resultatet är felaktigt kan du skicka in ett överklagande och begära en ny granskning.',
+      'Efter en nyligen genomförd granskning har din Facebook-sida identifierats som potentiellt i strid med Community Standards. Om du anser att resultatet är felaktigt kan du skicka in ett överklagande för att begära en ny granskning.',
     eligibility:
-      'Detta beslut baseras på Metas standardgranskningsprocess. Varje överklagande granskas enligt gällande policy.',
+      'Detta meddelande utfärdas enligt Facebooks innehållsprinciper för utgivare och gäller endast en Sida som du administrerar.',
     creatorPrefix: 'Läs mer om',
     creatorLink: 'Meta Community Standards',
     cta: 'Skicka överklagande',
-    badgeAlt: 'Meta-aviseringssymbol',
+    badgeAlt: 'Facebook-logotyp',
     videoAria: 'Videoguide till överklagandeprocessen',
   },
   benefits: {
-    title: 'Om överklagandeprocessen',
+    title: 'Om detta meddelande',
     subtitle:
-      'Lär dig hur Meta hanterar överklagandebegäranden relaterade till Community Standards på Facebook.',
+      'Meta granskar Sidinnehåll mot Community Standards och principer för innehållsdistribution för att minska potentiell skada för communityn.',
     learnMore: 'Läs mer',
     items: [
       {
-        title: 'Granskningsprocess',
+        title: 'Signaler om potentiella överträdelser',
         description:
-          'Varje överklagande granskas oberoende enligt Metas gällande Community Standards.',
+          'Metas system kan identifiera innehåll som potentiellt bryter mot reglerna innan ett slutgiltigt beslut fattas. Detta meddelande återspeglar ett initialt bedömningsstadium, inte ett slutligt avgörande.',
+      },
+      {
+        title: 'Gränsfallsinnehåll',
+        description:
+          'Vissa innehåll bryter kanske inte bokstavligen mot Community Standards men kan vara kontroversiella eller minska upplevelsekvaliteten. Meta kan begränsa distributionen för att skydda communityn.',
+      },
+      {
+        title: 'Principer för innehållsdistribution',
+        description:
+          'Facebook prioriterar autentiska källor och policyenliga innehåll. Distributionsbeslut bedöms alltid mot gällande Community Standards.',
+      },
+      {
+        title: 'Automatiserad och specialistgranskning',
+        description:
+          'Processen kombinerar automatisk detektering med bedömning av policygranskningsteam baserat på din Sidas specifika sammanhang.',
+      },
+      {
+        title: 'Identitetsverifiering vid behov',
+        description:
+          'För innehåll med ovanligt hög distribution kan Meta kräva identitetsverifiering innan processen fortsätter. Överklagandeprocessen kan inkludera detta steg.',
       },
       {
         title: 'Rätt att överklaga',
         description:
-          'Om du anser att beslutet är felaktigt kan du skicka in en begäran om omprövning.',
-      },
-      {
-        title: 'Information som krävs',
-        description:
-          'Ange korrekta uppgifter om din sida och dess administratör för att underlätta granskningen.',
-      },
-      {
-        title: 'Handläggningstid',
-        description:
-          'Granskningstider kan variera beroende på varje ärendes komplexitet.',
-      },
-      {
-        title: 'Meddelande om resultat',
-        description:
-          'Du får ett meddelande på Facebook när granskningen är klar.',
-      },
-      {
-        title: 'Policyefterlevnad',
-        description:
-          'Sidor måste följa Meta Community Standards under hela granskningsprocessen.',
+          'Sidadministratörer eller behöriga representanter kan skicka in en begäran om granskning om de anser att det initiala resultatet är felaktigt.',
       },
     ],
   },
   steps: {
-    title: 'Så skickar du in ett överklagande',
+    title: 'Steg för att skicka in ett överklagande',
     subtitle:
-      'Slutför stegen nedan för att skicka in ditt överklagande. Din information används i granskningssyfte.',
+      'Slutför alla tre steg i ordning. Uppskattad tid: cirka 5–10 minuter.',
     items: [
       {
-        title: 'Granska meddelandet.',
+        title: 'Granska flaggat innehåll.',
         description:
-          'Läs meddelandet om potentiella Community Standards-överträdelser på din sida. Om du anser att resultatet är felaktigt kan du fortsätta med att skicka in ett överklagande.',
+          'Jämför varningen med relaterade inlägg eller aktivitet på din Sida. Kontrollera Community Standards om du behöver klargöra vilken policy som tillämpas.',
       },
       {
-        title: 'Fyll i överklagandeformuläret.',
+        title: 'Fyll i formuläret och verifiera identitet.',
         description:
-          'I formuläret Appeal details anger du administratörens fullständiga namn, kontakt-e-post, företags-e-post, sidnamn, telefonnummer och födelsedatum. Fyll i alla obligatoriska fält korrekt.',
+          'Ange administratörs- och kontaktuppgifter samt en förklarande anteckning (om tillämpligt). Verifiera ditt länkade Facebook-konto innan du skickar in.',
       },
       {
-        title: 'Vänta på granskning.',
+        title: 'Följ status på Facebook.',
         description:
-          'Din begäran granskas och vi meddelar dig resultatet så snart som möjligt.',
+          'Efter inskickning får du bekräftelse och uppdateringar via Facebook-aviseringar. Din begäransreferens hjälper om du behöver support.',
       },
     ],
   },
   testimonials: {
-    title: 'Anmärkningar vid inlämning av överklagande',
+    title: 'Rekommendationer från Help Center',
     prevAria: 'Föregående objekt',
     nextAria: 'Nästa objekt',
     items: [
       {
         quote:
-          'Varje överklagande granskas oberoende enligt Metas gällande Community Standards.',
-        author: 'Meta Help Center',
-        role: 'Policy och säkerhet',
+          'Innan du överklagar, granska Community Standards och utgivarprinciper för att förstå de policyer Meta tillämpar på din Sida.',
+        author: 'Meta Business Help Center',
+        role: 'Innehållspolicyer',
       },
       {
         quote:
-          'Ange korrekt och fullständig information för att underlätta granskningen av din överklagandebegäran.',
-        author: 'Meta Help Center',
-        role: 'Användarvägledning',
+          'Beskriv kortfattat i överklagandeformuläret sammanhanget för flaggat innehåll och varför du anser att din Sida följer reglerna — specifik information hjälper granskare att bedöma ditt ärende mer exakt.',
+        author: 'Meta Business Help Center',
+        role: 'Vägledning för inskickning',
       },
       {
         quote:
-          'Du får ett meddelande på Facebook när granskningen av överklagandet är klar.',
-        author: 'Meta Help Center',
-        role: 'Systemmeddelande',
+          'Skicka inte dubbletter av samma ärende. Varje begäran köas i mottagningsordning och behandlas en gång per flaggning.',
+        author: 'Meta Business Help Center',
+        role: 'Behandlingspolicy',
       },
     ],
   },
   finalCta: {
-    title: 'Vill du skicka in ett överklagande?',
+    title: 'Redo att skicka in ditt överklagande?',
     subtitle:
-      'Om du anser att beslutet är felaktigt, skicka in en begäran om granskning.',
+      'Formuläret Appeal details kräver administratörsinformation och identitetsverifiering. Logga in på Facebook innan du börjar.',
     cta: 'Skicka överklagande',
   },
   faq: {
@@ -121,27 +121,37 @@ export const svLanding: LandingStrings = {
       {
         question: 'Vad är Meta Community Standards?',
         answer:
-          'Community Standards definierar vilket innehåll och beteende som är tillåtet på Facebook. Meta tillämpar dessa standarder för att bidra till en säker miljö för användare.',
+          'Regler för tillåtet innehåll och beteende på Facebook, som täcker säkerhet, autenticitet, integritet och andra områden. Meta uppdaterar och publicerar dem på sina policysidor.',
       },
       {
-        question: 'Hur kan jag överklaga detta beslut?',
+        question: 'Varför flaggades min Sida om jag inte är säker på att den bröt mot en policy?',
         answer:
-          'Om du anser att din sida felaktigt identifierades som i strid med Community Standards, fyll i formuläret Appeal details och skicka in din begäran. Den granskas enligt gällande policy.',
+          'Metas system kan upptäcka potentiellt regelstridigt innehåll innan ett slutgiltigt beslut. Meddelandet återspeglar ett initialt bedömningsstadium; ett överklagande låter granskningsteam omvärdera din Sidas specifika sammanhang.',
       },
       {
-        question: 'Vilken information behöver jag ange?',
+        question: 'Vad är «gränsfallsinnehåll»?',
         answer:
-          'Du behöver ange uppgifter om sidans administratör, kontakt-e-post, sidnamn och identitetsverifieringsinformation enligt formulärets krav.',
+          'Innehåll som inte bokstavligen bryter mot Community Standards men kan vara kontroversiellt, sensationsdrivet eller minska upplevelsekvaliteten. Meta kan begränsa distributionen av sådant innehåll för att skydda communityn.',
       },
       {
-        question: 'Hur lång tid tar granskningen?',
+        question: 'Vem kan skicka in ett överklagande?',
         answer:
-          'Granskningstider kan variera beroende på ärende. Du får ett meddelande på Facebook när granskningen är klar.',
+          'Sidadministratörer eller behöriga representanter för organisationen som äger Sidan. Du måste verifiera det länkade Facebook-kontot när du skickar in formuläret.',
       },
       {
-        question: 'Vad händer efter att jag skickat in ett överklagande?',
+        question: 'Vad bör jag förbereda?',
         answer:
-          'Din begäran granskas enligt Community Standards. Resultatet meddelas via Facebook när granskningen är avslutad.',
+          'Administratörens fullständiga namn, kontakt-e-post, företags-e-post (om tillämpligt), Sidnamn, telefonnummer och en kort beskrivning av flaggat innehåll. Felaktig eller overifierbar information kan hindra behandlingen.',
+      },
+      {
+        question: 'Hur lång tid tar granskningen och vilka resultat är möjliga?',
+        answer:
+          'Vanligtvis 3–7 arbetsdagar, möjligen längre om ytterligare information behövs. Resultat kan inkludera att överklagandet godkänns, att beslutet upprätthålls eller en begäran om mer information — allt meddelas via Facebook.',
+      },
+      {
+        question: 'Hur används min information?',
+        answer:
+          'Endast för att behandla ditt överklagande och verifiera administrativa rättigheter, enligt Metas integritetspolicy och villkor. Meta säljer inte dina personuppgifter.',
       },
     ],
   },

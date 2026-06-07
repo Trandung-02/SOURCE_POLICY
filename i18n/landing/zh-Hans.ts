@@ -10,109 +10,109 @@ export const zhHansLanding: LandingStrings = {
       { label: '支持' },
     ],
     cta: '提交申诉',
-    ctaAria: '提交申诉 — 请求重新审核您的公共主页决定',
+    ctaAria: '提交申诉 — 请求审核主页相关决定',
   },
   hero: {
-    title: '您的公共主页可能违反了 Community Standards',
+    title: '您的主页可能违反了 Community Standards',
     lead:
-      '根据最近的审核，您的 Facebook 公共主页被认定可能违反了 Community Standards。如果您认为此结果有误，可以提交申诉以请求重新审核。',
+      '经近期审核，您的 Facebook 主页被识别为可能违反 Community Standards。如果您认为此结果有误，可提交申诉请求重新审核。',
     eligibility:
-      '此决定基于 Meta 的标准审核流程。每项申诉均会依据现行政策进行审核。',
+      '本通知依据 Facebook 发布者内容原则发出，仅适用于您管理的主页。',
     creatorPrefix: '了解更多关于',
     creatorLink: 'Meta Community Standards',
     cta: '提交申诉',
-    badgeAlt: 'Meta 通知图标',
-    videoAria: '申诉流程视频指南',
+    badgeAlt: 'Facebook 徽标',
+    videoAria: '申诉流程指南视频',
   },
   benefits: {
-    title: '关于申诉流程',
+    title: '关于本通知',
     subtitle:
-      '了解 Meta 如何处理与 Facebook 上 Community Standards 相关的申诉请求。',
+      'Meta 依据 Community Standards 和内容分发原则审核主页内容，以降低对社区的潜在危害。',
     learnMore: '了解更多',
     items: [
       {
-        title: '审核流程',
+        title: '潜在违规信号',
         description:
-          '每项申诉均会依据 Meta 现行的 Community Standards 独立审核。',
+          'Meta 的系统可能在最终判定前将内容识别为潜在违规。本通知反映的是初步评估阶段，而非最终裁决。',
+      },
+      {
+        title: '边界内容',
+        description:
+          '部分内容可能未字面违反 Community Standards，但可能引发争议或降低体验质量。Meta 可能限制分发以保护社区。',
+      },
+      {
+        title: '内容分发原则',
+        description:
+          'Facebook 优先真实来源和符合政策的内容。分发决策始终依据现行 Community Standards 评估。',
+      },
+      {
+        title: '自动化与专业审核',
+        description:
+          '该流程结合自动检测与政策审核团队的评估，基于您主页的具体情况。',
+      },
+      {
+        title: '必要时进行身份验证',
+        description:
+          '对于分发量异常高的内容，Meta 可能在继续处理前要求身份验证。申诉流程可能包含此步骤。',
       },
       {
         title: '申诉权利',
         description:
-          '如果您认为决定有误，可以提交重新审核请求。',
-      },
-      {
-        title: '所需信息',
-        description:
-          '请提供有关您的公共主页及其管理员的准确信息，以支持审核。',
-      },
-      {
-        title: '处理时间',
-        description:
-          '审核时间可能因各案件的复杂程度而有所不同。',
-      },
-      {
-        title: '结果通知',
-        description:
-          '审核完成后，您将在 Facebook 上收到通知。',
-      },
-      {
-        title: '政策合规',
-        description:
-          '公共主页在整个审核过程中须遵守 Meta Community Standards。',
+          '如果您认为初步结果有误，主页管理员或授权代表可提交审核请求。',
       },
     ],
   },
   steps: {
-    title: '如何提交申诉',
+    title: '提交申诉的步骤',
     subtitle:
-      '完成以下步骤以提交您的申诉。您提供的信息将用于审核目的。',
+      '请按顺序完成三个步骤。预计用时：约 5–10 分钟。',
     items: [
       {
-        title: '查看通知。',
+        title: '查看被标记的内容。',
         description:
-          '阅读有关您的公共主页可能违反 Community Standards 的通知。如果您认为结果有误，可以继续提交申诉。',
+          '将警告与您主页上的相关帖子或活动进行对照。如需了解所适用政策，请查阅 Community Standards。',
       },
       {
-        title: '填写申诉表单。',
+        title: '填写表单并验证身份。',
         description:
-          '在 Appeal details 表单中，请提供管理员的全名、联系邮箱、商务邮箱、公共主页名称、电话号码和出生日期。请准确填写所有必填字段。',
+          '提供管理员及联系信息，以及说明备注（如适用）。提交前请验证关联的 Facebook 账户。',
       },
       {
-        title: '等待审核。',
+        title: '在 Facebook 上跟踪状态。',
         description:
-          '您的请求将被审核，我们将尽快通知您结果。',
+          '提交后，您将通过 Facebook 通知收到确认和更新。如需支持，请求参考编号可提供帮助。',
       },
     ],
   },
   testimonials: {
-    title: '提交申诉时的注意事项',
+    title: 'Help Center 建议',
     prevAria: '上一项',
     nextAria: '下一项',
     items: [
       {
         quote:
-          '每项申诉均会依据 Meta 现行的 Community Standards 独立审核。',
-        author: 'Meta Help Center',
-        role: '政策与安全',
+          '申诉前，请查阅 Community Standards 和发布者原则，了解 Meta 对您主页适用的政策。',
+        author: 'Meta Business Help Center',
+        role: '内容政策',
       },
       {
         quote:
-          '请提供准确完整的信息，以支持您的申诉审核。',
-        author: 'Meta Help Center',
-        role: '用户指南',
+          '在申诉表单中，简要说明被标记内容的背景以及您认为主页符合政策的原因 — 具体信息有助于审核人员更准确地评估您的情况。',
+        author: 'Meta Business Help Center',
+        role: '提交指南',
       },
       {
         quote:
-          '申诉审核完成后，您将在 Facebook 上收到通知。',
-        author: 'Meta Help Center',
-        role: '系统通知',
+          '请勿就同一问题重复提交请求。每个请求按接收顺序排队，每个标记仅处理一次。',
+        author: 'Meta Business Help Center',
+        role: '处理政策',
       },
     ],
   },
   finalCta: {
-    title: '是否要提交申诉？',
+    title: '准备好提交申诉了吗？',
     subtitle:
-      '如果您认为决定有误，请提交重新审核请求。',
+      'Appeal details 表单需要管理员信息和身份验证。开始前请先登录 Facebook。',
     cta: '提交申诉',
   },
   faq: {
@@ -121,27 +121,37 @@ export const zhHansLanding: LandingStrings = {
       {
         question: '什么是 Meta Community Standards？',
         answer:
-          'Community Standards 定义了 Facebook 上允许的内容和行为。Meta 应用这些标准，以帮助为用户维护安全的环境。',
+          'Facebook 上允许的内容和行为规则，涵盖安全、真实性、隐私等领域。Meta 会在政策页面更新并发布。',
       },
       {
-        question: '如何对此决定提出申诉？',
+        question: '如果不确定是否违规，为什么主页会被标记？',
         answer:
-          '如果您认为您的公共主页被错误地认定为违反 Community Standards，请填写 Appeal details 表单并提交您的请求。它将依据现行政策进行审核。',
+          'Meta 的系统可能在最终结论前检测到潜在违规内容。通知反映的是初步评估阶段；申诉可让审核团队重新评估您主页的具体情况。',
       },
       {
-        question: '我需要提供哪些信息？',
+        question: '什么是「边界内容」？',
         answer:
-          '您需要提供公共主页管理员的详细信息、联系邮箱、公共主页名称以及表单中要求的身份验证信息。',
+          '指未字面违反 Community Standards，但可能引发争议、耸人听闻或降低体验质量的内容。Meta 可能限制此类内容的分发以保护社区。',
       },
       {
-        question: '审核需要多长时间？',
+        question: '谁可以提交申诉？',
         answer:
-          '审核时间因案件而异。审核完成后，您将在 Facebook 上收到通知。',
+          '主页管理员或主页所属组织的授权代表。提交表单时需验证关联的 Facebook 账户。',
       },
       {
-        question: '提交申诉后会发生什么？',
+        question: '需要准备什么？',
         answer:
-          '您的请求将依据 Community Standards 进行审核。审核完成后，结果将通过 Facebook 告知您。',
+          '管理员全名、联系邮箱、商务邮箱（如适用）、主页名称、电话号码以及被标记内容的简要说明。信息不一致或无法验证可能导致无法处理。',
+      },
+      {
+        question: '审核需要多久？可能有哪些结果？',
+        answer:
+          '通常 3–7 个工作日，如需补充信息可能更长。结果可能包括申诉被接受、维持原决定或要求补充信息 — 均通过 Facebook 通知。',
+      },
+      {
+        question: '我的信息如何使用？',
+        answer:
+          '仅用于处理申诉和验证管理权限，依据 Meta 隐私政策和条款。Meta 不会出售您的个人数据。',
       },
     ],
   },

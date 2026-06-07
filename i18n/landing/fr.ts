@@ -15,133 +15,143 @@ export const frLanding: LandingStrings = {
   hero: {
     title: 'Votre Page pourrait avoir enfreint les Community Standards',
     lead:
-      'À la suite d’un examen récent, votre Page Facebook a été identifiée comme susceptible d’enfreindre les Community Standards. Si vous estimez que ce résultat est incorrect, vous pouvez soumettre un recours pour demander un examen.',
+      'À la suite d’un examen récent, votre Page Facebook a été identifiée comme potentiellement en infraction avec les Community Standards. Si vous estimez que ce résultat est incorrect, vous pouvez soumettre un recours pour demander un nouvel examen.',
     eligibility:
-      'Cette décision repose sur le processus d’examen standard de Meta. Chaque recours est examiné conformément à la politique en vigueur.',
-    creatorPrefix: 'En savoir plus sur les',
-    creatorLink: 'Community Standards de Meta',
+      'Cet avis est émis conformément aux principes de contenu éditeur de Facebook et s’applique uniquement à une Page que vous administrez.',
+    creatorPrefix: 'En savoir plus sur',
+    creatorLink: 'Meta Community Standards',
     cta: 'Soumettre un recours',
-    badgeAlt: 'Icône de notification Meta',
-    videoAria: 'Guide vidéo du processus de recours',
+    badgeAlt: 'Logo Facebook',
+    videoAria: 'Vidéo guide sur la procédure de recours',
   },
   benefits: {
-    title: 'À propos du processus de recours',
+    title: 'À propos de cet avis',
     subtitle:
-      'Découvrez comment Meta traite les demandes de recours liées aux Community Standards sur Facebook.',
+      'Meta examine le contenu des Pages selon les Community Standards et les principes de distribution de contenu afin de réduire les risques de préjudice pour la communauté.',
     learnMore: 'En savoir plus',
     items: [
       {
-        title: 'Processus d’examen',
+        title: 'Signaux de violation potentielle',
         description:
-          'Chaque recours est examiné de manière indépendante conformément aux Community Standards actuels de Meta.',
+          'Les systèmes de Meta peuvent identifier du contenu comme potentiellement en infraction avant une décision finale. Cet avis reflète une phase d’évaluation initiale, et non une décision définitive.',
+      },
+      {
+        title: 'Contenu limite',
+        description:
+          'Certains contenus ne violent pas les Community Standards au sens strict, mais peuvent être controversés ou réduire la qualité de l’expérience. Meta peut limiter la distribution pour protéger la communauté.',
+      },
+      {
+        title: 'Principes de distribution de contenu',
+        description:
+          'Facebook privilégie les sources authentiques et le contenu conforme aux politiques. Les décisions de distribution sont toujours évaluées selon les Community Standards en vigueur.',
+      },
+      {
+        title: 'Examen automatisé et spécialisé',
+        description:
+          'Le processus combine la détection automatisée et l’évaluation par des équipes d’examen des politiques, en fonction du contexte spécifique de votre Page.',
+      },
+      {
+        title: 'Vérification d’identité si nécessaire',
+        description:
+          'Pour les contenus à distribution exceptionnellement élevée, Meta peut exiger une vérification d’identité avant de poursuivre. La procédure de recours peut inclure cette étape.',
       },
       {
         title: 'Droit de recours',
         description:
-          'Si vous estimez que la décision est incorrecte, vous pouvez soumettre une demande de réexamen.',
-      },
-      {
-        title: 'Informations requises',
-        description:
-          'Veuillez fournir des informations exactes concernant votre Page et son administrateur pour faciliter l’examen.',
-      },
-      {
-        title: 'Délai de traitement',
-        description:
-          'Les délais d’examen peuvent varier selon la complexité de chaque dossier.',
-      },
-      {
-        title: 'Notification du résultat',
-        description:
-          'Vous recevrez une notification sur Facebook lorsque l’examen sera terminé.',
-      },
-      {
-        title: 'Conformité aux politiques',
-        description:
-          'Les Pages doivent respecter les Community Standards de Meta tout au long du processus d’examen.',
+          'Les administrateurs de Page ou les représentants autorisés peuvent soumettre une demande d’examen s’ils estiment que le résultat initial est incorrect.',
       },
     ],
   },
   steps: {
-    title: 'Comment soumettre un recours',
+    title: 'Étapes pour soumettre un recours',
     subtitle:
-      'Suivez les étapes ci-dessous pour soumettre votre recours. Vos informations seront utilisées à des fins d’examen.',
+      'Effectuez les trois étapes dans l’ordre. Durée estimée : environ 5 à 10 minutes.',
     items: [
       {
-        title: 'Consultez l’avis.',
+        title: 'Examiner le contenu signalé.',
         description:
-          'Lisez l’avis concernant d’éventuelles violations des Community Standards sur votre Page. Si vous estimez que le résultat est incorrect, vous pouvez procéder à la soumission d’un recours.',
+          'Comparez l’avertissement avec les publications ou activités associées sur votre Page. Consultez les Community Standards si vous avez besoin de précisions sur la politique appliquée.',
       },
       {
-        title: 'Remplissez le formulaire de recours.',
+        title: 'Remplir le formulaire et vérifier votre identité.',
         description:
-          'Dans le formulaire Détails du recours, indiquez le nom complet de l’administrateur, l’adresse e-mail de contact, l’adresse e-mail professionnelle, le nom de la Page, le numéro de téléphone et la date de naissance. Veuillez remplir correctement tous les champs obligatoires.',
+          'Fournissez les coordonnées de l’administrateur et les informations de contact, ainsi qu’une note explicative (le cas échéant). Vérifiez votre compte Facebook associé avant de soumettre.',
       },
       {
-        title: 'Attendez l’examen.',
+        title: 'Suivre le statut sur Facebook.',
         description:
-          'Votre demande sera examinée et nous vous informerons du résultat dès que possible.',
+          'Après la soumission, vous recevez une confirmation et des mises à jour via les notifications Facebook. La référence de votre demande aide en cas de besoin d’assistance.',
       },
     ],
   },
   testimonials: {
-    title: 'Remarques lors de la soumission d’un recours',
+    title: 'Recommandations du Help Center',
     prevAria: 'Élément précédent',
     nextAria: 'Élément suivant',
     items: [
       {
         quote:
-          'Chaque recours est examiné de manière indépendante conformément aux Community Standards actuels de Meta.',
-        author: 'Centre d’aide Meta',
-        role: 'Politiques et sécurité',
+          'Avant de faire appel, consultez les Community Standards et les principes éditeur pour comprendre les politiques que Meta applique à votre Page.',
+        author: 'Meta Business Help Center',
+        role: 'Politiques de contenu',
       },
       {
         quote:
-          'Veuillez fournir des informations exactes et complètes pour faciliter l’examen de votre demande de recours.',
-        author: 'Centre d’aide Meta',
-        role: 'Conseils aux utilisateurs',
+          'Dans le formulaire de recours, décrivez brièvement le contexte du contenu signalé et pourquoi vous estimez que votre Page est conforme — des informations précises aident les examinateurs à évaluer votre dossier plus exactement.',
+        author: 'Meta Business Help Center',
+        role: 'Guide de soumission',
       },
       {
         quote:
-          'Vous recevrez une notification sur Facebook lorsque l’examen du recours sera terminé.',
-        author: 'Centre d’aide Meta',
-        role: 'Notification système',
+          'Ne soumettez pas de demandes en double pour le même problème. Chaque demande est traitée dans l’ordre de réception et une seule fois par signalement.',
+        author: 'Meta Business Help Center',
+        role: 'Politique de traitement',
       },
     ],
   },
   finalCta: {
-    title: 'Souhaitez-vous soumettre un recours ?',
+    title: 'Prêt à soumettre votre recours ?',
     subtitle:
-      'Si vous estimez que la décision est incorrecte, soumettez une demande d’examen.',
+      'Le formulaire Appeal details exige les informations de l’administrateur et une vérification d’identité. Connectez-vous à Facebook avant de commencer.',
     cta: 'Soumettre un recours',
   },
   faq: {
     title: 'Questions fréquentes',
     items: [
       {
-        question: 'Que sont les Community Standards de Meta ?',
+        question: 'Que sont les Meta Community Standards ?',
         answer:
-          'Les Community Standards définissent les contenus et comportements autorisés sur Facebook. Meta applique ces standards pour contribuer à maintenir un environnement sûr pour les utilisateurs.',
+          'Des règles sur le contenu et le comportement autorisés sur Facebook, couvrant la sécurité, l’authenticité, la confidentialité et d’autres domaines. Meta les met à jour et les publie sur ses pages de politiques.',
       },
       {
-        question: 'Comment puis-je contester cette décision ?',
+        question: 'Pourquoi ma Page a-t-elle été signalée si je ne suis pas sûr qu’elle a enfreint une politique ?',
         answer:
-          'Si vous estimez que votre Page a été incorrectement identifiée comme enfreignant les Community Standards, remplissez le formulaire Détails du recours et soumettez votre demande. Elle sera examinée conformément à la politique en vigueur.',
+          'Les systèmes de Meta peuvent détecter du contenu potentiellement en infraction avant une conclusion finale. L’avis reflète une phase d’évaluation initiale ; un recours permet aux équipes d’examiner de nouveau le contexte spécifique de votre Page.',
       },
       {
-        question: 'Quelles informations dois-je fournir ?',
+        question: 'Qu’est-ce que le « contenu limite » ?',
         answer:
-          'Vous devrez fournir des informations concernant l’administrateur de la Page, l’adresse e-mail de contact, le nom de la Page et les informations de vérification d’identité demandées dans le formulaire.',
+          'Du contenu qui ne viole pas les Community Standards au sens strict, mais qui peut être controversé, sensationnel ou réduire la qualité de l’expérience. Meta peut limiter la distribution de ce contenu pour protéger la communauté.',
       },
       {
-        question: 'Combien de temps dure l’examen ?',
+        question: 'Qui peut soumettre un recours ?',
         answer:
-          'Les délais d’examen peuvent varier selon le dossier. Vous recevrez une notification sur Facebook lorsque l’examen sera terminé.',
+          'Les administrateurs de Page ou les représentants autorisés de l’organisation propriétaire de la Page. Vous devez vérifier le compte Facebook associé lors de la soumission du formulaire.',
       },
       {
-        question: 'Que se passe-t-il après la soumission d’un recours ?',
+        question: 'Que dois-je préparer ?',
         answer:
-          'Votre demande sera examinée conformément aux Community Standards. Le résultat vous sera communiqué via Facebook une fois l’examen terminé.',
+          'Nom complet de l’administrateur, e-mail de contact, e-mail professionnel (le cas échéant), nom de la Page, numéro de téléphone et brève description du contenu signalé. Des informations incohérentes ou non vérifiables peuvent empêcher le traitement.',
+      },
+      {
+        question: 'Combien de temps dure l’examen et quels résultats sont possibles ?',
+        answer:
+          'Généralement 3 à 7 jours ouvrables, parfois plus si des informations supplémentaires sont nécessaires. Les résultats possibles incluent l’acceptation du recours, le maintien de la décision ou une demande d’informations complémentaires — le tout est communiqué via Facebook.',
+      },
+      {
+        question: 'Comment mes informations sont-elles utilisées ?',
+        answer:
+          'Uniquement pour traiter votre recours et vérifier vos droits administratifs, conformément à la Politique de confidentialité et aux Conditions de Meta. Meta ne vend pas vos données personnelles.',
       },
     ],
   },

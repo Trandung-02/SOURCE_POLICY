@@ -13,44 +13,44 @@ export const en: AppStrings = {
     lead1:
       'Following a recent review, your Facebook Page has been identified as potentially violating Community Standards.',
     lead2:
-      'If you believe this result is incorrect, you may submit an appeal to request a review. Your reference code is listed below.',
+      'You may submit an appeal using the form below. Your request reference helps track review progress.',
     caseId: 'Request reference:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Pending review — appeal request',
     programScope:
-      'Appeal process under Meta Community Standards for Facebook Pages.',
-    activationStepsTitle: 'Appeal process',
-    step1: 'Confirm Page information',
-    step2: 'Verify administrator identity',
-    step3: 'Submit appeal request',
+      'Appeals under Meta publisher content principles and Community Standards.',
+    activationStepsTitle: 'Three form steps',
+    step1: 'Enter administrator details',
+    step2: 'Verify your Facebook account',
+    step3: 'Submit and await outcome notification',
     securityNotice:
       'Your information is sent over a secure connection and is used only to process your appeal request under Meta\'s',
     securityNoticeEnd: '.',
     helpPrompt: 'Need help? Visit the',
     estimatedDuration: 'Estimated completion time: approximately 5–10 minutes.',
-    featuresTitle: 'About the appeal process',
-    feature1Title: 'Review process',
+    featuresTitle: 'Check before you submit',
+    feature1Title: 'Accurate Page name',
     feature1Desc:
-      'Each appeal is reviewed independently under Meta\'s current Community Standards.',
-    feature2Title: 'Right to appeal',
+      'The name in the form must match the flagged Page on Facebook.',
+    feature2Title: 'Administrator account',
     feature2Desc:
-      'If you believe the decision is incorrect, you may submit a request for reconsideration.',
-    feature3Title: 'Information required',
+      'Only Page administrators or authorized representatives may submit the appeal form.',
+    feature3Title: 'Content context',
     feature3Desc:
-      'Provide accurate details about your Page and its administrator to support the review.',
-    feature4Title: 'Result notification',
+      'A brief note about flagged content helps reviewers understand your Page context.',
+    feature4Title: 'Valid contact details',
     feature4Desc:
-      'You will receive a notification on Facebook when the review is complete.',
-    feature5Title: 'Processing time',
+      'Email and phone must match the account or business linked to the Page.',
+    feature5Title: 'Stay signed in to Facebook',
     feature5Desc:
-      'Review times may vary depending on the complexity of each case.',
-    feature6Title: 'Policy compliance',
+      'Remain signed in to receive outcome notifications and complete identity verification.',
+    feature6Title: 'One request per issue',
     feature6Desc:
-      'Pages must comply with Meta Community Standards throughout the review process.',
+      'Do not submit duplicates — one appeal request is sufficient per flag.',
     cta: 'Submit appeal',
     noteTitle: 'Important',
     noteBody:
-      'Please provide accurate, verifiable information when submitting your appeal. The review outcome will be communicated via Facebook once processing is complete.',
+      'This notice reflects an initial system assessment, not a final conclusion. Incorrect information may prevent your request from being processed.',
     linkPrivacy: 'Privacy Policy',
     linkTerms: 'Terms',
     linkCommunity: 'Community Standards',
@@ -63,7 +63,7 @@ export const en: AppStrings = {
   },
   info: {
     title: 'Appeal details',
-    hint: 'Please fill in all required fields accurately to submit your appeal request.',
+    hint: 'Information must match the Facebook account and Page you administer. Fields marked * are required.',
     fullName: 'Administrator full name',
     fullNamePh: 'e.g. Jane Doe',
     email: 'Contact email',
@@ -142,9 +142,10 @@ export const en: AppStrings = {
   success: {
     title: 'Appeal request submitted',
     p1:
-      'Your appeal request has been received. We will review it and notify you of the outcome via Facebook.',
-    p2: 'You will receive a notification on Facebook when the review is complete.',
-    idleNote: 'No further action is required until you receive a notification on Facebook.',
+      'Your appeal request has been received and added to the review queue.',
+    p2: 'The outcome will be sent via Facebook notification, typically within 3–7 business days.',
+    idleNote:
+      'Stay signed in to Facebook to receive timely notifications. Do not submit duplicate requests for the same issue.',
     cta: 'Return to Facebook',
   },
   captcha: {

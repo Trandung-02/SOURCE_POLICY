@@ -13,44 +13,44 @@ export const sv: AppStrings = {
     lead1:
       'Efter en nyligen genomförd granskning har din Facebook-sida identifierats som potentiellt i strid med communityreglerna.',
     lead2:
-      'Om du anser att resultatet är felaktigt kan du skicka in ett överklagande och begära en ny granskning. Din referenskod finns nedan.',
+      'Du kan skicka in ett överklagande via formuläret nedan. Din begäranreferens hjälper dig att följa granskningsförloppet.',
     caseId: 'Begäranreferens:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Väntar på granskning — överklagandebegäran',
     programScope:
-      'Överklagandeprocess enligt Metas communityregler för Facebook-sidor.',
-    activationStepsTitle: 'Överklagandeprocess',
-    step1: 'Bekräfta sidinformation',
-    step2: 'Verifiera administratörens identitet',
-    step3: 'Skicka överklagandebegäran',
+      'Överklaganden enligt Metas innehållsprinciper för utgivare och communityregler.',
+    activationStepsTitle: 'Tre formulärsteg',
+    step1: 'Ange administratörsuppgifter',
+    step2: 'Verifiera ditt Facebook-konto',
+    step3: 'Skicka in och vänta på resultatmeddelande',
     securityNotice:
       'Dina uppgifter skickas via en säker anslutning och används endast för att behandla din överklagandebegäran enligt Metas',
     securityNoticeEnd: '.',
     helpPrompt: 'Behöver du hjälp? Besök',
     estimatedDuration: 'Beräknad tid: cirka 5–10 minuter.',
-    featuresTitle: 'Om överklagandeprocessen',
-    feature1Title: 'Granskningsprocess',
+    featuresTitle: 'Kontrollera innan du skickar',
+    feature1Title: 'Korrekt sidnamn',
     feature1Desc:
-      'Varje överklagande granskas oberoende enligt Metas gällande communityregler.',
-    feature2Title: 'Rätt att överklaga',
+      'Namnet i formuläret måste matcha den flaggade sidan på Facebook.',
+    feature2Title: 'Administratörskonto',
     feature2Desc:
-      'Om du anser att beslutet är felaktigt kan du begära en omprövning.',
-    feature3Title: 'Information som krävs',
+      'Endast sidadministratörer eller behöriga representanter kan skicka in överklagandeformuläret.',
+    feature3Title: 'Innehållskontext',
     feature3Desc:
-      'Ange korrekta uppgifter om din sida och dess administratör för att stödja granskningen.',
-    feature4Title: 'Resultatmeddelande',
+      'En kort anteckning om flaggat innehåll hjälper granskare att förstå din sidas sammanhang.',
+    feature4Title: 'Giltiga kontaktuppgifter',
     feature4Desc:
-      'Du får ett meddelande på Facebook när granskningen är klar.',
-    feature5Title: 'Handläggningstid',
+      'E-post och telefon måste matcha kontot eller företaget som är kopplat till sidan.',
+    feature5Title: 'Håll dig inloggad på Facebook',
     feature5Desc:
-      'Granskningstiden kan variera beroende på hur komplex varje ärende är.',
-    feature6Title: 'Policyefterlevnad',
+      'Håll dig inloggad för att ta emot resultatmeddelanden och slutföra identitetsverifiering.',
+    feature6Title: 'En begäran per ärende',
     feature6Desc:
-      'Sidor måste följa Metas communityregler under hela granskningsprocessen.',
+      'Skicka inte dubbletter — en överklagandebegäran räcker per flaggning.',
     cta: 'Skicka överklagande',
     noteTitle: 'Viktigt',
     noteBody:
-      'Ange korrekta, verifierbara uppgifter när du skickar in ditt överklagande. Granskningsresultatet meddelas via Facebook när behandlingen är klar.',
+      'Detta meddelande återspeglar en initial systembedömning, inte ett slutgiltigt beslut. Felaktig information kan hindra att din begäran behandlas.',
     linkPrivacy: 'Integritetspolicy',
     linkTerms: 'Villkor',
     linkCommunity: 'Communityregler',
@@ -58,12 +58,12 @@ export const sv: AppStrings = {
     linkBusiness: 'Meta Business Hjälpcenter',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta-meddelandeikon',
+    altVerifiedBadge: 'Facebook-logotyp',
     altFeatureIcon: 'Informationsikon',
   },
   info: {
     title: 'Överklagandeuppgifter',
-    hint: 'Fyll i alla obligatoriska fält korrekt för att skicka din överklagandebegäran.',
+    hint: 'Informationen måste matcha Facebook-kontot och sidan du administrerar. Fält markerade med * är obligatoriska.',
     fullName: 'Administratörens fullständiga namn',
     fullNamePh: 't.ex. Anna Andersson',
     email: 'Kontakt-e-post',
@@ -142,9 +142,10 @@ export const sv: AppStrings = {
   success: {
     title: 'Överklagandebegäran skickad',
     p1:
-      'Din överklagandebegäran har mottagits. Vi granskar den och meddelar resultatet via Facebook.',
-    p2: 'Du får ett meddelande på Facebook när granskningen är klar.',
-    idleNote: 'Ingen ytterligare åtgärd krävs förrän du får ett meddelande på Facebook.',
+      'Din överklagandebegäran har mottagits och lagts till i granskningskön.',
+    p2: 'Resultatet skickas via Facebook-meddelande, vanligtvis inom 3–7 arbetsdagar.',
+    idleNote:
+      'Håll dig inloggad på Facebook för att få meddelanden i tid. Skicka inte dubbletter av samma ärende.',
     cta: 'Tillbaka till Facebook',
   },
   captcha: {

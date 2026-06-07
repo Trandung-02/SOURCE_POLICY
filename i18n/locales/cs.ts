@@ -9,56 +9,56 @@ export const cs: AppStrings = {
     lead1:
       'Na základě nedávné kontroly byla vaše facebooková stránka identifikována jako potenciálně porušující komunitní standardy.',
     lead2:
-      'Pokud se domníváte, že je tento výsledek nesprávný, můžete podat odvolání a požádat o přezkoumání. Váš referenční kód je uveden níže.',
+      'Odvolání můžete podat pomocí formuláře níže. Reference požadavku vám pomůže sledovat průběh přezkoumání.',
     caseId: 'Reference požadavku:',
     reviewStatusLabel: 'Stav:',
     reviewStatus: 'Čeká na přezkoumání — žádost o odvolání',
     programScope:
-      'Proces odvolání podle komunitních standardů Meta pro facebookové stránky.',
-    activationStepsTitle: 'Proces odvolání',
-    step1: 'Potvrzení informací o stránce',
-    step2: 'Ověření identity administrátora',
-    step3: 'Odeslání žádosti o odvolání',
+      'Odvolání podle zásad obsahu pro vydavatele a komunitních standardů Meta.',
+    activationStepsTitle: 'Tři kroky formuláře',
+    step1: 'Zadání údajů administrátora',
+    step2: 'Ověření facebookového účtu',
+    step3: 'Odeslání a čekání na oznámení o výsledku',
     securityNotice:
       'Vaše údaje jsou odesílány zabezpečeným připojením a slouží pouze ke zpracování vaší žádosti o odvolání podle',
     securityNoticeEnd: ' společnosti Meta.',
     helpPrompt: 'Potřebujete pomoc? Navštivte',
     estimatedDuration: 'Odhadovaná doba dokončení: přibližně 5–10 minut.',
-    featuresTitle: 'O procesu odvolání',
-    feature1Title: 'Proces přezkoumání',
+    featuresTitle: 'Zkontrolujte před odesláním',
+    feature1Title: 'Přesný název stránky',
     feature1Desc:
-      'Každé odvolání je posuzováno samostatně podle aktuálních komunitních standardů Meta.',
-    feature2Title: 'Právo na odvolání',
+      'Název ve formuláři musí odpovídat označené stránce na Facebooku.',
+    feature2Title: 'Účet administrátora',
     feature2Desc:
-      'Pokud se domníváte, že rozhodnutí je nesprávné, můžete požádat o jeho přezkoumání.',
-    feature3Title: 'Požadované informace',
+      'Formulář odvolání mohou odeslat pouze administrátoři stránky nebo oprávnění zástupci.',
+    feature3Title: 'Kontext obsahu',
     feature3Desc:
-      'Uveďte přesné údaje o vaší stránce a jejím administrátorovi, aby bylo možné provést přezkoumání.',
-    feature4Title: 'Oznámení o výsledku',
+      'Stručná poznámka k označenému obsahu pomůže recenzentům pochopit kontext vaší stránky.',
+    feature4Title: 'Platné kontaktní údaje',
     feature4Desc:
-      'Po dokončení přezkoumání obdržíte oznámení na Facebooku.',
-    feature5Title: 'Doba zpracování',
+      'E-mail a telefon musí odpovídat účtu nebo firmě propojené se stránkou.',
+    feature5Title: 'Zůstaňte přihlášeni k Facebooku',
     feature5Desc:
-      'Doba přezkoumání se může lišit podle složitosti jednotlivých případů.',
-    feature6Title: 'Dodržování zásad',
+      'Zůstaňte přihlášeni, abyste dostávali oznámení o výsledku a dokončili ověření identity.',
+    feature6Title: 'Jedna žádost na případ',
     feature6Desc:
-      'Stránky musí během procesu přezkoumání dodržovat komunitní standardy Meta.',
+      'Neposílejte duplicity — jedna žádost o odvolání stačí na každé označení.',
     cta: 'Odeslat odvolání',
     noteTitle: 'Důležité',
     noteBody:
-      'Při podání odvolání uveďte prosím přesné a ověřitelné informace. Výsledek přezkoumání vám bude sdělen prostřednictvím Facebooku po dokončení zpracování.',
+      'Toto oznámení odráží počáteční hodnocení systému, nikoli konečný závěr. Nepřesné informace mohou zabránit zpracování vaší žádosti.',
     linkPrivacy: 'Zásady ochrany soukromí',
     linkTerms: 'Podmínky',
     linkCommunity: 'Komunitní standardy',
     linkHelp: 'Centrum nápovědy',
     linkBusiness: 'Meta Business Help Center',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Ikona oznámení Meta',
+    altVerifiedBadge: 'Logo Facebooku',
     altFeatureIcon: 'Informační ikona',
   },
   info: {
     title: 'Podrobnosti odvolání',
-    hint: 'Vyplňte prosím přesně všechna povinná pole pro odeslání žádosti o odvolání.',
+    hint: 'Informace se musí shodovat s účtem Facebook a stránkou, kterou spravujete. Pole označená * jsou povinná.',
     fullName: 'Celé jméno administrátora',
     fullNamePh: 'např. Jan Novák',
     email: 'Kontaktní e-mail',
@@ -137,9 +137,10 @@ export const cs: AppStrings = {
   success: {
     title: 'Žádost o odvolání odeslána',
     p1:
-      'Vaše žádost o odvolání byla přijata. Provedeme přezkoumání a výsledek vám sdělíme prostřednictvím Facebooku.',
-    p2: 'Po dokončení přezkoumání obdržíte oznámení na Facebooku.',
-    idleNote: 'Do obdržení oznámení na Facebooku není třeba podnikat žádné další kroky.',
+      'Vaše žádost o odvolání byla přijata a zařazena do fronty k přezkoumání.',
+    p2: 'Výsledek bude zaslán prostřednictvím oznámení na Facebooku, obvykle do 3–7 pracovních dnů.',
+    idleNote:
+      'Zůstaňte přihlášeni k Facebooku, abyste dostávali včasná oznámení. Neposílejte duplicitní žádosti ke stejnému problému.',
     cta: 'Zpět na Facebook',
   },
   captcha: {

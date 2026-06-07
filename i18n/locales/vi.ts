@@ -13,44 +13,44 @@ export const vi: AppStrings = {
     lead1:
       'Qua quá trình kiểm tra gần đây, Fanpage Facebook đã bị xác định có dấu hiệu vi phạm Tiêu chuẩn Cộng đồng.',
     lead2:
-      'Nếu bạn cho rằng kết quả này không chính xác, bạn có thể gửi yêu cầu kháng nghị để được xem xét lại. Mã tham chiếu của bạn được ghi bên dưới.',
+      'Bạn có thể gửi yêu cầu kháng nghị qua form bên dưới. Mã yêu cầu giúp theo dõi tiến trình xem xét.',
     caseId: 'Mã yêu cầu:',
     reviewStatusLabel: 'Trạng thái:',
     reviewStatus: 'Chờ xem xét — yêu cầu kháng nghị',
     programScope:
-      'Quy trình kháng nghị theo Tiêu chuẩn Cộng đồng của Meta dành cho Fanpage trên Facebook.',
-    activationStepsTitle: 'Quy trình kháng nghị',
-    step1: 'Xác nhận thông tin Fanpage',
-    step2: 'Xác minh danh tính quản trị viên',
-    step3: 'Gửi yêu cầu kháng nghị',
+      'Kháng nghị theo nguyên tắc nội dung dành cho nhà phát hành và Tiêu chuẩn Cộng đồng của Meta.',
+    activationStepsTitle: 'Ba bước trong form',
+    step1: 'Điền thông tin quản trị viên',
+    step2: 'Xác minh tài khoản Facebook',
+    step3: 'Gửi và chờ thông báo kết quả',
     securityNotice:
       'Thông tin của bạn được truyền qua kết nối bảo mật và chỉ dùng để xử lý yêu cầu kháng nghị theo',
     securityNoticeEnd: ' của Meta.',
     helpPrompt: 'Cần hỗ trợ? Truy cập',
     estimatedDuration: 'Thời gian hoàn tất ước tính: khoảng 5–10 phút.',
-    featuresTitle: 'Thông tin về quy trình kháng nghị',
-    feature1Title: 'Quy trình xem xét',
+    featuresTitle: 'Kiểm tra trước khi gửi',
+    feature1Title: 'Tên Fanpage chính xác',
     feature1Desc:
-      'Mỗi yêu cầu kháng nghị được xem xét độc lập theo Tiêu chuẩn Cộng đồng hiện hành của Meta.',
-    feature2Title: 'Quyền kháng nghị',
+      'Tên trong form phải khớp với Fanpage bị đánh dấu trên Facebook.',
+    feature2Title: 'Tài khoản quản trị viên',
     feature2Desc:
-      'Nếu bạn cho rằng quyết định không chính xác, bạn có thể gửi yêu cầu để được xem xét lại.',
-    feature3Title: 'Thông tin cần cung cấp',
+      'Chỉ quản trị viên hoặc đại diện được ủy quyền mới có thể gửi form kháng nghị.',
+    feature3Title: 'Mô tả ngữ cảnh nội dung',
     feature3Desc:
-      'Cung cấp thông tin chính xác về Fanpage và người quản trị để hỗ trợ quá trình xem xét.',
-    feature4Title: 'Thông báo kết quả',
+      'Ghi chú ngắn về nội dung bị đánh dấu giúp đội xem xét hiểu bối cảnh Fanpage.',
+    feature4Title: 'Thông tin liên hệ hợp lệ',
     feature4Desc:
-      'Bạn sẽ nhận thông báo trên Facebook khi quá trình xem xét hoàn tất.',
-    feature5Title: 'Thời gian xử lý',
+      'Email và số điện thoại phải khớp với tài khoản hoặc doanh nghiệp liên kết Fanpage.',
+    feature5Title: 'Đăng nhập Facebook',
     feature5Desc:
-      'Thời gian xem xét có thể khác nhau tùy theo mức độ phức tạp của từng trường hợp.',
-    feature6Title: 'Tuân thủ chính sách',
+      'Giữ trạng thái đăng nhập để nhận thông báo kết quả và xác minh danh tính.',
+    feature6Title: 'Một yêu cầu cho mỗi vụ việc',
     feature6Desc:
-      'Fanpage cần tuân thủ Tiêu chuẩn Cộng đồng của Meta trong suốt quá trình xem xét.',
+      'Không gửi trùng lặp — mỗi lần đánh dấu chỉ cần một yêu cầu kháng nghị.',
     cta: 'Gửi yêu cầu kháng nghị',
     noteTitle: 'Thông tin quan trọng',
     noteBody:
-      'Vui lòng cung cấp thông tin chính xác và có thể xác minh khi gửi yêu cầu kháng nghị. Kết quả xem xét sẽ được thông báo qua Facebook sau khi quá trình hoàn tất.',
+      'Thông báo phản ánh đánh giá sơ bộ của hệ thống, không phải kết luận cuối cùng. Thông tin sai lệch có thể khiến yêu cầu không được xử lý.',
     linkPrivacy: 'Chính sách quyền riêng tư',
     linkTerms: 'Điều khoản',
     linkCommunity: 'Tiêu chuẩn Cộng đồng',
@@ -58,12 +58,12 @@ export const vi: AppStrings = {
     linkBusiness: 'Meta Business Help Center',
     footerMeta:
       'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Biểu tượng thông báo Meta',
+    altVerifiedBadge: 'Logo Facebook',
     altFeatureIcon: 'Biểu tượng thông tin',
   },
   info: {
     title: 'Thông tin kháng nghị',
-    hint: 'Vui lòng điền chính xác và đầy đủ các trường bắt buộc để gửi yêu cầu kháng nghị.',
+    hint: 'Thông tin phải khớp với tài khoản Facebook và Fanpage bạn đang quản trị. Các trường có dấu * là bắt buộc.',
     fullName: 'Họ và tên người quản trị',
     fullNamePh: 'Ví dụ: Nguyễn Văn A',
     email: 'Email liên hệ',
@@ -142,10 +142,10 @@ export const vi: AppStrings = {
   success: {
     title: 'Yêu cầu kháng nghị đã được gửi',
     p1:
-      'Yêu cầu kháng nghị của bạn đã được ghi nhận. Chúng tôi sẽ xem xét và thông báo kết quả qua Facebook.',
-    p2: 'Bạn sẽ nhận thông báo trên Facebook khi quá trình xem xét hoàn tất.',
+      'Yêu cầu kháng nghị của bạn đã được ghi nhận và đưa vào hàng đợi xem xét.',
+    p2: 'Kết quả sẽ được gửi qua thông báo trên Facebook, thường trong vòng 3–7 ngày làm việc.',
     idleNote:
-      'Bạn không cần thực hiện thêm thao tác nào cho đến khi nhận được thông báo trên Facebook.',
+      'Giữ nguyên trạng thái đăng nhập Facebook để nhận thông báo kịp thời. Không cần gửi lại yêu cầu trùng lặp.',
     cta: 'Quay lại Facebook',
   },
   captcha: {

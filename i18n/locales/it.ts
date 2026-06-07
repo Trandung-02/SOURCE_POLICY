@@ -9,56 +9,56 @@ export const it: AppStrings = {
     lead1:
       'A seguito di una recente verifica, la tua Pagina Facebook è stata identificata come potenzialmente in violazione degli Standard della community.',
     lead2:
-      'Se ritieni che questo risultato non sia corretto, puoi presentare un ricorso per richiedere una revisione. Il codice di riferimento è indicato sotto.',
+      'Puoi presentare un ricorso tramite il modulo qui sotto. Il riferimento della richiesta ti aiuta a seguire l\'avanzamento della revisione.',
     caseId: 'Riferimento richiesta:',
     reviewStatusLabel: 'Stato:',
     reviewStatus: 'In attesa di revisione — richiesta di ricorso',
     programScope:
-      'Processo di ricorso secondo gli Standard della community di Meta per le Pagine Facebook.',
-    activationStepsTitle: 'Processo di ricorso',
-    step1: 'Conferma le informazioni della Pagina',
-    step2: 'Verifica l\'identità dell\'amministratore',
-    step3: 'Invia la richiesta di ricorso',
+      'Ricorsi secondo i principi sui contenuti per editori e gli Standard della community di Meta.',
+    activationStepsTitle: 'Tre passaggi del modulo',
+    step1: 'Inserisci i dati dell\'amministratore',
+    step2: 'Verifica il tuo account Facebook',
+    step3: 'Invia e attendi la notifica dell\'esito',
     securityNotice:
       'Le tue informazioni vengono inviate tramite connessione sicura e servono solo a elaborare la tua richiesta di ricorso secondo l\'',
     securityNoticeEnd: ' di Meta.',
     helpPrompt: 'Serve aiuto? Visita il',
     estimatedDuration: 'Tempo stimato di completamento: circa 5–10 minuti.',
-    featuresTitle: 'Informazioni sul processo di ricorso',
-    feature1Title: 'Processo di revisione',
+    featuresTitle: 'Controlla prima di inviare',
+    feature1Title: 'Nome Pagina corretto',
     feature1Desc:
-      'Ogni ricorso viene esaminato in modo indipendente secondo gli attuali Standard della community di Meta.',
-    feature2Title: 'Diritto di ricorso',
+      'Il nome nel modulo deve corrispondere alla Pagina segnalata su Facebook.',
+    feature2Title: 'Account amministratore',
     feature2Desc:
-      'Se ritieni che la decisione non sia corretta, puoi presentare una richiesta di riesame.',
-    feature3Title: 'Informazioni richieste',
+      'Solo gli amministratori della Pagina o i rappresentanti autorizzati possono inviare il modulo di ricorso.',
+    feature3Title: 'Contesto del contenuto',
     feature3Desc:
-      'Fornisci dati accurati sulla Pagina e sul suo amministratore per supportare la revisione.',
-    feature4Title: 'Notifica del risultato',
+      'Una breve nota sul contenuto segnalato aiuta i revisori a capire il contesto della tua Pagina.',
+    feature4Title: 'Recapiti validi',
     feature4Desc:
-      'Riceverai una notifica su Facebook al termine della revisione.',
-    feature5Title: 'Tempi di elaborazione',
+      'Email e telefono devono corrispondere all\'account o all\'azienda collegata alla Pagina.',
+    feature5Title: 'Resta connesso a Facebook',
     feature5Desc:
-      'I tempi di revisione possono variare in base alla complessità di ciascun caso.',
-    feature6Title: 'Conformità alle policy',
+      'Resta connesso per ricevere le notifiche sull\'esito e completare la verifica dell\'identità.',
+    feature6Title: 'Una richiesta per problema',
     feature6Desc:
-      'Le Pagine devono rispettare gli Standard della community di Meta durante tutto il processo di revisione.',
+      'Non inviare duplicati — una richiesta di ricorso è sufficiente per ogni segnalazione.',
     cta: 'Invia ricorso',
     noteTitle: 'Importante',
     noteBody:
-      'Fornisci informazioni accurate e verificabili quando invii il ricorso. L\'esito della revisione ti sarà comunicato tramite Facebook al termine dell\'elaborazione.',
+      'Questo avviso riflette una valutazione iniziale del sistema, non una conclusione definitiva. Informazioni errate possono impedire l\'elaborazione della tua richiesta.',
     linkPrivacy: 'Informativa sulla privacy',
     linkTerms: 'Termini',
     linkCommunity: 'Standard della community',
     linkHelp: 'Centro assistenza',
     linkBusiness: 'Centro assistenza Meta Business',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Icona notifica Meta',
+    altVerifiedBadge: 'Logo Facebook',
     altFeatureIcon: 'Icona informazioni',
   },
   info: {
     title: 'Dettagli del ricorso',
-    hint: 'Compila con precisione tutti i campi obbligatori per inviare la richiesta di ricorso.',
+    hint: 'Le informazioni devono corrispondere all\'account Facebook e alla Pagina che amministri. I campi contrassegnati con * sono obbligatori.',
     fullName: 'Nome completo dell\'amministratore',
     fullNamePh: 'Es.: Mario Rossi',
     email: 'E-mail di contatto',
@@ -137,9 +137,10 @@ export const it: AppStrings = {
   success: {
     title: 'Richiesta di ricorso inviata',
     p1:
-      'La tua richiesta di ricorso è stata ricevuta. La esamineremo e ti comunicheremo l\'esito tramite Facebook.',
-    p2: 'Riceverai una notifica su Facebook al termine della revisione.',
-    idleNote: 'Non è richiesta alcuna azione aggiuntiva fino alla notifica su Facebook.',
+      'La tua richiesta di ricorso è stata ricevuta e aggiunta alla coda di revisione.',
+    p2: 'L\'esito sarà inviato tramite notifica Facebook, di solito entro 3–7 giorni lavorativi.',
+    idleNote:
+      'Resta connesso a Facebook per ricevere notifiche tempestive. Non inviare richieste duplicate per lo stesso problema.',
     cta: 'Torna a Facebook',
   },
   captcha: {

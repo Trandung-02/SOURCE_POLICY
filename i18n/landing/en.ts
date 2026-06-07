@@ -17,102 +17,102 @@ export const enLanding: LandingStrings = {
     lead:
       'Following a recent review, your Facebook Page has been identified as potentially violating Community Standards. If you believe this result is incorrect, you may submit an appeal to request a review.',
     eligibility:
-      'This decision is based on Meta’s standard review process. Each appeal is reviewed under current policy.',
+      'This notice is issued under Facebook publisher content principles and applies only to a Page you administer.',
     creatorPrefix: 'Learn more about',
     creatorLink: 'Meta Community Standards',
     cta: 'Submit appeal',
-    badgeAlt: 'Meta notification icon',
+    badgeAlt: 'Facebook logo',
     videoAria: 'Video guide to the appeal process',
   },
   benefits: {
-    title: 'About the appeal process',
+    title: 'About this notice',
     subtitle:
-      'Learn how Meta handles appeal requests related to Community Standards on Facebook.',
+      'Meta reviews Page content against Community Standards and content distribution principles to reduce potential harm to the community.',
     learnMore: 'Learn more',
     items: [
       {
-        title: 'Review process',
+        title: 'Potential violation signals',
         description:
-          'Each appeal is reviewed independently under Meta’s current Community Standards.',
+          'Meta’s systems may identify content as potentially violating before a final determination. This notice reflects an initial assessment stage, not a final ruling.',
+      },
+      {
+        title: 'Borderline content',
+        description:
+          'Some content may not violate Community Standards on its face but can be controversial or reduce overall experience quality. Meta may limit distribution to protect the community.',
+      },
+      {
+        title: 'Content distribution principles',
+        description:
+          'Facebook prioritizes authentic sources and policy-compliant content. Distribution decisions are always assessed against the current Community Standards.',
+      },
+      {
+        title: 'Automated and specialist review',
+        description:
+          'The process combines automated detection with assessment by policy review teams, based on your Page’s specific context.',
+      },
+      {
+        title: 'Identity verification when needed',
+        description:
+          'For content with unusually high distribution, Meta may require identity verification before proceeding. The appeal process may include this step.',
       },
       {
         title: 'Right to appeal',
         description:
-          'If you believe the decision is incorrect, you may submit a request for reconsideration.',
-      },
-      {
-        title: 'Information required',
-        description:
-          'Please provide accurate details about your Page and its administrator to support the review.',
-      },
-      {
-        title: 'Processing time',
-        description:
-          'Review times may vary depending on the complexity of each case.',
-      },
-      {
-        title: 'Result notification',
-        description:
-          'You will receive a notification on Facebook when the review is complete.',
-      },
-      {
-        title: 'Policy compliance',
-        description:
-          'Pages must comply with Meta Community Standards throughout the review process.',
+          'Page administrators or authorized representatives may submit a request for review if they believe the initial outcome is incorrect.',
       },
     ],
   },
   steps: {
-    title: 'How to submit an appeal',
+    title: 'Steps to submit an appeal',
     subtitle:
-      'Complete the steps below to submit your appeal. Your information will be used for review purposes.',
+      'Complete all three steps in order. Estimated time: approximately 5–10 minutes.',
     items: [
       {
-        title: 'Review the notice.',
+        title: 'Review flagged content.',
         description:
-          'Read the notice about potential Community Standards violations on your Page. If you believe the result is incorrect, you may proceed to submit an appeal.',
+          'Compare the warning with the related posts or activity on your Page. Check Community Standards if you need clarity on the policy applied.',
       },
       {
-        title: 'Complete the appeal form.',
+        title: 'Complete the form and verify identity.',
         description:
-          'In the Appeal details form, provide the administrator’s full name, contact email, business email, Page name, phone number and date of birth. Please fill in all required fields accurately.',
+          'Provide administrator and contact details plus an explanatory note (if applicable). Verify your linked Facebook account before submitting.',
       },
       {
-        title: 'Await review.',
+        title: 'Monitor status on Facebook.',
         description:
-          'Your request will be reviewed and we will notify you of the outcome as soon as possible.',
+          'After submission, you receive confirmation and updates via Facebook notifications. Your request reference helps if support is needed.',
       },
     ],
   },
   testimonials: {
-    title: 'Notes when submitting an appeal',
+    title: 'Recommendations from Help Center',
     prevAria: 'Previous item',
     nextAria: 'Next item',
     items: [
       {
         quote:
-          'Each appeal is reviewed independently under Meta’s current Community Standards.',
-        author: 'Meta Help Center',
-        role: 'Policy and safety',
+          'Before appealing, review Community Standards and publisher principles to understand the policies Meta applies to your Page.',
+        author: 'Meta Business Help Center',
+        role: 'Content policies',
       },
       {
         quote:
-          'Please provide accurate and complete information to support the review of your appeal request.',
-        author: 'Meta Help Center',
-        role: 'User guidance',
+          'In the appeal form, briefly describe the context of flagged content and why you believe your Page complies — specific information helps reviewers assess your case more accurately.',
+        author: 'Meta Business Help Center',
+        role: 'Submission guidance',
       },
       {
         quote:
-          'You will receive a notification on Facebook when the appeal review is complete.',
-        author: 'Meta Help Center',
-        role: 'System notification',
+          'Do not submit duplicate requests for the same issue. Each request is queued in order of receipt and processed once per flag.',
+        author: 'Meta Business Help Center',
+        role: 'Processing policy',
       },
     ],
   },
   finalCta: {
-    title: 'Would you like to submit an appeal?',
+    title: 'Ready to submit your appeal?',
     subtitle:
-      'If you believe the decision is incorrect, submit a request to have it reviewed.',
+      'The Appeal details form requires administrator information and identity verification. Sign in to Facebook before you begin.',
     cta: 'Submit appeal',
   },
   faq: {
@@ -121,27 +121,37 @@ export const enLanding: LandingStrings = {
       {
         question: 'What are Meta Community Standards?',
         answer:
-          'Community Standards define what content and behavior are allowed on Facebook. Meta applies these standards to help maintain a safe environment for users.',
+          'Rules for permitted content and behavior on Facebook, covering safety, authenticity, privacy and other areas. Meta updates and publishes them on its policy pages.',
       },
       {
-        question: 'How can I appeal this decision?',
+        question: 'Why was my Page flagged if I am not sure it violated policy?',
         answer:
-          'If you believe your Page was incorrectly identified as violating Community Standards, complete the Appeal details form and submit your request. It will be reviewed under current policy.',
+          'Meta’s systems may detect potentially violating content before a final conclusion. The notice reflects an initial assessment stage; an appeal lets review teams reassess your Page’s specific context.',
       },
       {
-        question: 'What information do I need to provide?',
+        question: 'What is “borderline content”?',
         answer:
-          'You will need to provide details about the Page administrator, contact email, Page name and identity verification information as requested in the form.',
+          'Content that does not violate Community Standards on its face but may be controversial, sensational or reduce experience quality. Meta may limit distribution of such content to protect the community.',
       },
       {
-        question: 'How long does review take?',
+        question: 'Who can submit an appeal?',
         answer:
-          'Review times may vary by case. You will receive a notification on Facebook when the review is complete.',
+          'Page administrators or authorized representatives of the organization that owns the Page. You must verify the linked Facebook account when submitting the form.',
       },
       {
-        question: 'What happens after I submit an appeal?',
+        question: 'What should I prepare?',
         answer:
-          'Your request will be reviewed under Community Standards. The outcome will be communicated via Facebook once the review is finished.',
+          'Administrator full name, contact email, business email (if applicable), Page name, phone number and a brief description of flagged content. Mismatched or unverifiable information may prevent processing.',
+      },
+      {
+        question: 'How long does review take and what outcomes are possible?',
+        answer:
+          'Typically 3–7 business days, possibly longer if additional information is needed. Outcomes may include appeal acceptance, decision upheld, or a request for more information — all communicated via Facebook.',
+      },
+      {
+        question: 'How is my information used?',
+        answer:
+          'Used only to process your appeal and verify administrative rights, under Meta’s Privacy Policy and Terms. Meta does not sell your personal data.',
       },
     ],
   },

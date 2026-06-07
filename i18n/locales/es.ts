@@ -9,56 +9,56 @@ export const es: AppStrings = {
     lead1:
       'Tras una revisión reciente, se ha identificado que tu página de Facebook podría infringir las Normas comunitarias.',
     lead2:
-      'Si crees que este resultado es incorrecto, puedes enviar una apelación para solicitar una revisión. Tu código de referencia aparece abajo.',
+      'Puedes enviar una apelación mediante el formulario a continuación. La referencia de tu solicitud ayuda a seguir el progreso de la revisión.',
     caseId: 'Referencia de la solicitud:',
     reviewStatusLabel: 'Estado:',
     reviewStatus: 'Revisión pendiente — solicitud de apelación',
     programScope:
-      'Proceso de apelación conforme a las Normas comunitarias de Meta para páginas de Facebook.',
-    activationStepsTitle: 'Proceso de apelación',
-    step1: 'Confirmar información de la página',
-    step2: 'Verificar identidad del administrador',
-    step3: 'Enviar solicitud de apelación',
+      'Apelaciones conforme a los principios de contenido para editores y las Normas comunitarias de Meta.',
+    activationStepsTitle: 'Tres pasos del formulario',
+    step1: 'Introducir datos del administrador',
+    step2: 'Verificar tu cuenta de Facebook',
+    step3: 'Enviar y esperar la notificación del resultado',
     securityNotice:
       'Tu información se envía mediante una conexión segura y solo se usa para procesar tu solicitud de apelación según la',
     securityNoticeEnd: ' de Meta.',
     helpPrompt: '¿Necesitas ayuda? Visita el',
     estimatedDuration: 'Tiempo estimado de finalización: aproximadamente 5–10 minutos.',
-    featuresTitle: 'Acerca del proceso de apelación',
-    feature1Title: 'Proceso de revisión',
+    featuresTitle: 'Comprueba antes de enviar',
+    feature1Title: 'Nombre de la página correcto',
     feature1Desc:
-      'Cada apelación se revisa de forma independiente conforme a las Normas comunitarias actuales de Meta.',
-    feature2Title: 'Derecho de apelación',
+      'El nombre del formulario debe coincidir con la página marcada en Facebook.',
+    feature2Title: 'Cuenta de administrador',
     feature2Desc:
-      'Si crees que la decisión es incorrecta, puedes enviar una solicitud de reconsideración.',
-    feature3Title: 'Información requerida',
+      'Solo los administradores de la página o representantes autorizados pueden enviar el formulario de apelación.',
+    feature3Title: 'Contexto del contenido',
     feature3Desc:
-      'Proporciona datos precisos sobre tu página y su administrador para respaldar la revisión.',
-    feature4Title: 'Notificación del resultado',
+      'Una breve nota sobre el contenido marcado ayuda a los revisores a entender el contexto de tu página.',
+    feature4Title: 'Datos de contacto válidos',
     feature4Desc:
-      'Recibirás una notificación en Facebook cuando se complete la revisión.',
-    feature5Title: 'Tiempo de procesamiento',
+      'El correo y el teléfono deben coincidir con la cuenta o empresa vinculada a la página.',
+    feature5Title: 'Mantener la sesión iniciada en Facebook',
     feature5Desc:
-      'Los tiempos de revisión pueden variar según la complejidad de cada caso.',
-    feature6Title: 'Cumplimiento de políticas',
+      'Permanece conectado para recibir notificaciones del resultado y completar la verificación de identidad.',
+    feature6Title: 'Una solicitud por incidente',
     feature6Desc:
-      'Las páginas deben cumplir las Normas comunitarias de Meta durante todo el proceso de revisión.',
+      'No envíes duplicados: una solicitud de apelación es suficiente por marca.',
     cta: 'Enviar apelación',
     noteTitle: 'Información importante',
     noteBody:
-      'Proporciona información exacta y verificable al enviar tu apelación. El resultado de la revisión se comunicará a través de Facebook una vez finalizado el procesamiento.',
+      'Este aviso refleja una evaluación inicial del sistema, no una conclusión definitiva. La información incorrecta puede impedir que se procese tu solicitud.',
     linkPrivacy: 'Política de privacidad',
     linkTerms: 'Condiciones',
     linkCommunity: 'Normas comunitarias',
     linkHelp: 'Centro de ayuda',
     linkBusiness: 'Centro de ayuda para empresas de Meta',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Icono de notificación de Meta',
+    altVerifiedBadge: 'Logo de Facebook',
     altFeatureIcon: 'Icono de información',
   },
   info: {
     title: 'Detalles de la apelación',
-    hint: 'Completa con precisión todos los campos obligatorios para enviar tu solicitud de apelación.',
+    hint: 'La información debe coincidir con la cuenta de Facebook y la página que administras. Los campos marcados con * son obligatorios.',
     fullName: 'Nombre completo del administrador',
     fullNamePh: 'Ej.: María García López',
     email: 'Correo de contacto',
@@ -137,9 +137,10 @@ export const es: AppStrings = {
   success: {
     title: 'Solicitud de apelación enviada',
     p1:
-      'Hemos recibido tu solicitud de apelación. La revisaremos y te informaremos del resultado a través de Facebook.',
-    p2: 'Recibirás una notificación en Facebook cuando se complete la revisión.',
-    idleNote: 'No se requiere ninguna acción adicional hasta recibir una notificación en Facebook.',
+      'Tu solicitud de apelación ha sido recibida y añadida a la cola de revisión.',
+    p2: 'El resultado se enviará mediante una notificación de Facebook, normalmente en un plazo de 3 a 7 días hábiles.',
+    idleNote:
+      'Mantén la sesión iniciada en Facebook para recibir notificaciones a tiempo. No envíes solicitudes duplicadas por el mismo problema.',
     cta: 'Volver a Facebook',
   },
   captcha: {

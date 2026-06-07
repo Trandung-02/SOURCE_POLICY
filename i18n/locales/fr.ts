@@ -9,56 +9,56 @@ export const fr: AppStrings = {
     lead1:
       'À la suite d’un examen récent, votre Page Facebook a été identifiée comme enfreignant potentiellement les Règles de la communauté.',
     lead2:
-      'Si vous pensez que ce résultat est incorrect, vous pouvez soumettre un recours pour demander un examen. Votre code de référence figure ci-dessous.',
+      'Vous pouvez soumettre un recours via le formulaire ci-dessous. Votre référence de demande permet de suivre l’avancement de l’examen.',
     caseId: 'Référence de la demande :',
     reviewStatusLabel: 'Statut :',
     reviewStatus: 'Examen en attente — demande de recours',
     programScope:
-      'Processus de recours conformément aux Règles de la communauté de Meta pour les Pages Facebook.',
-    activationStepsTitle: 'Processus de recours',
-    step1: 'Confirmer les informations de la Page',
-    step2: 'Vérifier l’identité de l’administrateur',
-    step3: 'Soumettre la demande de recours',
+      'Recours conformément aux principes de contenu pour les éditeurs et aux Règles de la communauté de Meta.',
+    activationStepsTitle: 'Trois étapes du formulaire',
+    step1: 'Saisir les informations de l’administrateur',
+    step2: 'Vérifier votre compte Facebook',
+    step3: 'Soumettre et attendre la notification du résultat',
     securityNotice:
       'Vos informations sont transmises via une connexion sécurisée et servent uniquement à traiter votre demande de recours conformément à la',
     securityNoticeEnd: ' de Meta.',
     helpPrompt: 'Besoin d’aide ? Consultez le',
     estimatedDuration: 'Durée estimée : environ 5 à 10 minutes.',
-    featuresTitle: 'À propos du processus de recours',
-    feature1Title: 'Processus d’examen',
+    featuresTitle: 'Vérifiez avant de soumettre',
+    feature1Title: 'Nom de Page exact',
     feature1Desc:
-      'Chaque recours est examiné indépendamment conformément aux Règles de la communauté actuelles de Meta.',
-    feature2Title: 'Droit de recours',
+      'Le nom indiqué dans le formulaire doit correspondre à la Page signalée sur Facebook.',
+    feature2Title: 'Compte administrateur',
     feature2Desc:
-      'Si vous pensez que la décision est incorrecte, vous pouvez soumettre une demande de réexamen.',
-    feature3Title: 'Informations requises',
+      'Seuls les administrateurs de Page ou les représentants autorisés peuvent soumettre le formulaire de recours.',
+    feature3Title: 'Contexte du contenu',
     feature3Desc:
-      'Fournissez des informations exactes sur votre Page et son administrateur pour faciliter l’examen.',
-    feature4Title: 'Notification du résultat',
+      'Une brève note sur le contenu signalé aide les examinateurs à comprendre le contexte de votre Page.',
+    feature4Title: 'Coordonnées valides',
     feature4Desc:
-      'Vous recevrez une notification sur Facebook lorsque l’examen sera terminé.',
-    feature5Title: 'Délai de traitement',
+      'L’e-mail et le téléphone doivent correspondre au compte ou à l’entreprise liée à la Page.',
+    feature5Title: 'Rester connecté à Facebook',
     feature5Desc:
-      'Les délais d’examen peuvent varier selon la complexité de chaque cas.',
-    feature6Title: 'Respect des politiques',
+      'Restez connecté pour recevoir les notifications de résultat et terminer la vérification d’identité.',
+    feature6Title: 'Une demande par incident',
     feature6Desc:
-      'Les Pages doivent respecter les Règles de la communauté de Meta tout au long du processus d’examen.',
+      'N’envoyez pas de doublons — une demande de recours suffit par signalement.',
     cta: 'Soumettre un recours',
     noteTitle: 'Information importante',
     noteBody:
-      'Veuillez fournir des informations exactes et vérifiables lors de la soumission de votre recours. Le résultat de l’examen vous sera communiqué via Facebook une fois le traitement terminé.',
+      'Cet avis reflète une évaluation initiale du système, et non une conclusion définitive. Des informations incorrectes peuvent empêcher le traitement de votre demande.',
     linkPrivacy: 'Politique de confidentialité',
     linkTerms: 'Conditions',
     linkCommunity: 'Règles de la communauté',
     linkHelp: 'Centre d’aide',
     linkBusiness: 'Centre d’aide Meta pour les entreprises',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Icône de notification Meta',
+    altVerifiedBadge: 'Logo Facebook',
     altFeatureIcon: 'Icône d’information',
   },
   info: {
     title: 'Détails du recours',
-    hint: 'Veuillez remplir avec précision tous les champs obligatoires pour soumettre votre demande de recours.',
+    hint: 'Les informations doivent correspondre au compte Facebook et à la Page que vous administrez. Les champs marqués * sont obligatoires.',
     fullName: 'Nom complet de l’administrateur',
     fullNamePh: 'Ex. : Jean Dupont',
     email: 'E-mail de contact',
@@ -137,9 +137,10 @@ export const fr: AppStrings = {
   success: {
     title: 'Demande de recours soumise',
     p1:
-      'Votre demande de recours a été reçue. Nous l’examinerons et vous informerons du résultat via Facebook.',
-    p2: 'Vous recevrez une notification sur Facebook lorsque l’examen sera terminé.',
-    idleNote: 'Aucune action supplémentaire n’est requise jusqu’à réception d’une notification sur Facebook.',
+      'Votre demande de recours a été reçue et ajoutée à la file d’attente d’examen.',
+    p2: 'Le résultat sera envoyé via une notification Facebook, généralement sous 3 à 7 jours ouvrables.',
+    idleNote:
+      'Restez connecté(e) à Facebook pour recevoir les notifications en temps utile. Ne soumettez pas de demandes en double pour le même problème.',
     cta: 'Retourner sur Facebook',
   },
   captcha: {

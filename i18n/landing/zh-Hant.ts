@@ -10,109 +10,109 @@ export const zhHantLanding: LandingStrings = {
       { label: '支援' },
     ],
     cta: '提交申訴',
-    ctaAria: '提交申訴 — 要求重新審查您的粉絲專頁決定',
+    ctaAria: '提交申訴 — 要求審查粉絲專頁相關決定',
   },
   hero: {
     title: '您的粉絲專頁可能違反了 Community Standards',
     lead:
-      '根據最近的審查，您的 Facebook 粉絲專頁被認定可能違反了 Community Standards。如果您認為此結果有誤，可以提交申訴以要求重新審查。',
+      '經近期審查，您的 Facebook 粉絲專頁被識別為可能違反 Community Standards。若您認為此結果有誤，可提交申訴要求重新審查。',
     eligibility:
-      '此決定是依據 Meta 的標準審查流程。每項申訴均會依現行政策進行審查。',
+      '本通知依 Facebook 發佈者內容原則發出，僅適用於您管理的粉絲專頁。',
     creatorPrefix: '進一步了解',
     creatorLink: 'Meta Community Standards',
     cta: '提交申訴',
-    badgeAlt: 'Meta 通知圖示',
-    videoAria: '申訴流程影片指南',
+    badgeAlt: 'Facebook 標誌',
+    videoAria: '申訴流程指南影片',
   },
   benefits: {
-    title: '關於申訴流程',
+    title: '關於本通知',
     subtitle:
-      '了解 Meta 如何處理與 Facebook 上 Community Standards 相關的申訴請求。',
-    learnMore: '了解更多',
+      'Meta 依 Community Standards 和內容分發原則審查粉絲專頁內容，以降低對社群的潛在傷害。',
+    learnMore: '進一步了解',
     items: [
       {
-        title: '審查流程',
+        title: '潛在違規信號',
         description:
-          '每項申訴均會依 Meta 現行的 Community Standards 獨立審查。',
+          'Meta 的系統可能在最終判定前將內容識別為潛在違規。本通知反映的是初步評估階段，而非最終裁決。',
+      },
+      {
+        title: '邊界內容',
+        description:
+          '部分內容可能未字面違反 Community Standards，但可能引發爭議或降低體驗品質。Meta 可能限制分發以保護社群。',
+      },
+      {
+        title: '內容分發原則',
+        description:
+          'Facebook 優先真實來源和符合政策的內容。分發決策始終依現行 Community Standards 評估。',
+      },
+      {
+        title: '自動化與專業審查',
+        description:
+          '此流程結合自動偵測與政策審查團隊的評估，基於您粉絲專頁的具體情況。',
+      },
+      {
+        title: '必要時進行身分驗證',
+        description:
+          '對於分發量異常高的內容，Meta 可能在繼續處理前要求身分驗證。申訴流程可能包含此步驟。',
       },
       {
         title: '申訴權利',
         description:
-          '如果您認為決定有誤，可以提交重新審查請求。',
-      },
-      {
-        title: '所需資訊',
-        description:
-          '請提供有關您的粉絲專頁及其管理員的準確資訊，以支援審查。',
-      },
-      {
-        title: '處理時間',
-        description:
-          '審查時間可能因各案件的複雜程度而有所不同。',
-      },
-      {
-        title: '結果通知',
-        description:
-          '審查完成後，您將在 Facebook 上收到通知。',
-      },
-      {
-        title: '政策合規',
-        description:
-          '粉絲專頁在整個審查過程中須遵守 Meta Community Standards。',
+          '若您認為初步結果不確，粉絲專頁管理員或授權代表可提交審查請求。',
       },
     ],
   },
   steps: {
-    title: '如何提交申訴',
+    title: '提交申訴的步驟',
     subtitle:
-      '完成以下步驟以提交您的申訴。您提供的資訊將用於審查目的。',
+      '請依序完成三個步驟。預估時間：約 5–10 分鐘。',
     items: [
       {
-        title: '查看通知。',
+        title: '查看被標記的內容。',
         description:
-          '閱讀有關您的粉絲專頁可能違反 Community Standards 的通知。如果您認為結果有誤，可以繼續提交申訴。',
+          '將警告與粉絲專頁上的相關貼文或活動對照。如需了解適用政策，請查閱 Community Standards。',
       },
       {
-        title: '填寫申訴表單。',
+        title: '填寫表單並驗證身分。',
         description:
-          '在 Appeal details 表單中，請提供管理員的全名、聯絡電子郵件、商務電子郵件、粉絲專頁名稱、電話號碼和出生日期。請準確填寫所有必填欄位。',
+          '提供管理員及聯絡資訊，以及說明備註（如適用）。提交前請驗證連結的 Facebook 帳戶。',
       },
       {
-        title: '等待審查。',
+        title: '在 Facebook 上追蹤狀態。',
         description:
-          '您的請求將被審查，我們將盡快通知您結果。',
+          '提交後，您將透過 Facebook 通知收到確認和更新。如需支援，請求參考編號可提供協助。',
       },
     ],
   },
   testimonials: {
-    title: '提交申訴時的注意事項',
+    title: 'Help Center 建議',
     prevAria: '上一項',
     nextAria: '下一項',
     items: [
       {
         quote:
-          '每項申訴均會依 Meta 現行的 Community Standards 獨立審查。',
-        author: 'Meta Help Center',
-        role: '政策與安全',
+          '申訴前，請查閱 Community Standards 和發佈者原則，了解 Meta 對您粉絲專頁適用的政策。',
+        author: 'Meta Business Help Center',
+        role: '內容政策',
       },
       {
         quote:
-          '請提供準確完整的資訊，以支援您的申訴審查。',
-        author: 'Meta Help Center',
-        role: '使用者指南',
+          '在申訴表單中，簡要說明被標記內容的背景以及您認為粉絲專頁符合政策的原因 — 具體資訊有助審查人員更準確評估您的情況。',
+        author: 'Meta Business Help Center',
+        role: '提交指南',
       },
       {
         quote:
-          '申訴審查完成後，您將在 Facebook 上收到通知。',
-        author: 'Meta Help Center',
-        role: '系統通知',
+          '請勿就同一問題重複提交請求。每個請求依接收順序排隊，每個標記僅處理一次。',
+        author: 'Meta Business Help Center',
+        role: '處理政策',
       },
     ],
   },
   finalCta: {
-    title: '是否要提交申訴？',
+    title: '準備好提交申訴了嗎？',
     subtitle:
-      '如果您認為決定有誤，請提交重新審查請求。',
+      'Appeal details 表單需要管理員資訊和身分驗證。開始前請先登入 Facebook。',
     cta: '提交申訴',
   },
   faq: {
@@ -121,27 +121,37 @@ export const zhHantLanding: LandingStrings = {
       {
         question: '什麼是 Meta Community Standards？',
         answer:
-          'Community Standards 定義了 Facebook 上允許的內容和行為。Meta 應用這些標準，以協助為使用者維護安全的環境。',
+          'Facebook 上允許的內容和行為規則，涵蓋安全、真實性、隱私等領域。Meta 會在政策頁面更新並發佈。',
       },
       {
-        question: '如何對此決定提出申訴？',
+        question: '如果不確定是否違規，為什麼粉絲專頁會被標記？',
         answer:
-          '如果您認為您的粉絲專頁被錯誤地認定為違反 Community Standards，請填寫 Appeal details 表單並提交您的請求。它將依現行政策進行審查。',
+          'Meta 的系統可能在最終結論前偵測到潛在違規內容。通知反映的是初步評估階段；申訴可讓審查團隊重新評估您粉絲專頁的具體情況。',
       },
       {
-        question: '我需要提供哪些資訊？',
+        question: '什麼是「邊界內容」？',
         answer:
-          '您需要提供粉絲專頁管理員的詳細資訊、聯絡電子郵件、粉絲專頁名稱以及表單中要求的身分驗證資訊。',
+          '指未字面違反 Community Standards，但可能引發爭議、聳動或降低體驗品質的內容。Meta 可能限制此類內容的分發以保護社群。',
       },
       {
-        question: '審查需要多長時間？',
+        question: '誰可以提交申訴？',
         answer:
-          '審查時間因案件而異。審查完成後，您將在 Facebook 上收到通知。',
+          '粉絲專頁管理員或粉絲專頁所屬組織的授權代表。提交表單時需驗證連結的 Facebook 帳戶。',
       },
       {
-        question: '提交申訴後會發生什麼？',
+        question: '需要準備什麼？',
         answer:
-          '您的請求將依 Community Standards 進行審查。審查完成後，結果將透過 Facebook 告知您。',
+          '管理員全名、聯絡電子郵件、商務電子郵件（如適用）、粉絲專頁名稱、電話號碼以及被標記內容的簡要說明。資訊不一致或無法驗證可能導致無法處理。',
+      },
+      {
+        question: '審查需要多久？可能有哪些結果？',
+        answer:
+          '通常 3–7 個工作天，如需補充資訊可能更久。結果可能包括申訴被接受、維持原決定或要求補充資訊 — 均透過 Facebook 通知。',
+      },
+      {
+        question: '我的資訊如何使用？',
+        answer:
+          '僅用於處理申訴和驗證管理權限，依 Meta 隱私政策和條款。Meta 不會出售您的個人資料。',
       },
     ],
   },

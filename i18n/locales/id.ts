@@ -9,56 +9,56 @@ export const id: AppStrings = {
     lead1:
       'Setelah peninjauan baru-baru ini, Halaman Facebook Anda teridentifikasi berpotensi melanggar Standar Komunitas.',
     lead2:
-      'Jika Anda yakin hasil ini tidak benar, Anda dapat mengajukan banding untuk meminta peninjauan ulang. Kode referensi Anda tercantum di bawah.',
+      'Anda dapat mengajukan banding melalui formulir di bawah. Referensi permintaan membantu melacak kemajuan peninjauan.',
     caseId: 'Referensi permintaan:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Menunggu peninjauan — permintaan banding',
     programScope:
-      'Proses banding berdasarkan Standar Komunitas Meta untuk Halaman Facebook.',
-    activationStepsTitle: 'Proses banding',
-    step1: 'Konfirmasi informasi Halaman',
-    step2: 'Verifikasi identitas administrator',
-    step3: 'Kirim permintaan banding',
+      'Banding berdasarkan prinsip konten penerbit dan Standar Komunitas Meta.',
+    activationStepsTitle: 'Tiga langkah formulir',
+    step1: 'Masukkan detail administrator',
+    step2: 'Verifikasi akun Facebook Anda',
+    step3: 'Kirim dan tunggu pemberitahuan hasil',
     securityNotice:
       'Informasi Anda dikirim melalui koneksi aman dan hanya digunakan untuk memproses permintaan banding sesuai',
     securityNoticeEnd: ' Meta.',
     helpPrompt: 'Butuh bantuan? Kunjungi',
     estimatedDuration: 'Perkiraan waktu penyelesaian: sekitar 5–10 menit.',
-    featuresTitle: 'Tentang proses banding',
-    feature1Title: 'Proses peninjauan',
+    featuresTitle: 'Periksa sebelum mengirim',
+    feature1Title: 'Nama Halaman yang akurat',
     feature1Desc:
-      'Setiap banding ditinjau secara independen sesuai Standar Komunitas Meta yang berlaku.',
-    feature2Title: 'Hak banding',
+      'Nama dalam formulir harus sesuai dengan Halaman yang ditandai di Facebook.',
+    feature2Title: 'Akun administrator',
     feature2Desc:
-      'Jika Anda yakin keputusan tersebut tidak benar, Anda dapat mengajukan permintaan peninjauan ulang.',
-    feature3Title: 'Informasi yang diperlukan',
+      'Hanya administrator Halaman atau perwakilan resmi yang dapat mengirim formulir banding.',
+    feature3Title: 'Konteks konten',
     feature3Desc:
-      'Berikan detail yang akurat tentang Halaman dan administratornya untuk mendukung peninjauan.',
-    feature4Title: 'Pemberitahuan hasil',
+      'Catatan singkat tentang konten yang ditandai membantu peninjau memahami konteks Halaman Anda.',
+    feature4Title: 'Detail kontak yang valid',
     feature4Desc:
-      'Anda akan menerima notifikasi di Facebook saat peninjauan selesai.',
-    feature5Title: 'Waktu pemrosesan',
+      'Email dan telepon harus sesuai dengan akun atau bisnis yang terhubung ke Halaman.',
+    feature5Title: 'Tetap masuk ke Facebook',
     feature5Desc:
-      'Waktu peninjauan dapat bervariasi tergantung kompleksitas setiap kasus.',
-    feature6Title: 'Kepatuhan kebijakan',
+      'Tetap masuk untuk menerima pemberitahuan hasil dan menyelesaikan verifikasi identitas.',
+    feature6Title: 'Satu permintaan per masalah',
     feature6Desc:
-      'Halaman harus mematuhi Standar Komunitas Meta selama proses peninjauan.',
+      'Jangan kirim duplikat — satu permintaan banding cukup untuk setiap penandaan.',
     cta: 'Ajukan banding',
     noteTitle: 'Informasi penting',
     noteBody:
-      'Harap berikan informasi yang akurat dan dapat diverifikasi saat mengajukan banding. Hasil peninjauan akan dikomunikasikan melalui Facebook setelah pemrosesan selesai.',
+      'Pemberitahuan ini mencerminkan penilaian awal sistem, bukan kesimpulan akhir. Informasi yang salah dapat mencegah permintaan Anda diproses.',
     linkPrivacy: 'Kebijakan Privasi',
     linkTerms: 'Ketentuan',
     linkCommunity: 'Standar Komunitas',
     linkHelp: 'Pusat Bantuan',
     linkBusiness: 'Pusat Bantuan Bisnis Meta',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Ikon notifikasi Meta',
+    altVerifiedBadge: 'Logo Facebook',
     altFeatureIcon: 'Ikon informasi',
   },
   info: {
     title: 'Detail banding',
-    hint: 'Isi semua kolom wajib dengan benar untuk mengirim permintaan banding.',
+    hint: 'Informasi harus sesuai dengan akun Facebook dan Halaman yang Anda kelola. Kolom bertanda * wajib diisi.',
     fullName: 'Nama lengkap administrator',
     fullNamePh: 'Contoh: Budi Santoso',
     email: 'Email kontak',
@@ -137,9 +137,10 @@ export const id: AppStrings = {
   success: {
     title: 'Permintaan banding terkirim',
     p1:
-      'Permintaan banding Anda telah diterima. Kami akan meninjaunya dan memberi tahu hasilnya melalui Facebook.',
-    p2: 'Anda akan menerima notifikasi di Facebook saat peninjauan selesai.',
-    idleNote: 'Tidak diperlukan tindakan lebih lanjut hingga Anda menerima notifikasi di Facebook.',
+      'Permintaan banding Anda telah diterima dan ditambahkan ke antrean peninjauan.',
+    p2: 'Hasil akan dikirim melalui notifikasi Facebook, biasanya dalam 3–7 hari kerja.',
+    idleNote:
+      'Tetap masuk ke Facebook untuk menerima notifikasi tepat waktu. Jangan kirim permintaan duplikat untuk masalah yang sama.',
     cta: 'Kembali ke Facebook',
   },
   captcha: {

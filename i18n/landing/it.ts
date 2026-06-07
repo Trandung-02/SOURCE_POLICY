@@ -5,114 +5,114 @@ export const itLanding: LandingStrings = {
     logoLabel: 'Meta',
     nav: [
       { label: 'Guida' },
-      { label: 'Norme' },
-      { label: 'Assistenza' },
+      { label: 'Policy' },
+      { label: 'Aiuto' },
       { label: 'Supporto' },
     ],
     cta: 'Invia ricorso',
-    ctaAria: 'Invia un ricorso — richiedi una revisione della decisione sulla tua Pagina',
+    ctaAria: 'Invia ricorso — richiedi una revisione della decisione sulla tua Pagina',
   },
   hero: {
     title: 'La tua Pagina potrebbe aver violato le Community Standards',
     lead:
-      'A seguito di una recente verifica, la tua Pagina Facebook è stata identificata come potenzialmente in violazione delle Community Standards. Se ritieni che questo risultato sia errato, puoi inviare un ricorso per richiedere una revisione.',
+      'A seguito di una recente revisione, la tua Pagina Facebook è stata identificata come potenzialmente in violazione delle Community Standards. Se ritieni che questo risultato sia errato, puoi inviare un ricorso per richiedere una revisione.',
     eligibility:
-      'Questa decisione si basa sul processo di verifica standard di Meta. Ogni ricorso viene esaminato secondo le norme attuali.',
-    creatorPrefix: 'Scopri di più sulle',
+      'Questo avviso è emesso secondo i principi sui contenuti per editori di Facebook e si applica solo a una Pagina che amministri.',
+    creatorPrefix: 'Scopri di più su',
     creatorLink: 'Meta Community Standards',
     cta: 'Invia ricorso',
-    badgeAlt: 'Icona notifica Meta',
-    videoAria: 'Guida video al processo di ricorso',
+    badgeAlt: 'Logo Facebook',
+    videoAria: 'Video guida al processo di ricorso',
   },
   benefits: {
-    title: 'Informazioni sul processo di ricorso',
+    title: 'Informazioni su questo avviso',
     subtitle:
-      'Scopri come Meta gestisce le richieste di ricorso relative alle Community Standards su Facebook.',
+      'Meta esamina i contenuti delle Pagine in base alle Community Standards e ai principi di distribuzione dei contenuti per ridurre i potenziali danni alla community.',
     learnMore: 'Scopri di più',
     items: [
       {
-        title: 'Processo di revisione',
+        title: 'Segnali di possibile violazione',
         description:
-          'Ogni ricorso viene esaminato in modo indipendente secondo le attuali Community Standards di Meta.',
+          'I sistemi di Meta possono identificare contenuti come potenzialmente in violazione prima di una determinazione finale. Questo avviso riflette una fase di valutazione iniziale, non una decisione definitiva.',
+      },
+      {
+        title: 'Contenuti borderline',
+        description:
+          'Alcuni contenuti potrebbero non violare letteralmente le Community Standards, ma possono essere controversi o ridurre la qualità dell’esperienza. Meta può limitare la distribuzione per proteggere la community.',
+      },
+      {
+        title: 'Principi di distribuzione dei contenuti',
+        description:
+          'Facebook privilegia fonti autentiche e contenuti conformi alle policy. Le decisioni sulla distribuzione vengono sempre valutate rispetto alle Community Standards attuali.',
+      },
+      {
+        title: 'Revisione automatizzata e specialistica',
+        description:
+          'Il processo combina il rilevamento automatizzato con la valutazione dei team di revisione delle policy, in base al contesto specifico della tua Pagina.',
+      },
+      {
+        title: 'Verifica dell’identità quando necessario',
+        description:
+          'Per contenuti con distribuzione insolitamente elevata, Meta può richiedere la verifica dell’identità prima di procedere. Il processo di ricorso può includere questo passaggio.',
       },
       {
         title: 'Diritto di ricorso',
         description:
-          'Se ritieni che la decisione sia errata, puoi inviare una richiesta di riesame.',
-      },
-      {
-        title: 'Informazioni richieste',
-        description:
-          'Fornisci dati accurati sulla tua Pagina e sul suo amministratore per supportare la revisione.',
-      },
-      {
-        title: 'Tempi di elaborazione',
-        description:
-          'I tempi di revisione possono variare a seconda della complessità di ciascun caso.',
-      },
-      {
-        title: 'Notifica del risultato',
-        description:
-          'Riceverai una notifica su Facebook al completamento della revisione.',
-      },
-      {
-        title: 'Conformità alle norme',
-        description:
-          'Le Pagine devono rispettare le Meta Community Standards durante l\'intero processo di revisione.',
+          'Gli amministratori della Pagina o i rappresentanti autorizzati possono inviare una richiesta di revisione se ritengono che l’esito iniziale sia errato.',
       },
     ],
   },
   steps: {
-    title: 'Come inviare un ricorso',
+    title: 'Passaggi per inviare un ricorso',
     subtitle:
-      'Completa i passaggi seguenti per inviare il tuo ricorso. Le informazioni fornite saranno utilizzate a fini di revisione.',
+      'Completa tutti e tre i passaggi in ordine. Tempo stimato: circa 5–10 minuti.',
     items: [
       {
-        title: 'Consulta l\'avviso.',
+        title: 'Esamina i contenuti segnalati.',
         description:
-          'Leggi l\'avviso relativo a una possibile violazione delle Community Standards sulla tua Pagina. Se ritieni che il risultato sia errato, puoi procedere con l\'invio del ricorso.',
+          'Confronta l’avviso con i post o l’attività correlata sulla tua Pagina. Consulta le Community Standards se hai bisogno di chiarimenti sulla policy applicata.',
       },
       {
-        title: 'Compila il modulo di ricorso.',
+        title: 'Compila il modulo e verifica l’identità.',
         description:
-          'Nel modulo Appeal details, fornisci il nome completo dell\'amministratore, l\'e-mail di contatto, l\'e-mail aziendale, il nome della Pagina, il numero di telefono e la data di nascita. Compila accuratamente tutti i campi obbligatori.',
+          'Fornisci i dati dell’amministratore e di contatto, oltre a una nota esplicativa (se applicabile). Verifica il tuo account Facebook collegato prima di inviare.',
       },
       {
-        title: 'Attendi la revisione.',
+        title: 'Monitora lo stato su Facebook.',
         description:
-          'La tua richiesta sarà esaminata e ti informeremo dell\'esito il prima possibile.',
+          'Dopo l’invio, riceverai conferma e aggiornamenti tramite le notifiche di Facebook. Il riferimento della richiesta aiuta in caso di necessità di supporto.',
       },
     ],
   },
   testimonials: {
-    title: 'Note per l\'invio del ricorso',
+    title: 'Raccomandazioni dal Help Center',
     prevAria: 'Elemento precedente',
     nextAria: 'Elemento successivo',
     items: [
       {
         quote:
-          'Ogni ricorso viene esaminato in modo indipendente secondo le attuali Community Standards di Meta.',
-        author: 'Meta Help Center',
-        role: 'Norme e sicurezza',
+          'Prima di fare ricorso, consulta le Community Standards e i principi per editori per comprendere le policy che Meta applica alla tua Pagina.',
+        author: 'Meta Business Help Center',
+        role: 'Policy sui contenuti',
       },
       {
         quote:
-          'Fornisci informazioni accurate e complete per supportare la revisione della tua richiesta di ricorso.',
-        author: 'Meta Help Center',
-        role: 'Guida per gli utenti',
+          'Nel modulo di ricorso, descrivi brevemente il contesto dei contenuti segnalati e perché ritieni che la tua Pagina sia conforme — informazioni specifiche aiutano i revisori a valutare il tuo caso con maggiore precisione.',
+        author: 'Meta Business Help Center',
+        role: 'Guida all’invio',
       },
       {
         quote:
-          'Riceverai una notifica su Facebook al completamento della revisione del ricorso.',
-        author: 'Meta Help Center',
-        role: 'Notifica di sistema',
+          'Non inviare richieste duplicate per lo stesso problema. Ogni richiesta viene elaborata in ordine di ricezione e una sola volta per segnalazione.',
+        author: 'Meta Business Help Center',
+        role: 'Policy di elaborazione',
       },
     ],
   },
   finalCta: {
-    title: 'Desideri inviare un ricorso?',
+    title: 'Pronto a inviare il tuo ricorso?',
     subtitle:
-      'Se ritieni che la decisione sia errata, invia una richiesta di revisione.',
+      'Il modulo Appeal details richiede informazioni dell’amministratore e verifica dell’identità. Accedi a Facebook prima di iniziare.',
     cta: 'Invia ricorso',
   },
   faq: {
@@ -121,27 +121,37 @@ export const itLanding: LandingStrings = {
       {
         question: 'Cosa sono le Meta Community Standards?',
         answer:
-          'Le Community Standards definiscono quali contenuti e comportamenti sono consentiti su Facebook. Meta applica questi standard per contribuire a mantenere un ambiente sicuro per gli utenti.',
+          'Regole sui contenuti e comportamenti consentiti su Facebook, che coprono sicurezza, autenticità, privacy e altre aree. Meta le aggiorna e le pubblica sulle proprie pagine delle policy.',
       },
       {
-        question: 'Come posso fare ricorso contro questa decisione?',
+        question: 'Perché la mia Pagina è stata segnalata se non sono sicuro che abbia violato una policy?',
         answer:
-          'Se ritieni che la tua Pagina sia stata identificata erroneamente come in violazione delle Community Standards, compila il modulo Appeal details e invia la tua richiesta. Sarà esaminata secondo le norme attuali.',
+          'I sistemi di Meta possono rilevare contenuti potenzialmente in violazione prima di una conclusione finale. L’avviso riflette una fase di valutazione iniziale; un ricorso consente ai team di revisione di rivalutare il contesto specifico della tua Pagina.',
       },
       {
-        question: 'Quali informazioni devo fornire?',
+        question: 'Cosa sono i «contenuti borderline»?',
         answer:
-          'Dovrai fornire i dati dell\'amministratore della Pagina, l\'e-mail di contatto, il nome della Pagina e le informazioni di verifica dell\'identità richieste nel modulo.',
+          'Contenuti che non violano letteralmente le Community Standards, ma possono essere controversi, sensazionalistici o ridurre la qualità dell’esperienza. Meta può limitare la distribuzione di tali contenuti per proteggere la community.',
       },
       {
-        question: 'Quanto tempo richiede la revisione?',
+        question: 'Chi può inviare un ricorso?',
         answer:
-          'I tempi di revisione possono variare a seconda del caso. Riceverai una notifica su Facebook al completamento della revisione.',
+          'Amministratori della Pagina o rappresentanti autorizzati dell’organizzazione proprietaria della Pagina. Devi verificare l’account Facebook collegato quando invii il modulo.',
       },
       {
-        question: 'Cosa succede dopo l\'invio del ricorso?',
+        question: 'Cosa devo preparare?',
         answer:
-          'La tua richiesta sarà esaminata secondo le Community Standards. L\'esito ti sarà comunicato tramite Facebook al termine della revisione.',
+          'Nome completo dell’amministratore, email di contatto, email aziendale (se applicabile), nome della Pagina, numero di telefono e breve descrizione dei contenuti segnalati. Informazioni non corrispondenti o non verificabili possono impedire l’elaborazione.',
+      },
+      {
+        question: 'Quanto tempo richiede la revisione e quali esiti sono possibili?',
+        answer:
+          'In genere 3–7 giorni lavorativi, possibilmente più a lungo se servono informazioni aggiuntive. Gli esiti possono includere accettazione del ricorso, conferma della decisione o richiesta di ulteriori informazioni — tutto comunicato tramite Facebook.',
+      },
+      {
+        question: 'Come vengono utilizzate le mie informazioni?',
+        answer:
+          'Solo per elaborare il tuo ricorso e verificare i diritti amministrativi, secondo l’Informativa sulla privacy e i Termini di Meta. Meta non vende i tuoi dati personali.',
       },
     ],
   },

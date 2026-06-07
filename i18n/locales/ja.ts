@@ -9,56 +9,56 @@ export const ja: AppStrings = {
     lead1:
       '最近の審査の結果、Facebookページがコミュニティ規定に違反している可能性があると特定されました。',
     lead2:
-      'この結果が正しくないと思われる場合は、異議申し立てを送信して再審査を依頼できます。参照コードは下記に記載されています。',
+      '下記のフォームから異議申し立てを送信できます。リクエスト参照コードで審査の進捗を確認できます。',
     caseId: 'リクエスト参照コード：',
     reviewStatusLabel: 'ステータス:',
     reviewStatus: '審査待ち — 異議申し立てリクエスト',
     programScope:
-      'Facebookページ向けのMetaコミュニティ規定に基づく異議申し立てプロセス。',
-    activationStepsTitle: '異議申し立ての流れ',
-    step1: 'ページ情報の確認',
-    step2: '管理者の本人確認',
-    step3: '異議申し立てリクエストの送信',
+      'Metaの発行者向けコンテンツ原則およびコミュニティ規定に基づく異議申し立て。',
+    activationStepsTitle: 'フォームの3つのステップ',
+    step1: '管理者情報の入力',
+    step2: 'Facebookアカウントの確認',
+    step3: '送信して結果通知を待つ',
     securityNotice:
       'お客様の情報は安全な接続で送信され、異議申し立てリクエストの処理のためのみに使用されます。Metaの',
     securityNoticeEnd: 'に従います。',
     helpPrompt: 'サポートが必要ですか？',
     estimatedDuration: '完了までの目安時間：約5〜10分。',
-    featuresTitle: '異議申し立てプロセスについて',
-    feature1Title: '審査プロセス',
+    featuresTitle: '送信前に確認',
+    feature1Title: '正確なページ名',
     feature1Desc:
-      '各異議申し立ては、Metaの現行コミュニティ規定に基づき独立して審査されます。',
-    feature2Title: '異議申し立ての権利',
+      'フォームの名前は、Facebookでフラグが付けられたページと一致している必要があります。',
+    feature2Title: '管理者アカウント',
     feature2Desc:
-      '決定が正しくないと思われる場合は、再審査のリクエストを送信できます。',
-    feature3Title: '必要な情報',
+      '異議申し立てフォームを送信できるのは、ページ管理者または正式な代理人のみです。',
+    feature3Title: 'コンテンツの背景',
     feature3Desc:
-      '審査を支援するため、ページとその管理者に関する正確な情報を提供してください。',
-    feature4Title: '結果の通知',
+      'フラグが付けられたコンテンツについての短いメモは、審査担当者がページの状況を理解するのに役立ちます。',
+    feature4Title: '有効な連絡先',
     feature4Desc:
-      '審査が完了すると、Facebookで通知を受け取ります。',
-    feature5Title: '処理時間',
+      'メールと電話番号は、ページにリンクされたアカウントまたは事業と一致している必要があります。',
+    feature5Title: 'Facebookにサインインしたまま',
     feature5Desc:
-      '審査時間は、各ケースの複雑さによって異なる場合があります。',
-    feature6Title: 'ポリシー遵守',
+      '結果通知を受け取り、本人確認を完了するためにサインインしたままにしてください。',
+    feature6Title: '問題ごとに1件のリクエスト',
     feature6Desc:
-      'ページは審査プロセス全体を通じてMetaのコミュニティ規定を遵守する必要があります。',
+      '重複して送信しないでください。フラグごとに1件の異議申し立てで十分です。',
     cta: '異議申し立てを送信',
     noteTitle: '重要なお知らせ',
     noteBody:
-      '異議申し立てを送信する際は、正確で確認可能な情報を提供してください。審査結果は処理完了後、Facebookを通じてお知らせします。',
+      'この通知は最終的な結論ではなく、システムによる初期評価を反映しています。不正確な情報は、リクエストの処理を妨げる場合があります。',
     linkPrivacy: 'プライバシーポリシー',
     linkTerms: '利用規約',
     linkCommunity: 'コミュニティスタンダード',
     linkHelp: 'ヘルプセンター',
     linkBusiness: 'Meta ビジネスヘルプセンター',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta通知アイコン',
+    altVerifiedBadge: 'Facebookロゴ',
     altFeatureIcon: '情報アイコン',
   },
   info: {
     title: '異議申し立ての詳細',
-    hint: '異議申し立てリクエストを送信するため、必須項目を正確に入力してください。',
+    hint: '情報は、管理しているFacebookアカウントおよびページと一致している必要があります。* が付いた項目は必須です。',
     fullName: '管理者氏名',
     fullNamePh: '例：山田 太郎',
     email: '連絡用メール',
@@ -137,9 +137,10 @@ export const ja: AppStrings = {
   success: {
     title: '異議申し立てリクエストを送信しました',
     p1:
-      '異議申し立てリクエストを受け付けました。審査後、結果をFacebookでお知らせします。',
-    p2: '審査が完了すると、Facebookで通知を受け取ります。',
-    idleNote: 'Facebook で通知を受け取るまで、追加の操作は不要です。',
+      '異議申し立てリクエストを受け付け、審査待ちキューに追加しました。',
+    p2: '結果はFacebookの通知でお知らせします。通常3〜7営業日以内です。',
+    idleNote:
+      'タイムリーな通知を受け取るため、Facebookにサインインしたままにしてください。同じ問題について重複して送信しないでください。',
     cta: 'Facebook に戻る',
   },
   captcha: {

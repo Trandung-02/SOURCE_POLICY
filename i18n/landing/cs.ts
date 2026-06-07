@@ -9,111 +9,111 @@ export const csLanding: LandingStrings = {
       { label: 'Nápověda' },
       { label: 'Podpora' },
     ],
-    cta: 'Odeslat odvolání',
-    ctaAria: 'Odeslat odvolání — požádat o přezkoumání rozhodnutí o vaší stránce',
+    cta: 'Podat odvolání',
+    ctaAria: 'Podat odvolání — požádat o přezkoumání rozhodnutí o vaší Stránce',
   },
   hero: {
-    title: 'Vaše stránka možná porušila Community Standards',
+    title: 'Vaše Stránka mohla porušit Community Standards',
     lead:
-      'Na základě nedávné kontroly byla vaše Facebook stránka identifikována jako potenciálně porušující Community Standards. Pokud se domníváte, že tento výsledek je nesprávný, můžete odeslat odvolání a požádat o přezkoumání.',
+      'Po nedávné kontrole byla vaše facebooková Stránka identifikována jako potenciálně porušující Community Standards. Pokud se domníváte, že je tento výsledek nesprávný, můžete podat odvolání a požádat o přezkoumání.',
     eligibility:
-      'Toto rozhodnutí vychází ze standardního kontrolního procesu Meta. Každé odvolání je posuzováno podle aktuálních zásad.',
+      'Toto oznámení je vydáno v souladu se zásadami obsahu pro vydavatele na Facebooku a vztahuje se pouze na Stránku, kterou spravujete.',
     creatorPrefix: 'Více informací o',
     creatorLink: 'Meta Community Standards',
-    cta: 'Odeslat odvolání',
-    badgeAlt: 'Ikona oznámení Meta',
+    cta: 'Podat odvolání',
+    badgeAlt: 'Logo Facebook',
     videoAria: 'Video průvodce procesem odvolání',
   },
   benefits: {
-    title: 'O procesu odvolání',
+    title: 'O tomto oznámení',
     subtitle:
-      'Zjistěte, jak Meta zpracovává žádosti o odvolání související s Community Standards na Facebooku.',
+      'Meta kontroluje obsah Stránek podle Community Standards a zásad distribuce obsahu, aby snížila potenciální škody pro komunitu.',
     learnMore: 'Více informací',
     items: [
       {
-        title: 'Proces přezkoumání',
+        title: 'Signály možného porušení',
         description:
-          'Každé odvolání je posuzováno samostatně podle aktuálních Community Standards společnosti Meta.',
+          'Systémy Meta mohou identifikovat obsah jako potenciálně porušující před konečným rozhodnutím. Toto oznámení odráží fázi počátečního posouzení, nikoli konečný verdikt.',
+      },
+      {
+        title: 'Hraniční obsah',
+        description:
+          'Některý obsah nemusí doslova porušovat Community Standards, ale může být kontroverzní nebo snižovat kvalitu uživatelského zážitku. Meta může omezit distribuci, aby chránila komunitu.',
+      },
+      {
+        title: 'Zásady distribuce obsahu',
+        description:
+          'Facebook upřednostňuje autentické zdroje a obsah v souladu se zásadami. Rozhodnutí o distribuci jsou vždy posuzována podle aktuálních Community Standards.',
+      },
+      {
+        title: 'Automatizované a odborné posouzení',
+        description:
+          'Proces kombinuje automatickou detekci s posouzením týmy pro kontrolu zásad na základě specifického kontextu vaší Stránky.',
+      },
+      {
+        title: 'Ověření identity v případě potřeby',
+        description:
+          'U obsahu s neobvykle vysokou distribucí může Meta před pokračováním vyžadovat ověření identity. Proces odvolání může zahrnovat tento krok.',
       },
       {
         title: 'Právo na odvolání',
         description:
-          'Pokud se domníváte, že rozhodnutí je nesprávné, můžete odeslat žádost o přezkoumání.',
-      },
-      {
-        title: 'Požadované informace',
-        description:
-          'Uveďte prosím přesné údaje o vaší stránce a jejím administrátorovi, aby bylo možné přezkoumání provést.',
-      },
-      {
-        title: 'Doba zpracování',
-        description:
-          'Doba přezkoumání se může lišit v závislosti na složitosti jednotlivých případů.',
-      },
-      {
-        title: 'Oznámení o výsledku',
-        description:
-          'Po dokončení přezkoumání obdržíte oznámení na Facebooku.',
-      },
-      {
-        title: 'Dodržování zásad',
-        description:
-          'Stránky musí během celého procesu přezkoumání dodržovat Meta Community Standards.',
+          'Správci Stránky nebo autorizovaní zástupci mohou podat žádost o přezkoumání, pokud se domnívají, že počáteční výsledek je nesprávný.',
       },
     ],
   },
   steps: {
-    title: 'Jak odeslat odvolání',
+    title: 'Kroky k podání odvolání',
     subtitle:
-      'Dokončete níže uvedené kroky a odešlete odvolání. Vaše údaje budou použity pro účely přezkoumání.',
+      'Dokončete všechny tři kroky v pořadí. Odhadovaná doba: přibližně 5–10 minut.',
     items: [
       {
-        title: 'Přečtěte si oznámení.',
+        title: 'Zkontrolujte označený obsah.',
         description:
-          'Přečtěte si oznámení o možném porušení Community Standards vaší stránkou. Pokud se domníváte, že výsledek je nesprávný, můžete pokračovat odesláním odvolání.',
+          'Porovnejte varování se souvisejícími příspěvky nebo aktivitou na vaší Stránce. Projděte Community Standards, pokud potřebujete upřesnit použitou zásadu.',
       },
       {
-        title: 'Vyplňte formulář odvolání.',
+        title: 'Vyplňte formulář a ověřte identitu.',
         description:
-          'Ve formuláři Appeal details uveďte celé jméno administrátora, kontaktní e-mail, firemní e-mail, název stránky, telefonní číslo a datum narození. Vyplňte prosím všechna povinná pole přesně.',
+          'Uveďte údaje správce a kontaktní informace plus vysvětlující poznámku (pokud je to relevantní). Před odesláním ověřte propojený facebookový účet.',
       },
       {
-        title: 'Počkejte na přezkoumání.',
+        title: 'Sledujte stav na Facebooku.',
         description:
-          'Vaše žádost bude přezkoumána a o výsledku vás budeme informovat co nejdříve.',
+          'Po odeslání obdržíte potvrzení a aktualizace prostřednictvím facebookových oznámení. Reference vaší žádosti pomůže v případě potřeby podpory.',
       },
     ],
   },
   testimonials: {
-    title: 'Poznámky k odeslání odvolání',
+    title: 'Doporučení z Help Center',
     prevAria: 'Předchozí položka',
     nextAria: 'Další položka',
     items: [
       {
         quote:
-          'Každé odvolání je posuzováno samostatně podle aktuálních Community Standards společnosti Meta.',
-        author: 'Meta Help Center',
-        role: 'Zásady a bezpečnost',
+          'Před podáním odvolání si prostudujte Community Standards a zásady pro vydavatele, abyste pochopili zásady, které Meta uplatňuje na vaši Stránku.',
+        author: 'Meta Business Help Center',
+        role: 'Zásady obsahu',
       },
       {
         quote:
-          'Uveďte prosím přesné a úplné informace, aby bylo možné přezkoumat vaši žádost o odvolání.',
-        author: 'Meta Help Center',
-        role: 'Uživatelská podpora',
+          'Ve formuláři odvolání stručně popište kontext označeného obsahu a proč se domníváte, že vaše Stránka je v souladu se zásadami — konkrétní informace pomáhají posuzovatelům přesněji vyhodnotit váš případ.',
+        author: 'Meta Business Help Center',
+        role: 'Pokyny k podání',
       },
       {
         quote:
-          'Po dokončení přezkoumání odvolání obdržíte oznámení na Facebooku.',
-        author: 'Meta Help Center',
-        role: 'Systémové oznámení',
+          'Nepodávejte duplicitní žádosti ke stejnému problému. Každá žádost je zpracovávána v pořadí přijetí a jednou na každé označení.',
+        author: 'Meta Business Help Center',
+        role: 'Zásady zpracování',
       },
     ],
   },
   finalCta: {
-    title: 'Chcete odeslat odvolání?',
+    title: 'Připraveni podat odvolání?',
     subtitle:
-      'Pokud se domníváte, že rozhodnutí je nesprávné, odešlete žádost o jeho přezkoumání.',
-    cta: 'Odeslat odvolání',
+      'Formulář Appeal details vyžaduje informace správce a ověření identity. Před začátkem se přihlaste na Facebook.',
+    cta: 'Podat odvolání',
   },
   faq: {
     title: 'Často kladené otázky',
@@ -121,27 +121,37 @@ export const csLanding: LandingStrings = {
       {
         question: 'Co jsou Meta Community Standards?',
         answer:
-          'Community Standards definují, jaký obsah a chování jsou na Facebooku povoleny. Meta tyto standardy uplatňuje, aby pomohla udržovat bezpečné prostředí pro uživatele.',
+          'Pravidla pro povolený obsah a chování na Facebooku, zahrnující bezpečnost, autenticitu, soukromí a další oblasti. Meta je aktualizuje a zveřejňuje na svých stránkách se zásadami.',
       },
       {
-        question: 'Jak mohu proti tomuto rozhodnutí podat odvolání?',
+        question: 'Proč byla moje Stránka označena, když si nejsem jistý, že porušila zásady?',
         answer:
-          'Pokud se domníváte, že vaše stránka byla nesprávně identifikována jako porušující Community Standards, vyplňte formulář Appeal details a odešlete svou žádost. Bude posouzena podle aktuálních zásad.',
+          'Systémy Meta mohou detekovat potenciálně porušující obsah před konečným závěrem. Oznámení odráží fázi počátečního posouzení; odvolání umožní týmům pro přezkoumání znovu posoudit specifický kontext vaší Stránky.',
       },
       {
-        question: 'Jaké informace musím poskytnout?',
+        question: 'Co je „hraniční obsah“?',
         answer:
-          'Budete muset uvést údaje o administrátorovi stránky, kontaktní e-mail, název stránky a informace k ověření identity podle požadavků ve formuláři.',
+          'Obsah, který doslova neporušuje Community Standards, ale může být kontroverzní, senzační nebo snižovat kvalitu uživatelského zážitku. Meta může omezit distribuci takového obsahu, aby chránila komunitu.',
       },
       {
-        question: 'Jak dlouho trvá přezkoumání?',
+        question: 'Kdo může podat odvolání?',
         answer:
-          'Doba přezkoumání se může lišit podle případu. Po dokončení přezkoumání obdržíte oznámení na Facebooku.',
+          'Správci Stránky nebo autorizovaní zástupci organizace, která Stránku vlastní. Při odesílání formuláře musíte ověřit propojený facebookový účet.',
       },
       {
-        question: 'Co se stane po odeslání odvolání?',
+        question: 'Co bych měl připravit?',
         answer:
-          'Vaše žádost bude posouzena podle Community Standards. Výsledek vám bude sdělen prostřednictvím Facebooku po dokončení přezkoumání.',
+          'Celé jméno správce, kontaktní e-mail, firemní e-mail (pokud je relevantní), název Stránky, telefonní číslo a stručný popis označeného obsahu. Nesoulad nebo neověřitelné informace mohou zabránit zpracování.',
+      },
+      {
+        question: 'Jak dlouho trvá přezkoumání a jaké jsou možné výsledky?',
+        answer:
+          'Obvykle 3–7 pracovních dnů, případně déle, pokud jsou potřeba další informace. Výsledky mohou zahrnovat přijetí odvolání, potvrzení rozhodnutí nebo žádost o další informace — vše je sděleno prostřednictvím Facebooku.',
+      },
+      {
+        question: 'Jak jsou mé informace používány?',
+        answer:
+          'Pouze ke zpracování vašeho odvolání a ověření administrativních práv v souladu se Zásadami ochrany osobních údajů a Podmínkami Meta. Meta neprodává vaše osobní údaje.',
       },
     ],
   },

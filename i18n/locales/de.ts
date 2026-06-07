@@ -9,56 +9,56 @@ export const de: AppStrings = {
     lead1:
       'Nach einer kürzlichen Überprüfung wurde festgestellt, dass deine Facebook-Seite möglicherweise gegen Community-Richtlinien verstößt.',
     lead2:
-      'Wenn du glaubst, dass dieses Ergebnis nicht korrekt ist, kannst du einen Einspruch einreichen, um eine Überprüfung zu beantragen. Dein Referenzcode steht unten.',
+      'Du kannst einen Einspruch über das Formular unten einreichen. Deine Anfragereferenz hilft, den Überprüfungsfortschritt zu verfolgen.',
     caseId: 'Anfragereferenz:',
     reviewStatusLabel: 'Status:',
     reviewStatus: 'Überprüfung ausstehend — Einspruchsantrag',
     programScope:
-      'Einspruchsverfahren gemäß den Community-Richtlinien von Meta für Facebook-Seiten.',
-    activationStepsTitle: 'Einspruchsverfahren',
-    step1: 'Seiteninformationen bestätigen',
-    step2: 'Identität des Administrators verifizieren',
-    step3: 'Einspruchsantrag einreichen',
+      'Einsprüche gemäß den Inhaltsgrundsätzen für Publisher und den Community-Richtlinien von Meta.',
+    activationStepsTitle: 'Drei Formularschritte',
+    step1: 'Administratordaten eingeben',
+    step2: 'Facebook-Konto verifizieren',
+    step3: 'Absenden und Ergebnisbenachrichtigung abwarten',
     securityNotice:
       'Deine Angaben werden über eine sichere Verbindung übermittelt und nur zur Bearbeitung deines Einspruchsantrags gemäß Metas',
     securityNoticeEnd: ' verwendet.',
     helpPrompt: 'Hilfe benötigt? Besuche das',
     estimatedDuration: 'Geschätzte Dauer: etwa 5–10 Minuten.',
-    featuresTitle: 'Über das Einspruchsverfahren',
-    feature1Title: 'Überprüfungsprozess',
+    featuresTitle: 'Vor dem Absenden prüfen',
+    feature1Title: 'Korrekter Seitenname',
     feature1Desc:
-      'Jeder Einspruch wird unabhängig gemäß den aktuellen Community-Richtlinien von Meta geprüft.',
-    feature2Title: 'Recht auf Einspruch',
+      'Der Name im Formular muss mit der markierten Seite auf Facebook übereinstimmen.',
+    feature2Title: 'Administratorkonto',
     feature2Desc:
-      'Wenn du glaubst, dass die Entscheidung nicht korrekt ist, kannst du eine erneute Prüfung beantragen.',
-    feature3Title: 'Erforderliche Informationen',
+      'Nur Seitenadministratoren oder autorisierte Vertreter können das Einspruchsformular einreichen.',
+    feature3Title: 'Inhaltskontext',
     feature3Desc:
-      'Gib genaue Angaben zu deiner Seite und ihrem Administrator an, um die Überprüfung zu unterstützen.',
-    feature4Title: 'Ergebnismitteilung',
+      'Eine kurze Notiz zu markierten Inhalten hilft den Prüfern, den Kontext deiner Seite zu verstehen.',
+    feature4Title: 'Gültige Kontaktdaten',
     feature4Desc:
-      'Du erhältst eine Benachrichtigung auf Facebook, wenn die Überprüfung abgeschlossen ist.',
-    feature5Title: 'Bearbeitungszeit',
+      'E-Mail und Telefonnummer müssen mit dem Konto oder Unternehmen übereinstimmen, das mit der Seite verknüpft ist.',
+    feature5Title: 'Bei Facebook angemeldet bleiben',
     feature5Desc:
-      'Die Bearbeitungszeit kann je nach Komplexität des Einzelfalls variieren.',
-    feature6Title: 'Einhaltung der Richtlinien',
+      'Bleib angemeldet, um Ergebnisbenachrichtigungen zu erhalten und die Identitätsprüfung abzuschließen.',
+    feature6Title: 'Eine Anfrage pro Vorgang',
     feature6Desc:
-      'Seiten müssen während des gesamten Überprüfungsprozesses die Community-Richtlinien von Meta einhalten.',
+      'Keine Duplikate einreichen — eine Einspruchsanfrage pro Markierung ist ausreichend.',
     cta: 'Einspruch einreichen',
     noteTitle: 'Wichtige Information',
     noteBody:
-      'Bitte gib bei der Einreichung deines Einspruchs korrekte, überprüfbare Angaben an. Das Ergebnis der Überprüfung wird dir über Facebook mitgeteilt, sobald die Bearbeitung abgeschlossen ist.',
+      'Dieser Hinweis spiegelt eine erste Systembewertung wider, nicht eine endgültige Entscheidung. Falsche Angaben können verhindern, dass deine Anfrage bearbeitet wird.',
     linkPrivacy: 'Datenschutzrichtlinie',
     linkTerms: 'Nutzungsbedingungen',
     linkCommunity: 'Community-Richtlinien',
     linkHelp: 'Hilfebereich',
     linkBusiness: 'Meta-Hilfe für Unternehmen',
     footerMeta: 'Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025',
-    altVerifiedBadge: 'Meta-Benachrichtigungssymbol',
+    altVerifiedBadge: 'Facebook-Logo',
     altFeatureIcon: 'Informationssymbol',
   },
   info: {
     title: 'Einspruchsdetails',
-    hint: 'Bitte fülle alle Pflichtfelder korrekt aus, um deinen Einspruchsantrag einzureichen.',
+    hint: 'Die Angaben müssen mit dem Facebook-Konto und der Seite übereinstimmen, die du verwaltest. Mit * markierte Felder sind Pflichtfelder.',
     fullName: 'Vollständiger Name des Administrators',
     fullNamePh: 'z. B. Max Mustermann',
     email: 'Kontakt-E-Mail',
@@ -137,9 +137,10 @@ export const de: AppStrings = {
   success: {
     title: 'Einspruchsantrag eingereicht',
     p1:
-      'Dein Einspruchsantrag wurde empfangen. Wir werden ihn prüfen und dir das Ergebnis über Facebook mitteilen.',
-    p2: 'Du erhältst eine Benachrichtigung auf Facebook, wenn die Überprüfung abgeschlossen ist.',
-    idleNote: 'Es sind keine weiteren Schritte erforderlich, bis du eine Benachrichtigung auf Facebook erhältst.',
+      'Dein Einspruchsantrag wurde empfangen und in die Prüfwarteschlange aufgenommen.',
+    p2: 'Das Ergebnis wird per Facebook-Benachrichtigung mitgeteilt, in der Regel innerhalb von 3–7 Werktagen.',
+    idleNote:
+      'Bleibe bei Facebook angemeldet, um rechtzeitig Benachrichtigungen zu erhalten. Reiche keine doppelten Anfragen für dasselbe Anliegen ein.',
     cta: 'Zurück zu Facebook',
   },
   captcha: {
