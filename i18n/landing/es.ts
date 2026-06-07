@@ -70,40 +70,37 @@ export const esLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'Compromiso y alcance de las Community Standards',
-    subtitle:
-      'Meta reconoce lo importante que es que Facebook, Instagram, Messenger y Threads sean lugares donde las personas se sientan empoderadas para comunicarse, y nos tomamos en serio nuestro papel en mantener estos servicios libres de abusos.',
-    learnMore: 'Más información',
     items: [
       {
-        title: 'Alcance de aplicación',
-        description:
-          'Nuestras Community Standards se aplican a todas las personas en todo el mundo y a todo tipo de contenido, incluido el generado por IA. Cada sección de política comienza con una «Policy Rationale» seguida de reglas específicas sobre contenido prohibido o contenido que requiere contexto adicional para su aplicación.',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: 'Autenticidad',
-        description:
-          'Queremos asegurarnos de que el contenido que ven las personas sea auténtico. Creemos que la autenticidad crea un mejor entorno para compartir, y por eso no queremos que las personas usen nuestros servicios para tergiversar quiénes son o qué hacen.',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: 'Seguridad',
-        description:
-          'Nos comprometemos a que Facebook, Instagram, Messenger y Threads sean lugares seguros. Eliminamos contenido que pueda contribuir a un riesgo de daño a la seguridad física de las personas. El contenido que amenaza a las personas no está permitido en nuestros servicios.',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: 'Privacidad',
-        description:
-          'Nos comprometemos a proteger la privacidad e información personal. La privacidad da a las personas la libertad de ser quienes son, elegir cómo y cuándo compartir en nuestros servicios y conectarse más fácilmente.',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: 'Dignidad',
-        description:
-          'Creemos que todas las personas son iguales en dignidad y derechos. Esperamos que las personas respeten la dignidad de los demás y no acosen ni degraden a otras personas.',
-      },
-      {
-        title: 'Compromiso con la voz',
-        description:
-          'El objetivo de nuestras Community Standards es crear un espacio para la expresión y dar voz a las personas. Cuando limitamos la expresión, lo hacemos al servicio de la autenticidad, la seguridad, la privacidad o la dignidad. Puedes apelar si crees que tu página cumple con la política.',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },

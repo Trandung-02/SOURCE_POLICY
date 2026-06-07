@@ -70,40 +70,37 @@ export const csLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'Závazek a rozsah Community Standards',
-    subtitle:
-      'Meta si uvědomuje, jak důležité je, aby Facebook, Instagram, Messenger a Threads byly místa, kde se lidé cítí oprávněni komunikovat, a svou roli v udržování těchto služeb bez zneužívání bereme vážně.',
-    learnMore: 'Další informace',
     items: [
       {
-        title: 'Rozsah použití',
-        description:
-          'Naše Community Standards platí pro všechny po celém světě a pro všechny typy obsahu, včetně obsahu generovaného umělou inteligencí. Každá sekce zásad začíná „Policy Rationale“ a pokračuje konkrétními pravidly o zakázaném obsahu nebo obsahu vyžadujícím další kontext pro vymáhání.',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: 'Autenticita',
-        description:
-          'Chceme zajistit, aby obsah, který lidé vidí, byl autentický. Věříme, že autenticita vytváří lepší prostředí pro sdílení, a proto nechceme, aby lidé na našich službách zkreslovali, kdo jsou nebo co dělají.',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: 'Bezpečnost',
-        description:
-          'Zavazujeme se, že Facebook, Instagram, Messenger a Threads budou bezpečná místa. Odstraňujeme obsah, který by mohl přispět k riziku fyzického ohrožení osob. Obsah, který ohrožuje lidi, není na našich službách povolen.',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: 'Soukromí',
-        description:
-          'Zavazujeme se chránit osobní soukromí a informace. Soukromí dává lidem svobodu být sami sebou, volit, jak a kdy sdílet na našich službách, a snadněji se spojovat.',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: 'Důstojnost',
-        description:
-          'Věříme, že všichni lidé jsou si rovni v důstojnosti a právech. Očekáváme, že lidé budou respektovat důstojnost ostatních a nebudou je obtěžovat ani ponižovat.',
-      },
-      {
-        title: 'Závazek k projevu',
-        description:
-          'Cílem našich Community Standards je vytvořit prostor pro vyjadřování a dát lidem hlas. Když omezujeme vyjadřování, činíme tak ve prospěch autenticity, bezpečnosti, soukromí nebo důstojnosti. Můžete podat odvolání, pokud se domníváte, že vaše stránka dodržuje zásady.',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },

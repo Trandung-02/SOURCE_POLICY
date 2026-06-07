@@ -70,40 +70,37 @@ export const svLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'Engagemang och omfattning av Community Standards',
-    subtitle:
-      'Meta inser hur viktigt det är att Facebook, Instagram, Messenger och Threads är platser där människor känner sig stärkta att kommunicera, och vi tar vårt ansvar på allvar att hålla dessa tjänster fria från missbruk.',
-    learnMore: 'Läs mer',
     items: [
       {
-        title: 'Tillämpningsomfattning',
-        description:
-          'Våra Community Standards gäller alla, över hela världen, och för all typ av innehåll, inklusive AI-genererat innehåll. Varje policyavsnitt börjar med en «Policy Rationale» följt av specifika regler om förbjudet innehåll eller innehåll som kräver ytterligare sammanhang för tillämpning.',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: 'Autenticitet',
-        description:
-          'Vi vill säkerställa att innehållet människor ser är autentiskt. Vi tror att autenticitet skapar en bättre miljö för delning, och därför vill vi inte att människor använder våra tjänster för att felaktigt framställa vem de är eller vad de gör.',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: 'Säkerhet',
-        description:
-          'Vi är engagerade i att göra Facebook, Instagram, Messenger och Threads till säkra platser. Vi tar bort innehåll som kan bidra till risk för skada mot personers fysiska säkerhet. Innehåll som hotar människor är inte tillåtet på våra tjänster.',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: 'Integritet',
-        description:
-          'Vi är engagerade i att skydda personlig integritet och information. Integritet ger människor friheten att vara sig själva, välja hur och när de delar på våra tjänster och enklare knyta kontakter.',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: 'Värdighet',
-        description:
-          'Vi tror att alla människor är lika i värdighet och rättigheter. Vi förväntar oss att människor respekterar andras värdighet och inte trakasserar eller nedvärderar andra.',
-      },
-      {
-        title: 'Engagemang för yttrandefrihet',
-        description:
-          'Målet med våra Community Standards är att skapa en plats för uttryck och ge människor en röst. När vi begränsar uttryck gör vi det till förmån för autenticitet, säkerhet, integritet eller värdighet. Du kan överklaga om du anser att din sida följer policyn.',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },

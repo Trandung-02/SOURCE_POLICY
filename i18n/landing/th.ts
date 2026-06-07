@@ -70,40 +70,37 @@ export const thLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'ความมุ่งมั่นและขอบเขตของ Community Standards',
-    subtitle:
-      'Meta ตระหนักถึงความสำคัญที่ Facebook, Instagram, Messenger และ Threads เป็นสถานที่ที่ผู้คนรู้สึกมีอำนาจในการสื่อสาร และเราให้ความสำคัญกับบทบาทของเราในการรักษาบริการเหล่านี้ให้ปราศจากการละเมิด',
-    learnMore: 'เรียนรู้เพิ่มเติม',
     items: [
       {
-        title: 'ขอบเขตการบังคับใช้',
-        description:
-          'Community Standards ของเราใช้กับทุกคนทั่วโลก และเนื้อหาทุกประเภท รวมถึงเนื้อหาที่สร้างโดย AI แต่ละส่วนของนโยบายเริ่มต้นด้วย «Policy Rationale» ตามด้วยกฎเฉพาะเกี่ยวกับเนื้อหาที่ห้ามหรือเนื้อหาที่ต้องการบริบทเพิ่มเติมในการบังคับใช้',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: 'ความถูกต้องแท้จริง',
-        description:
-          'เราต้องการให้แน่ใจว่าเนื้อหาที่ผู้คนเห็นเป็นของแท้ เราเชื่อว่าความถูกต้องแท้จริงสร้างสภาพแวดล้อมที่ดีกว่าสำหรับการแชร์ ดังนั้นเราไม่ต้องการให้ผู้คนใช้บริการของเราเพื่อบิดเบือนตัวตนหรือการกระทำของตน',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: 'ความปลอดภัย',
-        description:
-          'เรามุ่งมั่นที่จะทำให้ Facebook, Instagram, Messenger และ Threads เป็นสถานที่ที่ปลอดภัย เราลบเนื้อหาที่อาจมีส่วนทำให้เกิดความเสี่ยงต่อความปลอดภัยทางร่างกายของบุคคล เนื้อหาที่คุกคามผู้คนไม่ได้รับอนุญาตในบริการของเรา',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: 'ความเป็นส่วนตัว',
-        description:
-          'เรามุ่งมั่นที่จะปกป้องความเป็นส่วนตัวและข้อมูลส่วนบุคคล ความเป็นส่วนตัวให้อิสระแก่ผู้คนในการเป็นตัวของตนเอง เลือกวิธีและเวลาในการแชร์ในบริการของเรา และเชื่อมต่อได้ง่ายขึ้น',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: 'ศักดิ์ศรี',
-        description:
-          'เราเชื่อว่าทุกคนมีศักดิ์ศรีและสิทธิเท่าเทียมกัน เราคาดหวังว่าผู้คนจะเคารพศักดิ์ศรีของผู้อื่นและไม่คุกคามหรือดูหมิ่นผู้อื่น',
-      },
-      {
-        title: 'ความมุ่งมั่นต่อเสรีภาพในการแสดงออก',
-        description:
-          'เป้าหมายของ Community Standards ของเราคือการสร้างพื้นที่สำหรับการแสดงออกและมอบเสียงให้ผู้คน เมื่อเราจำกัดการแสดงออก เราทำเพื่อความถูกต้องแท้จริง ความปลอดภัย ความเป็นส่วนตัว หรือศักดิ์ศรี คุณสามารถอุทธรณ์ได้หากเชื่อว่าเพจของคุณเป็นไปตามนโยบาย',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },

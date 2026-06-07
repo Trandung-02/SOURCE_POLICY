@@ -5,7 +5,7 @@
 
 export type LandingBenefit = {
   title: string
-  description: string
+  paragraphs: string[]
 }
 
 export type LandingTestimonial = {
@@ -64,9 +64,6 @@ export type LandingStrings = {
     items: { label: string }[]
   }
   benefits: {
-    title: string
-    subtitle: string
-    learnMore: string
     items: LandingBenefit[]
   }
   steps: {

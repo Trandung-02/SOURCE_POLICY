@@ -70,40 +70,37 @@ export const heLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'מחויבות והיקף Community Standards',
-    subtitle:
-      'Meta מכירה בחשיבות ש-Facebook, Instagram, Messenger ו-Threads יהיו מקומות שבהם אנשים מרגישים מועצמים לתקשר, ואנו לוקחים ברצינות את תפקידנו בשמירה על שירותים אלה ללא ניצול לרעה.',
-    learnMore: 'מידע נוסף',
     items: [
       {
-        title: 'היקף החלה',
-        description:
-          'Community Standards שלנו חלים על כולם, בכל העולם, ועל כל סוגי התוכן, כולל תוכן שנוצר על ידי AI. כל סעיף מדיניות מתחיל ב-«Policy Rationale» ולאחריו כללים ספציפיים לגבי תוכן אסור או תוכן הדורש הקשר נוסף לאכיפה.',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: 'אותנטיות',
-        description:
-          'אנו רוצים לוודא שהתוכן שאנשים רואים הוא אותנטי. אנו מאמינים שאותנטיות יוצרת סביבה טובה יותר לשיתוף, ולכן איננו רוצים שאנשים ישתמשו בשירותינו כדי להציג את עצמם או את פעולותיהם באופן מטעה.',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: 'בטיחות',
-        description:
-          'אנו מחויבים להפוך את Facebook, Instagram, Messenger ו-Threads למקומות בטוחים. אנו מסירים תוכן שעלול לתרום לסיכון לפגיעה בביטחון הגופני של אנשים. תוכן שמאיים על אנשים אינו מותר בשירותינו.',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: 'פרטיות',
-        description:
-          'אנו מחויבים להגן על הפרטיות והמידע האישי. פרטיות מעניקה לאנשים חופש להיות עצמם, לבחור כיצד ומתי לשתף בשירותינו ולהתחבר בקלות רבה יותר.',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: 'כבוד',
-        description:
-          'אנו מאמינים שכל האנשים שווים בכבוד ובזכויות. אנו מצפים שאנשים יכבדו את כבודם של אחרים ולא יטרידו או ישפילו אחרים.',
-      },
-      {
-        title: 'מחויבות לקול',
-        description:
-          'מטרת Community Standards שלנו היא ליצור מרחב לביטוי ולתת לאנשים קול. כאשר אנו מגבילים ביטוי, אנו עושים זאת לשירות האותנטיות, הבטיחות, הפרטיות או הכבוד. ניתן להגיש ערעור אם אתה מאמין שהדף שלך עומד במדיניות.',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },

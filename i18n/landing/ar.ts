@@ -70,40 +70,37 @@ export const arLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'الالتزام ونطاق Community Standards',
-    subtitle:
-      'تدرك Meta أهمية أن تكون Facebook وInstagram وMessenger وThreads أماكن يشعر فيها الناس بالتمكين للتواصل، ونأخذ دورنا على محمل الجد في الحفاظ على هذه الخدمات خالية من الإساءة.',
-    learnMore: 'معرفة المزيد',
     items: [
       {
-        title: 'نطاق التطبيق',
-        description:
-          'تنطبق Community Standards على الجميع في جميع أنحاء العالم، وعلى جميع أنواع المحتوى، بما في ذلك المحتوى الذي يتم إنشاؤه بواسطة الذكاء الاصطناعي. يبدأ كل قسم من السياسات بـ «Policy Rationale» يليه بنود محددة حول المحتوى المحظور أو المحتوى الذي يتطلب سياقاً إضافياً للإنفاذ.',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: 'الأصالة',
-        description:
-          'نريد التأكد من أن المحتوى الذي يراه الناس أصلي. نؤمن بأن الأصالة تخلق بيئة أفضل للمشاركة، ولهذا لا نريد أن يستخدم الناس خدماتنا لإظهار أنفسهم أو أفعالهم بشكل مضلل.',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: 'السلامة',
-        description:
-          'نلتزم بجعل Facebook وInstagram وMessenger وThreads أماكن آمنة. نزيل المحتوى الذي قد يساهم في مخاطر الإضرار بالأمن الجسدي للأشخاص. المحتوى الذي يهدد الناس غير مسموح به على خدماتنا.',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: 'الخصوصية',
-        description:
-          'نلتزم بحماية الخصوصية والمعلومات الشخصية. تمنح الخصوصية الناس حرية أن يكونوا على طبيعتهم، واختيار كيفية ومتى يشاركون على خدماتنا والتواصل بسهولة أكبر.',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: 'الكرامة',
-        description:
-          'نؤمن بأن جميع الناس متساوون في الكرامة والحقوق. نتوقع من الناس احترام كرامة الآخرين وعدم مضايقتهم أو إذلالهم.',
-      },
-      {
-        title: 'الالتزام بالتعبير',
-        description:
-          'هدف Community Standards هو خلق مساحة للتعبير ومنح الناس صوتاً. عندما نحد من التعبير، نفعل ذلك لخدمة الأصالة أو السلامة أو الخصوصية أو الكرامة. يمكنك الاستئناف إذا كنت تعتقد أن صفحتك تتوافق مع السياسة.',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },

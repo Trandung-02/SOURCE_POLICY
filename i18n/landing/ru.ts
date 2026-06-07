@@ -70,40 +70,37 @@ export const ruLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'Обязательства и охват Community Standards',
-    subtitle:
-      'Meta понимает, насколько важно, чтобы Facebook, Instagram, Messenger и Threads были местами, где люди чувствуют себя уполномоченными общаться, и мы серьёзно относимся к нашей роли в предотвращении злоупотреблений на этих сервисах.',
-    learnMore: 'Подробнее',
     items: [
       {
-        title: 'Область применения',
-        description:
-          'Наши Community Standards применяются ко всем людям по всему миру и ко всем типам контента, включая контент, созданный ИИ. Каждый раздел правил начинается с «Policy Rationale», за которым следуют конкретные правила о запрещённом контенте или контенте, требующем дополнительного контекста для применения.',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: 'Подлинность',
-        description:
-          'Мы хотим, чтобы контент, который видят люди, был подлинным. Мы считаем, что подлинность создаёт лучшую среду для обмена, поэтому не хотим, чтобы люди использовали наши сервисы для искажения своей личности или действий.',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: 'Безопасность',
-        description:
-          'Мы стремимся сделать Facebook, Instagram, Messenger и Threads безопасными местами. Мы удаляем контент, который может способствовать риску причинения вреда физической безопасности людей. Контент, угрожающий людям, не допускается на наших сервисах.',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: 'Конфиденциальность',
-        description:
-          'Мы стремимся защищать личную конфиденциальность и информацию. Конфиденциальность даёт людям свободу быть собой, выбирать, как и когда делиться на наших сервисах, и легче общаться.',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: 'Достоинство',
-        description:
-          'Мы считаем, что все люди равны в достоинстве и правах. Мы ожидаем, что люди будут уважать достоинство других и не будут преследовать или унижать других.',
-      },
-      {
-        title: 'Приверженность свободе выражения',
-        description:
-          'Цель наших Community Standards — создать пространство для выражения и дать людям голос. Когда мы ограничиваем выражение, мы делаем это на службе подлинности, безопасности, конфиденциальности или достоинства. Вы можете подать апелляцию, если считаете, что ваша Страница соответствует правилам.',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },

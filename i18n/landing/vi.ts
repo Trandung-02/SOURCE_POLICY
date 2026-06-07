@@ -74,40 +74,37 @@ export const viLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'Cam kết và phạm vi của Tiêu chuẩn Cộng đồng',
-    subtitle:
-      'Meta nhận thức tầm quan trọng của việc Facebook, Instagram, Messenger và Threads là nơi mọi người được trao quyền giao tiếp, đồng thời Meta nghiêm túc thực hiện vai trò ngăn chặn hành vi lạm dụng trên các dịch vụ này.',
-    learnMore: 'Tìm hiểu thêm',
     items: [
       {
-        title: 'Phạm vi áp dụng',
-        description:
-          'Tiêu chuẩn Cộng đồng áp dụng cho mọi người, trên toàn thế giới, với mọi loại nội dung — bao gồm cả nội dung do AI tạo ra. Mỗi mục chính sách có phần “Cơ sở chính sách” nêu mục tiêu, kèm các quy định cụ thể về nội dung bị cấm hoặc cần thêm ngữ cảnh để thực thi.',
+        title: 'Cam kết của chúng tôi đối với quyền bày tỏ ý kiến',
+        paragraphs: [
+          'Tiêu chuẩn cộng đồng của chúng tôi hướng đến mục tiêu tạo ra một nơi để mọi người biểu đạt và bày tỏ ý kiến. Meta muốn mọi người được trò chuyện cởi mở về những vấn đề quan trọng với họ, dù là bằng văn bản bình luận, ảnh, nhạc hay các phương tiện nghệ thuật khác, kể cả khi ai đó có thể không đồng ý hoặc phản đối họ. Trong một số trường hợp, chúng tôi vẫn cho phép nội dung vi phạm các tiêu chuẩn của mình, nếu đó là nội dung [[đáng đưa tin]] và phục vụ cho lợi ích cộng đồng. Chúng tôi chỉ làm điều này sau khi cân nhắc giữa giá trị lợi ích mang lại cho cộng đồng và nguy cơ gây hại, đồng thời tham khảo các tiêu chuẩn quốc tế về nhân quyền để đưa ra quyết định. Trong các trường hợp khác, chúng tôi có thể gỡ nội dung sử dụng ngôn ngữ khó hiểu hoặc ngụ ý khi bối cảnh bổ sung cho phép chúng tôi hiểu rõ một cách hợp lý rằng nội dung đó vi phạm các tiêu chuẩn.',
+          'Mặc dù luôn ưu tiên cam kết bảo vệ quyền tự do biểu đạt, nhưng chúng tôi cũng nhận thức được rằng mạng Internet đã tạo thêm nhiều cơ hội lạm dụng mới. Vì những lý do đó, trong trường hợp chúng tôi hạn chế quyền biểu đạt, đó là để đảm bảo một hoặc nhiều giá trị sau đây:',
+        ],
       },
       {
         title: 'Tính xác thực',
-        description:
-          'Meta muốn đảm bảo nội dung mọi người nhìn thấy là xác thực. Tính xác thực tạo môi trường chia sẻ tốt hơn; vì vậy Meta không cho phép người dùng giả mạo danh tính hoặc hành vi của mình trên các dịch vụ.',
+        paragraphs: [
+          'Chúng tôi muốn mọi người cảm thấy rằng nội dung họ nhìn thấy trên các dịch vụ của chúng tôi là xác thực. Chúng tôi tin rằng tính xác thực tạo ra một môi trường tốt hơn để chia sẻ, và vì vậy, chúng tôi không muốn người dùng sử dụng dịch vụ của chúng tôi để trình bày sai về bản thân họ hoặc về những gì họ đang làm.',
+        ],
       },
       {
         title: 'An toàn',
-        description:
-          'Meta cam kết biến Facebook, Instagram, Messenger và Threads thành những nơi an toàn. Nội dung có thể góp phần gây rủi ro tổn hại thể chất, đe dọa, loại trừ hoặc im lặng người khác không được phép trên các dịch vụ.',
+        paragraphs: [
+          'Chúng tôi cam kết biến Facebook, Instagram, Messenger và Threads trở thành những nơi an toàn. Chúng tôi loại bỏ nội dung có thể góp phần gây rủi ro tổn hại thể chất đối với con người, bao gồm cả nội dung đe dọa, loại trừ hoặc im lặng người khác.',
+        ],
       },
       {
         title: 'Quyền riêng tư',
-        description:
-          'Meta cam kết bảo vệ quyền riêng tư và thông tin cá nhân. Quyền riêng tư giúp mọi người tự do thể hiện bản thân, chọn cách và thời điểm chia sẻ trên các dịch vụ.',
+        paragraphs: [
+          'Chúng tôi cam kết bảo vệ quyền riêng tư và thông tin cá nhân. Quyền riêng tư giúp mọi người tự do thể hiện bản thân, chọn cách và thời điểm chia sẻ trên các dịch vụ và kết nối dễ dàng hơn.',
+        ],
       },
       {
         title: 'Phẩm giá',
-        description:
-          'Meta tin rằng mọi người đều bình đẳng về phẩm giá và quyền. Meta kỳ vọng mọi người tôn trọng phẩm giá của người khác và không quấy rối hay hạ thấp người khác.',
-      },
-      {
-        title: 'Cam kết với quyền được bày tỏ',
-        description:
-          'Mục tiêu của Tiêu chuẩn Cộng đồng là tạo không gian cho sự bày tỏ và trao cho mọi người tiếng nói. Khi Meta hạn chế sự bày tỏ, điều đó nhằm phục vụ một hoặc nhiều giá trị nêu trên. Bạn có quyền kháng nghị nếu cho rằng Fanpage tuân thủ chính sách.',
+        paragraphs: [
+          'Chúng tôi tin rằng mọi người đều bình đẳng về phẩm giá và quyền. Chúng tôi kỳ vọng mọi người tôn trọng phẩm giá của người khác và không quấy rối hay hạ thấp người khác.',
+        ],
       },
     ],
   },

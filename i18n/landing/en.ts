@@ -74,40 +74,37 @@ export const enLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'Commitment and scope of Community Standards',
-    subtitle:
-      'Meta recognizes how important it is for Facebook, Instagram, Messenger and Threads to be places where people feel empowered to communicate, and we take our role seriously in keeping abuse off these services.',
-    learnMore: 'Learn more',
     items: [
       {
-        title: 'Scope of application',
-        description:
-          'Our Community Standards apply to everyone, all around the world, and to all types of content, including AI-generated content. Each policy section starts with a "Policy Rationale" followed by specific policy lines on prohibited content or content requiring additional context to enforce.',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
         title: 'Authenticity',
-        description:
-          'We want to make sure the content people see is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
         title: 'Safety',
-        description:
-          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons. Content that threatens people isn\'t allowed on our services.',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
         title: 'Privacy',
-        description:
+        paragraphs: [
           'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
         title: 'Dignity',
-        description:
+        paragraphs: [
           'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
-      },
-      {
-        title: 'Commitment to voice',
-        description:
-          'The goal of our Community Standards is to create a place for expression and give people a voice. When we limit expression, we do it in service of authenticity, safety, privacy or dignity. You may appeal if you believe your Page complies with policy.',
+        ],
       },
     ],
   },

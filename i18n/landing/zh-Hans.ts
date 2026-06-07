@@ -70,40 +70,37 @@ export const zhHansLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'Community Standards 的承诺与适用范围',
-    subtitle:
-      'Meta 深知 Facebook、Instagram、Messenger 和 Threads 作为人们自由沟通的空间至关重要，我们严肃对待在这些服务上防范滥用的责任。',
-    learnMore: '了解更多',
     items: [
       {
-        title: '适用范围',
-        description:
-          '我们的 Community Standards 适用于全球所有人以及所有类型的内容，包括 AI 生成的内容。每个政策部分以「Policy Rationale」开头，随后是有关禁止内容或需要额外背景信息才能执行的具体规则。',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: '真实性',
-        description:
-          '我们希望确保人们看到的内容是真实的。我们相信真实性能够创造更好的分享环境，因此我们不希望人们利用我们的服务歪曲自己的身份或行为。',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: '安全',
-        description:
-          '我们致力于使 Facebook、Instagram、Messenger 和 Threads 成为安全的空间。我们会移除可能危及人身安全的内容。威胁他人的内容不允许出现在我们的服务上。',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: '隐私',
-        description:
-          '我们致力于保护个人隐私和信息。隐私赋予人们做回自己的自由，选择如何以及何时在我们的服务上分享，并更轻松地建立联系。',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: '尊严',
-        description:
-          '我们相信所有人在尊严和权利上都是平等的。我们期望人们尊重他人的尊严，不骚扰或贬低他人。',
-      },
-      {
-        title: '对表达的承诺',
-        description:
-          'Community Standards 的目标是创造表达空间并赋予人们发言权。当我们限制表达时，是为了服务于真实性、安全、隐私或尊严。如果你认为你的公共主页符合政策，可以提出申诉。',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },

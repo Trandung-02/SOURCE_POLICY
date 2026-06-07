@@ -70,40 +70,37 @@ export const idLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'Komitmen dan cakupan Community Standards',
-    subtitle:
-      'Meta memahami betapa pentingnya Facebook, Instagram, Messenger, dan Threads menjadi tempat di mana orang merasa diberdayakan untuk berkomunikasi, dan kami serius menjalankan peran kami menjaga layanan ini bebas dari penyalahgunaan.',
-    learnMore: 'Pelajari selengkapnya',
     items: [
       {
-        title: 'Cakupan penerapan',
-        description:
-          'Community Standards kami berlaku untuk semua orang di seluruh dunia, dan untuk semua jenis konten, termasuk konten yang dihasilkan AI. Setiap bagian kebijakan diawali dengan «Policy Rationale» diikuti aturan spesifik tentang konten yang dilarang atau konten yang memerlukan konteks tambahan untuk ditegakkan.',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: 'Keaslian',
-        description:
-          'Kami ingin memastikan konten yang dilihat orang adalah asli. Kami percaya keaslian menciptakan lingkungan berbagi yang lebih baik, itulah sebabnya kami tidak ingin orang menggunakan layanan kami untuk salah menggambarkan identitas atau tindakan mereka.',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: 'Keamanan',
-        description:
-          'Kami berkomitmen menjadikan Facebook, Instagram, Messenger, dan Threads tempat yang aman. Kami menghapus konten yang dapat berkontribusi pada risiko bahaya terhadap keamanan fisik seseorang. Konten yang mengancam orang tidak diizinkan di layanan kami.',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: 'Privasi',
-        description:
-          'Kami berkomitmen melindungi privasi dan informasi pribadi. Privasi memberi orang kebebasan menjadi diri sendiri, memilih cara dan waktu berbagi di layanan kami, dan terhubung dengan lebih mudah.',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: 'Martabat',
-        description:
-          'Kami percaya semua orang setara dalam martabat dan hak. Kami mengharapkan orang menghormati martabat orang lain dan tidak melecehkan atau merendahkan orang lain.',
-      },
-      {
-        title: 'Komitmen terhadap suara',
-        description:
-          'Tujuan Community Standards kami adalah menciptakan ruang untuk berekspresi dan memberi suara kepada orang. Saat kami membatasi ekspresi, kami melakukannya demi keaslian, keamanan, privasi, atau martabat. Anda dapat mengajukan banding jika yakin Halaman Anda mematuhi kebijakan.',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },

@@ -70,40 +70,37 @@ export const jaLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'Community Standardsのコミットメントと適用範囲',
-    subtitle:
-      'Metaは、Facebook、Instagram、Messenger、Threadsが人々がコミュニケーションを取る力を感じられる場所であることの重要性を認識しており、これらのサービスから不正利用を排除する役割を真剣に担っています。',
-    learnMore: '詳しくはこちら',
     items: [
       {
-        title: '適用範囲',
-        description:
-          'Community Standardsは世界中のすべての人に適用され、AI生成コンテンツを含むすべての種類のコンテンツに適用されます。各ポリシーセクションは「Policy Rationale」から始まり、禁止コンテンツまたは執行に追加の文脈が必要なコンテンツに関する具体的なルールが続きます。',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: '真正性',
-        description:
-          '人々が目にするコンテンツが真正であることを確保したいと考えています。真正性はより良い共有環境を生み出すと信じており、そのため、サービスを利用して自分自身や行動を偽って表示することを望みません。',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: '安全',
-        description:
-          'Facebook、Instagram、Messenger、Threadsを安全な場所にすることを約束します。人の身体的安全に危害を及ぼすリスクに寄与する可能性のあるコンテンツは削除します。人を脅かすコンテンツはサービス上で許可されません。',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: 'プライバシー',
-        description:
-          '個人のプライバシーと情報の保護に取り組んでいます。プライバシーは、人々が自分らしくあり、サービス上でいつどのように共有するかを選び、より簡単につながる自由を与えます。',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: '尊厳',
-        description:
-          'すべての人は尊厳と権利において平等であると信じています。人々は他者の尊厳を尊重し、嫌がらせや侮辱を行わないことを期待しています。',
-      },
-      {
-        title: '表現へのコミットメント',
-        description:
-          'Community Standardsの目的は、表現の場を作り、人々に声を与えることです。表現を制限する場合、それは真正性、安全、プライバシー、または尊厳のために行います。ページがポリシーに準拠していると考える場合は、異議申し立てができます。',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },

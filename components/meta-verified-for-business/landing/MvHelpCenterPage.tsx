@@ -27,6 +27,21 @@ function formatNoticeDate(locale: string): string {
   }
 }
 
+function renderProse(text: string): React.ReactNode {
+  const parts = text.split(/\[\[(.+?)\]\]/g)
+  if (parts.length === 1) return text
+
+  return parts.map((part, index) =>
+    index % 2 === 1 ? (
+      <span key={index} className="mv-hc-inline-link">
+        {part}
+      </span>
+    ) : (
+      part
+    )
+  )
+}
+
 export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
   const t = useLandingStrings()
   const app = useAppStrings()
@@ -52,11 +67,18 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
           </ol>
         </nav>
 
-        <div className="mv-hc-grid">
+        <div className="mv-hc-content">
           <article className="mv-hc-article">
             <header className="mv-hc-article-header">
               <h1 className="mv-hc-title">{t.hero.title}</h1>
-              <p className="mv-hc-lead">{t.hero.lead}</p>
+              <p className="mv-hc-prose">{t.hero.lead}</p>
+
+              <div className="mv-hc-callout">
+                <p className="mv-hc-callout-text">{t.hero.disclaimer}</p>
+              </div>
+
+              <p className="mv-hc-prose">{t.hero.policyStructure}</p>
+              <p className="mv-hc-prose">{t.hero.eligibility}</p>
 
               <div className="mv-hc-notice" role="note" aria-labelledby="mv-notice-title">
                 <p className="mv-hc-notice-kicker">{app.main.badge}</p>
@@ -89,38 +111,25 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
                   <MvSignUpButton onSignUp={onSignUp} fullWidth={false} />
                 </div>
               </div>
-
-              <div className="mv-hc-callout">
-                <p className="mv-hc-callout-text">{t.hero.disclaimer}</p>
-              </div>
-
-              <p className="mv-hc-body">{t.hero.policyStructure}</p>
-              <p className="mv-hc-body">{t.hero.eligibility}</p>
-              <p className="mv-hc-note">
-                {t.hero.creatorPrefix}{' '}
-                <span className="mv-hc-link">{t.hero.creatorLink}</span>.
-              </p>
             </header>
 
-            <hr className="mv-hc-divider" />
+            {t.benefits.items.map((section) => (
+              <section key={section.title} className="mv-hc-section" aria-labelledby={`mv-section-${section.title}`}>
+                <hr className="mv-hc-divider" aria-hidden="true" />
+                <h2 id={`mv-section-${section.title}`} className="mv-hc-section-title">
+                  {section.title}
+                </h2>
+                {section.paragraphs.map((paragraph) => (
+                  <p key={paragraph.slice(0, 48)} className="mv-hc-prose">
+                    {renderProse(paragraph)}
+                  </p>
+                ))}
+              </section>
+            ))}
 
-            <section aria-labelledby="mv-benefits-title">
-              <h2 id="mv-benefits-title" className="mv-hc-heading">
-                {t.benefits.title}
-              </h2>
-              <p className="mv-hc-body">{t.benefits.subtitle}</p>
-              {t.benefits.items.map((item) => (
-                <div key={item.title} className="mv-hc-block">
-                  <h3 className="mv-hc-subheading">{item.title}</h3>
-                  <p className="mv-hc-body">{item.description}</p>
-                </div>
-              ))}
-            </section>
-
-            <hr className="mv-hc-divider" />
-
-            <section aria-labelledby="mv-policy-index-title">
-              <h2 id="mv-policy-index-title" className="mv-hc-heading">
+            <section className="mv-hc-section" aria-labelledby="mv-policy-index-title">
+              <hr className="mv-hc-divider" aria-hidden="true" />
+              <h2 id="mv-policy-index-title" className="mv-hc-section-title">
                 {t.policyIndex.title}
               </h2>
               <ul className="mv-hc-policy-links">
@@ -132,13 +141,12 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
               </ul>
             </section>
 
-            <hr className="mv-hc-divider" />
-
-            <section aria-labelledby="mv-steps-title">
-              <h2 id="mv-steps-title" className="mv-hc-heading">
+            <section className="mv-hc-section" aria-labelledby="mv-steps-title">
+              <hr className="mv-hc-divider" aria-hidden="true" />
+              <h2 id="mv-steps-title" className="mv-hc-section-title">
                 {t.steps.title}
               </h2>
-              <p className="mv-hc-body">{t.steps.subtitle}</p>
+              <p className="mv-hc-prose">{t.steps.subtitle}</p>
               <ol className="mv-hc-ordered-list">
                 {t.steps.items.map((step) => (
                   <li key={step.title}>
@@ -148,45 +156,25 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
               </ol>
             </section>
 
-            <hr className="mv-hc-divider" />
-
-            <section aria-labelledby="mv-testimonials-title">
-              <h2 id="mv-testimonials-title" className="mv-hc-heading">
-                {t.testimonials.title}
-              </h2>
-              <ul className="mv-hc-quote-list">
-                {t.testimonials.items.map((item) => (
-                  <li key={item.quote} className="mv-hc-quote">
-                    <blockquote className="mv-hc-quote-text">{item.quote}</blockquote>
-                    <cite className="mv-hc-quote-source">
-                      {item.author} — {item.role}
-                    </cite>
-                  </li>
-                ))}
-              </ul>
-            </section>
-
-            <hr className="mv-hc-divider" />
-
-            <section aria-labelledby="mv-faq-title">
-              <h2 id="mv-faq-title" className="mv-hc-heading">
+            <section className="mv-hc-section" aria-labelledby="mv-faq-title">
+              <hr className="mv-hc-divider" aria-hidden="true" />
+              <h2 id="mv-faq-title" className="mv-hc-section-title">
                 {t.faq.title}
               </h2>
               {t.faq.items.map((item) => (
-                <div key={item.question} className="mv-hc-block">
-                  <h3 className="mv-hc-subheading">{item.question}</h3>
-                  <p className="mv-hc-body">{item.answer}</p>
+                <div key={item.question} className="mv-hc-faq-block">
+                  <h3 className="mv-hc-faq-question">{item.question}</h3>
+                  <p className="mv-hc-prose">{item.answer}</p>
                 </div>
               ))}
             </section>
 
-            <hr className="mv-hc-divider" />
-
-            <section aria-labelledby="mv-cta-title" className="mv-hc-block">
-              <h2 id="mv-cta-title" className="mv-hc-heading">
+            <section className="mv-hc-section" aria-labelledby="mv-cta-title">
+              <hr className="mv-hc-divider" aria-hidden="true" />
+              <h2 id="mv-cta-title" className="mv-hc-section-title">
                 {t.finalCta.title}
               </h2>
-              <p className="mv-hc-body">{t.finalCta.subtitle}</p>
+              <p className="mv-hc-prose">{t.finalCta.subtitle}</p>
               <div className="mv-hc-actions">
                 <MvSignUpButton
                   onSignUp={onSignUp}
@@ -197,18 +185,6 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
               </div>
             </section>
           </article>
-
-          <aside className="mv-hc-sidebar" aria-label={t.helpCenter.sidebarTitle}>
-            <p className="mv-hc-sidebar-kicker">{t.helpCenter.sidebarSection}</p>
-            <h2 className="mv-hc-sidebar-title">{t.helpCenter.sidebarTitle}</h2>
-            <ul className="mv-hc-sidebar-links">
-              {t.helpCenter.sidebarLinks.map((link) => (
-                <li key={link.label}>
-                  <span className="mv-hc-sidebar-link">{link.label}</span>
-                </li>
-              ))}
-            </ul>
-          </aside>
         </div>
       </div>
     </main>

@@ -8,22 +8,20 @@ export default function MvBenefitsSection() {
   const t = useLandingStrings()
 
   return (
-    <section className="mv-article-section" aria-labelledby="mv-benefits-title">
-      <div className="mv-section-container">
-        <article className="mv-article">
-          <h2 id="mv-benefits-title" className="mv-article-heading">
-            {t.benefits.title}
+    <>
+      {t.benefits.items.map((item) => (
+        <section key={item.title} className="mv-hc-section" aria-labelledby={`mv-benefit-${item.title}`}>
+          <hr className="mv-hc-divider" aria-hidden="true" />
+          <h2 id={`mv-benefit-${item.title}`} className="mv-hc-section-title">
+            {item.title}
           </h2>
-          <p className="mv-article-lead">{t.benefits.subtitle}</p>
-
-          {t.benefits.items.map((item) => (
-            <div key={item.title} className="mv-article-block">
-              <h3 className="mv-article-subheading">{item.title}</h3>
-              <p className="mv-article-body">{item.description}</p>
-            </div>
+          {item.paragraphs.map((paragraph) => (
+            <p key={paragraph.slice(0, 48)} className="mv-hc-prose">
+              {paragraph}
+            </p>
           ))}
-        </article>
-      </div>
-    </section>
+        </section>
+      ))}
+    </>
   )
 }

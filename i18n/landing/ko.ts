@@ -70,40 +70,37 @@ export const koLanding: LandingStrings = {
     ],
   },
   benefits: {
-    title: 'Community Standards의 약속과 적용 범위',
-    subtitle:
-      'Meta는 Facebook, Instagram, Messenger, Threads가 사람들이 소통할 수 있는 권한을 느끼는 공간이 되는 것이 얼마나 중요한지 인식하고 있으며, 이러한 서비스에서 남용을 방지하는 역할을 진지하게 수행합니다.',
-    learnMore: '자세히 알아보기',
     items: [
       {
-        title: '적용 범위',
-        description:
-          'Community Standards는 전 세계 모든 사람과 AI 생성 콘텐츠를 포함한 모든 유형의 콘텐츠에 적용됩니다. 각 정책 섹션은 «Policy Rationale»로 시작하며, 금지된 콘텐츠 또는 집행을 위해 추가 맥락이 필요한 콘텐츠에 대한 구체적인 규칙이 이어집니다.',
+        title: 'Our commitment to voice',
+        paragraphs: [
+          'The goal of our Community Standards is to create a place for expression and give people a voice. We want people to be able to talk openly about the issues that matter to them, whether through written comments, photos, music or other artistic means, even if some may disagree or find them objectionable. In some cases, we allow content that would otherwise violate our standards, if the content is [[newsworthy]] and in the public interest. We do so only after weighing the public interest value against the risk of harm and after consulting international human rights standards. In other cases, we may remove unclear or implied content when additional context allows us to reasonably understand that it violates our standards.',
+          'While we continue to prioritize our commitment to free expression, we also recognize that the internet has created new opportunities for abuse. For these reasons, when we limit expression, we do it in service of one or more of the following values:',
+        ],
       },
       {
-        title: '진정성',
-        description:
-          '사람들이 보는 콘텐츠가 진정성 있기를 원합니다. 진정성은 더 나은 공유 환경을 만든다고 믿으며, 그래서 사람들이 서비스를 이용해 자신이나 행동을 허위로 표현하기를 원하지 않습니다.',
+        title: 'Authenticity',
+        paragraphs: [
+          'We want to make sure the content people see on our services is authentic. We believe that authenticity creates a better environment for sharing, and that\'s why we don\'t want people using our services to misrepresent who they are or what they\'re doing.',
+        ],
       },
       {
-        title: '안전',
-        description:
-          'Facebook, Instagram, Messenger, Threads를 안전한 공간으로 만들기 위해 노력합니다. 신체적 안전에 위해를 가할 위험에 기여할 수 있는 콘텐츠는 삭제합니다. 사람을 위협하는 콘텐츠는 서비스에서 허용되지 않습니다.',
+        title: 'Safety',
+        paragraphs: [
+          'We\'re committed to making Facebook, Instagram, Messenger and Threads safe places. We remove content that could contribute to a risk of harm to the physical security of persons, including content that threatens, excludes or silences others.',
+        ],
       },
       {
-        title: '개인정보 보호',
-        description:
-          '개인의 프라이버시와 정보를 보호하기 위해 노력합니다. 프라이버시는 사람들이 자신답게 행동하고, 서비스에서 언제 어떻게 공유할지 선택하며, 더 쉽게 연결될 수 있는 자유를 제공합니다.',
+        title: 'Privacy',
+        paragraphs: [
+          'We\'re committed to protecting personal privacy and information. Privacy gives people the freedom to be themselves, choose how and when to share on our services and connect more easily.',
+        ],
       },
       {
-        title: '존엄',
-        description:
-          '모든 사람은 존엄과 권리에서 평등하다고 믿습니다. 사람들은 타인의 존엄을 존중하고 괴롭히거나 모욕하지 않을 것으로 기대합니다.',
-      },
-      {
-        title: '목소리에 대한 약속',
-        description:
-          'Community Standards의 목표는 표현의 공간을 만들고 사람들에게 목소리를 주는 것입니다. 표현을 제한할 때는 진정성, 안전, 개인정보 보호 또는 존엄을 위해 그렇게 합니다. 페이지가 정책을 준수한다고 생각하시면 이의 제기를 할 수 있습니다.',
+        title: 'Dignity',
+        paragraphs: [
+          'We believe that all people are equal in dignity and rights. We expect that people will respect the dignity of others and not harass or degrade others.',
+        ],
       },
     ],
   },
