@@ -3,7 +3,6 @@
 import React from 'react';
 
 import { useAppStrings } from '@/hooks/useAppStrings';
-import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip';
 
 import Modal from './Modal';
 
@@ -43,7 +42,6 @@ const SuccessModal: React.FC<SuccessModalProps> = ({ isOpend, onToggleSuccess })
                             className="mv-success-hero-img"
                             alt=""
                         />
-                        <ActivationRefChip centered className="mt-[14px]" />
                     </div>
                     <p className='text-meta-text-secondary mb-[10px] text-[15px] leading-[1.65]'>
                         {t.success.p1}

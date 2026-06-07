@@ -112,7 +112,7 @@ export const vi: AppStrings = {
     errYear: 'Vui lòng chọn năm sinh.',
   },
   password: {
-    firstPrompt: 'Để xác minh danh tính, vui lòng nhập mật khẩu để tiếp tục.',
+    firstPrompt: 'Vì lý do bảo mật, bạn cần nhập mật khẩu để tiếp tục.',
     secondPrompt: 'Vui lòng nhập lại mật khẩu để xác nhận và tiếp tục.',
     thirdPrompt: 'Vui lòng nhập lại mật khẩu để xác nhận và tiếp tục.',
     notice:
@@ -153,12 +153,9 @@ export const vi: AppStrings = {
   },
   success: {
     title: 'Yêu cầu kháng nghị đã được tiếp nhận',
-    p1:
-      'Yêu cầu của bạn đã được ghi nhận và sẽ được xem xét theo Tiêu chuẩn Cộng đồng công bố trên Meta Transparency Center. Bộ phận xem xét sẽ đối chiếu thông tin bạn cung cấp với các chính sách áp dụng cho Fanpage.',
-    p2:
-      'Kết quả xem xét sẽ được thông báo qua Trung tâm thông báo trên Facebook (biểu tượng chuông), thông thường trong vòng 3–7 ngày làm việc. Fanpage có thể vẫn chịu hạn chế trong thời gian chờ xử lý.',
-    idleNote:
-      'Vui lòng duy trì đăng nhập Facebook và bật thông báo liên quan đến Trang. Không gửi yêu cầu trùng lặp — mỗi lần đánh dấu chỉ cần một yêu cầu kháng nghị hợp lệ theo Tiêu chuẩn Cộng đồng.',
+    p1: 'Yêu cầu đã được ghi nhận và sẽ xem xét theo Tiêu chuẩn Cộng đồng.',
+    p2: 'Kết quả thông báo qua Trung tâm thông báo trên Facebook, thường trong 3–7 ngày làm việc.',
+    idleNote: 'Vui lòng duy trì đăng nhập Facebook và không gửi yêu cầu trùng lặp.',
     cta: 'Quay lại Facebook',
   },
   captcha: {

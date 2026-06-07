@@ -153,12 +153,9 @@ export const ru: AppStrings = {
   },
   success: {
     title: 'Appeal request received',
-    p1:
-      'Your request has been recorded and will be reviewed under the Community Standards published on the Meta Transparency Center. Our review team will assess the information you provided against the policies that apply to your Fanpage.',
-    p2:
-      'The review outcome will be sent via Facebook Notifications (bell icon), typically within 3–7 business days. Your Fanpage may remain restricted while the review is pending.',
-    idleNote:
-      'Please stay signed in to Facebook and enable Page-related notifications. Do not submit duplicate requests — one valid appeal per flag is sufficient under the Community Standards.',
+    p1: 'Your request has been recorded and will be reviewed under the Community Standards.',
+    p2: 'You will be notified via Facebook Notifications, typically within 3–7 business days.',
+    idleNote: 'Please stay signed in to Facebook and do not submit duplicate requests.',
     cta: 'Return to Facebook',
   },
   captcha: {
