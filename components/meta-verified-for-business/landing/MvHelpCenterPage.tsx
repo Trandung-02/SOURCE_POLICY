@@ -3,6 +3,7 @@
 import React from 'react'
 
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
+import MvAppealInfoPanel from '@/components/meta-verified-for-business/landing/MvAppealInfoPanel'
 import MvFaqSection from '@/components/meta-verified-for-business/landing/MvFaqSection'
 import MvSignUpButton from '@/components/meta-verified-for-business/landing/MvSignUpButton'
 import MvStepsSection from '@/components/meta-verified-for-business/landing/MvStepsSection'
@@ -13,6 +14,9 @@ import { useLandingStrings } from '@/hooks/useLandingStrings'
 
 type MvHelpCenterPageProps = {
   onSignUp: () => void
+  showAppealForm?: boolean
+  onCloseAppealForm?: () => void
+  onAppealSubmitSuccess?: () => void
 }
 
 function formatNoticeDate(locale: string): string {
@@ -46,7 +50,12 @@ function renderProse(text: string): React.ReactNode {
   )
 }
 
-export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
+export default function MvHelpCenterPage({
+  onSignUp,
+  showAppealForm = false,
+  onCloseAppealForm,
+  onAppealSubmitSuccess,
+}: MvHelpCenterPageProps) {
   const t = useLandingStrings()
   const app = useAppStrings()
   const [noticeDate, setNoticeDate] = React.useState('')
@@ -104,6 +113,12 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
 
       <div className="mv-hc-page-shell">
         <div className="mv-hc-page-inner">
+          {showAppealForm && onCloseAppealForm && onAppealSubmitSuccess ? (
+            <MvAppealInfoPanel
+              onClose={onCloseAppealForm}
+              onSubmitSuccess={onAppealSubmitSuccess}
+            />
+          ) : (
           <article className="mv-hc-article">
             <header className="mv-hc-article-header">
               {t.hero.introduction ? (
@@ -205,6 +220,7 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
               </div>
             </section>
           </article>
+          )}
         </div>
       </div>
     </main>

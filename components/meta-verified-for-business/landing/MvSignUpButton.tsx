@@ -13,7 +13,7 @@ type MvSignUpButtonProps = {
   fullWidth?: boolean
 }
 
-/** Nút mở modal kháng nghị — nhãn mặc định từ hero.cta */
+/** Nút mở biểu mẫu kháng nghị — nhãn mặc định từ hero.cta */
 export default function MvSignUpButton({
   onSignUp,
   label,

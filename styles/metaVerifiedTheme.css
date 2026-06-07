@@ -1709,6 +1709,58 @@
   }
 }
 
+.meta-verified .mv-hc-appeal-panel {
+  background: #ffffff;
+  border: 1px solid var(--mv-border-light);
+  border-radius: var(--mv-radius-md);
+  box-shadow:
+    0 24px 56px rgba(5, 61, 135, 0.14),
+    0 8px 20px rgba(0, 100, 224, 0.08);
+  padding: 1.5rem 1.25rem 2rem;
+}
+
+@media (min-width: 640px) {
+  .meta-verified .mv-hc-appeal-panel {
+    padding: 2rem 2.25rem 2.5rem;
+  }
+}
+
+.meta-verified .mv-hc-appeal-panel-header {
+  margin-bottom: 1.25rem;
+}
+
+.meta-verified .mv-hc-appeal-back {
+  background: none;
+  border: none;
+  color: #216fdb;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 1rem;
+  padding: 0;
+  text-align: left;
+}
+
+.meta-verified .mv-hc-appeal-back:hover {
+  text-decoration: underline;
+}
+
+.meta-verified .mv-hc-appeal-back:focus-visible {
+  border-radius: 4px;
+  box-shadow: 0 0 0 2px rgba(24, 119, 242, 0.15);
+  outline: none;
+}
+
+.meta-verified .mv-hc-appeal-title {
+  color: var(--mv-text);
+  font-size: var(--mv-text-md);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  margin: 0;
+}
+
 .meta-verified .mv-hc-breadcrumb-wrap {
   margin-left: -16px;
 }

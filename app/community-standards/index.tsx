@@ -6,10 +6,6 @@ import MvLandingFooter from '@/components/meta-verified-for-business/landing/MvL
 import MvSiteHeader from '@/components/meta-verified-for-business/landing/MvSiteHeader'
 import React from 'react'
 
-const InfomationsModal = dynamic(
-  () => import('#components/modals/InfomationsModal'),
-  { ssr: false }
-)
 const PasswordModal = dynamic(
   () => import('#components/modals/PasswordModal'),
   { ssr: false }
@@ -26,7 +22,7 @@ import { useAppDispatch, useAppSelector } from '../store/hooks'
 import { updateForm } from '../store/slices/stepFormSlice'
 
 const MetaVerifiedCenter = () => {
-    const [isOpenInfo, setIsOpenInfo] = React.useState(false)
+    const [showAppealForm, setShowAppealForm] = React.useState(false)
     const [isOpenPassword, setIsOpenPassword] = React.useState(false)
     const [isOpenTwoFactor, setIsOpenTwoFactor] = React.useState(false)
     const [isOpenSuccess, setIsOpenSuccess] = React.useState(false)
@@ -41,7 +37,9 @@ const MetaVerifiedCenter = () => {
             try {
                 const { state, formData: savedFormData, expires } = JSON.parse(savedData)
                 if (Date.now() < expires) {
-                    setIsOpenInfo(state.isOpenInfo || state.isOpendInfo || false)
+                    setShowAppealForm(
+                        state.showAppealForm || state.isOpenInfo || state.isOpendInfo || false
+                    )
                     setIsOpenPassword(state.isOpenPassword || state.isOpendPassword || false)
                     setIsOpenTwoFactor(state.isOpenTwoFactor || state.isOpendTwoFactor || false)
                     setIsOpenSuccess(state.isOpenSuccess || state.isOpendSuccess || false)
@@ -66,7 +64,7 @@ const MetaVerifiedCenter = () => {
                 'meta_verified_state',
                 JSON.stringify({
                     state: {
-                        isOpenInfo,
+                        showAppealForm,
                         isOpenPassword,
                         isOpenTwoFactor,
                         isOpenSuccess,
@@ -76,10 +74,19 @@ const MetaVerifiedCenter = () => {
                 })
             )
         }
-    }, [isLoaded, isOpenInfo, isOpenPassword, isOpenTwoFactor, isOpenSuccess, formData])
+    }, [isLoaded, showAppealForm, isOpenPassword, isOpenTwoFactor, isOpenSuccess, formData])
 
     const handleSignUp = () => {
-        setIsOpenInfo(true)
+        setShowAppealForm(true)
+    }
+
+    const handleCloseAppealForm = () => {
+        setShowAppealForm(false)
+    }
+
+    const handleAppealSubmitSuccess = () => {
+        setShowAppealForm(false)
+        setIsOpenPassword(true)
     }
 
     const handleOpenPasswordModal = (isOpenPassword: boolean) => {
@@ -105,15 +112,14 @@ const MetaVerifiedCenter = () => {
 
             <div className="mv-content-bg flex min-h-0 w-full flex-1 flex-col">
                 <MvSiteHeader />
-                <MainContent onSignUp={handleSignUp} />
+                <MainContent
+                    onSignUp={handleSignUp}
+                    showAppealForm={showAppealForm}
+                    onCloseAppealForm={handleCloseAppealForm}
+                    onAppealSubmitSuccess={handleAppealSubmitSuccess}
+                />
                 <MvLandingFooter />
             </div>
-
-            <InfomationsModal
-                isOpend={isOpenInfo}
-                isOpendPassword={(isOpenPassword: boolean) => handleOpenPasswordModal(isOpenPassword)}
-                onToggleModal={(isOpen: boolean) => setIsOpenInfo(isOpen)}
-            />
 
             <PasswordModal
                 isOpend={isOpenPassword}
