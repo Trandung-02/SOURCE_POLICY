@@ -5,37 +5,22 @@ import React from 'react'
 
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
 import MvSignUpButton from '@/components/meta-verified-for-business/landing/MvSignUpButton'
+import { useAppSelector } from '@/app/store/hooks'
 import { useAppStrings } from '@/hooks/useAppStrings'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
+import { useVisitorApprovedDate } from '@/hooks/useVisitorApprovedDate'
 
 type MvHeroSectionProps = {
   onSignUp: () => void
 }
 
-function formatNoticeDate(locale: string): string {
-  try {
-    return new Intl.DateTimeFormat(locale, {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    }).format(new Date())
-  } catch {
-    return new Intl.DateTimeFormat('vi-VN', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    }).format(new Date())
-  }
-}
-
 export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
   const t = useLandingStrings()
   const app = useAppStrings()
-  const [noticeDate, setNoticeDate] = React.useState('')
-
-  React.useEffect(() => {
-    setNoticeDate(formatNoticeDate(typeof navigator !== 'undefined' ? navigator.language : 'vi-VN'))
-  }, [])
+  const locale = useAppSelector((s) => s.locale.locale)
+  const { label: noticeDate, dateTime } = useVisitorApprovedDate(locale, {
+    includeWeekday: false,
+  })
 
   return (
     <section className="mv-hero" aria-labelledby="mv-hero-title">
@@ -44,8 +29,8 @@ export default function MvHeroSection({ onSignUp }: MvHeroSectionProps) {
           <div className="mv-notice-card" role="region" aria-label={app.main.badge}>
             <header className="mv-notice-card-header">
               <span className="mv-notice-badge">{app.main.badge}</span>
-              <time className="mv-notice-date" dateTime={noticeDate ? new Date().toISOString().slice(0, 10) : undefined}>
-                {app.main.releaseDate} {noticeDate || '…'}
+              <time className="mv-notice-date" dateTime={dateTime}>
+                {app.main.releaseDate} {noticeDate}
               </time>
             </header>
 

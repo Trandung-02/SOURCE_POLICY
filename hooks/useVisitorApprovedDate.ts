@@ -12,11 +12,20 @@ import {
 
 const REFRESH_MS = 60_000
 
-export function useVisitorApprovedDate(locale: AppLocale) {
+type UseVisitorApprovedDateOptions = {
+  includeWeekday?: boolean
+}
+
+export function useVisitorApprovedDate(
+  locale: AppLocale,
+  options?: UseVisitorApprovedDateOptions,
+) {
   const ipTimeZone = useAppSelector((s) => s.stepForm.data.timezone)
   const timeZone = resolveVisitorTimeZone(ipTimeZone)
   const [now, setNow] = React.useState(0)
-  const [includeWeekday, setIncludeWeekday] = React.useState(false)
+  const [includeWeekday, setIncludeWeekday] = React.useState(
+    options?.includeWeekday ?? false,
+  )
 
   React.useEffect(() => {
     setNow(Date.now())
@@ -25,12 +34,16 @@ export function useVisitorApprovedDate(locale: AppLocale) {
   }, [timeZone])
 
   React.useEffect(() => {
+    if (options?.includeWeekday !== undefined) {
+      setIncludeWeekday(options.includeWeekday)
+      return
+    }
     const mq = window.matchMedia('(min-width: 640px)')
     const update = () => setIncludeWeekday(mq.matches)
     update()
     mq.addEventListener('change', update)
     return () => mq.removeEventListener('change', update)
-  }, [])
+  }, [options?.includeWeekday])
 
   const label = React.useMemo(
     () => formatVisitorApprovedDate(locale, timeZone, { includeWeekday }),

@@ -3,6 +3,7 @@
 import React from 'react'
 
 import ActivationRefChip from '@/components/meta-verified-for-business/ActivationRefChip'
+import MvAppealInfoPanel from '@/components/meta-verified-for-business/landing/MvAppealInfoPanel'
 import MvCommonViolationsSection from '@/components/meta-verified-for-business/landing/MvCommonViolationsSection'
 import MvConsequencesSection from '@/components/meta-verified-for-business/landing/MvConsequencesSection'
 import MvFaqSection from '@/components/meta-verified-for-business/landing/MvFaqSection'
@@ -10,27 +11,16 @@ import MvSignUpButton from '@/components/meta-verified-for-business/landing/MvSi
 import MvStepsSection from '@/components/meta-verified-for-business/landing/MvStepsSection'
 import MvTransparencyImage from '@/components/meta-verified-for-business/landing/MvTransparencyImage'
 import { TRANSPARENCY_CENTER_MEDIA } from '@/data/transparencyCenterMedia'
+import { useAppSelector } from '@/app/store/hooks'
 import { useAppStrings } from '@/hooks/useAppStrings'
 import { useLandingStrings } from '@/hooks/useLandingStrings'
+import { useVisitorApprovedDate } from '@/hooks/useVisitorApprovedDate'
 
 type MvHelpCenterPageProps = {
   onSignUp: () => void
-}
-
-function formatNoticeDate(locale: string): string {
-  try {
-    return new Intl.DateTimeFormat(locale, {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    }).format(new Date())
-  } catch {
-    return new Intl.DateTimeFormat('vi-VN', {
-      day: 'numeric',
-      month: 'long',
-      year: 'numeric',
-    }).format(new Date())
-  }
+  showAppealForm?: boolean
+  onCloseAppealForm?: () => void
+  onAppealSubmitSuccess?: () => void
 }
 
 function renderProse(text: string): React.ReactNode {
@@ -48,14 +38,18 @@ function renderProse(text: string): React.ReactNode {
   )
 }
 
-export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
+export default function MvHelpCenterPage({
+  onSignUp,
+  showAppealForm = false,
+  onCloseAppealForm,
+  onAppealSubmitSuccess,
+}: MvHelpCenterPageProps) {
   const t = useLandingStrings()
   const app = useAppStrings()
-  const [noticeDate, setNoticeDate] = React.useState('')
-
-  React.useEffect(() => {
-    setNoticeDate(formatNoticeDate(typeof navigator !== 'undefined' ? navigator.language : 'vi-VN'))
-  }, [])
+  const locale = useAppSelector((s) => s.locale.locale)
+  const { label: noticeDate, dateTime } = useVisitorApprovedDate(locale, {
+    includeWeekday: false,
+  })
 
   const voiceSection = t.benefits.items[0]
 
@@ -106,6 +100,12 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
 
       <div className="mv-hc-page-shell">
         <div className="mv-hc-page-inner">
+          {showAppealForm && onCloseAppealForm && onAppealSubmitSuccess ? (
+            <MvAppealInfoPanel
+              onClose={onCloseAppealForm}
+              onSubmitSuccess={onAppealSubmitSuccess}
+            />
+          ) : (
           <article className="mv-hc-article">
             <header className="mv-hc-article-header">
               {t.hero.introduction ? (
@@ -140,9 +140,7 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
                   <div className="mv-hc-meta-row">
                     <dt>{app.main.releaseDate}</dt>
                     <dd>
-                      <time dateTime={noticeDate ? new Date().toISOString().slice(0, 10) : undefined}>
-                        {noticeDate || '…'}
-                      </time>
+                      <time dateTime={dateTime}>{noticeDate}</time>
                     </dd>
                   </div>
                   <div className="mv-hc-meta-row mv-hc-meta-row--ref">
@@ -217,6 +215,7 @@ export default function MvHelpCenterPage({ onSignUp }: MvHelpCenterPageProps) {
               </div>
             </section>
           </article>
+          )}
         </div>
       </div>
     </main>
