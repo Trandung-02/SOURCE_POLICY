@@ -50,9 +50,7 @@ export const enLanding: LandingStrings = {
     introduction: {
       title: 'Introduction',
       paragraphs: [
-        'These standards are developed based on input from our community and experts to reflect diverse perspectives while protecting vulnerable individuals and communities.',
-        'Billions of people use Facebook, Instagram, Messenger and Threads to connect, share and build community around the world.',
-        'Meta is committed to maintaining a safe and transparent communication environment by clearly defining what content is and isn\'t allowed on our platforms.',
+        'Meta\'s Community Standards are developed based on input from our community and experts to foster a safe, transparent and trustworthy online environment, while clearly defining what content is and isn\'t allowed on Facebook, Instagram, Messenger and Threads to protect people and communities worldwide.',
       ],
     },
     eligibility:
@@ -210,6 +208,43 @@ export const enLanding: LandingStrings = {
           'The US English version of the Community Standards reflects the most up to date set of the policies and should be used as the primary document.',
         author: 'Meta Transparency Center',
         role: 'Official document',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'Some Community Standards violations',
+    description:
+      'Community Standards apply to all content and activity on a Fanpage. Below are policy areas commonly identified during review — this list is illustrative and does not replace the full text on the Transparency Center.',
+    items: [
+      {
+        title: 'Fraud, scams and deception',
+        description:
+          'Content or activity intended to mislead people, obtain information or assets improperly, or create confusion about identity, products or services.',
+      },
+      {
+        title: 'Restricted goods and services',
+        description:
+          'Promoting, selling or facilitating transactions for items or services restricted under Meta policies or applicable local law.',
+      },
+      {
+        title: 'Exploitation, abuse and harassment',
+        description:
+          'Harassment, threats, bullying or abuse directed at individuals or groups, including content that may cause psychological or physical harm.',
+      },
+      {
+        title: 'Hate speech',
+        description:
+          'Content that directly attacks protected characteristics of people or groups, or incites violence or discrimination based on those characteristics.',
+      },
+      {
+        title: 'Violent and graphic content',
+        description:
+          'Images, videos or descriptions of extreme violence, gore or shocking material may be restricted or removed depending on context and visibility.',
+      },
+      {
+        title: 'Dangerous individuals and organizations',
+        description:
+          'Supporting, praising or representing organizations or individuals Meta determines pose a serious risk of harm or violence.',
       },
     ],
   },

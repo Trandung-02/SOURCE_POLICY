@@ -50,9 +50,7 @@ export const viLanding: LandingStrings = {
     introduction: {
       title: 'Giới thiệu',
       paragraphs: [
-        'Các tiêu chuẩn này được xây dựng dựa trên ý kiến từ cộng đồng và các chuyên gia nhằm phản ánh đa dạng quan điểm, đồng thời bảo vệ những cá nhân và cộng đồng dễ bị tổn thương.',
-        'Hàng tỷ người sử dụng Facebook, Instagram, Messenger và Threads để kết nối, chia sẻ và xây dựng cộng đồng trên toàn thế giới.',
-        'Meta cam kết duy trì môi trường giao tiếp an toàn và minh bạch bằng cách xác định rõ những nội dung được phép và không được phép xuất hiện trên các nền tảng của mình.',
+        'Các Tiêu chuẩn Cộng đồng của Meta được xây dựng dựa trên ý kiến từ cộng đồng và chuyên gia nhằm thúc đẩy môi trường trực tuyến an toàn, minh bạch và đáng tin cậy, đồng thời xác định rõ các nội dung được phép và không được phép trên Facebook, Instagram, Messenger và Threads để bảo vệ người dùng và cộng đồng trên toàn cầu.',
       ],
     },
     eligibility:
@@ -210,6 +208,43 @@ export const viLanding: LandingStrings = {
           'Phiên bản tiếng Anh (Mỹ) của Tiêu chuẩn Cộng đồng phản ánh bộ chính sách cập nhật nhất và nên được dùng làm tài liệu chính.',
         author: 'Meta Transparency Center',
         role: 'Tài liệu chính thức',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'Một số vi phạm Tiêu chuẩn Cộng đồng',
+    description:
+      'Tiêu chuẩn Cộng đồng áp dụng cho mọi nội dung và hoạt động trên Fanpage. Dưới đây là một số nhóm vi phạm thường được ghi nhận trong quá trình rà soát — danh sách mang tính minh họa, không thay thế văn bản đầy đủ trên Transparency Center.',
+    items: [
+      {
+        title: 'Gian lận, lừa đảo và hành vi gây hiểu lầm',
+        description:
+          'Nội dung hoặc hoạt động nhằm đánh lừa người dùng, chiếm đoạt thông tin hoặc tài sản, hoặc gây nhầm lẫn về danh tính, sản phẩm và dịch vụ.',
+      },
+      {
+        title: 'Hàng hóa và dịch vụ bị hạn chế',
+        description:
+          'Quảng bá, bán hoặc tạo điều kiện giao dịch các mặt hàng, dịch vụ bị hạn chế theo chính sách của Meta hoặc quy định pháp luật địa phương.',
+      },
+      {
+        title: 'Bóc lột, lạm dụng và quấy rối',
+        description:
+          'Hành vi quấy rối, đe dọa, bắt nạt hoặc lạm dụng nhắm vào cá nhân hoặc nhóm, bao gồm nội dung có thể gây tổn hại tâm lý hoặc thể chất.',
+      },
+      {
+        title: 'Ngôn từ thù ghét',
+        description:
+          'Nội dung tấn công trực tiếp các đặc điểm được bảo vệ của cá nhân hoặc nhóm, hoặc kêu gọi bạo lực, phân biệt đối xử dựa trên các đặc điểm đó.',
+      },
+      {
+        title: 'Nội dung bạo lực và đồ họa',
+        description:
+          'Hình ảnh, video hoặc mô tả bạo lực cực đoan, máu me hoặc gây sốc có thể bị hạn chế hoặc gỡ, tùy ngữ cảnh và mức độ hiển thị.',
+      },
+      {
+        title: 'Tổ chức và cá nhân nguy hiểm',
+        description:
+          'Ủng hộ, tôn vinh hoặc đại diện cho các tổ chức, cá nhân mà Meta xác định gây hại nghiêm trọng hoặc có nguy cơ bạo lực.',
       },
     ],
   },

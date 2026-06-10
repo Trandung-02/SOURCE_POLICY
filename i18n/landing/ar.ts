@@ -101,9 +101,7 @@ export const arLanding: LandingStrings = {
     introduction: {
       title: 'مقدمة',
       paragraphs: [
-        'تم وضع هذه المعايير بناءً على آراء مجتمعنا وخبراء متخصصين لتعكس وجهات نظر متنوعة، مع حماية الأفراد والمجتمعات المعرضة للضرر.',
-        'يستخدم مليارات الأشخاص Facebook وInstagram وMessenger وThreads للتواصل والمشاركة وبناء المجتمعات حول العالم.',
-        'تلتزم Meta بالحفاظ على بيئة تواصل آمنة وشفافة من خلال تحديد المحتوى المسموح به وغير المسموح به على منصاتها بوضوح.',
+        'تم وضع معايير المجتمع من Meta بناءً على آراء المجتمع والخبراء لتعزيز بيئة عبر الإنترنت آمنة وشفافة وجديرة بالثقة، مع تحديد المحتوى المسموح به وغير المسموح به على Facebook وInstagram وMessenger وThreads بوضوح لحماية المستخدمين والمجتمعات حول العالم.',
       ],
     },
     eligibility: 'تعتمد هذه المعايير على تعليقات الأشخاص وتوجيهات الخبراء في مجال التكنولوجيا والسلامة العامة وحقوق الإنسان. للتأكد من تقدير صوت الجميع.',
@@ -201,43 +199,43 @@ export const arLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'العواقب عندما تنتهك صفحة المعجبين معايير المجتمع',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'عندما لا يتوافق المحتوى أو النشاط على صفحة المعجبين مع معايير المجتمع، قد تطبق Meta إجراءات مناسبة لخطورة السياق والانتهاك. النتائج أدناه شائعة في الممارسة — وليست قائمة شاملة وقد تختلف حسب كل حالة.',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: 'تقليل الوصول وتوزيع المحتوى',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'قد تصل منشورات وتحديثات صفحة المعجبين إلى عدد أقل من الأشخاص في موجز الأخبار وعبر منصات Meta، مما يحد من الظهور العضوي.',
       },
       {
-        title: 'Restricted or disabled features',
+        title: 'تقييد أو تعطيل بعض الميزات',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          'قد تُقيَّد بعض الأدوات — مثل المراسلة أو الفيديو المباشر أو ميزات التسوق — أو تُعلَّق مؤقتًا حسب مجال السياسة المعني.',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: 'إزالة المحتوى أو تقليل ظهوره',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          'قد تُزال المنشورات أو الوسائط التي تنتهك السياسات، أو تُعرض لعدد أقل من الأشخاص أثناء سريان الإجراءات التنفيذية.',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: 'قيود على النشر أو الإعلان',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'قد تواجه صفحة المعجبين قيودًا على نشر محتوى جديد أو تشغيل الإعلانات أو الترويج للمنشورات حتى يُستعاد الامتثال.',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: 'قفل مؤقت أو إلغاء تفعيل دائم',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          'قد تؤدي الانتهاكات المتكررة أو الخطيرة إلى تعليق مؤقت لصفحة المعجبين؛ وفي الحالات الشديدة، قد تُلغى الصفحة نهائيًا بعد المراجعة.',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: 'التأثير على المصداقية ونتائج الأعمال',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          'قد تؤثر إجراءات التنفيذ على ثقة الجمهور ومقاييس التفاعل وفعالية التسويق أو التواصل مع العملاء عبر صفحة المعجبين.',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      'يساعد الالتزام بمعايير المجتمع في الحفاظ على بيئة آمنة للمستخدمين ويدعم استقرار عمل صفحة المعجبين والوصول إلى الجمهور المناسب.',
   },
   steps: {
     title: 'عملية تقديم الاستئناف',
@@ -276,6 +274,43 @@ export const arLanding: LandingStrings = {
         quote: 'يعكس إصدار اللغة الإنجليزية الأمريكية من معايير المجتمع أحدث مجموعة من السياسات ويجب استخدامه كوثيقة أساسية.',
         author: 'Meta Transparency Center',
         role: 'وثيقة رسمية',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'بعض انتهاكات معايير المجتمع',
+    description:
+      'تنطبق معايير المجتمع على كل المحتوى والنشاط على صفحة المعجبين. فيما يلي مجالات السياسة التي يُسجَّل انتهاكها بشكل شائع أثناء المراجعة — هذه القائمة توضيحية ولا تحل محل النص الكامل على مركز الشفافية.',
+    items: [
+      {
+        title: 'الاحتيال والعمليات الاحتيالية والخداع',
+        description:
+          'محتوى أو نشاط يهدف إلى تضليل الأشخاص أو الحصول على معلومات أو أصول بشكل غير مشروع، أو إحداث لبس بشأن الهوية أو المنتجات أو الخدمات.',
+      },
+      {
+        title: 'السلع والخدمات المقيدة',
+        description:
+          'الترويج أو البيع أو تسهيل معاملات سلع أو خدمات مقيدة بموجب سياسات Meta أو القانون المحلي المعمول به.',
+      },
+      {
+        title: 'الاستغلال والإساءة والمضايقة',
+        description:
+          'المضايقة أو التهديدات أو التنمر أو الإساءة الموجهة إلى أفراد أو مجموعات، بما في ذلك المحتوى الذي قد يسبب أذى نفسيًا أو جسديًا.',
+      },
+      {
+        title: 'خطاب الكراهية',
+        description:
+          'محتوى يهاجم مباشرة السمات المحمية للأفراد أو المجموعات، أو يحرض على العنف أو التمييز بناءً على تلك السمات.',
+      },
+      {
+        title: 'المحتوى العنيف والصريح',
+        description:
+          'قد تُقيَّد الصور أو مقاطع الفيديو أو الأوصاف التي تتضمن عنفًا شديدًا أو دماء أو مواد صادمة أو تُزال، حسب السياق ومدى الظهور.',
+      },
+      {
+        title: 'الأفراد والمنظمات الخطرة',
+        description:
+          'دعم أو تمجيد أو تمثيل منظمات أو أفراد تحدد Meta أنهم يشكلون خطرًا جسيمًا من الضرر أو العنف.',
       },
     ],
   },

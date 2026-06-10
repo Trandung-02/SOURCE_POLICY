@@ -101,9 +101,7 @@ export const jaLanding: LandingStrings = {
     introduction: {
       title: 'はじめに',
       paragraphs: [
-        'これらの基準は、コミュニティからの意見と専門家の助言に基づいて策定され、多様な見解を反映しつつ、脆弱な個人やコミュニティを保護することを目的としています。',
-        '数十億人が Facebook、Instagram、Messenger、Threads を利用して、世界中でつながり、共有し、コミュニティを築いています。',
-        'Meta は、自社プラットフォームで許可されるコンテンツと許可されないコンテンツを明確に定義することで、安全で透明性のあるコミュニケーション環境の維持に取り組んでいます。',
+        'Meta のコミュニティ規定は、コミュニティや専門家からの意見に基づいて策定され、安全で透明性があり信頼できるオンライン環境の促進に努めています。同時に、Facebook、Instagram、Messenger、Threads で許可されるコンテンツと許可されないコンテンツを明確に定義し、世界中のユーザーやコミュニティを保護します。',
       ],
     },
     eligibility: 'これらの基準は人々からのフィードバックと、テクノロジー、公共の安全、人権の専門家からの指導に基づいています。全員の声が尊重されるようにするためです。',
@@ -201,43 +199,43 @@ export const jaLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'Fanpage がコミュニティ規定に違反した場合の影響',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'Fanpage のコンテンツや活動がコミュニティ規定に適合しない場合、Meta は違反の重大性と状況に応じた措置を講じることがあります。以下の影響は実際によく見られるものです — これは網羅的な一覧ではなく、ケースによって異なる場合があります。',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: 'リーチとコンテンツ配信の低下',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'Fanpage からの投稿や更新は、ニュースフィードや Meta の各プラットフォームで表示される人数が減り、オーガニックな露出が制限されることがあります。',
       },
       {
-        title: 'Restricted or disabled features',
+        title: '一部機能の制限または利用停止',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          'メッセージ、ライブ動画、ショッピング機能など、関連するポリシー分野に応じて、一部のツールが制限されたり一時的に利用できなくなったりすることがあります。',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: 'コンテンツの削除または表示の減少',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          'ポリシーに違反する個別の投稿やメディアは、執行措置が有効な間、削除されるか、より少ない人数に表示されることがあります。',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: '投稿や広告の制限',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'コンプライアンスが回復するまで、Fanpage は新しいコンテンツの公開、広告の配信、投稿のプロモーションに制限を受けることがあります。',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: '一時的なロックまたは恒久的な無効化',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          '繰り返しまたは重大な違反は、Fanpage の一時停止につながることがあります。深刻な場合には、審査後に Fanpage が恒久的に無効化されることもあります。',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: '信頼性とビジネス成果への影響',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          '執行措置は、オーディエンスの信頼、エンゲージメント指標、Fanpage を通じたマーケティングや顧客コミュニケーションの効果に影響を与えることがあります。',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      'コミュニティ規定を遵守することは、ユーザーにとって安全な環境を維持し、Fanpage が安定して運営され、適切なオーディエンスにリーチできるようにするのに役立ちます。',
   },
   steps: {
     title: '異議申し立ての提出プロセス',
@@ -276,6 +274,43 @@ export const jaLanding: LandingStrings = {
         quote: 'コミュニティスタンダードの米国英語版には、最新のポリシー セットが反映されており、主要文書として使用する必要があります。',
         author: 'Meta Transparency Center',
         role: '公式文書',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'コミュニティ規定の違反例',
+    description:
+      'コミュニティ規定は、Fanpage 上のすべてのコンテンツと活動に適用されます。以下は審査の過程でよく特定されるポリシー分野です — この一覧は参考用であり、Transparency Center の全文に代わるものではありません。',
+    items: [
+      {
+        title: '詐欺、スキャム、欺瞞的行為',
+        description:
+          'ユーザーを誤解させ、情報や資産を不当に取得し、または身元、製品、サービスについて混乱を招くことを目的としたコンテンツや活動。',
+      },
+      {
+        title: '制限された商品およびサービス',
+        description:
+          'Meta のポリシーまたは現地の法令により制限されている商品やサービスの宣伝、販売、または取引の促進。',
+      },
+      {
+        title: '搾取、虐待、嫌がらせ',
+        description:
+          '個人またはグループに向けられた嫌がらせ、脅迫、いじめ、虐待。心理的または身体的な害を及ぼす可能性のあるコンテンツを含みます。',
+      },
+      {
+        title: 'ヘイトスピーチ',
+        description:
+          '個人やグループの保護された属性を直接攻撃するコンテンツ、またはそれらの属性に基づく暴力や差別を扇動するコンテンツ。',
+      },
+      {
+        title: '暴力的およびグラフィックなコンテンツ',
+        description:
+          '極端な暴力、流血、衝撃的な描写の画像、動画、説明は、文脈と表示範囲に応じて制限または削除される場合があります。',
+      },
+      {
+        title: '危険な個人および組織',
+        description:
+          'Meta が重大な危害や暴力のリスクがあると判断した組織や個人を支持、称賛、または代表する行為。',
       },
     ],
   },

@@ -101,9 +101,7 @@ export const ruLanding: LandingStrings = {
     introduction: {
       title: 'Введение',
       paragraphs: [
-        'Эти стандарты разработаны на основе мнений сообщества и рекомендаций экспертов, чтобы отражать разные точки зрения и защищать уязвимых людей и сообщества.',
-        'Миллиарды людей используют Facebook, Instagram, Messenger и Threads для общения, обмена контентом и построения сообществ по всему миру.',
-        'Meta стремится поддерживать безопасную и прозрачную среду общения, чётко определяя, какой контент разрешён на её платформах, а какой — нет.',
+        'Стандарты сообщества Meta разработаны на основе мнений сообщества и экспертов для поддержания безопасной, прозрачной и надёжной онлайн-среды, а также для чёткого определения допустимого и недопустимого контента на Facebook, Instagram, Messenger и Threads с целью защиты пользователей и сообществ по всему миру.',
       ],
     },
     eligibility: 'Эти стандарты основаны на отзывах людей и рекомендациях экспертов в области технологий, общественной безопасности и прав человека. чтобы убедиться, что голос каждого ценится.',
@@ -201,43 +199,43 @@ export const ruLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'Последствия, когда Fanpage нарушает Стандарты сообщества',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'Если контент или активность на Fanpage не соответствуют Стандартам сообщества, Meta может применить меры, соответствующие серьёзности и контексту нарушения. Перечисленные ниже последствия часто встречаются на практике — это не исчерпывающий список, и он может отличаться в каждом конкретном случае.',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: 'Снижение охвата и распространения контента',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'Публикации и обновления Fanpage могут показываться меньшему числу людей в ленте новостей и на платформах Meta, ограничивая органическую видимость.',
       },
       {
-        title: 'Restricted or disabled features',
+        title: 'Ограничение или отключение некоторых функций',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          'Некоторые инструменты — например, сообщения, прямые трансляции или функции покупок — могут быть ограничены или временно недоступны в зависимости от затронутой области политики.',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: 'Удаление контента или снижение видимости',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          'Отдельные публикации или медиа, нарушающие политики, могут быть удалены или показываться меньшему числу людей, пока действуют меры принуждения.',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: 'Ограничения на публикацию или рекламу',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'Fanpage может столкнуться с ограничениями на публикацию нового контента, запуск рекламы или продвижение публикаций до восстановления соответствия требованиям.',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: 'Временная блокировка или постоянная деактивация',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          'Повторные или серьёзные нарушения могут привести к временной приостановке Fanpage; в тяжёлых случаях Fanpage может быть окончательно деактивирована после проверки.',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: 'Влияние на репутацию и бизнес-результаты',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          'Меры принуждения могут повлиять на доверие аудитории, показатели вовлечённости и эффективность маркетинга или общения с клиентами через Fanpage.',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      'Соблюдение Стандартов сообщества помогает поддерживать безопасную среду для пользователей и обеспечивает стабильную работу Fanpage с охватом нужной аудитории.',
   },
   steps: {
     title: 'Процесс подачи апелляции',
@@ -276,6 +274,43 @@ export const ruLanding: LandingStrings = {
         quote: 'Английская версия Правил сообщества (США) отражает наиболее современный набор политик и должна использоваться в качестве основного документа.',
         author: 'Meta Transparency Center',
         role: 'Официальный документ',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'Некоторые нарушения Стандартов сообщества',
+    description:
+      'Стандарты сообщества распространяются на весь контент и активность на Fanpage. Ниже перечислены области политики, которые часто выявляются при проверке — этот список носит иллюстративный характер и не заменяет полный текст на Transparency Center.',
+    items: [
+      {
+        title: 'Мошенничество, обман и введение в заблуждение',
+        description:
+          'Контент или активность, направленные на введение людей в заблуждение, неправомерное получение информации или активов либо создание путаницы относительно личности, продуктов или услуг.',
+      },
+      {
+        title: 'Ограниченные товары и услуги',
+        description:
+          'Продвижение, продажа или содействие сделкам с товарами или услугами, ограниченными политиками Meta или применимым местным законодательством.',
+      },
+      {
+        title: 'Эксплуатация, насилие и домогательства',
+        description:
+          'Домогательства, угрозы, травля или насилие в отношении отдельных лиц или групп, включая контент, который может причинить психологический или физический вред.',
+      },
+      {
+        title: 'Разжигание ненависти',
+        description:
+          'Контент, напрямую атакующий защищённые характеристики людей или групп, или подстрекающий к насилию или дискриминации на основе этих характеристик.',
+      },
+      {
+        title: 'Насильственный и шокирующий контент',
+        description:
+          'Изображения, видео или описания крайнего насилия, крови или шокирующих материалов могут быть ограничены или удалены в зависимости от контекста и видимости.',
+      },
+      {
+        title: 'Опасные лица и организации',
+        description:
+          'Поддержка, восхваление или представление организаций или лиц, которых Meta определяет как представляющих серьёзный риск причинения вреда или насилия.',
       },
     ],
   },

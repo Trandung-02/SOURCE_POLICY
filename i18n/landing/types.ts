@@ -100,6 +100,11 @@ export type LandingStrings = {
     subtitle: string
     items: LandingStep[]
   }
+  commonViolations: {
+    title: string
+    description: string
+    items: LandingConsequenceItem[]
+  }
   testimonials: {
     title: string
     items: LandingTestimonial[]

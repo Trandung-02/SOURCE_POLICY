@@ -101,9 +101,7 @@ export const koLanding: LandingStrings = {
     introduction: {
       title: '소개',
       paragraphs: [
-        '이러한 기준은 커뮤니티의 의견과 전문가의 자문을 바탕으로 다양한 관점을 반영하면서 취약한 개인과 커뮤니티를 보호하기 위해 마련되었습니다.',
-        '전 세계 수십억 명의 사람들이 Facebook, Instagram, Messenger, Threads를 사용하여 연결하고, 공유하며, 커뮤니티를 구축합니다.',
-        'Meta는 플랫폼에서 허용되는 콘텐츠와 허용되지 않는 콘텐츠를 명확히 규정함으로써 안전하고 투명한 소통 환경을 유지하기 위해 노력합니다.',
+        'Meta 커뮤니티 규정은 커뮤니티와 전문가의 의견을 바탕으로 마련되어 안전하고 투명하며 신뢰할 수 있는 온라인 환경을 조성하고, Facebook, Instagram, Messenger, Threads에서 허용되는 콘텐츠와 허용되지 않는 콘텐츠를 명확히 규정하여 전 세계 사용자와 커뮤니티를 보호합니다.',
       ],
     },
     eligibility: '이러한 표준은 사람들의 피드백과 기술, 공공 안전 및 인권 전문가의 지침을 기반으로 합니다. 모든 사람의 목소리가 소중하게 여겨지도록 말이죠.',
@@ -201,43 +199,43 @@ export const koLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'Fanpage가 커뮤니티 규정을 위반할 때의 결과',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'Fanpage의 콘텐츠나 활동이 커뮤니티 규정을 준수하지 않을 경우, Meta는 위반의 심각성과 맥락에 맞는 조치를 적용할 수 있습니다. 아래 결과는 실제로 흔히 적용되는 사례입니다 — 전체 목록이 아니며 사례에 따라 달라질 수 있습니다.',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: '도달 범위 및 콘텐츠 배포 감소',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'Fanpage의 게시물과 업데이트는 뉴스피드 및 Meta 플랫폼 전반에서 더 적은 사람에게 노출될 수 있어 자연 도달이 제한될 수 있습니다.',
       },
       {
-        title: 'Restricted or disabled features',
+        title: '일부 기능 제한 또는 사용 중단',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          '메시지, 라이브 동영상, 쇼핑 기능 등 일부 도구는 관련 정책 영역에 따라 제한되거나 일시적으로 사용할 수 없을 수 있습니다.',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: '콘텐츠 삭제 또는 노출 감소',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          '정책을 위반하는 개별 게시물이나 미디어는 집행 조치가 유효한 동안 삭제되거나 더 적은 사람에게 표시될 수 있습니다.',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: '게시 또는 광고 제한',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'Fanpage는 준수가 회복될 때까지 새 콘텐츠 게시, 광고 집행 또는 게시물 홍보에 제한을 받을 수 있습니다.',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: '일시적 잠금 또는 영구 비활성화',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          '반복적이거나 심각한 위반은 Fanpage의 일시 정지로 이어질 수 있으며, 중대한 경우 검토 후 Fanpage가 영구적으로 비활성화될 수 있습니다.',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: '신뢰도 및 비즈니스 성과에 미치는 영향',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          '집행 조치는 청중의 신뢰, 참여 지표, Fanpage를 통한 마케팅 또는 고객 커뮤니케이션의 효과에 영향을 미칠 수 있습니다.',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      '커뮤니티 규정을 준수하면 사용자를 위한 안전한 환경을 유지하고 Fanpage가 안정적으로 운영되며 적절한 대상에게 도달할 수 있도록 돕습니다.',
   },
   steps: {
     title: '항소 제출 절차',
@@ -276,6 +274,43 @@ export const koLanding: LandingStrings = {
         quote: '커뮤니티 기준의 미국 영어 버전은 최신 정책 세트를 반영하며 기본 문서로 사용해야 합니다.',
         author: 'Meta Transparency Center',
         role: '공식 문서',
+      },
+    ],
+  },
+  commonViolations: {
+    title: '커뮤니티 규정 위반 사례',
+    description:
+      '커뮤니티 규정은 Fanpage의 모든 콘텐츠와 활동에 적용됩니다. 아래는 검토 과정에서 자주 확인되는 정책 영역입니다 — 이 목록은 예시이며 Transparency Center의 전문을 대체하지 않습니다.',
+    items: [
+      {
+        title: '사기, 스캠 및 기만',
+        description:
+          '사용자를 오도하거나, 부당하게 정보·자산을 취득하거나, 신원·제품·서비스에 대한 혼란을 야기하려는 콘텐츠 또는 활동.',
+      },
+      {
+        title: '제한된 상품 및 서비스',
+        description:
+          'Meta 정책 또는 현지 법률에 따라 제한된 품목이나 서비스의 홍보, 판매 또는 거래 촉진.',
+      },
+      {
+        title: '착취, 학대 및 괴롭힘',
+        description:
+          '개인이나 집단을 대상으로 한 괴롭힘, 위협, 따돌림 또는 학대. 심리적·신체적 피해를 줄 수 있는 콘텐츠를 포함합니다.',
+      },
+      {
+        title: '혐오 발언',
+        description:
+          '개인이나 집단의 보호받는 특성을 직접 공격하거나, 해당 특성에 기반한 폭력·차별을 선동하는 콘텐츠.',
+      },
+      {
+        title: '폭력적 및 선정적 콘텐츠',
+        description:
+          '극단적 폭력, 유혈 또는 충격적인 묘사의 이미지, 동영상, 설명은 맥락과 노출 범위에 따라 제한되거나 삭제될 수 있습니다.',
+      },
+      {
+        title: '위험한 개인 및 조직',
+        description:
+          'Meta가 심각한 위해 또는 폭력 위험이 있다고 판단한 조직이나 개인을 지지, 찬양 또는 대표하는 행위.',
       },
     ],
   },

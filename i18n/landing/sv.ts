@@ -101,9 +101,7 @@ export const svLanding: LandingStrings = {
     introduction: {
       title: 'Introduktion',
       paragraphs: [
-        'Dessa standarder utvecklas utifrån synpunkter från vår community och experter för att spegla olika perspektiv och samtidigt skydda utsatta individer och communityn.',
-        'Miljarder människor använder Facebook, Instagram, Messenger och Threads för att knyta kontakter, dela och bygga communityn världen över.',
-        'Meta är engagerad i att upprätthålla en säker och transparent kommunikationsmiljö genom att tydligt definiera vilket innehåll som är tillåtet och inte tillåtet på våra plattformar.',
+        'Metas communityregler utvecklas utifrån synpunkter från communityn och experter för att främja en säker, transparent och pålitlig onlinemiljö, samtidigt som de tydligt anger vilket innehåll som är tillåtet respektive inte tillåtet på Facebook, Instagram, Messenger och Threads för att skydda användare och communityn världen över.',
       ],
     },
     eligibility: 'Dessa standarder är baserade på feedback från människor och vägledning från experter inom teknik, allmän säkerhet och mänskliga rättigheter — för att se till att allas röst värderas.',
@@ -201,43 +199,43 @@ export const svLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'Konsekvenser när en fansida bryter mot communityreglerna',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'När innehåll eller aktivitet på en fansida inte följer communityreglerna kan Meta tillämpa åtgärder som är lämpliga för överträdelsens allvar och sammanhang. Konsekvenserna nedan är vanliga i praktiken — de utgör inte en fullständig lista och kan variera från fall till fall.',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: 'Minskad räckvidd och innehållsdistribution',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'Inlägg och uppdateringar från fansidan kan nå färre personer i nyhetsflödet och på Metas plattformar, vilket begränsar organisk synlighet.',
       },
       {
-        title: 'Restricted or disabled features',
+        title: 'Begränsade eller inaktiverade funktioner',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          'Vissa verktyg — som meddelanden, livevideo eller shoppingfunktioner — kan begränsas eller vara tillfälligt otillgängliga beroende på vilket policyområde som berörs.',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: 'Borttaget innehåll eller minskad synlighet',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          'Enskilda inlägg eller media som bryter mot policyer kan tas bort eller visas för färre personer medan verkställande åtgärder gäller.',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: 'Begränsningar för publicering eller annonsering',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'Fansidan kan få begränsningar för att publicera nytt innehåll, köra annonser eller marknadsföra inlägg tills efterlevnaden återställs.',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: 'Tillfällig låsning eller permanent avaktivering',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          'Upprepade eller allvarliga överträdelser kan leda till tillfällig avstängning av fansidan; i allvarliga fall kan fansidan permanent avaktiveras efter granskning.',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: 'Påverkan på trovärdighet och affärsresultat',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          'Verkställande åtgärder kan påverka publikens förtroende, engagemangsstatistik och effektiviteten i marknadsföring eller kundkommunikation via fansidan.',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      'Att följa communityreglerna hjälper till att upprätthålla en säker miljö för användare och säkerställer att fansidan kan fungera stabilt och nå rätt målgrupp.',
   },
   steps: {
     title: 'Process för att skicka in en överklagan',
@@ -276,6 +274,43 @@ export const svLanding: LandingStrings = {
         quote: 'Den amerikanska engelska versionen av Communityregler återspeglar den senaste uppsättningen policyer och bör användas som det primära dokumentet.',
         author: 'Meta Transparency Center',
         role: 'Officiellt dokument',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'Vissa överträdelser av communityreglerna',
+    description:
+      'Communityreglerna gäller allt innehåll och all aktivitet på en fansida. Nedan följer policyområden som ofta identifieras vid granskning — listan är illustrativ och ersätter inte den fullständiga texten på Transparency Center.',
+    items: [
+      {
+        title: 'Bedrägeri, scams och vilseledning',
+        description:
+          'Innehåll eller aktivitet som syftar till att vilseleda människor, erhålla information eller tillgångar på otillbörligt sätt eller skapa förvirring om identitet, produkter eller tjänster.',
+      },
+      {
+        title: 'Begränsade varor och tjänster',
+        description:
+          'Marknadsföring, försäljning eller underlättande av transaktioner med varor eller tjänster som begränsas enligt Metas policyer eller tillämplig lokal lag.',
+      },
+      {
+        title: 'Utnyttjande, missbruk och trakasserier',
+        description:
+          'Trakasserier, hot, mobbning eller missbruk riktat mot individer eller grupper, inklusive innehåll som kan orsaka psykisk eller fysisk skada.',
+      },
+      {
+        title: 'Hatpropaganda',
+        description:
+          'Innehåll som direkt angriper skyddade egenskaper hos människor eller grupper, eller uppmanar till våld eller diskriminering baserat på dessa egenskaper.',
+      },
+      {
+        title: 'Våldsamt och grafiskt innehåll',
+        description:
+          'Bilder, videor eller beskrivningar av extremt våld, blod eller chockerande material kan begränsas eller tas bort beroende på sammanhang och synlighet.',
+      },
+      {
+        title: 'Farliga individer och organisationer',
+        description:
+          'Stöd, lovord eller representation av organisationer eller individer som Meta bedömer utgör en allvarlig risk för skada eller våld.',
       },
     ],
   },

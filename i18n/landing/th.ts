@@ -101,9 +101,7 @@ export const thLanding: LandingStrings = {
     introduction: {
       title: 'บทนำ',
       paragraphs: [
-        'มาตรฐานเหล่านี้พัฒนาขึ้นจากความคิดเห็นจากชุมชนและคำแนะนำจากผู้เชี่ยวชาญ เพื่อสะท้อนความคิดที่หลากหลาย และปกป้องบุคคลและชุมชนที่เปราะบาง',
-        'ผู้คนหลายพันล้านคนใช้ Facebook, Instagram, Messenger และ Threads เพื่อเชื่อมต่อ แบ่งปัน และสร้างชุมชนทั่วโลก',
-        'Meta มุ่งมั่นรักษาสภาพแวดล้อมการสื่อสารที่ปลอดภัยและโปร่งใส โดยกำหนดอย่างชัดเจนว่าเนื้อหาใดอนุญาตและไม่อนุญาตบนแพลตฟอร์มของเรา',
+        'มาตรฐานชุมชนของ Meta พัฒนาขึ้นจากความคิดเห็นของชุมชนและผู้เชี่ยวชาญ เพื่อส่งเสริมสภาพแวดล้อมออนไลน์ที่ปลอดภัย โปร่งใส และน่าเชื่อถือ พร้อมทั้งกำหนดอย่างชัดเจนว่าเนื้อหาใดอนุญาตและไม่อนุญาตบน Facebook, Instagram, Messenger และ Threads เพื่อปกป้องผู้ใช้และชุมชนทั่วโลก',
       ],
     },
     eligibility: 'มาตรฐานเหล่านี้อิงตามผลตอบรับจากผู้คนและคำแนะนำจากผู้เชี่ยวชาญด้านเทคโนโลยี ความปลอดภัยสาธารณะ และสิทธิมนุษยชน — เพื่อให้แน่ใจว่าเสียงของทุกคนมีคุณค่า',
@@ -201,43 +199,43 @@ export const thLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'ผลกระทบเมื่อ Fanpage ละเมิดมาตรฐานชุมชน',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'เมื่อเนื้อหาหรือกิจกรรมบน Fanpage ไม่เป็นไปตามมาตรฐานชุมชน Meta อาจใช้มาตรการที่เหมาะสมกับระดับความรุนแรงและบริบทของการละเมิด ผลกระทบด้านล่างเป็นกรณีที่พบได้บ่อยในทางปฏิบัติ — ไม่ใช่รายการครบถ้วนและอาจแตกต่างกันในแต่ละกรณี',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: 'การเข้าถึงและการกระจายเนื้อหาลดลง',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'โพสต์และการอัปเดตจาก Fanpage อาจแสดงต่อผู้คนน้อยลงในฟีดข่าวและบนแพลตฟอร์ม Meta จำกัดการมองเห็นเชิงออร์แกนิก',
       },
       {
-        title: 'Restricted or disabled features',
+        title: 'จำกัดหรือสูญเสียสิทธิ์ใช้ฟีเจอร์บางอย่าง',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          'เครื่องมือบางอย่าง — เช่น ข้อความ วิดีโอสด หรือฟีเจอร์ช้อปปิ้ง — อาจถูกจำกัดหรือใช้งานไม่ได้ชั่วคราว ขึ้นอยู่กับหมวดนโยบายที่เกี่ยวข้อง',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: 'เนื้อหาถูกลบหรือการมองเห็นลดลง',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          'โพสต์หรือสื่อที่ละเมิดนโยบายอาจถูกลบหรือแสดงต่อผู้คนน้อยลงระหว่างที่มาตรการบังคับใช้มีผล',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: 'จำกัดการโพสต์หรือโฆษณา',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'Fanpage อาจถูกจำกัดการเผยแพร่เนื้อหาใหม่ การรันโฆษณา หรือการโปรโมตโพสต์ จนกว่าจะกลับมาปฏิบัติตามได้',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: 'ล็อกชั่วคราวหรือปิดใช้งานถาวร',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          'การละเมิดซ้ำหรือรุนแรงอาจนำไปสู่การระงับ Fanpage ชั่วคราว ในกรณีรุนแรง Fanpage อาจถูกปิดใช้งานถาวรหลังการตรวจสอบ',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: 'ผลกระทบต่อความน่าเชื่อถือและผลลัพธ์ทางธุรกิจ',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          'มาตรการบังคับใช้อาจส่งผลต่อความไว้วางใจของผู้ชม ตัวชี้วัดการมีส่วนร่วม และประสิทธิภาพการตลาดหรือการสื่อสารกับลูกค้าผ่าน Fanpage',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      'การปฏิบัติตามมาตรฐานชุมชนช่วยรักษาสภาพแวดล้อมที่ปลอดภัยสำหรับผู้ใช้ และช่วยให้ Fanpage ดำเนินงานได้อย่างมั่นคงและเข้าถึงกลุ่มเป้าหมายที่เหมาะสม',
   },
   steps: {
     title: 'ขั้นตอนการยื่นอุทธรณ์',
@@ -276,6 +274,43 @@ export const thLanding: LandingStrings = {
         quote: 'มาตรฐานชุมชนเวอร์ชันภาษาอังกฤษแบบสหรัฐอเมริกาสะท้อนถึงชุดนโยบายล่าสุดและควรใช้เป็นเอกสารหลัก',
         author: 'Meta Transparency Center',
         role: 'เอกสารราชการ',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'การละเมิดมาตรฐานชุมชนบางประการ',
+    description:
+      'มาตรฐานชุมชนใช้กับเนื้อหาและกิจกรรมทั้งหมดบน Fanpage ด้านล่างคือหมวดนโยบายที่มักถูกระบุในระหว่างการตรวจสอบ — รายการนี้เป็นเพียงตัวอย่างและไม่ทดแทนข้อความฉบับเต็มบน Transparency Center',
+    items: [
+      {
+        title: 'การฉ้อโกง สแกม และการหลอกลวง',
+        description:
+          'เนื้อหาหรือกิจกรรมที่มีจุดประสงค์เพื่อทำให้ผู้คนเข้าใจผิด ได้รับข้อมูลหรือทรัพย์สินโดยมิชอบ หรือก่อให้เกิดความสับสนเกี่ยวกับตัวตน ผลิตภัณฑ์ หรือบริการ',
+      },
+      {
+        title: 'สินค้าและบริการที่ถูกจำกัด',
+        description:
+          'การโปรโมต ขาย หรืออำนวยความสะดวกในการทำธุรกรรมสินค้าหรือบริการที่ถูกจำกัดตามนโยบายของ Meta หรือกฎหมายท้องถิ่นที่บังคับใช้',
+      },
+      {
+        title: 'การแสวงหาประโยชน์ การล่วงละเมิด และการคุกคาม',
+        description:
+          'การคุกคาม ข่มขู่ การกลั่นแกล้ง หรือการล่วงละเมิดที่มุ่งเป้าไปที่บุคคลหรือกลุ่ม รวมถึงเนื้อหาที่อาจก่อให้เกิดอันตรายทางจิตใจหรือร่างกาย',
+      },
+      {
+        title: 'คำพูดแสดงความเกลียดชัง',
+        description:
+          'เนื้อหาที่โจมตีลักษณะที่ได้รับการคุ้มครองของบุคคลหรือกลุ่มโดยตรง หรือยุยงให้เกิดความรุนแรงหรือการเลือกปฏิบัติตามลักษณะเหล่านั้น',
+      },
+      {
+        title: 'เนื้อหารุนแรงและกราฟิก',
+        description:
+          'ภาพ วิดีโอ หรือคำอธิบายความรุนแรงสุดขั้ว เลือด หรือเนื้อหาที่น่าตกใจอาจถูกจำกัดหรือลบ ขึ้นอยู่กับบริบทและการมองเห็น',
+      },
+      {
+        title: 'บุคคลและองค์กรที่เป็นอันตราย',
+        description:
+          'การสนับสนุน ยกย่อง หรือเป็นตัวแทนขององค์กรหรือบุคคลที่ Meta กำหนดว่ามีความเสี่ยงต่ออันตรายหรือความรุนแรงอย่างรุนแรง',
       },
     ],
   },

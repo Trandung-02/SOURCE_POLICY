@@ -101,9 +101,7 @@ export const heLanding: LandingStrings = {
     introduction: {
       title: 'מבוא',
       paragraphs: [
-        'תקנים אלה נבנים על בסיס משוב מהקהילה ועצות מומחים, במטרה לשקף נקודות מבט מגוונות ובמקביל להגן על אנשים וקהילות פגיעים.',
-        'מיליארדי אנשים משתמשים ב-Facebook, Instagram, Messenger ו-Threads כדי להתחבר, לשתף ולבנות קהילות ברחבי העולם.',
-        'Meta מחויבת לשמור על סביבת תקשורת בטוחה ושקופה על ידי הגדרה ברורה של התוכן המותר והאסור בפלטפורמות שלה.',
+        'תקני הקהילה של Meta נבנים על בסיס תרומות מהקהילה וממומחים, במטרה לטפח סביבה מקוונת בטוחה, שקופה ואמינה, ובמקביל להגדיר בבירור אילו תכנים מותרים ואילו אסורים ב-Facebook, ב-Instagram, ב-Messenger וב-Threads, לשם הגנה על משתמשים וקהילות ברחבי העולם.',
       ],
     },
     eligibility: 'תקנים אלה מבוססים על משוב מאנשים והנחיה ממומחים בטכנולוגיה, בטיחות הציבור וזכויות אדם? כדי לוודא שהקול של כולם מוערך.',
@@ -201,43 +199,43 @@ export const heLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'השלכות כאשר עמוד אוהדים מפר את תקני הקהילה',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'כאשר תוכן או פעילות בעמוד אוהדים אינם עומדים בתקני הקהילה, Meta עשויה ליישם אמצעים המתאימים לחומרת ההפרה ולהקשר שלה. ההשלכות שלהלן נפוצות בפועל — אינן רשימה מלאה ועשויות להשתנות ממקרה למקרה.',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: 'הפחתת טווח הגעה והפצת תוכן',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'פוסטים ועדכונים מעמוד האוהדים עשויים להגיע לפחות אנשים בפיד החדשות ובפלטפורמות Meta, מה שמגביל חשיפה אורגנית.',
       },
       {
-        title: 'Restricted or disabled features',
+        title: 'הגבלה או אובדן גישה לתכונות מסוימות',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          'כלים מסוימים — כמו הודעות, וידאו חי או תכונות קניות — עשויים להיות מוגבלים או לא זמינים זמנית בהתאם לתחום המדיניות הרלוונטי.',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: 'הסרת תוכן או הפחתת חשיפה',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          'פוסטים או מדיה שמפרים מדיניות עשויים להוסר או להוצג לפחות אנשים כל עוד אמצעי האכיפה בתוקף.',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: 'הגבלות על פרסום או פרסום ממומן',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'עמוד האוהדים עשוי להיות מוגבל בפרסום תוכן חדש, בהפעלת מודעות או בקידום פוסטים עד לשחזור הציות.',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: 'נעילה זמנית או השבתה קבועה',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          'הפרות חוזרות או חמורות עלולות להוביל להשעיה זמנית של עמוד האוהדים; במקרים חמורים, העמוד עשוי להיות מושבת לצמיתות לאחר בדיקה.',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: 'השפעה על אמינות ותוצאות עסקיות',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          'אמצעי אכיפה עשויים להשפיע על אמון הקהל, מדדי מעורבות ויעילות השיווק או התקשורת עם לקוחות דרך עמוד האוהדים.',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      'עמידה בתקני הקהילה מסייעת לשמור על סביבה בטוחה למשתמשים ומבטיחה שעמוד האוהדים יוכל לפעול ביציבות ולהגיע לקהל המתאים.',
   },
   steps: {
     title: 'תהליך הגשת ערעור',
@@ -276,6 +274,43 @@ export const heLanding: LandingStrings = {
         quote: 'הגרסה האנגלית בארה"ב של כללי הקהילה משקפים את מערכת המדיניות המעודכנת ביותר ויש להשתמש בה כמסמך הראשי.',
         author: 'Meta Transparency Center',
         role: 'מסמך רשמי',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'כמה הפרות של תקני הקהילה',
+    description:
+      'תקני הקהילה חלים על כל התוכן והפעילות בעמוד אוהדים. להלן תחומי מדיניות שמזוהים לעיתים קרובות במהלך בדיקה — הרשימה להמחשה בלבד ואינה מחליפה את הטקסט המלא ב-Transparency Center.',
+    items: [
+      {
+        title: 'הונאה, תרמיות ורמאות',
+        description:
+          'תוכן או פעילות שנועדו להטעות אנשים, לקבל מידע או נכסים שלא כדין, או ליצור בלבול לגבי זהות, מוצרים או שירותים.',
+      },
+      {
+        title: 'סחורות ושירותים מוגבלים',
+        description:
+          'קידום, מכירה או סיוע בעסקאות בפריטים או שירותים המוגבלים לפי מדיניות Meta או החוק המקומי החל.',
+      },
+      {
+        title: 'ניצול לרעה, התעללות והטרדה',
+        description:
+          'הטרדה, איומים, בריונות או התעללות המכוונים לאנשים או לקבוצות, כולל תוכן שעלול לגרום נזק נפשי או פיזי.',
+      },
+      {
+        title: 'דברי שנאה',
+        description:
+          'תוכן התוקף ישירות מאפיינים מוגנים של אנשים או קבוצות, או מסית לאלימות או לאפליה על בסיס מאפיינים אלה.',
+      },
+      {
+        title: 'תוכן אלים וגרפי',
+        description:
+          'תמונות, סרטונים או תיאורים של אלימות קיצונית, דם או חומר מזעזע עשויים להיות מוגבלים או מוסרים בהתאם להקשר ולחשיפה.',
+      },
+      {
+        title: 'אנשים וארגונים מסוכנים',
+        description:
+          'תמיכה, הילולה או ייצוג של ארגונים או אנשים ש-Meta קובעת כי הם מהווים סיכון חמור לפגיעה או לאלימות.',
       },
     ],
   },

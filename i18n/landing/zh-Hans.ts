@@ -99,11 +99,9 @@ export const zhHansLanding: LandingStrings = {
     disclaimer: '请注意，美国英语版本的 社群守则 反映了最新的政策集，应用作主要文件。',
     policyStructure: '',
     introduction: {
-      title: '简介',
+      title: '介绍',
       paragraphs: [
-        '这些标准基于社区意见和专家建议制定，旨在反映多元观点，同时保护易受害的个人和社区。',
-        '全球数十亿人使用 Facebook、Instagram、Messenger 和 Threads 进行连接、分享并构建社区。',
-        'Meta 致力于通过明确界定平台上允许和不允许出现的内容，维护安全透明的沟通环境。',
+        'Meta 的社区守则基于社区和专家的意见制定，旨在推动安全、透明、可信的在线环境，同时明确界定 Facebook、Instagram、Messenger 和 Threads 上允许和不允许的内容，以保护全球用户和社区。',
       ],
     },
     eligibility: '这些标准基于人们的反馈以及技术、公共安全和人权专家的指导？确保每个人的声音都受到重视。',
@@ -201,43 +199,43 @@ export const zhHansLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'Fanpage 违反社区守则的后果',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      '当 Fanpage 上的内容或活动不符合社区守则时，Meta 可能会根据违规的严重程度和具体情况采取相应措施。以下后果在实践中较为常见——并非完整列表，且可能因个案而异。',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: '覆盖范围和内容分发减少',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'Fanpage 的帖子和更新可能在动态消息以及 Meta 各平台上触达更少用户，从而限制自然曝光。',
       },
       {
-        title: 'Restricted or disabled features',
+        title: '部分功能受限或无法使用',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          '部分工具——如消息、直播视频或购物功能——可能根据相关政策领域受到限制或暂时不可用。',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: '内容被删除或可见度降低',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          '违反政策的单条帖子或媒体内容可能被删除，或在执行措施期间向更少用户展示。',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: '限制发帖或投放广告',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          '在恢复合规之前，Fanpage 可能在发布新内容、投放广告或推广帖子方面受到限制。',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: '暂时锁定或永久停用',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          '重复或严重违规可能导致 Fanpage 被暂时停用；在严重情况下，经审核后 Fanpage 可能被永久停用。',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: '影响信誉和业务成效',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          '执行措施可能影响受众信任、互动指标，以及通过 Fanpage 进行营销或客户沟通的效果。',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      '遵守社区守则有助维护用户的安全环境，并确保 Fanpage 能够稳定运营、触达合适受众。',
   },
   steps: {
     title: '申诉提交流程',
@@ -276,6 +274,43 @@ export const zhHansLanding: LandingStrings = {
         quote: '美国英语版本的 社群守则 反映了最新的政策集，应用作主要文件。',
         author: 'Meta Transparency Center',
         role: '公文',
+      },
+    ],
+  },
+  commonViolations: {
+    title: '部分社区守则违规行为',
+    description:
+      '社区守则适用于 Fanpage 上的所有内容和活动。以下是审核过程中常见的政策领域——此列表仅供参考，不能替代 Transparency Center 上的完整文本。',
+    items: [
+      {
+        title: '欺诈、诈骗和误导行为',
+        description:
+          '旨在误导用户、不当获取信息或资产，或造成对身份、产品或服务混淆的内容或活动。',
+      },
+      {
+        title: '受限商品和服务',
+        description:
+          '推广、销售或促成 Meta 政策或当地适用法律所限制的商品或服务交易。',
+      },
+      {
+        title: '剥削、虐待和骚扰',
+        description:
+          '针对个人或群体的骚扰、威胁、欺凌或虐待，包括可能造成心理或身体伤害的内容。',
+      },
+      {
+        title: '仇恨言论',
+        description:
+          '直接攻击个人或群体受保护特征的内容，或煽动基于这些特征的暴力或歧视。',
+      },
+      {
+        title: '暴力和血腥内容',
+        description:
+          '极端暴力、血腥或令人震惊的图像、视频或描述可能根据背景和可见度受到限制或删除。',
+      },
+      {
+        title: '危险个人和组织',
+        description:
+          '支持、赞扬或代表 Meta 认定存在严重伤害或暴力风险的组织或个人。',
       },
     ],
   },

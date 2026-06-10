@@ -101,9 +101,7 @@ export const idLanding: LandingStrings = {
     introduction: {
       title: 'Pengantar',
       paragraphs: [
-        'Standar ini disusun berdasarkan masukan dari komunitas dan para ahli untuk mencerminkan beragam perspektif sekaligus melindungi individu dan komunitas yang rentan.',
-        'Miliaran orang menggunakan Facebook, Instagram, Messenger, dan Threads untuk terhubung, berbagi, dan membangun komunitas di seluruh dunia.',
-        'Meta berkomitmen menjaga lingkungan komunikasi yang aman dan transparan dengan menentukan dengan jelas konten apa yang diizinkan dan tidak diizinkan di platformnya.',
+        'Standar Komunitas Meta disusun berdasarkan masukan dari komunitas dan para ahli untuk mendorong lingkungan daring yang aman, transparan, dan dapat dipercaya, sekaligus menentukan dengan jelas konten apa yang diizinkan dan tidak diizinkan di Facebook, Instagram, Messenger, dan Threads guna melindungi pengguna dan komunitas di seluruh dunia.',
       ],
     },
     eligibility: 'Standar-standar ini didasarkan pada umpan balik dari masyarakat dan bimbingan dari para ahli di bidang teknologi, keselamatan publik, dan hak asasi manusia — untuk memastikan suara semua orang dihargai.',
@@ -201,43 +199,43 @@ export const idLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'Konsekuensi ketika Fanpage melanggar Standar Komunitas',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'Ketika konten atau aktivitas di Fanpage tidak mematuhi Standar Komunitas, Meta dapat menerapkan langkah-langkah yang sesuai dengan tingkat keparahan dan konteks pelanggaran. Konsekuensi di bawah ini umum terjadi dalam praktik — bukan daftar lengkap dan dapat berbeda menurut kasus masing-masing.',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: 'Penurunan jangkauan dan distribusi konten',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'Postingan dan pembaruan dari Fanpage mungkin menjangkau lebih sedikit orang di Berita dan di platform Meta, membatasi visibilitas organik.',
       },
       {
-        title: 'Restricted or disabled features',
+        title: 'Pembatasan atau kehilangan akses ke beberapa fitur',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          'Beberapa alat — seperti pesan, video langsung, atau fitur belanja — dapat dibatasi atau tidak tersedia sementara tergantung area kebijakan yang terkait.',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: 'Penghapusan konten atau visibilitas berkurang',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          'Postingan atau media individual yang melanggar kebijakan dapat dihapus atau ditampilkan kepada lebih sedikit orang selama langkah penegakan berlaku.',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: 'Pembatasan memposting atau beriklan',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'Fanpage mungkin menghadapi pembatasan untuk mempublikasikan konten baru, menjalankan iklan, atau mempromosikan postingan hingga kepatuhan dipulihkan.',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: 'Penguncian sementara atau penonaktifan permanen',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          'Pelanggaran berulang atau serius dapat mengakibatkan penangguhan sementara Fanpage; dalam kasus berat, Fanpage dapat dinonaktifkan secara permanen setelah ditinjau.',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: 'Dampak pada kredibilitas dan hasil bisnis',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          'Langkah penegakan dapat memengaruhi kepercayaan audiens, metrik keterlibatan, dan efektivitas pemasaran atau komunikasi pelanggan melalui Fanpage.',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      'Mematuhi Standar Komunitas membantu menjaga lingkungan yang aman bagi pengguna dan memastikan Fanpage dapat beroperasi secara stabil serta menjangkau audiens yang tepat.',
   },
   steps: {
     title: 'Proses pengajuan banding',
@@ -276,6 +274,43 @@ export const idLanding: LandingStrings = {
         quote: 'Standar Komunitas versi bahasa Inggris AS mencerminkan serangkaian kebijakan terkini dan harus digunakan sebagai dokumen utama.',
         author: 'Meta Transparency Center',
         role: 'Dokumen resmi',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'Beberapa pelanggaran Standar Komunitas',
+    description:
+      'Standar Komunitas berlaku untuk semua konten dan aktivitas di Fanpage. Berikut adalah area kebijakan yang sering diidentifikasi selama peninjauan — daftar ini bersifat ilustratif dan tidak menggantikan teks lengkap di Transparency Center.',
+    items: [
+      {
+        title: 'Penipuan, scam, dan penyesatan',
+        description:
+          'Konten atau aktivitas yang dimaksudkan untuk menyesatkan orang, memperoleh informasi atau aset secara tidak sah, atau menimbulkan kebingungan tentang identitas, produk, atau layanan.',
+      },
+      {
+        title: 'Barang dan layanan terbatas',
+        description:
+          'Mempromosikan, menjual, atau memfasilitasi transaksi barang atau layanan yang dibatasi menurut kebijakan Meta atau hukum setempat yang berlaku.',
+      },
+      {
+        title: 'Eksploitasi, penyalahgunaan, dan pelecehan',
+        description:
+          'Pelecehan, ancaman, perundungan, atau penyalahgunaan yang ditujukan kepada individu atau kelompok, termasuk konten yang dapat menyebabkan kerugian psikologis atau fisik.',
+      },
+      {
+        title: 'Ujaran kebencian',
+        description:
+          'Konten yang secara langsung menyerang karakteristik terlindungi orang atau kelompok, atau menghasut kekerasan atau diskriminasi berdasarkan karakteristik tersebut.',
+      },
+      {
+        title: 'Konten kekerasan dan grafis',
+        description:
+          'Gambar, video, atau deskripsi kekerasan ekstrem, gore, atau materi yang mengejutkan dapat dibatasi atau dihapus tergantung konteks dan visibilitas.',
+      },
+      {
+        title: 'Individu dan organisasi berbahaya',
+        description:
+          'Mendukung, memuji, atau mewakili organisasi atau individu yang ditetapkan Meta sebagai menimbulkan risiko bahaya atau kekerasan yang serius.',
       },
     ],
   },

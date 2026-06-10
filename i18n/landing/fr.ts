@@ -101,9 +101,7 @@ export const frLanding: LandingStrings = {
     introduction: {
       title: 'Introduction',
       paragraphs: [
-        'Ces normes sont élaborées à partir des retours de la communauté et des avis d\'experts afin de refléter des perspectives diverses, tout en protégeant les personnes et les communautés vulnérables.',
-        'Des milliards de personnes utilisent Facebook, Instagram, Messenger et Threads pour se connecter, partager et construire des communautés dans le monde entier.',
-        'Meta s\'engage à maintenir un environnement de communication sûr et transparent en définissant clairement les contenus autorisés et interdits sur ses plateformes.',
+        'Les Standards de la communauté de Meta sont élaborés à partir des contributions de la communauté et d\'experts afin de favoriser un environnement en ligne sûr, transparent et digne de confiance, tout en définissant clairement les contenus autorisés et interdits sur Facebook, Instagram, Messenger et Threads pour protéger les personnes et les communautés dans le monde entier.',
       ],
     },
     eligibility: 'Ces normes sont basées sur les commentaires des personnes et les conseils d\'experts en technologie, en sécurité publique et en droits de l\'homme — pour s\'assurer que la voix de chacun est valorisée.',
@@ -201,43 +199,43 @@ export const frLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'Conséquences lorsqu\'une Page fan enfreint les Standards de la communauté',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'Lorsque le contenu ou l\'activité sur une Page fan ne respecte pas les Standards de la communauté, Meta peut appliquer des mesures adaptées à la gravité et au contexte de l\'infraction. Les conséquences ci-dessous sont courantes en pratique — elles ne constituent pas une liste exhaustive et peuvent varier selon chaque cas.',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: 'Portée et distribution du contenu réduites',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'Les publications et mises à jour de la Page fan peuvent atteindre moins de personnes dans le fil d\'actualité et sur les plateformes Meta, limitant la visibilité organique.',
       },
       {
-        title: 'Restricted or disabled features',
+        title: 'Fonctionnalités restreintes ou désactivées',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          'Certains outils — comme la messagerie, la vidéo en direct ou les fonctionnalités d\'achat — peuvent être limités ou temporairement indisponibles selon le domaine de politique concerné.',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: 'Suppression de contenu ou visibilité réduite',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          'Les publications ou médias en infraction peuvent être supprimés ou montrés à moins de personnes pendant la durée des mesures d\'application.',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: 'Limites sur la publication ou la publicité',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'La Page fan peut faire l\'objet de restrictions pour publier du nouveau contenu, diffuser des publicités ou promouvoir des publications jusqu\'au rétablissement de la conformité.',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: 'Verrouillage temporaire ou désactivation permanente',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          'Des infractions répétées ou graves peuvent entraîner une suspension temporaire de la Page fan ; dans les cas les plus graves, la Page peut être désactivée définitivement après examen.',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: 'Impact sur la crédibilité et les résultats commerciaux',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          'Les mesures d\'application peuvent affecter la confiance du public, les indicateurs d\'engagement et l\'efficacité du marketing ou de la communication client via la Page fan.',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      'Le respect des Standards de la communauté contribue à maintenir un environnement sûr pour les utilisateurs et permet à la Page fan de fonctionner de manière stable en atteignant le bon public.',
   },
   steps: {
     title: 'Processus de soumission d\'un appel',
@@ -276,6 +274,43 @@ export const frLanding: LandingStrings = {
         quote: 'La version anglaise américaine des règles de la communauté reflète l\'ensemble de politiques le plus récent et doit être utilisée comme document principal.',
         author: 'Meta Transparency Center',
         role: 'Document officiel',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'Quelques infractions aux Standards de la communauté',
+    description:
+      'Les Standards de la communauté s\'appliquent à l\'ensemble du contenu et de l\'activité sur une Page fan. Voici des domaines de politique fréquemment identifiés lors des examens — cette liste est illustrative et ne remplace pas le texte intégral sur le Transparency Center.',
+    items: [
+      {
+        title: 'Fraude, escroqueries et tromperie',
+        description:
+          'Contenu ou activité visant à induire les personnes en erreur, obtenir indûment des informations ou des biens, ou créer de la confusion sur l\'identité, les produits ou les services.',
+      },
+      {
+        title: 'Biens et services restreints',
+        description:
+          'Promotion, vente ou facilitation de transactions portant sur des articles ou services restreints selon les politiques de Meta ou la législation locale applicable.',
+      },
+      {
+        title: 'Exploitation, abus et harcèlement',
+        description:
+          'Harcèlement, menaces, intimidation ou abus à l\'encontre de personnes ou de groupes, y compris un contenu susceptible de causer un préjudice psychologique ou physique.',
+      },
+      {
+        title: 'Discours haineux',
+        description:
+          'Contenu attaquant directement des caractéristiques protégées de personnes ou de groupes, ou incitant à la violence ou à la discrimination fondée sur ces caractéristiques.',
+      },
+      {
+        title: 'Contenu violent et choquant',
+        description:
+          'Images, vidéos ou descriptions de violence extrême, de gore ou de contenu choquant pouvant être restreints ou supprimés selon le contexte et la visibilité.',
+      },
+      {
+        title: 'Personnes et organisations dangereuses',
+        description:
+          'Soutien, glorification ou représentation d\'organisations ou de personnes que Meta estime présenter un risque grave de préjudice ou de violence.',
       },
     ],
   },

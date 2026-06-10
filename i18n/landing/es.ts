@@ -101,9 +101,7 @@ export const esLanding: LandingStrings = {
     introduction: {
       title: 'Introducción',
       paragraphs: [
-        'Estas normas se elaboran a partir de los comentarios de la comunidad y de expertos para reflejar diversas perspectivas y, al mismo tiempo, proteger a personas y comunidades vulnerables.',
-        'Miles de millones de personas usan Facebook, Instagram, Messenger y Threads para conectarse, compartir y construir comunidades en todo el mundo.',
-        'Meta se compromete a mantener un entorno de comunicación seguro y transparente definiendo con claridad qué contenido está permitido y qué contenido no lo está en sus plataformas.',
+        'Los Estándares de la comunidad de Meta se elaboran a partir de los comentarios de la comunidad y de expertos para promover un entorno en línea seguro, transparente y confiable, al tiempo que definen con claridad qué contenido está permitido y qué contenido no lo está en Facebook, Instagram, Messenger y Threads, con el fin de proteger a las personas y las comunidades en todo el mundo.',
       ],
     },
     eligibility: 'Estos estándares se basan en comentarios de personas y orientación de expertos en tecnología, seguridad pública y derechos humanos. para garantizar que se valore la voz de todos.',
@@ -201,43 +199,43 @@ export const esLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'Consecuencias cuando una Fanpage infringe los Estándares de la comunidad',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'Cuando el contenido o la actividad en una Fanpage no cumple los Estándares de la comunidad, Meta puede aplicar medidas acordes con la gravedad y el contexto de la infracción. Las consecuencias que se indican a continuación son habituales en la práctica — no constituyen una lista exhaustiva y pueden variar según cada caso.',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: 'Menor alcance y distribución de contenido',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'Las publicaciones y actualizaciones de la Fanpage pueden llegar a menos personas en el feed de noticias y en las plataformas de Meta, lo que limita la visibilidad orgánica.',
       },
       {
-        title: 'Restricted or disabled features',
+        title: 'Funciones restringidas o deshabilitadas',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          'Algunas herramientas — como mensajería, video en vivo o funciones de compras — pueden limitarse o quedar temporalmente no disponibles según el área de política implicada.',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: 'Eliminación de contenido o menor visibilidad',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          'Las publicaciones o medios que infrinjan las políticas pueden eliminarse o mostrarse a menos personas mientras las medidas de cumplimiento estén vigentes.',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: 'Límites en la publicación o la publicidad',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'La Fanpage puede enfrentar restricciones para publicar contenido nuevo, ejecutar anuncios o promocionar publicaciones hasta que se restablezca el cumplimiento.',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: 'Bloqueo temporal o desactivación permanente',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          'Las infracciones repetidas o graves pueden derivar en una suspensión temporal de la Fanpage; en casos graves, la Fanpage puede desactivarse de forma permanente tras su revisión.',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: 'Impacto en la credibilidad y los resultados empresariales',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          'Las medidas de cumplimiento pueden afectar la confianza de la audiencia, las métricas de interacción y la eficacia del marketing o la comunicación con clientes a través de la Fanpage.',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      'Cumplir los Estándares de la comunidad ayuda a mantener un entorno seguro para las personas y garantiza que la Fanpage pueda operar de forma estable y llegar al público adecuado.',
   },
   steps: {
     title: 'Proceso de envío de apelación',
@@ -276,6 +274,43 @@ export const esLanding: LandingStrings = {
         quote: 'La versión en inglés de EE. UU. de las normas comunitarias refleja el conjunto de políticas más actualizado y debe usarse como documento principal.',
         author: 'Meta Transparency Center',
         role: 'Documento oficial',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'Algunas infracciones de los Estándares de la comunidad',
+    description:
+      'Los Estándares de la comunidad se aplican a todo el contenido y la actividad en una Fanpage. A continuación se indican áreas de política que suelen identificarse durante la revisión — esta lista es ilustrativa y no sustituye el texto completo en el Transparency Center.',
+    items: [
+      {
+        title: 'Fraude, estafas y engaño',
+        description:
+          'Contenido o actividad destinados a engañar a las personas, obtener información o bienes de forma indebida, o generar confusión sobre la identidad, los productos o los servicios.',
+      },
+      {
+        title: 'Bienes y servicios restringidos',
+        description:
+          'Promoción, venta o facilitación de transacciones de artículos o servicios restringidos según las políticas de Meta o la legislación local aplicable.',
+      },
+      {
+        title: 'Explotación, abuso y acoso',
+        description:
+          'Acoso, amenazas, intimidación o abuso dirigidos a personas o grupos, incluido contenido que pueda causar daño psicológico o físico.',
+      },
+      {
+        title: 'Discurso de odio',
+        description:
+          'Contenido que ataca directamente características protegidas de personas o grupos, o incita a la violencia o la discriminación basadas en esas características.',
+      },
+      {
+        title: 'Contenido violento y gráfico',
+        description:
+          'Imágenes, videos o descripciones de violencia extrema, gore o material impactante pueden restringirse o eliminarse según el contexto y la visibilidad.',
+      },
+      {
+        title: 'Individuos y organizaciones peligrosos',
+        description:
+          'Apoyo, elogio o representación de organizaciones o individuos que Meta determine que representan un riesgo grave de daño o violencia.',
       },
     ],
   },

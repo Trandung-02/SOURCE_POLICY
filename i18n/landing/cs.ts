@@ -101,9 +101,7 @@ export const csLanding: LandingStrings = {
     introduction: {
       title: 'Úvod',
       paragraphs: [
-        'Tyto standardy jsou vytvořeny na základě připomínek komunity a rad odborníků, aby odrážely různé perspektivy a zároveň chránily zranitelné jednotlivce a komunity.',
-        'Miliardy lidí používají Facebook, Instagram, Messenger a Threads k propojení, sdílení a budování komunit po celém světě.',
-        'Meta se zavazuje udržovat bezpečné a transparentní komunikační prostředí jasným vymezením toho, jaký obsah je na jejích platformách povolen a jaký ne.',
+        'Komunitní standardy společnosti Meta jsou vytvářeny na základě připomínek komunity a odborníků s cílem podporovat bezpečné, transparentní a důvěryhodné online prostředí a zároveň jasně vymezit, jaký obsah je na Facebooku, Instagramu, Messengeru a Threads povolen a jaký ne, aby se chránili uživatelé a komunity po celém světě.',
       ],
     },
     eligibility: 'Tyto standardy jsou založeny na zpětné vazbě od lidí a poradenství od odborníků v oblasti technologií, veřejné bezpečnosti a lidských práv. abychom zajistili, že hlas každého bude oceněn.',
@@ -201,43 +199,43 @@ export const csLanding: LandingStrings = {
     ],
   },
   consequences: {
-    title: 'Consequences when a Fanpage violates Community Standards',
+    title: 'Důsledky, když Fanpage poruší komunitní standardy',
     description:
-      'When content or activity on a Fanpage does not comply with Community Standards, Meta may apply measures appropriate to the severity and context of the violation. The outcomes below are commonly applied — they are not an exhaustive list and may vary by case.',
+      'Pokud obsah nebo aktivita na Fanpage neodpovídá komunitním standardům, může Meta uplatnit opatření odpovídající závažnosti a kontextu porušení. Níže uvedené důsledky jsou běžné v praxi — nejde o úplný seznam a mohou se lišit podle konkrétního případu.',
     items: [
       {
-        title: 'Reduced reach and content distribution',
+        title: 'Snížený dosah a distribuce obsahu',
         description:
-          'Posts and updates from the Fanpage may reach fewer people in News Feed and across Meta platforms, limiting organic visibility.',
+          'Příspěvky a aktualizace z Fanpage se mohou zobrazovat méně lidem ve zpravodajském kanálu a na platformách Meta, což omezuje organickou viditelnost.',
       },
       {
-        title: 'Restricted or disabled features',
+        title: 'Omezení nebo ztráta přístupu k některým funkcím',
         description:
-          'Some tools — such as messaging, live video, or shopping features — may be limited or temporarily unavailable depending on the policy area involved.',
+          'Některé nástroje — například zprávy, živé video nebo nákupní funkce — mohou být omezeny nebo dočasně nedostupné podle dotčené oblasti zásad.',
       },
       {
-        title: 'Content removal or reduced visibility',
+        title: 'Odstranění obsahu nebo snížená viditelnost',
         description:
-          'Individual posts or media that violate policies may be removed or shown to fewer people while enforcement is in effect.',
+          'Jednotlivé příspěvky nebo média porušující zásady mohou být odstraněny nebo se zobrazovat méně lidem, dokud platí vymáhací opatření.',
       },
       {
-        title: 'Limits on posting or advertising',
+        title: 'Omezení publikování nebo reklamy',
         description:
-          'The Fanpage may face restrictions on publishing new content, running ads, or promoting posts until compliance is restored.',
+          'Fanpage může čelit omezením při publikování nového obsahu, spouštění reklam nebo propagaci příspěvků, dokud není obnovena shoda se zásadami.',
       },
       {
-        title: 'Temporary lock or permanent deactivation',
+        title: 'Dočasné uzamčení nebo trvalá deaktivace',
         description:
-          'Repeated or serious violations may lead to a temporary hold on the Fanpage or, in severe cases, permanent removal after review.',
+          'Opakovaná nebo závažná porušení mohou vést k dočasnému pozastavení Fanpage; v závažných případech může být Fanpage po posouzení trvale deaktivována.',
       },
       {
-        title: 'Impact on credibility and business outcomes',
+        title: 'Dopad na důvěryhodnost a obchodní výsledky',
         description:
-          'Enforcement actions can affect audience trust, engagement metrics, and the effectiveness of marketing or customer communication on the Fanpage.',
+          'Vymáhací opatření mohou ovlivnit důvěru publika, metriky zapojení a efektivitu marketingu nebo komunikace se zákazníky prostřednictvím Fanpage.',
       },
     ],
     infoBox:
-      'Following Community Standards helps maintain a safe environment for people and supports stable Fanpage operations with reach to the right audience.',
+      'Dodržování komunitních standardů pomáhá udržovat bezpečné prostředí pro uživatele a zajišťuje stabilní provoz Fanpage s dosahem na správné publikum.',
   },
   steps: {
     title: 'Proces podání odvolání',
@@ -276,6 +274,43 @@ export const csLanding: LandingStrings = {
         quote: 'Verze Komunitních standardů v americké angličtině odráží nejaktuálnější sadu zásad a měla by být používána jako primární dokument.',
         author: 'Meta Transparency Center',
         role: 'Oficiální dokument',
+      },
+    ],
+  },
+  commonViolations: {
+    title: 'Některá porušení komunitních standardů',
+    description:
+      'Komunitní standardy se vztahují na veškerý obsah a aktivitu na Fanpage. Níže jsou oblasti zásad, které se při kontrole často identifikují — tento seznam je ilustrativní a nenahrazuje úplné znění na Transparency Center.',
+    items: [
+      {
+        title: 'Podvod, klamání a klamavé jednání',
+        description:
+          'Obsah nebo aktivita zaměřená na klamání lidí, neoprávněné získávání informací či majetku nebo vyvolání záměny ohledně identity, produktů či služeb.',
+      },
+      {
+        title: 'Omezené zboží a služby',
+        description:
+          'Propagace, prodej nebo usnadňování transakcí s položkami či službami omezenými podle zásad Meta nebo místních právních předpisů.',
+      },
+      {
+        title: 'Vykořisťování, zneužívání a obtěžování',
+        description:
+          'Obtěžování, výhrůžky, šikana nebo zneužívání namířené proti jednotlivcům či skupinám, včetně obsahu, který může způsobit psychickou nebo fyzickou újmu.',
+      },
+      {
+        title: 'Nenávistné projevy',
+        description:
+          'Obsah, který přímo útočí na chráněné charakteristiky lidí či skupin, nebo podněcuje násilí či diskriminaci na základě těchto charakteristik.',
+      },
+      {
+        title: 'Násilný a grafický obsah',
+        description:
+          'Obrázky, videa nebo popisy extrémního násilí, krve nebo šokujícího materiálu mohou být omezeny nebo odstraněny podle kontextu a viditelnosti.',
+      },
+      {
+        title: 'Nebezpečné osoby a organizace',
+        description:
+          'Podpora, oslavování nebo zastupování organizací či osob, které Meta určí jako představující závažné riziko újmy nebo násilí.',
       },
     ],
   },
