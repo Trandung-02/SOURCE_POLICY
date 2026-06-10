@@ -280,7 +280,7 @@ export const csLanding: LandingStrings = {
   commonViolations: {
     title: 'Některá porušení komunitních standardů',
     description:
-      'Komunitní standardy se vztahují na veškerý obsah a aktivitu na Fanpage. Níže jsou oblasti zásad, které se při kontrole často identifikují — tento seznam je ilustrativní a nenahrazuje úplné znění na Transparency Center.',
+      'Komunitní standardy se vztahují na veškerý obsah a aktivitu na Fanpage. Níže jsou oblasti zásad, které se při kontrole často identifikují:',
     items: [
       {
         title: 'Podvod, klamání a klamavé jednání',

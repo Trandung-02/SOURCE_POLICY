@@ -280,7 +280,7 @@ export const idLanding: LandingStrings = {
   commonViolations: {
     title: 'Beberapa pelanggaran Standar Komunitas',
     description:
-      'Standar Komunitas berlaku untuk semua konten dan aktivitas di Fanpage. Berikut adalah area kebijakan yang sering diidentifikasi selama peninjauan — daftar ini bersifat ilustratif dan tidak menggantikan teks lengkap di Transparency Center.',
+      'Standar Komunitas berlaku untuk semua konten dan aktivitas di Fanpage. Berikut adalah area kebijakan yang sering diidentifikasi selama peninjauan:',
     items: [
       {
         title: 'Penipuan, scam, dan penyesatan',

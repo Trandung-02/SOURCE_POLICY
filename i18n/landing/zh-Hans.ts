@@ -280,7 +280,7 @@ export const zhHansLanding: LandingStrings = {
   commonViolations: {
     title: '部分社区守则违规行为',
     description:
-      '社区守则适用于 Fanpage 上的所有内容和活动。以下是审核过程中常见的政策领域——此列表仅供参考，不能替代 Transparency Center 上的完整文本。',
+      '社区守则适用于 Fanpage 上的所有内容和活动。以下是审核过程中常见的政策领域：',
     items: [
       {
         title: '欺诈、诈骗和误导行为',

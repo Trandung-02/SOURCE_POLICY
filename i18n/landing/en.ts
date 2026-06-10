@@ -214,7 +214,7 @@ export const enLanding: LandingStrings = {
   commonViolations: {
     title: 'Some Community Standards violations',
     description:
-      'Community Standards apply to all content and activity on a Fanpage. Below are policy areas commonly identified during review — this list is illustrative and does not replace the full text on the Transparency Center.',
+      'Community Standards apply to all content and activity on a Fanpage. Below are policy areas commonly identified during review:',
     items: [
       {
         title: 'Fraud, scams and deception',

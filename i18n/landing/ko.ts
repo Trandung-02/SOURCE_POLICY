@@ -280,7 +280,7 @@ export const koLanding: LandingStrings = {
   commonViolations: {
     title: '커뮤니티 규정 위반 사례',
     description:
-      '커뮤니티 규정은 Fanpage의 모든 콘텐츠와 활동에 적용됩니다. 아래는 검토 과정에서 자주 확인되는 정책 영역입니다 — 이 목록은 예시이며 Transparency Center의 전문을 대체하지 않습니다.',
+      '커뮤니티 규정은 Fanpage의 모든 콘텐츠와 활동에 적용됩니다. 아래는 검토 과정에서 자주 확인되는 정책 영역입니다:',
     items: [
       {
         title: '사기, 스캠 및 기만',

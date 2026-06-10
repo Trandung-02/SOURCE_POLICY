@@ -280,7 +280,7 @@ export const svLanding: LandingStrings = {
   commonViolations: {
     title: 'Vissa överträdelser av communityreglerna',
     description:
-      'Communityreglerna gäller allt innehåll och all aktivitet på en fansida. Nedan följer policyområden som ofta identifieras vid granskning — listan är illustrativ och ersätter inte den fullständiga texten på Transparency Center.',
+      'Communityreglerna gäller allt innehåll och all aktivitet på en fansida. Nedan följer policyområden som ofta identifieras vid granskning:',
     items: [
       {
         title: 'Bedrägeri, scams och vilseledning',

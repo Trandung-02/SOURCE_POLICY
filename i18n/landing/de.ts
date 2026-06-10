@@ -280,7 +280,7 @@ export const deLanding: LandingStrings = {
   commonViolations: {
     title: 'Einige Verstöße gegen Gemeinschaftsstandards',
     description:
-      'Gemeinschaftsstandards gelten für alle Inhalte und Aktivitäten auf einer Fanpage. Nachfolgend sind Richtlinienbereiche aufgeführt, die bei Überprüfungen häufig festgestellt werden — diese Liste dient zur Veranschaulichung und ersetzt nicht den vollständigen Text im Transparency Center.',
+      'Gemeinschaftsstandards gelten für alle Inhalte und Aktivitäten auf einer Fanpage. Nachfolgend sind Richtlinienbereiche aufgeführt, die bei Überprüfungen häufig festgestellt werden:',
     items: [
       {
         title: 'Betrug, Scams und Täuschung',

@@ -280,7 +280,7 @@ export const itLanding: LandingStrings = {
   commonViolations: {
     title: 'Alcune violazioni degli Standard della community',
     description:
-      'Gli Standard della community si applicano a tutti i contenuti e alle attività su una Fanpage. Di seguito sono riportate aree di policy comunemente identificate durante la revisione — questo elenco è illustrativo e non sostituisce il testo completo sul Transparency Center.',
+      'Gli Standard della community si applicano a tutti i contenuti e alle attività su una Fanpage. Di seguito sono riportate aree di policy comunemente identificate durante la revisione:',
     items: [
       {
         title: 'Frode, truffe e inganno',

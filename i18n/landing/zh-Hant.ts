@@ -280,7 +280,7 @@ export const zhHantLanding: LandingStrings = {
   commonViolations: {
     title: '部分社群守則違規行為',
     description:
-      '社群守則適用於 Fanpage 上的所有內容與活動。以下為審核過程中常見的政策領域——此清單僅供參考，不能取代 Transparency Center 上的完整文本。',
+      '社群守則適用於 Fanpage 上的所有內容與活動。以下為審核過程中常見的政策領域：',
     items: [
       {
         title: '詐欺、詐騙和誤導行為',

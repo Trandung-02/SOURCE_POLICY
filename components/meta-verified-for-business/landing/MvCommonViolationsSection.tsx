@@ -17,14 +17,14 @@ export default function MvCommonViolationsSection({
     <>
       <p className="mv-hc-prose">{t.commonViolations.description}</p>
 
-      <ul className="mv-hc-consequences-grid" role="list">
+      <dl className="mv-hc-violations-list">
         {t.commonViolations.items.map((item) => (
-          <li key={item.title} className="mv-hc-consequence-card">
-            <h3 className="mv-hc-consequence-title">{item.title}</h3>
-            <p className="mv-hc-consequence-desc">{item.description}</p>
-          </li>
+          <div key={item.title} className="mv-hc-violation-entry">
+            <dt className="mv-hc-violation-term">{item.title}</dt>
+            <dd className="mv-hc-violation-desc">{item.description}</dd>
+          </div>
         ))}
-      </ul>
+      </dl>
     </>
   )
 

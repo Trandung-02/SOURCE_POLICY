@@ -280,7 +280,7 @@ export const jaLanding: LandingStrings = {
   commonViolations: {
     title: 'コミュニティ規定の違反例',
     description:
-      'コミュニティ規定は、Fanpage 上のすべてのコンテンツと活動に適用されます。以下は審査の過程でよく特定されるポリシー分野です — この一覧は参考用であり、Transparency Center の全文に代わるものではありません。',
+      'コミュニティ規定は、Fanpage 上のすべてのコンテンツと活動に適用されます。以下は審査の過程でよく特定されるポリシー分野です:',
     items: [
       {
         title: '詐欺、スキャム、欺瞞的行為',

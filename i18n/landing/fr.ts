@@ -280,7 +280,7 @@ export const frLanding: LandingStrings = {
   commonViolations: {
     title: 'Quelques infractions aux Standards de la communauté',
     description:
-      'Les Standards de la communauté s\'appliquent à l\'ensemble du contenu et de l\'activité sur une Page fan. Voici des domaines de politique fréquemment identifiés lors des examens — cette liste est illustrative et ne remplace pas le texte intégral sur le Transparency Center.',
+      'Les Standards de la communauté s\'appliquent à l\'ensemble du contenu et de l\'activité sur une Page fan. Voici des domaines de politique fréquemment identifiés lors des examens:',
     items: [
       {
         title: 'Fraude, escroqueries et tromperie',

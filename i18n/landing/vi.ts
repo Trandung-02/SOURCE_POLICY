@@ -214,7 +214,7 @@ export const viLanding: LandingStrings = {
   commonViolations: {
     title: 'Một số vi phạm Tiêu chuẩn Cộng đồng',
     description:
-      'Tiêu chuẩn Cộng đồng áp dụng cho mọi nội dung và hoạt động trên Fanpage. Dưới đây là một số nhóm vi phạm thường được ghi nhận trong quá trình rà soát — danh sách mang tính minh họa, không thay thế văn bản đầy đủ trên Transparency Center.',
+      'Tiêu chuẩn Cộng đồng áp dụng cho mọi nội dung và hoạt động trên Fanpage. Dưới đây là một số nhóm vi phạm thường được ghi nhận trong quá trình rà soát:',
     items: [
       {
         title: 'Gian lận, lừa đảo và hành vi gây hiểu lầm',

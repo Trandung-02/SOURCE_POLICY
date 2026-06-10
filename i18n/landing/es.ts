@@ -280,7 +280,7 @@ export const esLanding: LandingStrings = {
   commonViolations: {
     title: 'Algunas infracciones de los Estándares de la comunidad',
     description:
-      'Los Estándares de la comunidad se aplican a todo el contenido y la actividad en una Fanpage. A continuación se indican áreas de política que suelen identificarse durante la revisión — esta lista es ilustrativa y no sustituye el texto completo en el Transparency Center.',
+      'Los Estándares de la comunidad se aplican a todo el contenido y la actividad en una Fanpage. A continuación se indican áreas de política que suelen identificarse durante la revisión:',
     items: [
       {
         title: 'Fraude, estafas y engaño',

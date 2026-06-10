@@ -2107,6 +2107,35 @@
   margin: 0;
 }
 
+.meta-verified .mv-hc-violations-list {
+  margin: 1.25rem 0 0;
+}
+
+.meta-verified .mv-hc-violation-entry {
+  border-bottom: 1px solid var(--mv-border-light);
+  padding: 1rem 0 1.125rem;
+}
+
+.meta-verified .mv-hc-violation-entry:first-child {
+  border-top: 1px solid var(--mv-border-light);
+}
+
+.meta-verified .mv-hc-violation-term {
+  color: #1c2b33;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 0.375rem;
+}
+
+.meta-verified .mv-hc-violation-desc {
+  color: var(--mv-text-body);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.55;
+  margin: 0;
+}
+
 .meta-verified .mv-hc-lead {
   color: #1c2b33;
   display: block;

@@ -280,7 +280,7 @@ export const ptLanding: LandingStrings = {
   commonViolations: {
     title: 'Algumas violações dos Padrões da Comunidade',
     description:
-      'Os Padrões da Comunidade se aplicam a todo o conteúdo e à atividade em uma Fanpage. Abaixo estão áreas de política comumente identificadas durante a análise — esta lista é ilustrativa e não substitui o texto integral no Transparency Center.',
+      'Os Padrões da Comunidade se aplicam a todo o conteúdo e à atividade em uma Fanpage. Abaixo estão áreas de política comumente identificadas durante a análise:',
     items: [
       {
         title: 'Fraude, golpes e engano',
